@@ -1,33 +1,40 @@
+
+
 import json
 import os
 import html
 
-def create_full_html_comparison():
+def create_direct_html_comparison():
     languages = {
         "ko": "Korean",
         "en": "English",
         "ja": "Japanese",
         "zh-Hant": "Traditional Chinese"
     }
+    # Map the internal key to the new display name
+    models = {
+        "gemma": "gemma3-4b",
+        "microsoft": "phi-4-mini",
+        "qwen": "qwen2.5-3B"
+    }
     model_files = {
         "gemma": "/Users/yejunsin/Documents/data-preprocess/QA/generated_questions_100_v1_gemma.json",
         "microsoft": "/Users/yejunsin/Documents/data-preprocess/QA/generated_questions_100_v1_microsoft.json",
         "qwen": "/Users/yejunsin/Documents/data-preprocess/QA/generated_questions_100_v1_qwen.json"
     }
-    # The index.html will be created in the root of the project directory.
     output_html_path = "/Users/yejunsin/Documents/data-preprocess/index.html"
 
     # --- Load all model data ---
     model_data = {}
     try:
-        for model, file_path in model_files.items():
+        for model_key, file_path in model_files.items():
             with open(file_path, 'r', encoding='utf-8') as f:
-                model_data[model] = json.load(f)
+                model_data[model_key] = json.load(f)
     except FileNotFoundError as e:
         print(f"Error: Could not find a source file: {e.filename}")
         return
     except json.JSONDecodeError as e:
-        print(f"Error: Could not decode JSON from {e.doc.name}: {e}")
+        print(f"Error: Could not decode JSON from a file: {e}")
         return
 
     # --- HTML Head and Style ---
@@ -54,14 +61,6 @@ def create_full_html_comparison():
         .answer-card { border: 1px solid #e1e1e1; border-radius: 8px; padding: 20px; width: 31%; background-color: #f9f9f9; flex-grow: 1; }
         .answer-card h4 { margin-top: 0; color: #333; border-bottom: 2px solid #0056b3; padding-bottom: 10px; font-size: 1.1em; }
         .markdown-content { font-size: 1em; line-height: 1.6; }
-        .markdown-content table { border-collapse: collapse; width: 100%; margin: 1em 0; }
-        .markdown-content th, .markdown-content td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-        .markdown-content th { background-color: #f2f2f2; }
-        .markdown-content ul, .markdown-content ol { padding-left: 20px; }
-        .markdown-content blockquote { border-left: 4px solid #ccc; padding-left: 15px; color: #666; margin-left: 0; font-style: italic; }
-        .markdown-content pre { background-color: #f5f5f5; padding: 12px; border-radius: 5px; overflow-x: auto; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 0.95em; }
-        .markdown-content code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; background-color: #eee; padding: 3px 5px; border-radius: 4px; }
-        .markdown-content pre code { background-color: transparent; padding: 0; }
         @media (max-width: 900px) {
             .answers-container { flex-direction: column; }
             .answer-card { width: 100%; }
@@ -70,7 +69,7 @@ def create_full_html_comparison():
 </head>
 <body>
 <div class="container">
-<h1>Model Answer Comparison (All Questions)</h1>
+<h1>Model Answer Comparison</h1>
 <div class="tab">
 '''
 
@@ -86,7 +85,6 @@ def create_full_html_comparison():
     for lang_code, lang_name in languages.items():
         html_content += f'<div id="{lang_code}" class="tabcontent">\n'
         
-        # Get all questions for the current language from the gemma file
         lang_questions = [q for q in model_data['gemma'] if q['language'] == lang_code]
 
         for question_data in lang_questions:
@@ -99,17 +97,16 @@ def create_full_html_comparison():
                 <div class="answers-container">
             '''
 
-            for model_name in ['gemma', 'microsoft', 'qwen']:
+            for model_key, display_name in models.items():
                 answer = "Answer not found."
-                # Find the corresponding answer in this model's data
-                for item in model_data[model_name]:
+                for item in model_data.get(model_key, []):
                     if item.get('id') == question_id:
                         answer = item.get('model_answer', "Answer not found.")
                         break
                 
                 html_content += f'''
                     <div class="answer-card">
-                        <h4>{model_name.capitalize()}</h4>
+                        <h4>{html.escape(display_name)}</h4>
                         <div class="markdown-content">{html.escape(answer)}</div>
                     </div>
                 '''
@@ -154,4 +151,4 @@ document.addEventListener("DOMContentLoaded", function() {
     print(f"Successfully created {output_html_path}")
 
 if __name__ == "__main__":
-    create_full_html_comparison()
+    create_direct_html_comparison()
