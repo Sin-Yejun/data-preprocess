@@ -1,10 +1,8 @@
-
-
 import json
 import os
 import html
 
-def create_direct_html_comparison():
+def create_full_html_comparison():
     languages = {
         "ko": "Korean",
         "en": "English",
@@ -16,8 +14,8 @@ def create_direct_html_comparison():
         "microsoft": "/Users/yejunsin/Documents/data-preprocess/QA/generated_questions_100_v1_microsoft.json",
         "qwen": "/Users/yejunsin/Documents/data-preprocess/QA/generated_questions_100_v1_qwen.json"
     }
-    output_dir = "/Users/yejunsin/Documents/data-preprocess/comparison"
-    output_html_path = os.path.join(output_dir, "index.html")
+    # The index.html will be created in the root of the project directory.
+    output_html_path = "/Users/yejunsin/Documents/data-preprocess/index.html"
 
     # --- Load all model data ---
     model_data = {}
@@ -28,8 +26,8 @@ def create_direct_html_comparison():
     except FileNotFoundError as e:
         print(f"Error: Could not find a source file: {e.filename}")
         return
-    except json.JSONDecodeError:
-        print(f"Error: Could not decode JSON from a file.")
+    except json.JSONDecodeError as e:
+        print(f"Error: Could not decode JSON from {e.doc.name}: {e}")
         return
 
     # --- HTML Head and Style ---
@@ -72,7 +70,7 @@ def create_direct_html_comparison():
 </head>
 <body>
 <div class="container">
-<h1>Model Answer Comparison (First 5 Questions)</h1>
+<h1>Model Answer Comparison (All Questions)</h1>
 <div class="tab">
 '''
 
@@ -88,8 +86,8 @@ def create_direct_html_comparison():
     for lang_code, lang_name in languages.items():
         html_content += f'<div id="{lang_code}" class="tabcontent">\n'
         
-        # Get the first 5 questions for the current language from the gemma file
-        lang_questions = [q for q in model_data['gemma'] if q['language'] == lang_code][:5]
+        # Get all questions for the current language from the gemma file
+        lang_questions = [q for q in model_data['gemma'] if q['language'] == lang_code]
 
         for question_data in lang_questions:
             question_id = question_data['id']
@@ -156,4 +154,4 @@ document.addEventListener("DOMContentLoaded", function() {
     print(f"Successfully created {output_html_path}")
 
 if __name__ == "__main__":
-    create_direct_html_comparison()
+    create_full_html_comparison()
