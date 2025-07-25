@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "en_051",
+    "language": "en",
+    "question": "Please create a sample daily meal plan for a man in his 30s who wants to lose body fat and does weight training + cardio 3 times a week."
+  },
+  {
+    "id": "en_052",
+    "language": "en",
+    "question": "Please recommend high-protein, low-fat foods that can be used as an alternative to chicken breast."
+  },
+  {
+    "id": "en_053",
+    "language": "en",
+    "question": "Among creatine, protein supplements, and vitamins, which supplement should be prioritized for workout effectiveness?"
+  },
+  {
+    "id": "en_054",
+    "language": "en",
+    "question": "Tell me about the effects of intermittent fasting on muscle growth."
+  },
+  {
+    "id": "en_055",
+    "language": "en",
+    "question": "My BMR (Basal Metabolic Rate) from an InBody scan is 1,400 kcal. If I want to lose weight, what should my daily calorie intake be?"
+  },
+  {
+    "id": "en_056",
+    "language": "en",
+    "question": "What are the best foods to eat before and after a workout?"
+  },
+  {
+    "id": "en_057",
+    "language": "en",
+    "question": "How should I handle unavoidable social drinking situations while on a diet?"
+  },
+  {
+    "id": "en_058",
+    "language": "en",
+    "question": "Are 'cheat days' really effective for dieting? I'm curious about the proper way to have a cheat day."
+  },
+  {
+    "id": "en_059",
+    "language": "en",
+    "question": "If the total daily calorie intake is the same, does the frequency of meals (e.g., 3 meals vs. 5 meals a day) affect weight loss?"
+  },
+  {
+    "id": "en_060",
+    "language": "en",
+    "question": "For body fat loss, is a diet that completely eliminates carbohydrates (like a ketogenic diet) okay in the long term?"
+  },
+  {
+    "id": "en_061",
+    "language": "en",
+    "question": "Please create a 3-day-a-week routine to improve soccer skills."
+  },
+  {
+    "id": "en_062",
+    "language": "en",
+    "question": "What are the precautions for a beginner when including deadlifts in their routine?"
+  },
+  {
+    "id": "en_063",
+    "language": "en",
+    "question": "How should I balance the frequency of upper and lower body workouts?"
+  },
+  {
+    "id": "en_064",
+    "language": "en",
+    "question": "Is it okay to include squats, lunges, and hip thrusts all in the same routine?"
+  },
+  {
+    "id": "en_065",
+    "language": "en",
+    "question": "My upper body is well-developed, but my lower body is lacking. How should I modify my routine?"
+  },
+  {
+    "id": "en_066",
+    "language": "en",
+    "question": "When doing strength training and cardio on the same day, which order is more effective depending on the goal (muscle growth vs. fat loss)?"
+  },
+  {
+    "id": "en_067",
+    "language": "en",
+    "question": "What is the importance of a pre-workout warm-up and a post-workout cool-down, and what movements should each consist of?"
+  },
+  {
+    "id": "en_068",
+    "language": "en",
+    "question": "I always work out with the same weight and reps. I'm curious about specific methods for applying 'progressive overload'."
+  },
+  {
+    "id": "en_069",
+    "language": "en",
+    "question": "When I work out, I often feel the effort in muscles other than the one I'm targeting. How can I improve this?"
+  },
+  {
+    "id": "en_070",
+    "language": "en",
+    "question": "Can I do ab workouts every day, or do they need rest like other muscles?"
+  },
+  {
+    "id": "en_071",
+    "language": "en",
+    "question": "Please design an 8-week hypertrophy program for me. I can train 4 times a week."
+  },
+  {
+    "id": "en_072",
+    "language": "en",
+    "question": "Create a 4-week program with the goal of fat loss using only dumbbells."
+  },
+  {
+    "id": "en_073",
+    "language": "en",
+    "question": "If I want to combine strength and hypertrophy training, how should I structure my workouts?"
+  },
+  {
+    "id": "en_074",
+    "language": "en",
+    "question": "What are some variation methods (volume, intensity, rest, etc.) I can apply when my workout performance has plateaued?"
+  },
+  {
+    "id": "en_075",
+    "language": "en",
+    "question": "Explain the difference between the pyramid set method and the constant weight method, and in what situations is each method appropriate?"
+  },
+  {
+    "id": "en_076",
+    "language": "en",
+    "question": "I'm curious about the pros and cons of various split methods like 2-day, 3-day, and 5-day splits, and the criteria for choosing the right one for me."
+  },
+  {
+    "id": "en_077",
+    "language": "en",
+    "question": "How often should I change my workout program?"
+  },
+  {
+    "id": "en_078",
+    "language": "en",
+    "question": "What is 'deloading,' and when and how should I do it?"
+  },
+  {
+    "id": "en_079",
+    "language": "en",
+    "question": "Is training to 'failure' in every set essential for muscle growth?"
+  },
+  {
+    "id": "en_080",
+    "language": "en",
+    "question": "When I can't go to the gym, how can I structure a bodyweight-only program to prevent muscle loss and maintain strength?"
+  },
+  {
+    "id": "en_081",
+    "language": "en",
+    "question": "If I have shoulder pain when bench pressing, what could be the cause and how should I deal with it?"
+  },
+  {
+    "id": "en_082",
+    "language": "en",
+    "question": "My left knee occasionally makes a sound when I squat. Is it okay to continue exercising?"
+  },
+  {
+    "id": "en_083",
+    "language": "en",
+    "question": "Please give me some form tips to prevent lower back injuries during deadlifts."
+  },
+  {
+    "id": "en_084",
+    "language": "en",
+    "question": "What's the best way to deal with persistent wrist pain during exercise? (Stop, substitute, or strengthen)"
+  },
+  {
+    "id": "en_085",
+    "language": "en",
+    "question": "Please provide a checklist for consistently exercising without frequent injuries."
+  },
+  {
+    "id": "en_086",
+    "language": "en",
+    "question": "How can I distinguish between good muscle soreness after a workout and pain from an injury?"
+  },
+  {
+    "id": "en_087",
+    "language": "en",
+    "question": "Are accessories like lifting belts, straps, and knee sleeves really effective in preventing injuries? I'm curious about their proper use."
+  },
+  {
+    "id": "en_088",
+    "language": "en",
+    "question": "I feel an imbalance between my left and right sides during exercise (one side feels more stimulation or takes more load). Can this lead to injury if ignored?"
+  },
+  {
+    "id": "en_089",
+    "language": "en",
+    "question": "How should I deal with pain on the inside (golfer's elbow) or outside (tennis elbow) of my elbow during exercise?"
+  },
+  {
+    "id": "en_090",
+    "language": "en",
+    "question": "When there's pain, when is it effective to use an ice pack versus a heat pack?"
+  },
+  {
+    "id": "en_091",
+    "language": "en",
+    "question": "Please recommend core exercises that are safe for someone with a history of a herniated disc."
+  },
+  {
+    "id": "en_092",
+    "language": "en",
+    "question": "My ankle feels unstable after spraining it a few times. Is there a simple routine that can help with recovery?"
+  },
+  {
+    "id": "en_093",
+    "language": "en",
+    "question": "What stretching and strengthening exercises are necessary for someone with rounded shoulders?"
+  },
+  {
+    "id": "en_094",
+    "language": "en",
+    "question": "My back feels stiff and often hurts from sitting all day. Please recommend a 5-minute daily routine I can do."
+  },
+  {
+    "id": "en_095",
+    "language": "en",
+    "question": "I've been told I have a severe case of 'text neck'. What exercises can I do to correct my posture?"
+  },
+  {
+    "id": "en_096",
+    "language": "en",
+    "question": "I'm about to start working out again after recovering from an injury. Are there any guidelines for returning safely?"
+  },
+  {
+    "id": "en_097",
+    "language": "en",
+    "question": "How can I use a foam roller and a massage gun most effectively for recovery and rehabilitation?"
+  },
+  {
+    "id": "en_098",
+    "language": "en",
+    "question": "I can't squat deep or my lower back rounds. Please show me exercises to improve hip mobility."
+  },
+  {
+    "id": "en_099",
+    "language": "en",
+    "question": "I have a tingling sensation from my buttocks down to my leg (sciatica symptoms). Are there any stretches that can help alleviate this?"
+  },
+  {
+    "id": "en_100",
+    "language": "en",
+    "question": "What is the difference in how and when to use static stretching versus dynamic stretching?"
+  },
+  {
+    "id": "ja_051",
+    "language": "ja",
+    "question": "体脂肪を減らしたく、週に3回ウェイトトレーニングと有酸素運動をしている30代男性向けの1日の食事プラン例を作成してください。"
+  },
+  {
+    "id": "ja_052",
+    "language": "ja",
+    "question": "鶏胸肉の代わりとなる、高タンパク・低脂肪の食品をおすすめしてください。"
+  },
+  {
+    "id": "ja_053",
+    "language": "ja",
+    "question": "クレアチン、プロテインサプリメント、ビタミンの中で、トレーニング効果のために最も優先すべきサプリメントはどれですか？"
+  },
+  {
+    "id": "ja_054",
+    "language": "ja",
+    "question": "断続的断食（インターミッテント・ファスティング）が筋肉の成長に与える影響について教えてください。"
+  },
+  {
+    "id": "ja_055",
+    "language": "ja",
+    "question": "InBodyの測定で基礎代謝量が1,400kcalでした。減量したい場合、1日の摂取カロリーはどのくらいにすべきですか？"
+  },
+  {
+    "id": "ja_056",
+    "language": "ja",
+    "question": "トレーニングの前後にはどのような食べ物を摂ると良いですか？"
+  },
+  {
+    "id": "ja_057",
+    "language": "ja",
+    "question": "ダイエット中に避けられない飲み会には、どのように対処するのが良いですか？"
+  },
+  {
+    "id": "ja_058",
+    "language": "ja",
+    "question": "「チートデイ」はダイエットに本当に効果がありますか？正しいチートデイの方法が知りたいです。"
+  },
+  {
+    "id": "ja_059",
+    "language": "ja",
+    "question": "1日の総摂取カロリーが同じであれば、食事の回数（例：1日3食 vs 5食）は減量に影響しますか？"
+  },
+  {
+    "id": "ja_060",
+    "language": "ja",
+    "question": "体脂肪を減らすために炭水化物を完全に排除する食事（ケトジェニックダイエットなど）は、長期的に見て問題ありませんか？"
+  },
+  {
+    "id": "ja_061",
+    "language": "ja",
+    "question": "サッカーのパフォーマンスを向上させるための、週3回のトレーニングルーティンを作成してください。"
+  },
+  {
+    "id": "ja_062",
+    "language": "ja",
+    "question": "初心者がデッドリフトをルーティンに取り入れる際の注意点は何ですか？"
+  },
+  {
+    "id": "ja_063",
+    "language": "ja",
+    "question": "上半身と下半身のトレーニングの頻度とバランスは、どのようにとるのが良いですか？"
+  },
+  {
+    "id": "ja_064",
+    "language": "ja",
+    "question": "スクワット、ランジ、ヒップスラストをすべて同じルーティンに入れても大丈夫ですか？"
+  },
+  {
+    "id": "ja_065",
+    "language": "ja",
+    "question": "上半身はよく発達しているのに、下半身が物足りません。ルーティンをどのように修正すれば良いですか？"
+  },
+  {
+    "id": "ja_066",
+    "language": "ja",
+    "question": "筋力トレーニングと有酸素運動を同じ日に行う場合、どちらを先にやる方が目的（筋肥大／脂肪燃焼）にとって効果的ですか？"
+  },
+  {
+    "id": "ja_067",
+    "language": "ja",
+    "question": "運動前のウォームアップと運動後のクールダウンの重要性、そしてそれぞれどのような動きで構成すべきですか？"
+  },
+  {
+    "id": "ja_068",
+    "language": "ja",
+    "question": "いつも同じ重量と回数でトレーニングしています。「漸進性過負荷の原則」を適用するための具体的な方法が知りたいです。"
+  },
+  {
+    "id": "ja_069",
+    "language": "ja",
+    "question": "トレーニングをする時、ターゲットの筋肉ではなく、違う場所に力が入ってしまいます。 どうすれば改善できますか？"
+  },
+  {
+    "id": "ja_070",
+    "language": "ja",
+    "question": "腹筋運動は毎日やってもいいですか？それとも他の筋肉のように休息が必要ですか？"
+  },
+  {
+    "id": "ja_071",
+    "language": "ja",
+    "question": "8週間の筋肥大プログラムを組んでください。週4回のトレーニングが可能です。"
+  },
+  {
+    "id": "ja_072",
+    "language": "ja",
+    "question": "ダンベルだけを使って、4週間で体脂肪を減らすことを目標にしたプログラムを組んでください。"
+  },
+  {
+    "id": "ja_073",
+    "language": "ja",
+    "question": "筋力と筋肥大を両立させたい場合、どのようにトレーニングを構成すれば良いですか？"
+  },
+  {
+    "id": "ja_074",
+    "language": "ja",
+    "question": "トレーニングのパフォーマンスが停滞したときに適用できるバリエーション（ボリューム／強度／休息など）の方法を教えてください。"
+  },
+  {
+    "id": "ja_075",
+    "language": "ja",
+    "question": "ピラミッドセット法と固定重量法の違いを説明し、それぞれが適している状況はどのような場合ですか？"
+  },
+  {
+    "id": "ja_076",
+    "language": "ja",
+    "question": "2分割、3分割、5分割など、様々な分割法の長所と短所、そして自分に合った分割法を選ぶ基準が知りたいです。"
+  },
+  {
+    "id": "ja_077",
+    "language": "ja",
+    "question": "トレーニングプログラムは、どのくらいの頻度で変更するのが良いですか？"
+  },
+  {
+    "id": "ja_078",
+    "language": "ja",
+    "question": "「ディロード（Deloading）」とは何ですか？また、いつ、どのように実施すべきですか？"
+  },
+  {
+    "id": "ja_079",
+    "language": "ja",
+    "question": "毎セット「失敗地点（Failure）」まで追い込むことは、筋肥大に不可欠ですか？"
+  },
+  {
+    "id": "ja_080",
+    "language": "ja",
+    "question": "ジムに行けない時、自重トレーニングだけで筋力低下を防ぎ、筋力を維持するプログラムの組み方はありますか？"
+  },
+  {
+    "id": "ja_081",
+    "language": "ja",
+    "question": "ベンチプレスをするときに肩が痛む場合、何が原因で、どう対処すべきですか？"
+  },
+  {
+    "id": "ja_082",
+    "language": "ja",
+    "question": "スクワットをするときに、時々左膝から音が鳴ります。運動を続けても大丈夫ですか？"
+  },
+  {
+    "id": "ja_083",
+    "language": "ja",
+    "question": "デッドリフトで腰の怪我を防ぐためのフォームのコツを教えてください。"
+  },
+  {
+    "id": "ja_084",
+    "language": "ja",
+    "question": "運動中の手首の痛みが続く場合の対処法は？（運動の中止、代替、補強）"
+  },
+  {
+    "id": "ja_085",
+    "language": "ja",
+    "question": "頻繁な怪我なく、コンスタントに運動を続けるためのチェックリストを教えてください。"
+  },
+  {
+    "id": "ja_086",
+    "language": "ja",
+    "question": "運動後の心地よい筋肉痛と、怪我による痛みはどのように見分ければ良いですか？"
+  },
+  {
+    "id": "ja_087",
+    "language": "ja",
+    "question": "リフティングベルト、ストラップ、膝サポーターのような器具は、本当に怪我の予防に効果がありますか？正しい使い方が知りたいです。"
+  },
+  {
+    "id": "ja_088",
+    "language": "ja",
+    "question": "運動中に左右の不均衡（片方だけにより刺激を感じたり、力が入ったりする現象）を感じます。これを放置すると怪我につながる可能性がありますか？"
+  },
+  {
+    "id": "ja_089",
+    "language": "ja",
+    "question": "運動中に肘の内側（ゴルフ肘）や外側（テニス肘）に痛みが出た場合、どのように対処すべきですか？"
+  },
+  {
+    "id": "ja_090",
+    "language": "ja",
+    "question": "痛みがあるとき、冷湿布と温湿布は、それぞれいつ使うのが効果的ですか？"
+  },
+  {
+    "id": "ja_091",
+    "language": "ja",
+    "question": "椎間板ヘルニアの既往歴がある人でもできる体幹トレーニングをおすすめしてください。"
+  },
+  {
+    "id": "ja_092",
+    "language": "ja",
+    "question": "足首を数回捻挫してから、不安定な感じがあります。回復に役立つ簡単なルーティンはありますか？"
+  },
+  {
+    "id": "ja_093",
+    "language": "ja",
+    "question": "巻き肩（ラウンドショルダー）の人に必要なストレッチと強化運動は何ですか？"
+  },
+  {
+    "id": "ja_094",
+    "language": "ja",
+    "question": "一日中座っているせいで腰が凝って、よく痛みます。毎日できる5分間のルーティンをおすすめしてください。"
+  },
+  {
+    "id": "ja_095",
+    "language": "ja",
+    "question": "ストレートネック（スマホ首）がひどいと言われます。姿勢を矯正するためにはどのような運動をすれば良いですか？"
+  },
+  {
+    "id": "ja_096",
+    "language": "ja",
+    "question": "怪我から回復した後、運動を再開しようと思います。安全に復帰するためのガイドラインはありますか？"
+  },
+  {
+    "id": "ja_097",
+    "language": "ja",
+    "question": "フォームローラーとマッサージガンは、回復とリハビリにどのように使うのが最も効果的ですか？"
+  },
+  {
+    "id": "ja_098",
+    "language": "ja",
+    "question": "スクワットで深くしゃがめなかったり、腰が丸まってしまったりします。股関節の可動性を向上させる運動を教えてください。"
+  },
+  {
+    "id": "ja_099",
+    "language": "ja",
+    "question": "お尻から足にかけてしびれるような感じ（坐骨神経痛の症状）があります。これを和らげるのに役立つストレッチはありますか？"
+  },
+  {
+    "id": "ja_100",
+    "language": "ja",
+    "question": "静的ストレッチと動的ストレッチは、いつ、どのように使い分けるのが良いですか？"
+  },
+  {
+    "id": "ko_051",
+    "language": "ko",
+    "question": "체지방을 감량하고 싶은 30대 남성(주 3회 웨이트 + 유산소)의 하루 식단 예시를 구성해줘."
+  },
+  {
+    "id": "ko_052",
+    "language": "ko",
+    "question": "닭가슴살 대신 사용할 수 있는 고단백 저지방 식품을 추천해줘."
+  },
+  {
+    "id": "ko_053",
+    "language": "ko",
+    "question": "크레아틴, 단백질 보충제, 비타민 중에서 운동 효과에 가장 우선순위를 둘 보충제는?"
+  },
+  {
+    "id": "ko_054",
+    "language": "ko",
+    "question": "간헐적 단식이 근육 성장에 미치는 영향을 알려줘."
+  },
+  {
+    "id": "ko_055",
+    "language": "ko",
+    "question": "인바디에서 기초대사량이 1,400kcal로 나왔는데, 감량을 원할 경우 하루 섭취 칼로리는?"
+  },
+  {
+    "id": "ko_056",
+    "language": "ko",
+    "question": "운동 전과 후에 섭취하면 좋은 음식은 무엇인가요?"
+  },
+  {
+    "id": "ko_057",
+    "language": "ko",
+    "question": "다이어트 중 피할 수 없는 술자리, 어떻게 대처하는 것이 좋을까요?"
+  },
+  {
+    "id": "ko_058",
+    "language": "ko",
+    "question": "'치팅데이'는 다이어트에 정말 효과가 있나요? 올바른 치팅데이 방법이 궁금합니다."
+  },
+  {
+    "id": "ko_059",
+    "language": "ko",
+    "question": "하루 총 섭취 칼로리가 같다면, 식사 횟수(예: 하루 3끼 vs 5끼)가 체중 감량에 영향을 미치나요?"
+  },
+  {
+    "id": "ko_060",
+    "language": "ko",
+    "question": "체지방 감량을 위해 탄수화물을 완전히 배제하는 식단(저탄고지 등)은 장기적으로 괜찮을까요?"
+  },
+  {
+    "id": "ko_061",
+    "language": "ko",
+    "question": "축구 능력 향상을 위한 주 3회 루틴을 짜줘."
+  },
+  {
+    "id": "ko_062",
+    "language": "ko",
+    "question": "초보자가 데드리프트를 루틴에 포함시킬 때 주의할 점은?"
+  },
+  {
+    "id": "ko_063",
+    "language": "ko",
+    "question": "상체/하체 운동 빈도와 밸런스는 어떻게 맞추는 게 좋을까?"
+  },
+  {
+    "id": "ko_064",
+    "language": "ko",
+    "question": "루틴에 스쿼트, 런지, 힙쓰러스트가 모두 들어가도 괜찮을까?"
+  },
+  {
+    "id": "ko_065",
+    "language": "ko",
+    "question": "상체는 잘 발달했는데 하체가 부족해. 루틴을 어떻게 수정하면 좋을까?"
+  },
+  {
+    "id": "ko_066",
+    "language": "ko",
+    "question": "근력 운동과 유산소 운동을 같은 날에 할 때, 어떤 순서로 하는 것이 목적(근성장/체지방 감량)에 더 효과적인가요?"
+  },
+  {
+    "id": "ko_067",
+    "language": "ko",
+    "question": "운동 전 웜업과 운동 후 쿨다운의 중요성은 무엇이며, 각각 어떤 동작으로 구성해야 하나요?"
+  },
+  {
+    "id": "ko_068",
+    "language": "ko",
+    "question": "항상 같은 무게와 횟수로 운동하고 있습니다. '점진적 과부하'를 적용하기 위한 구체적인 방법이 궁금합니다."
+  },
+  {
+    "id": "ko_069",
+    "language": "ko",
+    "question": "운동할 때 목표 부위가 아닌 다른 곳에 힘이 들어가는 경우가 많습니다. 어떻게 개선할 수 있나요?"
+  },
+  {
+    "id": "ko_070",
+    "language": "ko",
+    "question": "복근 운동은 매일 해도 되나요? 아니면 다른 근육처럼 휴식이 필요한가요?"
+  },
+  {
+    "id": "ko_071",
+    "language": "ko",
+    "question": "8주간 근비대 프로그램을 구성해줘. 주당 4회 훈련 가능해."
+  },
+  {
+    "id": "ko_072",
+    "language": "ko",
+    "question": "덤벨만 가지고 4주간 체지방 감량을 목표로 한 프로그램을 짜줘."
+  },
+  {
+    "id": "ko_073",
+    "language": "ko",
+    "question": "스트렝스와 근비대를 병행하고 싶은 경우, 어떤 방식으로 훈련을 구성해야 할까?"
+  },
+  {
+    "id": "ko_074",
+    "language": "ko",
+    "question": "운동 수행 능력이 정체되었을 때 적용할 수 있는 변형 방법(볼륨/강도/휴식 등)을 알려줘."
+  },
+  {
+    "id": "ko_075",
+    "language": "ko",
+    "question": "피라미드 세트 방식과 고정 중량 방식의 차이를 설명하고, 각 방식이 적합한 상황은?"
+  },
+  {
+    "id": "ko_076",
+    "language": "ko",
+    "question": "2분할, 3분할, 5분할 등 다양한 분할법의 장단점과 자신에게 맞는 분할법을 선택하는 기준이 궁금합니다."
+  },
+  {
+    "id": "ko_077",
+    "language": "ko",
+    "question": "운동 프로그램은 얼마나 자주 바꿔주는 것이 좋은가요?"
+  },
+  {
+    "id": "ko_078",
+    "language": "ko",
+    "question": "'디로딩(Deloading)'이란 무엇이며, 언제, 어떻게 실시해야 하나요?"
+  },
+  {
+    "id": "ko_079",
+    "language": "ko",
+    "question": "매 세트 '실패 지점(Failure)'까지 운동하는 것이 근성장에 필수적인가요?"
+  },
+  {
+    "id": "ko_080",
+    "language": "ko",
+    "question": "헬스장에 갈 수 없을 때, 맨몸 운동만으로 근손실을 방지하고 근력을 유지하는 프로그램 구성 방법은 무엇인가요?"
+  },
+  {
+    "id": "ko_081",
+    "language": "ko",
+    "question": "벤치프레스를 할 때 어깨 통증이 있다면 무엇이 원인일 수 있고, 어떻게 대처해야 할까?"
+  },
+  {
+    "id": "ko_082",
+    "language": "ko",
+    "question": "스쿼트할때 간헐적으로 왼쪽 무릎에서 소리가 나는데, 계속 운동을 해도 괜찮을까?"
+  },
+  {
+    "id": "ko_083",
+    "language": "ko",
+    "question": "데드리프트 시 허리 부상을 방지하기 위한 자세 팁을 알려줘."
+  },
+  {
+    "id": "ko_084",
+    "language": "ko",
+    "question": "운동 중 손목 통증이 계속될 때 대처법은? (운동 중단 or 대체 or 보강)"
+  },
+  {
+    "id": "ko_085",
+    "language": "ko",
+    "question": "잦은 부상 없이 운동을 꾸준히 하기 위한 체크리스트를 알려줘."
+  },
+  {
+    "id": "ko_086",
+    "language": "ko",
+    "question": "운동 후의 기분 좋은 근육통과 부상으로 인한 통증은 어떻게 구분하나요?"
+  },
+  {
+    "id": "ko_087",
+    "language": "ko",
+    "question": "리프팅 벨트, 스트랩, 무릎 보호대와 같은 장비들이 부상 방지에 정말 효과가 있나요? 올바른 사용법이 궁금합니다."
+  },
+  {
+    "id": "ko_088",
+    "language": "ko",
+    "question": "운동 중 좌우 불균형(한쪽만 더 자극이 오거나 힘이 실리는 현상)이 느껴지는데, 방치하면 부상으로 이어질 수 있요?"
+  },
+  {
+    "id": "ko_089",
+    "language": "ko",
+    "question": "운동 중 팔꿈치 안쪽(골프 엘보)이나 바깥쪽(테니스 엘보)에 통증이 발생했을 때, 어떻게 대처해야 하나요?"
+  },
+  {
+    "id": "ko_090",
+    "language": "ko",
+    "question": "통증이 있을 때 냉찜질과 온찜질, 언제 어떤 것을 해야 효과적인가요?"
+  },
+  {
+    "id": "ko_091",
+    "language": "ko",
+    "question": "허리 디스크 병력이 있는 사람도 할 수 있는 코어 운동을 추천해줘."
+  },
+  {
+    "id": "ko_092",
+    "language": "ko",
+    "question": "발목을 몇 번 접질린 이후로 불안정한 느낌이 있어. 회복에 도움이 되는 간단한 루틴 있을까?"
+  },
+  {
+    "id": "ko_093",
+    "language": "ko",
+    "question": "굽은 어깨(라운드 숄더)를 가진 사람에게 필요한 스트레칭과 강화 운동은?"
+  },
+  {
+    "id": "ko_094",
+    "language": "ko",
+    "question": "하루 종일 앉아 있다 보니 허리가 뻐근하고 자주 아파. 매일 할 수 있는 5분 루틴 추천해줘."
+  },
+  {
+    "id": "ko_095",
+    "language": "ko",
+    "question": "거북목이 심하다는 말을 듣는데, 자세 교정을 위해 어떤 운동을 하면 좋을까?"
+  },
+  {
+    "id": "ko_096",
+    "language": "ko",
+    "question": "부상 회복 후 운동을 다시 시작하려고 합니다. 안전하게 복귀하기 위한 가이드라인이 있을까요?"
+  },
+  {
+    "id": "ko_097",
+    "language": "ko",
+    "question": "폼롤러와 마사지건, 회복과 재활에 어떻게 활용해야 가장 효과적인가요?"
+  },
+  {
+    "id": "ko_098",
+    "language": "ko",
+    "question": "스쿼트 시 깊이 앉지 못하거나 허리가 말립니다. 고관절 가동성을 향상시키는 운동을 알려주세요."
+  },
+  {
+    "id": "ko_099",
+    "language": "ko",
+    "question": "엉덩이부터 다리까지 저린 느낌(좌골신경통 증상)이 있는데, 완화에 도움이 되는 스트레칭이 있을까요?"
+  },
+  {
+    "id": "ko_100",
+    "language": "ko",
+    "question": "정적 스트레칭과 동적 스트레칭은 언제, 어떻게 활용하는 것이 다른가요?"
+  },
+  {
+    "id": "zh-Hant_051",
+    "language": "zh-Hant",
+    "question": "請為一位30多歲、想減掉體脂肪、每週進行3次重量訓練和有氧運動的男性，設計一份一天的飲食菜單範例。"
+  },
+  {
+    "id": "zh-Hant_052",
+    "language": "zh-Hant",
+    "question": "請推薦可以替代雞胸肉的高蛋白、低脂肪食物。"
+  },
+  {
+    "id": "zh-Hant_053",
+    "language": "zh-Hant",
+    "question": "在肌酸、乳清蛋白和維他命之中，為了提升運動效果，應該優先考慮哪種補充品？"
+  },
+  {
+    "id": "zh-Hant_054",
+    "language": "zh-Hant",
+    "question": "請告訴我間歇性斷食對肌肉生長的影響。"
+  },
+  {
+    "id": "zh-Hant_055",
+    "language": "zh-Hant",
+    "question": "我的InBody測出來的基礎代謝率是1400大卡。如果我想減重，一天的熱量攝取應該是多少？"
+  },
+  {
+    "id": "zh-Hant_056",
+    "language": "zh-Hant",
+    "question": "運動前和運動後適合吃什麼食物？"
+  },
+  {
+    "id": "zh-Hant_057",
+    "language": "zh-Hant",
+    "question": "在減肥期間，如果遇到無法避免的飲酒場合，應該如何應對？"
+  },
+  {
+    "id": "zh-Hant_058",
+    "language": "zh-Hant",
+    "question": "「欺騙日」對減肥真的有效嗎？我想知道正確執行欺騙日的方法。"
+  },
+  {
+    "id": "zh-Hant_059",
+    "language": "zh-Hant",
+    "question": "如果一天的總熱量攝取相同，用餐次數（例如：一天三餐 vs. 五餐）會影響減重效果嗎？"
+  },
+  {
+    "id": "zh-Hant_060",
+    "language": "zh-Hant",
+    "question": "為了減掉體脂肪，完全不攝取碳水化合物的飲食（例如生酮飲食）長期下來是可行的嗎？"
+  },
+  {
+    "id": "zh-Hant_061",
+    "language": "zh-Hant",
+    "question": "請設計一份每週3天，用來提升足球能力的訓練課表。"
+  },
+  {
+    "id": "zh-Hant_062",
+    "language": "zh-Hant",
+    "question": "初學者將硬舉加入訓練課表時，有哪些注意事項？"
+  },
+  {
+    "id": "zh-Hant_063",
+    "language": "zh-Hant",
+    "question": "上半身和下半身訓練的頻率和平衡應該如何安排？"
+  },
+  {
+    "id": "zh-Hant_064",
+    "language": "zh-Hant",
+    "question": "在同一個訓練課表中同時安排深蹲、弓箭步和臀推是可以的嗎？"
+  },
+  {
+    "id": "zh-Hant_065",
+    "language": "zh-Hant",
+    "question": "我的上半身發展得不錯，但下半身比較弱。我應該如何修改我的課表？"
+  },
+  {
+    "id": "zh-Hant_066",
+    "language": "zh-Hant",
+    "question": "在同一天進行肌力訓練和有氧運動時，根據目標（增肌／減脂），哪種順序更有效？"
+  },
+  {
+    "id": "zh-Hant_067",
+    "language": "zh-Hant",
+    "question": "運動前暖身和運動後緩和的重要性是什麼？分別應該包含哪些動作？"
+  },
+  {
+    "id": "zh-Hant_068",
+    "language": "zh-Hant",
+    "question": "我總是使用相同的重量和次數進行訓練。我想知道應用「漸進式超負荷」的具體方法。"
+  },
+  {
+    "id": "zh-Hant_069",
+    "language": "zh-Hant",
+    "question": "運動時，常常感覺到不是目標肌群在出力，而是其他部位在代償。該如何改善這個問題？"
+  },
+  {
+    "id": "zh-Hant_070",
+    "language": "zh-Hant",
+    "question": "腹肌可以每天訓練嗎？還是像其他肌群一樣需要休息？"
+  },
+  {
+    "id": "zh-Hant_071",
+    "language": "zh-Hant",
+    "question": "請為我設計一個為期8週的肌肥大訓練計畫。我每週可以訓練4天。"
+  },
+  {
+    "id": "zh-Hant_072",
+    "language": "zh-Hant",
+    "question": "請設計一個為期4週、只使用啞鈴、以減脂為目標的訓練計畫。"
+  },
+  {
+    "id": "zh-Hant_073",
+    "language": "zh-Hant",
+    "question": "如果我想同時進行肌力和肌肥大的訓練，應該如何安排我的訓練內容？"
+  },
+  {
+    "id": "zh-Hant_074",
+    "language": "zh-Hant",
+    "question": "當我的運動表現停滯時，可以應用哪些變化方法（訓練量／強度／休息等）？"
+  },
+  {
+    "id": "zh-Hant_075",
+    "language": "zh-Hant",
+    "question": "請解釋金字塔組和固定重量組訓練方式的差別，以及各自適合的情況。"
+  },
+  {
+    "id": "zh-Hant_076",
+    "language": "zh-Hant",
+    "question": "我想知道二分割、三分割、五分割等不同分割訓練法的優缺點，以及如何選擇適合自己的分割法。"
+  },
+  {
+    "id": "zh-Hant_077",
+    "language": "zh-Hant",
+    "question": "我的訓練計畫應該多久更換一次？"
+  },
+  {
+    "id": "zh-Hant_078",
+    "language": "zh-Hant",
+    "question": "什麼是「減量訓練（Deloading）」？應該在什麼時候、以及如何執行？"
+  },
+  {
+    "id": "zh-Hant_079",
+    "language": "zh-Hant",
+    "question": "每個訓練組都做到「力竭（Failure）」對肌肉生長是必要的嗎？"
+  },
+  {
+    "id": "zh-Hant_080",
+    "language": "zh-Hant",
+    "question": "當我無法去健身房時，應該如何安排一個只用自身體重的訓練計畫，以防止肌肉流失並維持肌力？"
+  },
+  {
+    "id": "zh-Hant_081",
+    "language": "zh-Hant",
+    "question": "如果我在做臥推時肩膀疼痛，可能的原因是什麼？應該如何處理？"
+  },
+  {
+    "id": "zh-Hant_082",
+    "language": "zh-Hant",
+    "question": "我在深蹲時左邊膝蓋偶爾會發出聲音。繼續運動是沒問題的嗎？"
+  },
+  {
+    "id": "zh-Hant_083",
+    "language": "zh-Hant",
+    "question": "請提供一些在進行硬舉時，避免下背部受傷的姿勢技巧。"
+  },
+  {
+    "id": "zh-Hant_084",
+    "language": "zh-Hant",
+    "question": "處理運動中持續手腕疼痛的最佳方法是什麼？（停止、替代或強化）"
+  },
+  {
+    "id": "zh-Hant_085",
+    "language": "zh-Hant",
+    "question": "請提供一個能持續運動又不容易受傷的檢查清單。"
+  },
+  {
+    "id": "zh-Hant_086",
+    "language": "zh-Hant",
+    "question": "如何區分運動後好的肌肉痠痛和因受傷引起的疼痛？"
+  },
+  {
+    "id": "zh-Hant_087",
+    "language": "zh-Hant",
+    "question": "像拉力帶、護腕、護膝這樣的配件真的能有效預防受傷嗎？我想知道它們的正確使用方法。"
+  },
+  {
+    "id": "zh-Hant_088",
+    "language": "zh-Hant",
+    "question": "我在運動時感覺到左右不平衡（一邊感覺到更多刺激或承受更多負荷）。如果忽略這個問題，會導致受傷嗎？"
+  },
+  {
+    "id": "zh-Hant_089",
+    "language": "zh-Hant",
+    "question": "運動時，如果手肘內側（高爾夫球肘）或外側（網球肘）疼痛，應該如何處理？"
+  },
+  {
+    "id": "zh-Hant_090",
+    "language": "zh-Hant",
+    "question": "疼痛時，什麼時候冰敷、什麼時候熱敷比較有效？"
+  },
+  {
+    "id": "zh-Hant_091",
+    "language": "zh-Hant",
+    "question": "請推薦一些適合有椎間盤突出病史的人做的核心運動。"
+  },
+  {
+    "id": "zh-Hant_092",
+    "language": "zh-Hant",
+    "question": "我的腳踝在扭傷幾次後感覺不穩定。有什麼簡單的日常訓練可以幫助恢復嗎？"
+  },
+  {
+    "id": "zh-Hant_093",
+    "language": "zh-Hant",
+    "question": "有圓肩問題的人需要做哪些伸展和強化運動？"
+  },
+  {
+    "id": "zh-Hant_094",
+    "language": "zh-Hant",
+    "question": "因為整天坐著，我的背部感覺僵硬且經常疼痛。請推薦一個每天可以做的5分鐘日常伸展。"
+  },
+  {
+    "id": "zh-Hant_095",
+    "language": "zh-Hant",
+    "question": "我被告知有嚴重的「烏龜頸」。可以做哪些運動來矯正姿勢？"
+  },
+  {
+    "id": "zh-Hant_096",
+    "language": "zh-Hant",
+    "question": "我在受傷康復後準備重新開始運動。有什麼安全恢復訓練的指南嗎？"
+  },
+  {
+    "id": "zh-Hant_097",
+    "language": "zh-Hant",
+    "question": "如何最有效地使用滾筒和按摩槍來進行恢復和復健？"
+  },
+  {
+    "id": "zh-Hant_098",
+    "language": "zh-Hant",
+    "question": "我深蹲時蹲不下去，或是下背部會彎曲。請告訴我一些改善髖關節活動度的運動。"
+  },
+  {
+    "id": "zh-Hant_099",
+    "language": "zh-Hant",
+    "question": "我的臀部到腿部有麻刺感（坐骨神經痛症狀）。有什麼伸展運動可以幫助緩解嗎？"
+  },
+  {
+    "id": "zh-Hant_100",
+    "language": "zh-Hant",
+    "question": "靜態伸展和動態伸展在使用時機和方式上有何不同？"
+  }
+]
