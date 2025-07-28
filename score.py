@@ -1,21 +1,23 @@
 import json
 import pandas as pd
 
-INPUT_PATH = "generated_questions_100_v1_qwen_scored.json"  # 실제 경로로 수정
+INPUT_PATH = "final_data/QA_qwen3_scored.jsonl"  # 실제 경로로 수정
 
 with open(INPUT_PATH, encoding="utf-8") as f:
-    data = json.load(f)
+    data = [json.loads(line) for line in f]
 
 df = pd.DataFrame(data)
+
+df["num"] = df["id"].str.split("_").str[1].astype(int)
+df = df[df["num"] <= 100]
+
 df["lang"] = df["id"].str.split("_").str[0]
 
 # 분석 대상 점수 열
 cols = ["accuracy", "relevance", "explanatory_power", "fluency", "creativity"]
 
-# 1) 언어별 앞 25개만 골라 평균
-df["rank"] = df.groupby("lang").cumcount()
-subset = df[df["rank"] < 25]
-lang_means = subset.groupby("lang")[cols].mean()
+# 1) 언어별 평균
+lang_means = df.groupby("lang")[cols].mean()
 
 # 2) 행 평균: 언어별 5개 지표의 평균
 lang_means["row_mean"] = lang_means.mean(axis=1)
@@ -30,4 +32,5 @@ summary = pd.concat([lang_means, col_means])
 # 소수 둘째 자리로 보기 좋게
 summary = summary.round(2)
 
-print(summary)
+
+print(summary.to_csv())
