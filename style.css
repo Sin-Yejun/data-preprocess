@@ -1,64 +1,228 @@
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; background-color: #f0f2f5; color: #1c1e21; }
-.container { max-width: 1200px; margin: auto; padding: 20px; }
-h1 { text-align: center; color: #1c1e21; padding: 20px 0; }
+/* =============================
+   Global Theme Variables
+   ============================= */
+:root {
+  --bg: #f3f4f6;               /* page background */
+  --primary: #2563eb;          /* primary action blue (Tailwind blue‑600) */
+  --primary-dark: #1e40af;     /* darker blue for hover / emphasis */
+  --white: #ffffff;
+  --text: #111827;             /* gray‑900 */
+  --muted: #6b7280;            /* gray‑500 */
+  --card-bg: #ffffff;
+  --border: #e5e7eb;           /* gray‑200 */
+  --shadow: 0 4px 6px rgba(0,0,0,0.05);
+  --radius: 8px;
+  --transition: 0.25s ease;
+}
 
-/* Main Language Tabs */
-.lang-tab { overflow: hidden; border-bottom: 1px solid #ccc; background-color: #fff; }
-.lang-tab button { background-color: inherit; float: left; border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s; font-size: 17px; border-bottom: 3px solid transparent; }
-.lang-tab button:hover { background-color: #f1f1f1; }
-.lang-tab button.active { border-bottom: 3px solid #0056b3; color: #0056b3; font-weight: bold; }
-.lang-tabcontent { display: none; padding-top: 10px; }
+/* =============================
+   Reset & Base
+   ============================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-/* Category Tabs */
-.category-tab { overflow: hidden; border-bottom: 1px solid #ddd; margin-bottom: 15px; }
-.category-tab button { background-color: #f9f9f9; float: left; border: 1px solid #ddd; border-bottom: none; outline: none; cursor: pointer; padding: 10px 12px; transition: 0.3s; font-size: 15px; margin-right: 5px; border-radius: 5px 5px 0 0; }
-.category-tab button:hover { background-color: #e9e9e9; }
-.category-tab button.active { background-color: #fff; border-bottom: 1px solid #fff; color: #0056b3; font-weight: 600; }
-.category-tabcontent { display: none; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
 
-.question-block { background-color: #fff; margin-bottom: 25px; border: 1px solid #ddd; border-radius: 8px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1.25rem;
+}
+
+h1 {
+  text-align: center;
+  color: var(--text);
+  margin-bottom: 2rem;
+  font-size: clamp(1.75rem, 2vw + 1rem, 2.25rem);
+}
+
+/* =============================
+   Language Tabs
+   ============================= */
+.lang-tab {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--white);
+  padding: 0.5rem 1rem;
+  box-shadow: var(--shadow);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.lang-tab .lang-tablinks {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: var(--text);
+  border-bottom: 3px solid transparent;
+  transition: var(--transition);
+}
+
+.lang-tab .lang-tablinks:hover {
+  background: rgba(37, 99, 235, 0.08); /* light primary tint */
+}
+
+.lang-tab .lang-tablinks.active {
+  font-weight: 600;
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+
+/* Expand / Collapse Buttons */
+.expand-collapse-buttons {
+  margin-left: auto;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.control-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.control-button:hover {
+  background: var(--primary-dark);
+}
+
+/* =============================
+   Category Tabs
+   ============================= */
+.category-tab {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1rem;
+}
+
+.category-tab button {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius) var(--radius) 0 0;
+  padding: 0.5rem 0.875rem;
+  font-size: 0.9375rem;
+  color: var(--muted);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.category-tab button:hover {
+  background: rgba(107, 114, 128, 0.08); /* muted tint */
+}
+
+.category-tab button.active {
+  background: var(--white);
+  color: var(--primary);
+  font-weight: 600;
+  border-bottom-color: var(--white);
+}
+
+/* =============================
+   Questions & Answers
+   ============================= */
+.question-block {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
 .question-title {
-    font-size: 1.5em;
-    color: #0056b3;
-    margin-top: 0;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  font-size: 1.25rem;
+  color: var(--primary-dark);
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
 }
 
 .question-title::after {
-    content: '▼';
-    font-size: 0.8em;
-    transition: transform 0.2s;
+  content: "\25BC"; /* down chevron */
+  font-size: 0.85rem;
+  transition: transform var(--transition);
 }
 
 .question-block.active .question-title::after {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .answers-container {
-    display: none;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-between;
+  display: none;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  padding: 1rem 1.25rem 1.5rem;
 }
 
 .question-block.active .answers-container {
-    display: flex;
+  display: flex;
 }
 
-.answer-card { border: 1px solid #e1e1e1; border-radius: 8px; padding: 20px; width: 31%; background-color: #f9f9f9; flex-grow: 1; }
-.answer-card h4 { margin-top: 0; color: #333; border-bottom: 2px solid #0056b3; padding-bottom: 10px; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center; }
-.correctness-indicator { font-size: 1.2em; }
-.correct { color: green; }
-.incorrect { color: red; }
-.markdown-content { font-size: 1em; line-height: 1.6; }
-.markdown-content * { max-width: 100%; }
+.answer-card {
+  flex: 1 1 300px;
+  background: #fafafa;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  box-shadow: var(--shadow);
+  transition: transform var(--transition);
+}
+
+.answer-card:hover {
+  transform: translateY(-2px);
+}
+
+.answer-card h4 {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.5rem;
+}
+
+.correct { color: #16a34a; }  /* green‑600 */
+.incorrect { color: #dc2626; } /* red‑600 */
+
+.markdown-content {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.markdown-content * {
+  max-width: 100%;
+}
+
+/* =============================
+   Responsive
+   ============================= */
 @media (max-width: 900px) {
-    .answers-container { flex-direction: column; }
-    .answer-card { width: 100%; }
+  .answers-container { flex-direction: column; }
+  .answer-card { width: 100%; }
 }
