@@ -1,62 +1,67 @@
+
 import json
+import os
 
-# Define the language order for sorting
-language_order = {
-    'ko': 0,
-    'en': 1,
-    'ja': 2,
-    'zh-Hant': 3
-}
-
-def get_id_num(item):
+def merge_and_sort(calculation_file, qa_file, output_file):
+    """
+    Merges a calculation JSON file with a QA JSON file, sorts the merged data by ID,
+    and writes the result to a new file.
+    """
     try:
-        return int(item.get('id', '0_0').split('_')[1])
-    except (ValueError, IndexError):
-        return 0
+        with open(calculation_file, 'r', encoding='utf-8') as f:
+            calc_data = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: {calculation_file} not found.")
+        return
 
-# --- Process v3 data (IDs 1-25) ---
-with open('generated_questions_100_v3_gemma.json', 'r', encoding='utf-8') as f:
-    data1 = json.load(f)
+    try:
+        with open(qa_file, 'r', encoding='utf-8') as f:
+            qa_data = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: {qa_file} not found.")
+        qa_data = []  # Start with an empty list if the QA file doesn't exist
 
-# --- Process v4 data (IDs 26-50) ---
-with open('generated_questions_100_v4_gemma.json', 'r', encoding='utf-8') as f:
-    data2 = json.load(f)
+    # Combine the data
+    merged_data = qa_data + calc_data
 
-# Group data by language to re-index correctly
-grouped_by_lang_v4 = {}
-for item in data2:
-    lang = item.get('language')
-    if lang not in grouped_by_lang_v4:
-        grouped_by_lang_v4[lang] = []
-    grouped_by_lang_v4[lang].append(item)
+    # Define the desired language order
+    language_order = {
+        'ko': 0,
+        'en': 1,
+        'ja': 2,
+        'zh-Hant': 3
+    }
 
-data2_reindexed = []
-for lang, items in grouped_by_lang_v4.items():
-    # Sort items within the language group by original ID to ensure order
-    sorted_items = sorted(items, key=get_id_num)
-    
-    # Re-index starting from 26
-    counter = 26
-    for item in sorted_items:
-        item['id'] = f"{lang}_{counter:03d}"
-        counter += 1
-        data2_reindexed.append(item)
+    # Sort the merged data
+    # The primary sorting key is the language order, the secondary is the numeric part of the id
+    final_sorted_data = sorted(
+        merged_data,
+        key=lambda x: (language_order.get(x.get('language'), 99), int(x.get('id', '0_0').split('_')[1]))
+    )
 
-# --- Process questions_qwen2.5.json data (IDs 51-100) ---
-with open('questions_gemma.json', 'r', encoding='utf-8') as f:
-    data3 = json.load(f)
 
-# Merge the data
-merged_data = data1 + data2_reindexed + data3
+    # Write the sorted data to the output file
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(final_sorted_data, f, ensure_ascii=False, indent=2)
 
-# Final sort of the merged data by language and new ID
-final_sorted_data = sorted(
-    merged_data,
-    key=lambda x: (language_order.get(x.get('language'), 99), get_id_num(x))
-)
+    print(f"Successfully merged {calculation_file} and {qa_file} into {output_file}")
 
-# Write the final data to a new file
-with open('QA_gemma.json', 'w', encoding='utf-8') as f:
-    json.dump(final_sorted_data, f, ensure_ascii=False, indent=2)
 
-print("Files merged and sorted successfully with corrected IDs into questions_qwen2.5_merged.json")
+if __name__ == "__main__":
+    # Get the absolute path of the directory where the script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Define the file pairs
+    file_pairs = [
+        ("calculation_gemma.json", "final_data/QA_gemma.json"),
+        ("calculation_qwen2.5.json", "final_data/QA_qwen2.5.json"),
+        ("calculation_qwen3.json", "final_data/QA_qwen3.json")
+    ]
+
+    for calc_file, qa_file in file_pairs:
+        # Construct absolute paths for the files
+        abs_calc_file = os.path.join(script_dir, calc_file)
+        abs_qa_file = os.path.join(script_dir, qa_file)
+        
+        # The output file will be the same as the QA file, effectively overwriting it
+        merge_and_sort(abs_calc_file, abs_qa_file, abs_qa_file)

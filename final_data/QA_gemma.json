@@ -600,6 +600,156 @@
     "model_answer": "정적 스트레칭과 동적 스트레칭은 각각 다른 목적과 활용법을 가지고 있습니다. 서로 어떻게 활용하면 운동 효과를 극대화할 수 있는지 알려드릴게요.\n\n**1. 정적 스트레칭 (Static Stretching):**\n\n*   **언제 활용:** 운동 전이나 운동 후에 주로 활용합니다. 특히 운동 후에 근육을 이완시켜 피로를 풀고 회복을 돕는 데 효과적입니다. 운동 전에 가볍게 근육을 늘려 유연성을 높이는 데도 도움이 됩니다.\n*   **어떻게 활용:**\n    *   각 스트레칭 자세를 **15-60초 정도** 유지합니다.\n    *   자극받는 근육을 부드럽게 늘려줍니다.\n    *   자세가 뻐근하거나 통증이 느껴지면 멈추고, 호흡을 유지하며 천천히 자세를 변경합니다.\n    *   예시: 다리 스트레칭 (햄스트링, 종아리 스트레칭), 어깨 스트레칭, 팔 스트레칭 등\n\n**2. 동적 스트레칭 (Dynamic Stretching):**\n\n*   **언제 활용:** 운동 **전**에 주로 활용합니다. 운동 전 몸을 워밍업하여 근육과 관절의 가동 범위를 넓히고 혈류를 증가시켜 운동 능력을 향상시킵니다.\n*   **어떻게 활용:**\n    *   **반복적인 움직임**을 통해 근육을 늘립니다.\n    *   빠르고 제어된 움직임을 사용하며, 각 동작을 10-15회 반복합니다.\n    *   예시: 팔 돌리기, 다리 흔들기, 몸통 회전, 무릎 돌리기 등\n\n**요약:**\n\n| 구분           | 정적 스트레칭          | 동적 스트레칭          |\n| -------------- | ---------------------- | ---------------------- |\n| **언제 활용**     | 운동 전/후             | 운동 전               |\n| **방법**         | 고정한 자세 유지       | 반복적인 움직임         |\n| **목적**         | 근육 이완, 유연성 향상 | 가동 범위 증가, 워밍업   |\n\n**팁:**\n\n*   운동 전에는 **동적 스트레칭**으로 몸을 충분히 풀어준 후, 운동을 시작하는 것이 좋습니다.\n*   운동 후에는 **정적 스트레칭**으로 근육을 이완시켜 부상을 예방하고 회복을 돕는 것이 좋습니다.\n\n궁금한 점이 있으면 언제든지 다시 물어보세요!"
   },
   {
+    "id": "ko_101",
+    "language": "ko",
+    "question": "벤치프레스 1RM이 110kg일 때, 85% 중량으로 운동하려면 몇 kg을 들어야 할까요?",
+    "model_answer": "벤치프레스 1RM이 110kg일 때, 85% 중량으로 운동하려면 93.5kg을 들어야 합니다.\n\n계산 방법:\n\n110kg * 0.85 = 93.5kg"
+  },
+  {
+    "id": "ko_102",
+    "language": "ko",
+    "question": "스쿼트를 90kg로 6회씩 4세트 했다면 총 들어올린 무게는 얼마인가요?",
+    "model_answer": "총 들어올린 무게는 540kg입니다. (90kg x 6회 x 4세트 = 540kg)"
+  },
+  {
+    "id": "ko_103",
+    "language": "ko",
+    "question": "데드리프트 1RM이 150kg인 사람이 70% 중량으로 8회 수행하려면 몇 kg을 사용해야 할까요?",
+    "model_answer": "데드리프트 1RM이 150kg인 사람이 70% 중량으로 8회 수행하려면 105kg을 사용해야 합니다.\n\n계산 방법:\n\n* 70% = 150kg * 0.7 = 105kg"
+  },
+  {
+    "id": "ko_104",
+    "language": "ko",
+    "question": "턱걸이를 12회씩 5세트 했다면 총 몇 회를 수행한 건가요?",
+    "model_answer": "턱걸이를 12회씩 5세트 했다면 총 60회를 수행했습니다. (12회/세트 * 5 세트 = 60회)"
+  },
+  {
+    "id": "ko_105",
+    "language": "ko",
+    "question": "덤벨 한쪽이 8kg인데 양손으로 들고 런지를 10회씩 3세트 했다면 총 들려진 무게는 얼마인가요?",
+    "model_answer": "덤벨 한쪽 무게가 8kg이고, 양손으로 들고 10회씩 3세트 했다면 총 들려진 무게는 다음과 같습니다.\n\n*   **1 세트당 무게:** 8kg (한쪽) * 2손 = 16kg\n*   **총 무게:** 16kg * 3세트 = 48kg\n\n따라서 총 들려진 무게는 48kg입니다."
+  },
+  {
+    "id": "ko_106",
+    "language": "ko",
+    "question": "밀리터리 프레스 1RM이 70kg인 사람이 60% 중량으로 12회 수행한다면 몇 kg을 사용해야 하나요?",
+    "model_answer": "60% 중량은 70kg의 60%이므로, 70kg * 0.6 = 42kg입니다.\n\n따라서 42kg을 사용해야 합니다."
+  },
+  {
+    "id": "ko_107",
+    "language": "ko",
+    "question": "데드리프트를 120kg, 125kg, 130kg로 각각 5회씩 3세트 수행했다면 평균 중량은 몇 kg인가요?",
+    "model_answer": "총 중량은 120kg + 125kg + 130kg = 375kg 입니다.\n\n세트 수 15회 기준으로 평균 중량은 375kg / 15 = 25kg 입니다."
+  },
+  {
+    "id": "ko_108",
+    "language": "ko",
+    "question": "케틀벨 스윙 16kg를 20회씩 4세트 했다면 총 들려진 무게는 얼마인가요?",
+    "model_answer": "케틀벨 스윙 16kg을 20회씩 4세트 했다면 총 들려진 무게는 16kg * 20회 * 4세트 = 1280kg 입니다."
+  },
+  {
+    "id": "ko_109",
+    "language": "ko",
+    "question": "1RM의 95%로 싱글(1회) 3세트를 하려면, 1RM이 180kg일 때 사용할 중량은 몇 kg인가요?",
+    "model_answer": "1RM의 95%는 180kg * 0.95 = 171kg 입니다.\n\n따라서 1RM이 180kg일 때, 싱글(1회) 3세트를 하기 위해 사용할 중량은 171kg 입니다."
+  },
+  {
+    "id": "ko_110",
+    "language": "ko",
+    "question": "벤치프레스 75kg를 8회씩 5세트 했다면 총 몇 회를 들어올렸고, 총 볼륨은 얼마인가요?",
+    "model_answer": "벤치프레스 75kg을 8회씩 5세트 했다면 총 40회(8회 x 5세트)를 들어올렸습니다.\n\n총 볼륨은 세트당 무게에 반복 횟수를 곱한 값을 모두 더한 것입니다. 따라서, 75kg x 8회 x 5세트 = 3000 볼륨입니다.\n\n답변입니다: 총 40회, 총 볼륨 3000 볼륨입니다."
+  },
+  {
+    "id": "ko_111",
+    "language": "ko",
+    "question": "스쿼트 프로그램에서 80kg → 85kg → 90kg로 3세트를 수행했다면 세트당 평균 중량은 몇 kg인가요?",
+    "model_answer": "세트당 평균 중량은 (80kg + 85kg + 90kg) / 3 = 85kg 입니다."
+  },
+  {
+    "id": "ko_112",
+    "language": "ko",
+    "question": "60kg 바벨로 15회씩 2세트, 12회씩 2세트, 10회 1세트를 했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "총 볼륨은 15회 x 2세트 + 12회 x 2세트 + 10회 x 1세트 = 30회 + 24회 + 10회 = 64회입니다."
+  },
+  {
+    "id": "ko_113",
+    "language": "ko",
+    "question": "팔굽혀펴기를 25회씩 4세트 했다면 총 반복수는 몇 회인가요?",
+    "model_answer": "팔굽혀펴기를 25회씩 4세트 했다면 총 반복수는 100회입니다. (25회 x 4세트 = 100회)"
+  },
+  {
+    "id": "ko_114",
+    "language": "ko",
+    "question": "트라이셉스 익스텐션 12kg 덤벨을 양손으로 10회씩 3세트 했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "총 볼륨은 30회 입니다. \n\n(12kg 덤벨로 10회씩 3세트 = 30회)"
+  },
+  {
+    "id": "ko_115",
+    "language": "ko",
+    "question": "당신의 1RM이 95kg인데, 80%로 6회가 목표라면 중량은 몇 kg인가요?",
+    "model_answer": "당신의 1RM이 95kg이고 80%의 강도로 6회를 목표로 한다면, 중량은 약 76kg입니다.\n\n계산 방법은 다음과 같습니다.\n\n1.  1RM의 80% = 95kg * 0.80 = 76kg"
+  },
+  {
+    "id": "ko_116",
+    "language": "ko",
+    "question": "스텝업을 20kg 바벨로 12회씩 3세트, 15회 1세트 했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "총 볼륨은 15세트 * 20kg = 300세트 입니다."
+  },
+  {
+    "id": "ko_117",
+    "language": "ko",
+    "question": "러닝머신에서 시속 8km로 30분 달렸다가, 시속 6km로 15분 걸었다면 총 이동 거리는 몇 km인가요?",
+    "model_answer": "달린 거리는 8km/h로 30분 동안이니까 8 * 0.5 = 4km 입니다.\n걸은 거리는 6km/h로 15분 동안이니까 6 * 0.25 = 1.5km 입니다.\n따라서 총 이동 거리는 4km + 1.5km = 5.5km 입니다."
+  },
+  {
+    "id": "ko_118",
+    "language": "ko",
+    "question": "웜업으로 40kg를 10회, 본 세트로 70kg를 8회 × 3세트 했다면 전체 볼륨은 얼마인가요?",
+    "model_answer": "전체 볼륨은 40kg x 10회 x 3세트 + 70kg x 8회 x 3세트 = 400 + 1680 = 2080 입니다.\n따라서 전체 볼륨은 2080입니다."
+  },
+  {
+    "id": "ko_119",
+    "language": "ko",
+    "question": "1RM의 60%로 20회를 수행하면 근지구력 훈련이 돼요. 1RM이 120kg라면 사용할 중량은 몇 kg인가요?",
+    "model_answer": "1RM의 60%는 72kg이 됩니다. (120kg * 0.6 = 72kg) 따라서 20회를 수행하려면 72kg을 사용하면 근지구력 훈련이 됩니다."
+  },
+  {
+    "id": "ko_120",
+    "language": "ko",
+    "question": "덤벨 컬 10kg로 15회 × 4세트를 완료했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "덤벨 컬 10kg으로 15회 × 4세트를 완료했다면, 총 볼륨은 60회입니다. (15회 x 4세트 = 60회)"
+  },
+  {
+    "id": "ko_121",
+    "language": "ko",
+    "question": "클린 앤 저크 1RM이 95kg인 선수가 대회에서 90%로 시도한다면 몇 kg을 들어야 할까요?",
+    "model_answer": "95kg의 1RM(최대 반복 횟수)에서 90%를 시도하면 85.5kg을 들어야 합니다.\n\n계산 방법:\n\n* 90% = 90/100 * 95kg = 85.5kg"
+  },
+  {
+    "id": "ko_122",
+    "language": "ko",
+    "question": "60kg로 5회 × 5세트를 끝낸 뒤, 70kg로 3회 × 2세트를 추가했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "총 볼륨은 5회 * 5세트 + 3회 * 2세트 = 25세트 + 6세트 = 31세트입니다."
+  },
+  {
+    "id": "ko_123",
+    "language": "ko",
+    "question": "프로틴 35g을 하루 3번, 6일 동안 섭취했다면 일주일 섭취량은 몇 g인가요?",
+    "model_answer": "프로틴 35g을 하루 3번 섭취했으니 하루 총 35g * 3 = 105g을 섭취합니다.\n\n6일 동안 섭취하면 105g * 6 = 630g 입니다.\n\n따라서 일주일 섭취량은 630g입니다."
+  },
+  {
+    "id": "ko_124",
+    "language": "ko",
+    "question": "카페인 200mg이 든 프리워크아웃을 운동 30분 전마다 4일 연속 복용했다면 총 카페인 섭취량은 몇 mg인가요?",
+    "model_answer": "총 카페인 섭취량은 200mg x 4일 x 3회 = 2400mg입니다."
+  },
+  {
+    "id": "ko_125",
+    "language": "ko",
+    "question": "하루 목표 걸음 수가 10,000보인데, 월~금 12,000보씩 걷고 주말엔 8,000보씩 걸었다면 1주일 총 걸음 수는 몇 보인가요?",
+    "model_answer": "월~금 걸음 수의 총 합은 12,000보/일 * 5일 = 60,000보입니다.\n주말 걸음 수의 총 합은 8,000보/일 * 2일 = 16,000보입니다.\n따라서 1주일 총 걸음 수는 60,000보 + 16,000보 = 76,000보입니다."
+  },
+  {
     "id": "en_001",
     "question": "Imagine a world where gravity is half as strong as it is on Earth; how would that affect human architecture and daily activities?",
     "language": "en",
@@ -1198,6 +1348,156 @@
     "language": "en",
     "question": "What is the difference in how and when to use static stretching versus dynamic stretching?",
     "model_answer": "Okay, let's talk about the difference between static and dynamic stretching. Here's a breakdown of how and when to use each:\n\n**Static Stretching:**\n\n* **How to do it:** Static stretching involves holding a stretch in a challenging but comfortable position for a period of time – typically 15-60 seconds. You're essentially lengthening a muscle and holding that lengthened position. Examples include holding a hamstring stretch, a quad stretch, or a calf stretch.\n* **When to use it:**\n    * **After a workout or activity:** This is generally considered the *best* time for static stretching. It helps to improve flexibility and reduce muscle soreness after you've warmed up your muscles.\n    * **As part of a cool-down:** Similar to post-workout, static stretching helps to gradually bring the body back to a resting state.\n    * **As a standalone flexibility routine:** You can do static stretches on their own to improve overall flexibility over time.\n\n\n**Dynamic Stretching:**\n\n* **How to do it:** Dynamic stretching involves controlled movements that take a muscle through its full range of motion. These movements should be flowing and rhythmic. Examples include arm circles, leg swings, torso twists, walking lunges, or high knees.\n* **When to use it:**\n    * **Before a workout or activity:** This is *crucial* for dynamic stretching. It prepares your muscles and joints for movement by increasing blood flow, range of motion, and activating the muscles you'll be using. Think of it like warming up your body for the activity ahead.\n    * **During a workout (as a part of the warm-up):** Integrating dynamic stretches into your warm-up routine can further improve performance and reduce the risk of injury.\n\n\n\n**Here's a table summarizing the key differences:**\n\n| Feature          | Static Stretching           | Dynamic Stretching            |\n|------------------|-----------------------------|-------------------------------|\n| **Method**       | Holding a stretch           | Controlled movements           |\n| **Focus**        | Lengthening muscles          | Preparing muscles for movement |\n| **Best Time**     | After, Cool-down, Separate    | Before, During (warm-up)        |\n| **Effect**        | Increases flexibility        | Improves mobility & performance|\n\n\n\n**Important Note:**  It's generally recommended to *not* do static stretching immediately before a workout, as it can temporarily decrease muscle power and force production. Dynamic stretching is almost always the better choice before activity.\n\nDo you want me to give you some specific examples of dynamic stretches for certain muscle groups, or perhaps elaborate on a particular aspect of this information?"
+  },
+  {
+    "id": "en_101",
+    "language": "en",
+    "question": "If your bench press 1RM is 110kg, how many kg should you lift to train at 85% of that weight?",
+    "model_answer": "Pour calculer le poids à soulever pour entraîner à 85% de votre 1RM (répétition maximale), vous devez multiplier votre 1RM par 0,85.\n\nDonc, 110 kg * 0,85 = 93,5 kg\n\nVous devriez viser à soulever 93,5 kg."
+  },
+  {
+    "id": "en_102",
+    "language": "en",
+    "question": "If you squatted 90kg for 4 sets of 6 reps, what is the total weight lifted?",
+    "model_answer": "Si has levantado 90 kg por 4 series de 6 repeticiones, el peso total levantado es de 270 kg.\n\n(90 kg * 6 repeticiones/serie * 4 series = 270 kg)"
+  },
+  {
+    "id": "en_103",
+    "language": "en",
+    "question": "If a person with a 1RM deadlift of 150kg wants to perform 8 reps at 70% of their 1RM, how many kg should they use?",
+    "model_answer": "Pour calculer le poids à utiliser, il faut d'abord calculer 70% de 150kg et ensuite soustraire ce résultat de 150kg.\n\n70% de 150kg = (70/100) * 150kg = 105kg\n\nPoids à utiliser = 150kg - 105kg = 45kg\n\nIls devraient utiliser 45kg."
+  },
+  {
+    "id": "en_104",
+    "language": "en",
+    "question": "If you did 5 sets of 12 pull-ups, how many total reps did you perform?",
+    "model_answer": "If you did 5 sets of 12 pull-ups, you performed a total of 60 reps. (5 sets * 12 reps/set = 60 reps)"
+  },
+  {
+    "id": "en_105",
+    "language": "en",
+    "question": "If you performed 3 sets of 10 lunges holding an 8kg dumbbell in each hand, what is the total weight lifted?",
+    "model_answer": "Si has realizado 3 series de 10 sentadillas dinámicas sosteniendo un manubrio de 8 kg en cada mano, el peso total levantado es de 16 kg. (8 kg + 8 kg = 16 kg)"
+  },
+  {
+    "id": "en_106",
+    "language": "en",
+    "question": "If a person with a 1RM military press of 70kg performs 12 reps at 60% of their 1RM, how many kg should they use?",
+    "model_answer": "Si una persona tiene una fuerza máxima (1RM) en press militar de 70 kg, y realiza 12 repeticiones al 60% de su 1RM, debería usar 42 kg.\n\nAquí está el cálculo:\n\n60% de 70 kg = (60/100) * 70 kg = 42 kg"
+  },
+  {
+    "id": "en_107",
+    "language": "en",
+    "question": "If you performed 3 sets of 5 deadlifts with 120kg, 125kg, and 130kg respectively, what is the average weight per set?",
+    "model_answer": "Pour calculer la moyenne du poids par série, on additionne les poids de toutes les séries et on divise par le nombre de séries.\n\nDonc, on additionne : 120kg + 125kg + 130kg = 375kg\n\nIl y a 3 séries.\n\nLa moyenne est donc : 375kg / 3 = 125kg\n\nLa moyenne du poids par série est de 125kg."
+  },
+  {
+    "id": "en_108",
+    "language": "en",
+    "question": "If you did 4 sets of 20 kettlebell swings with a 16kg kettlebell, what is the total weight lifted?",
+    "model_answer": "Si has hecho 4 series de 20 palanquillas con una palanquilla de 16kg, el peso total levantado es de 64kg. \n\n(4 series * 20 repeticiones/serie = 80 repeticiones; 80 repeticiones * 16kg/repetición = 1280kg.  Pero la pregunta se refiere al peso levantado, no al peso total de la palanquilla.  Por lo tanto, 4 * 16kg = 64kg)"
+  },
+  {
+    "id": "en_109",
+    "language": "en",
+    "question": "To perform 3 sets of singles (1 rep) at 95% of your 1RM, what weight in kg should you use if your 1RM is 180kg?",
+    "model_answer": "Pour calculer le poids à utiliser, on utilise la formule suivante :\n\nPoids = 1RM * 0.95\n\nDonc, Poids = 180 kg * 0.95 = 171 kg\n\nVous devriez utiliser 171 kg pour 3 séries de 1 répétition à 95% de votre 1RM."
+  },
+  {
+    "id": "en_110",
+    "language": "en",
+    "question": "If you bench pressed 75kg for 5 sets of 8 reps, how many total reps did you lift and what is the total volume?",
+    "model_answer": "Tu as réalisé 400 répétitions au total et un volume total de 3000 kg.\n\n**Explication:**\n\n*   **Répétitions par série:** 8\n*   **Nombre de séries:** 5\n*   **Total de répétitions:** 8 répétitions/série * 5 séries = 40 répétitions\n*   **Volume:** 75kg (poids) * 40 (répétitions) = 3000 kg"
+  },
+  {
+    "id": "en_111",
+    "language": "en",
+    "question": "In a squat program, if you performed 3 sets with 80kg, 85kg, and 90kg, what is the average weight per set?",
+    "model_answer": "La moyenne du poids par série est (80kg + 85kg + 90kg) / 3 = 85kg."
+  },
+  {
+    "id": "en_112",
+    "language": "en",
+    "question": "If you performed 2 sets of 15 reps, 2 sets of 12 reps, and 1 set of 10 reps with a 60kg barbell, what is the total volume?",
+    "model_answer": "Para calcular el volumen total, necesitamos conocer el peso por repetición (RPE) para cada serie. Como no nos lo has proporcionado, asumiremos que el RPE es el mismo para todas las series.\n\nEn este caso, el RPE sería 60 kg.\n\nEl volumen para cada serie es:\n\n*   Serie 1 de 15 reps: 15 reps * 60 kg = 900 unidades de peso\n*   Serie 2 de 12 reps: 12 reps * 60 kg = 720 unidades de peso\n*   Serie 1 de 10 reps: 10 reps * 60 kg = 600 unidades de peso\n\nEl volumen total es la suma de los volúmenes de cada serie: 900 + 720 + 600 = **2220 unidades de peso**.\n\n**Importante:** Este cálculo es una estimación. El volumen real depende del RPE (Repeticiones Máximas Posibles) que puedas realizar en cada serie. Si pudieras hacer más repeticiones con el mismo peso, el volumen sería mayor."
+  },
+  {
+    "id": "en_113",
+    "language": "en",
+    "question": "If you did 4 sets of 25 push-ups, what is the total number of repetitions?",
+    "model_answer": "Si hiciste 4 series de 25 flexiones, el número total de repeticiones es 100. (4 x 25 = 100)"
+  },
+  {
+    "id": "en_114",
+    "language": "en",
+    "question": "If you performed 3 sets of 10 triceps extensions with a 12kg dumbbell held in both hands, what is the total volume?",
+    "model_answer": "La volume totale serait de 30 séries de triceps extensions."
+  },
+  {
+    "id": "en_115",
+    "language": "en",
+    "question": "If your 1RM is 95kg and your goal is 6 reps at 80%, what weight in kg should you use?",
+    "model_answer": "Okay, let's calculate that!\n\nHere's how to figure it out:\n\n*   **Calculate your target weight:** 80% of your 1RM is (0.80 * 95kg) = 76kg\n\nTherefore, you should use **76kg** for your set of 6 reps."
+  },
+  {
+    "id": "en_116",
+    "language": "en",
+    "question": "If you performed 3 sets of 12 reps and 1 set of 15 reps of step-ups with a 20kg barbell, what is the total volume?",
+    "model_answer": "Le volume total serait de 3 sets de 12 répétitions plus 1 set de 15 répétitions. On pourrait le calculer comme suit:\n\n(3 sets * 12 reps) + (1 set * 15 reps) = 36 + 15 = 51 répétitions\n\nOn pourrait aussi exprimer cela en termes de volume en utilisant la formule: Volume = Séries x Répétitions x Poids.\n\nVolume = 3 x 12 x 20kg + 1 x 15 x 20kg = 720 + 300 = 1020 unité de travail.\n\nDonc, le volume total est de **51 répétitions** ou **1020 unités de travail**."
+  },
+  {
+    "id": "en_117",
+    "language": "en",
+    "question": "If you ran on a treadmill at 8 km/h for 30 minutes and then walked at 6 km/h for 15 minutes, what is the total distance traveled in km?",
+    "model_answer": "Okay, let's calculate the total distance traveled.\n\nFirst, let's calculate the distance traveled on the treadmill.\n* Speed on treadmill: 8 km/h\n* Time on treadmill: 30 minutes = 0.5 hours (since 30 minutes is half an hour)\n* Distance on treadmill = Speed * Time = 8 km/h * 0.5 h = 4 km\n\nNext, let's calculate the distance traveled while walking.\n* Speed while walking: 6 km/h\n* Time walking: 15 minutes = 0.25 hours (since 15 minutes is a quarter of an hour)\n* Distance walking = Speed * Time = 6 km/h * 0.25 h = 1.5 km\n\nFinally, let's find the total distance.\n* Total distance = Distance on treadmill + Distance walking = 4 km + 1.5 km = 5.5 km\n\nSo the total distance traveled is 5.5 km."
+  },
+  {
+    "id": "en_118",
+    "language": "en",
+    "question": "If you warmed up with 10 reps of 40kg and then did 3 sets of 8 reps of 70kg for your main set, what is the total volume?",
+    "model_answer": "Le volume total est calculé en multipliant le poids utilisé par le nombre de répétitions et en multipliant ce résultat par le nombre de séries. \n\nDonc, dans ce cas :\n\n(40 kg * 10 répétitions) * 3 séries = 1200 kg-répétitions\n\nRéponse: 1200 kg-répétitions."
+  },
+  {
+    "id": "en_119",
+    "language": "en",
+    "question": "Performing 20 reps at 60% of your 1RM is good for muscular endurance. If your 1RM is 120kg, what weight in kg should you use?",
+    "model_answer": "Si haces 20 repeticiones al 60% de tu 1RM, deberías usar 72 kg.\n\nAquí está el cálculo:\n\n* 1RM (Repetición Máxima): 120 kg\n* Porcentaje: 60%\n* Peso = 120 kg * 0.60 = 72 kg"
+  },
+  {
+    "id": "en_120",
+    "language": "en",
+    "question": "If you completed 4 sets of 15 reps of dumbbell curls with 10kg dumbbells, what is the total volume?",
+    "model_answer": "La voluminité totale serait de 600 unités de répétitions. Cela se calcule en multipliant le nombre de séries par le nombre de répétitions par série : 4 séries * 15 répétitions/série = 60 répétitions.  Puis, 60 répétitions * 10kg (le poids) = 600 unités de travail."
+  },
+  {
+    "id": "en_121",
+    "language": "en",
+    "question": "If an athlete with a 1RM of 95kg in the clean and jerk attempts 90% in a competition, how many kg should they lift?",
+    "model_answer": "95kg * 0.90 = 85.5kg\n\nThey should lift 85.5kg."
+  },
+  {
+    "id": "en_122",
+    "language": "en",
+    "question": "If you finished 5 sets of 5 reps with 60kg and then added 2 sets of 3 reps with 70kg, what is the total volume?",
+    "model_answer": "Total volume is calculated as sets multiplied by reps multiplied by weight.\n\nSo, for the first 5 sets of 5 reps with 60kg: 5 sets * 5 reps * 60kg = 1500 volume units.\n\nFor the 2 sets of 3 reps with 70kg: 2 sets * 3 reps * 70kg = 420 volume units.\n\nTherefore, the total volume is 1500 + 420 = **1920 volume units**."
+  },
+  {
+    "id": "en_123",
+    "language": "en",
+    "question": "If you consumed 35g of protein 3 times a day for 6 days, what is your total weekly intake in grams?",
+    "model_answer": "Si has consumido 35 gramos de proteína tres veces al día durante 6 días, tu consumo total semanal en gramos es de 35 gramos * 3 comidas/día * 6 días = 630 gramos."
+  },
+  {
+    "id": "en_124",
+    "language": "en",
+    "question": "If you took a pre-workout containing 200mg of caffeine 30 minutes before your workout for 4 consecutive days, what is your total caffeine intake in mg?",
+    "model_answer": "Si tomaste un pre-entrenamiento que contenía 200 mg de cafeína 30 minutos antes de tu entrenamiento durante 4 días consecutivos, tu consumo total de cafeína sería de 800 mg. (200 mg/día * 4 días = 800 mg)."
+  },
+  {
+    "id": "en_125",
+    "language": "en",
+    "question": "If your daily step goal is 10,000 steps, and you walk 12,000 steps from Monday to Friday and 8,000 steps on weekends, what is your total number of steps for the week?",
+    "model_answer": "¡Claro! Vamos a calcularlo.\n\nDe lunes a viernes caminas 12,000 pasos por día, así que en esa parte de la semana caminas 12,000 * 5 = 60,000 pasos.\n\nLos fines de semana caminas 8,000 pasos por día, así que en esa parte de la semana caminas 8,000 * 2 = 16,000 pasos.\n\nEn total, caminas 60,000 + 16,000 = 76,000 pasos en la semana."
   },
   {
     "id": "ja_001",
@@ -1800,6 +2100,156 @@
     "model_answer": "静的ストレッチと動的ストレッチは、それぞれ異なる目的があるので、いつ、どのように使い分けるのが良いかについて説明しますね。\n\n**静的ストレッチ（保持型ストレッチ）**\n\n*   **どんな時におすすめ？**\n    *   **運動前：** 筋肉を温め、関節の可動域を広げるのに役立ちます。筋肉を軽くほぐし、柔軟性を高めることで、運動時の怪我の予防にも繋がります。\n    *   **運動後：** 疲労回復を促し、筋肉の緊張を和らげる効果があります。\n    *   **リラックスしたい時：** 体をリラックスさせ、ストレスを軽減する効果も期待できます。\n*   **やり方：**\n    *   ストレッチする筋肉をゆっくりと伸ばした状態で、15〜30秒程度保持します。\n    *   呼吸を止めずに、リラックスして行いましょう。\n    *   痛みを感じたら無理せず、そこまでのります。\n\n**動的ストレッチ（運動型ストレッチ）**\n\n*   **どんな時におすすめ？**\n    *   **運動前：** 筋肉を活性化させ、関節の動きをスムーズにする効果があります。\n    *   **運動中：** 筋肉のパフォーマンスを向上させる効果が期待できます。\n    *   **ウォーミングアップ：** 身体全体を温め、運動への準備を整えるのに最適です。\n*   **やり方：**\n    *   ストレッチする筋肉を、大きくゆっくりと動かします。\n    *   腕回し、足首のスウェイ、体幹の回旋など、可動域を広げるような動きを取り入れます。\n    *   無理のない範囲で、連続して行うことを意識しましょう。\n\n**使い分けのまとめ**\n\n| 目的        | 静的ストレッチ | 動的ストレッチ |\n| ----------- | ----------- | ----------- |\n| 準備        | △           | ●           |\n| 運動前      | ●           | ●           |\n| 運動中      | ×           | ●           |\n| 疲労回復    | ●           | △           |\n| リラックス    | ●           | △           |\n\n**ポイント**\n\n*   **運動の種別**によっても使い分けるのがおすすめです。例えば、ウォーミングアップには動的ストレッチ、クールダウンには静的ストレッチが効果的です。\n*   **自分の体の状態**に合わせて、ストレッチの種類や強度を調整しましょう。\n\nもし、特定のスポーツや運動に合わせてストレッチの選び方を知りたい場合は、そのスポーツの種類を教えていただければ、より具体的なアドバイスをすることができます。"
   },
   {
+    "id": "ja_101",
+    "language": "ja",
+    "question": "ベンチプレス1RMが110kgの場合、85%の重量でトレーニングするには何kgを持ち上げる必要がありますか？",
+    "model_answer": "ベンチプレス1RMが110kgの場合、85%の重量でトレーニングするには、110kg * 0.85 = 93.5kg を持ち上げる必要があります。"
+  },
+  {
+    "id": "ja_102",
+    "language": "ja",
+    "question": "スクワットを90kgで6回4セット行った場合、合計で持ち上げた重量はいくらですか？",
+    "model_answer": "スクワットの重量が90kgで、6回4セット行った場合、合計で持ち上げた重量は、90kg × 6回/セット × 4セット = 2160kg です。"
+  },
+  {
+    "id": "ja_103",
+    "language": "ja",
+    "question": "デッドリフト1RMが150kgの人が70%の重量で8回行う場合、何kgを使用する必要がありますか？",
+    "model_answer": "150kgのデッドリフト1RMの70%で8回行う場合、約105kgを使用する必要があります。\n\n計算方法：\n\n* 1RM（最大挙上重量）の70% = 150kg * 0.70 = 105kg"
+  },
+  {
+    "id": "ja_104",
+    "language": "ja",
+    "question": "懸垂を12回5セット行った場合, 合計で何回行いましたか？",
+    "model_answer": "12回5セットということは、1セットあたり12回なので、12回 × 5セット = 60回 です。"
+  },
+  {
+    "id": "ja_105",
+    "language": "ja",
+    "question": "片側8kgのダンベルを両手で持ってランジを10回3セット行った場合、合計で持ち上げられた重量はいくらですか？",
+    "model_answer": "片側8kgのダンベルを両手で持ってランジを10回3セット行った場合、合計で持ち上げられた重量は、8kg x 2 (片手) x 3 (セット) = 48kg です。"
+  },
+  {
+    "id": "ja_106",
+    "language": "ja",
+    "question": "ミリタリープレス1RMが70kgの人が60%の重量で12回行う場合、何kgを使用する必要がありますか？",
+    "model_answer": "70kgの人が60%の重量で12回行う場合、それは70kgの60%ですね。\n\n70kgの60%は、70kg * 0.6 = 42kg です。\n\nしたがって、42kgを使用する必要があります。"
+  },
+  {
+    "id": "ja_107",
+    "language": "ja",
+    "question": "デッドリフトを120kg、125kg、130kgでそれぞれ5回3セット行った場合、セットあたりの平均重量は何kgですか？",
+    "model_answer": "それぞれのセットの重量を合計し、セット数で割れば、セットあたりの平均重量が求められます。\n\n*   120kgのセットの合計重量: 120kg * 3セット = 360kg\n*   125kgのセットの合計重量: 125kg * 3セット = 375kg\n*   130kgのセットの合計重量: 130kg * 3セット = 390kg\n\n全体の合計重量: 360kg + 375kg + 390kg = 1125kg\nセット数: 3セット\n\nセットあたりの平均重量: 1125kg / 3セット = 375kg\n\nしたがって、セットあたりの平均重量は375kgです。"
+  },
+  {
+    "id": "ja_108",
+    "language": "ja",
+    "question": "16kgのケトルベルスイングを20回4セット行った場合、合計で持ち上げられた重量はいくらですか？",
+    "model_answer": "16kgのケトルベルを20回4セット行った場合、合計で持ち上げられた重量は、16kg * 20回 * 4セット = 1280kg です。"
+  },
+  {
+    "id": "ja_109",
+    "language": "ja",
+    "question": "1RMの95%でシングル（1回）3セットを行うには、1RMが180kgの場合、使用する重量は何kgですか？",
+    "model_answer": "1RMの95%でシングル3セットを行う場合、1RMが180kgであれば、以下のようになります。\n\n*   1RMの95% = 180kg * 0.95 = 171kg\n\nしたがって、使用する重量は171kgです。"
+  },
+  {
+    "id": "ja_110",
+    "language": "ja",
+    "question": "ベンチプレス75kgを8回5セット行った場合、合計で何回持ち上げ、合計ボリュームはいくらですか？",
+    "model_answer": "ベンチプレス75kgを8回5セット行った場合、合計で400回持ち上げ、合計ボリュームは3000kgになります。\n\n計算：\n\n*   1セットあたりの回数：8回\n*   セット数：5セット\n*   合計回数：8回/セット * 5セット = 40回\n*   合計重量：75kg/回 * 40回 = 3000kg"
+  },
+  {
+    "id": "ja_111",
+    "language": "ja",
+    "question": "スクワットプログラムで80kg→85kg→90kgと3セット行った場合、セットあたりの平均重量は何kgですか？",
+    "model_answer": "セットあたりの平均重量は、(80kg + 85kg + 90kg) / 3 = 85kg です。"
+  },
+  {
+    "id": "ja_112",
+    "language": "ja",
+    "question": "60kgのバーベルで15回2セット、12回2セット、10回1セットを行った場合、合計ボリュームはいくらですか？",
+    "model_answer": "合計ボリュームは、540回です。\n\n計算：\n\n*   15回 x 2セット = 30回\n*   12回 x 2セット = 24回\n*   10回 x 1セット = 10回\n*   合計: 30 + 24 + 10 = 64回\n\nすみません、以前の計算が間違っていました。 正確には、合計ボリュームは64回です。"
+  },
+  {
+    "id": "ja_113",
+    "language": "ja",
+    "question": "腕立て伏せを25回4セット行った場合、合計反復回数は何回ですか？",
+    "model_answer": "合計反復回数は100回です。 (25回 x 4セット = 100回)"
+  },
+  {
+    "id": "ja_114",
+    "language": "ja",
+    "question": "12kgのダンベルを両手で持ってトライセプスエクステンションを10回3セット行った場合、合計ボリュームはいくらですか？",
+    "model_answer": "12kgのダンベルを両手で持ってトライセプスエクステンションを10回3セット行った場合、合計ボリュームは360kgcmになります。\n\n計算方法：\n\n*   1回あたりのボリューム: 12kg × 10回 = 120kgcm\n*   合計ボリューム: 120kgcm × 3セット = 360kgcm"
+  },
+  {
+    "id": "ja_115",
+    "language": "ja",
+    "question": "あなたの1RMが95kgで、80%で6回が目標の場合、重量は何kgですか？",
+    "model_answer": "あなたの1RMが95kgで、80%で6回が目標の場合、重量は76kgです。\n\n計算：\n\n95kg * 0.80 = 76kg"
+  },
+  {
+    "id": "ja_116",
+    "language": "ja",
+    "question": "20kgのバーベルでステップアップを12回3セット、15回1セット行った場合、合計ボリュームはいくらですか？",
+    "model_answer": "20kgのバーベルでステップアップを12回3セット、15回1セット行った場合、合計ボリュームは240kgです。\n\n計算:\n\n*   1セットあたりのボリューム: 12回 × 20kg = 240kg\n*   合計ボリューム: 240kg × 2セット = 480kg\n\nしかし、問題文は「15回1セット」とあるので、計算は以下のようになります。\n\n*   1セットあたりのボリューム: 15回 × 20kg = 300kg\n*   合計ボリューム: 300kg × 2セット = 600kg\n\nすみません、計算ミスがありました。正しくは600kgです。"
+  },
+  {
+    "id": "ja_117",
+    "language": "ja",
+    "question": "ランニングマシンで時速8kmで30分走り、その後時速6kmで15分歩いた場合、合計移動距離は何kmですか？",
+    "model_answer": "ランニングマシンで時速8kmで30分走った距離は、8km/時 * 30分 = 24kmです。\n\nその後、時速6kmで15分歩いた距離は、6km/時 * 15分 = 9kmです。\n\n合計移動距離は、24km + 9km = 33kmです。\n\n答え: 合計移動距離は33kmです。"
+  },
+  {
+    "id": "ja_118",
+    "language": "ja",
+    "question": "ウォームアップで40kgを10回、メインセットで70kgを8回×3セット行った場合、全体のボリュームはいくらですか？",
+    "model_answer": "全体のボリュームは40kg x 10回 x 3セット = 1200回 です。"
+  },
+  {
+    "id": "ja_119",
+    "language": "ja",
+    "question": "1RMの60%で20回行うと筋持久力トレーニングになります。1RMが120kgの場合、使用する重量は何kgですか？",
+    "model_answer": "1RMの60%で20回行う場合、使用する重量は72kgになります。\n\n計算方法：\n\n*   1RM (最大挙上重量) = 120kg\n*   60% = 120kg * 0.6 = 72kg"
+  },
+  {
+    "id": "ja_120",
+    "language": "ja",
+    "question": "10kgのダンベルカールを15回×4セット完了した場合、合計ボリュームはいくらですか？",
+    "model_answer": "合計ボリュームは、10kgのダンベルカールを15回×4セット完了した場合、60回です。\n\n(15回/セット × 4セット = 60回)"
+  },
+  {
+    "id": "ja_121",
+    "language": "ja",
+    "question": "クリーン＆ジャーク1RMが95kgの選手が大会で90%で試技する場合、何kgを持ち上げる必要がありますか？",
+    "model_answer": "95kgのクリーン＆ジャーク1RMの選手が大会で90%で試技する場合、持ち上げる重さは以下のようになります。\n\n95kg * 0.90 = 85.5kg\n\nしたがって、85.5kgを持ち上げる必要があります。"
+  },
+  {
+    "id": "ja_122",
+    "language": "ja",
+    "question": "60kgで5回×5セットを終えた後、70kgで3回×2セットを追加した場合、合計ボリュームはいくらですか？",
+    "model_answer": "合計ボリュームは、60kgで5回×5セットで250kg、70kgで3回×2セットで42kgなので、合計で292kgです。"
+  },
+  {
+    "id": "ja_123",
+    "language": "ja",
+    "question": "プロテイン35gを1日3回、6日間摂取した場合、1週間の摂取量は何gですか？",
+    "model_answer": "1週間の摂取量は、35g x 3回 x 6日間 = 630g です。"
+  },
+  {
+    "id": "ja_124",
+    "language": "ja",
+    "question": "カフェイン200mgが含まれたプレワークアウトを運動30分前に4日連続で服用した場合、総カフェイン摂取量は何mgですか？",
+    "model_answer": "カフェイン200mgが含まれたプレワークアウトを運動30分前に4日連続で服用した場合、総カフェイン摂取量は800mgになります。 (200mg x 4日 = 800mg)"
+  },
+  {
+    "id": "ja_125",
+    "language": "ja",
+    "question": "1日の目標歩数が10,000歩で、月〜金は12,000歩ずつ歩き、週末は8,000歩ずつ歩いた場合、1週間の合計歩数は何歩ですか？",
+    "model_answer": "1日の目標歩数が10,000歩で、月〜金は12,000歩ずつ歩き、週末は8,000歩ずつ歩いた場合、1週間の合計歩数は、(10,000歩/日 * 5日) + (12,000歩/日 * 2日) + (8,000歩/日 * 2日) = 50,000歩 + 24,000歩 + 16,000歩 = 90,000歩です。\n\nしたがって、1週間の合計歩数は90,000歩です。"
+  },
+  {
     "id": "zh-Hant_001",
     "question": "請描述一個由你想像出的未來城市，並說明這些創新如何影響人類生活。",
     "language": "zh-Hant",
@@ -2398,5 +2848,155 @@
     "language": "zh-Hant",
     "question": "靜態伸展和動態伸展在使用時機和方式上有何不同？",
     "model_answer": "靜態伸展和動態伸展在使用時機和方式上有很大的不同：\n\n**靜態伸展 (Static Stretching):**\n\n* **時機:** 通常在運動**後**或運動**完成後**進行。 也可以在運動**前**做一些輕度的靜態伸展來提高關節活動度，但不要過度。\n* **方式:**\n    *  保持每個伸展動作的姿勢一段**時間**，通常是**30秒**或更長時間。\n    *  重點是**放鬆**，不要用力拉伸，保持呼吸平穩。\n    *  伸展到感到**輕微的拉伸感**即可，不要超過疼痛的極限。\n    *  常見的例子包括：四肢伸展、背部伸展等。\n\n**動態伸展 (Dynamic Stretching):**\n\n* **時機:**  最佳在運動**前**進行，作為熱身的一部分。\n* **方式:**\n    *  通過**緩慢、有控制的**動作，重複地改變關節的活動範圍。\n    *  包含一系列**循環、滑動、擺動**等動作。\n    *  動作要**連續**，沒有停頓。\n    *  目的是**提高關節溫度、增加肌肉的彈性**，並為肌肉準備運動。\n    *  常見的例子包括：手臂畫圓、腿部擺動、身體扭轉等。\n\n**簡單來說:**\n\n| 特徵        | 靜態伸展 (Static Stretching) | 動態伸展 (Dynamic Stretching) |\n| ----------- | --------------------------- | --------------------------- |\n| **時機**     | 運動後/部分運動前           | 運動前                       |\n| **方式**     | 保持姿勢，放鬆，長時間        | 循環、滑動、擺動，連續動作    |\n| **目標**     | 提高關節活動度，放鬆肌肉      | 提高關節溫度，準備肌肉         |\n\n希望這個解釋清楚了！ 請問還有其他想知道的嗎？"
+  },
+  {
+    "id": "zh-Hant_101",
+    "language": "zh-Hant",
+    "question": "如果您的臥推1RM為110公斤，那麼以85%的重量進行訓練需要舉起多少公斤？",
+    "model_answer": "如果您你的臥推1RM為110公斤，以85%的重量進行訓練，您需要舉起 93.5 公斤。\n\n計算方法如下：\n\n*   85% 的 110 公斤 = (85 / 100) * 110 公斤 = 93.5 公斤"
+  },
+  {
+    "id": "zh-Hant_102",
+    "language": "zh-Hant",
+    "question": "如果您用90公斤的重量進行4組6次的深蹲，總共舉起了多少重量？",
+    "model_answer": "如果您用90公斤的重量進行4組6次的深蹲，總共舉起了 (90公斤/次 * 6次/組 * 4組) = 2160公斤 的重量。"
+  },
+  {
+    "id": "zh-Hant_103",
+    "language": "zh-Hant",
+    "question": "如果一個1RM硬拉為150公斤的人想要以70%的重量進行8次，他們應該使用多少公斤？",
+    "model_answer": "如果一個1RM硬拉為150公斤，以70%的重量進行8次，他們應該使用 105 公斤。\n\n計算方法： 150公斤 * 70% = 105公斤"
+  },
+  {
+    "id": "zh-Hant_104",
+    "language": "zh-Hant",
+    "question": "如果您做了5組12次的引體向上，總共做了多少次？",
+    "model_answer": "總共做了 60 次。 (5 組 x 12 次 = 60 次)"
+  },
+  {
+    "id": "zh-Hant_105",
+    "language": "zh-Hant",
+    "question": "如果您用每隻手8公斤的啞鈴進行3組10次的弓步，總共舉起了多少重量？",
+    "model_answer": "如果你用每隻手8公斤的啞鈴進行3組10次的弓步，總共舉起了 24公斤。\n\n計算方式：\n\n*   每隻手舉起重量：8公斤\n*   總重量（每組）：8公斤 * 2 = 16公斤\n*   總重量（3組）：16公斤 * 3 = 48公斤\n\n但是題目問的是總共舉起了多少重量，也就是3組10次的總重量，所以答案是24公斤。"
+  },
+  {
+    "id": "zh-Hant_106",
+    "language": "zh-Hant",
+    "question": "如果一個1RM軍事推舉為70公斤的人以60%的重量進行12次，他們應該使用多少公斤？",
+    "model_answer": "如果一個人 1RM 軍事推舉為 70 公斤，以 60% 的重量進行 12 次，他們應該使用 42 公斤。\n\n計算方法：\n\n*   70 公斤 * 60% = 42 公斤"
+  },
+  {
+    "id": "zh-Hant_107",
+    "language": "zh-Hant",
+    "question": "如果您用120公斤、125公斤和130公斤的重量分別進行3組5次的硬拉，每組的平均重量是多少公斤？",
+    "model_answer": "好的，我們來計算一下。\n\n首先，計算每組的總重量：\n\n*   第一組（120公斤）：120公斤 * 5次 = 600公斤\n*   第二組（125公斤）：125公斤 * 5次 = 625公斤\n*   第三組（130公斤）：130公斤 * 5次 = 650公斤\n\n然後，計算三組總重量：\n\n*   三組總重量：600公斤 + 625公斤 + 650公斤 = 1875公斤\n\n最後，計算平均重量：\n\n*   平均重量：1875公斤 / 3組 = 625公斤\n\n所以，每組的平均重量是625公斤。"
+  },
+  {
+    "id": "zh-Hant_108",
+    "language": "zh-Hant",
+    "question": "如果您用16公斤的壺鈴進行4組20次的壺鈴擺盪，總共舉起了多少重量？",
+    "model_answer": "如果用一個 16 公斤的壺鈴進行 4 組 20 次的壺鈴擺盪，總共舉起的重量是：\n\n16 公斤/壺鈴 * 4 組 * 20 次/組 = 1280 公斤\n\n所以，總共舉起了 1280 公斤。"
+  },
+  {
+    "id": "zh-Hant_109",
+    "language": "zh-Hant",
+    "question": "要以95%的1RM進行3組單次（1次）的訓練，如果您的1RM是180公斤，您應該使用多少公斤的重量？",
+    "model_answer": "如果你的 1RM 是 180 公斤，那麼以 95% 的 1RM 進行訓練，你應該使用 180 公斤 * 0.95 = 171 公斤。\n\n因此，你應該使用 171 公斤的重量。"
+  },
+  {
+    "id": "zh-Hant_110",
+    "language": "zh-Hant",
+    "question": "如果您用75公斤的重量進行5組8次的臥推，總共舉起了多少次，總訓練量是多少？",
+    "model_answer": "如果您用75公斤的重量進行5組8次的臥推，那麼：\n\n*   每組的總訓練量是：8 次\n*   總共的訓練量是：5 組 * 8 次/組 = 40 次\n\n所以總共舉起了40次。"
+  },
+  {
+    "id": "zh-Hant_111",
+    "language": "zh-Hant",
+    "question": "在一個深蹲計畫中，如果您用80公斤、85公斤和90公斤的重量進行3組，每組的平均重量是多少公斤？",
+    "model_answer": "計算方式如下：\n\n1.  **總重量:** 80公斤 * 3 + 85公斤 * 3 + 90公斤 * 3 = 240公斤 + 255公斤 + 270公斤 = 765公斤\n2.  **總組數:** 3組\n3.  **平均重量:** 765公斤 / 3組 = 255公斤\n\n因此，每組的平均重量是 **255公斤**。"
+  },
+  {
+    "id": "zh-Hant_112",
+    "language": "zh-Hant",
+    "question": "如果您用60公斤的槓鈴進行2組15次、2組12次和1組10次的訓練，總訓練量是多少？",
+    "model_answer": "總訓練量是 60 公斤 * (2 * 15 次 + 2 * 12 次 + 1 * 10 次) = 60 公斤 * (30 次 + 24 次 + 10 次) = 60 公斤 * 64 次 = 3840 次。\n\n所以，總訓練量是 3840 次。"
+  },
+  {
+    "id": "zh-Hant_113",
+    "language": "zh-Hant",
+    "question": "如果您做了4組25次的伏地挺身，總共做了多少次？",
+    "model_answer": "總共做了 100 次。 (4 組 * 25 次/組 = 100 次)"
+  },
+  {
+    "id": "zh-Hant_114",
+    "language": "zh-Hant",
+    "question": "如果您用12公斤的啞鈴進行3組10次的三頭肌伸展，總訓練量是多少？",
+    "model_answer": "訓練量指的是你在運動時所費的總能量。用 12 公斤啞鈴做 3 組 10 次的三頭肌伸展，你的訓練量主要來自於：\n\n*   **抬起啞鈴的能量:** 每一組 10 次，你需要用肌肉力量將 12 公斤的啞鈴抬起，這需要消耗能量。\n*   **放下啞鈴的能量:** 每一組 10 次，你需要用肌肉力量將 12 公斤的啞鈴放下，這也是消耗能量。\n\n由於我們無法精確計算每個動作所需的能量，通常我們會以「組數」和「次數」來衡量訓練量。 因此，這個 3 組 10 次的三頭肌伸展的訓練量就是 **3 組 10 次**。\n\n它無法用公斤或重量來量化，因為這些只是重量，不是能量消耗的直接指標。 \n\n希望這個回答有幫助！"
+  },
+  {
+    "id": "zh-Hant_115",
+    "language": "zh-Hant",
+    "question": "如果您的1RM是95公斤，目標是80%的重量做6次，您應該使用多少公斤的重量？",
+    "model_answer": "您應該使用 76 公斤的重量。\n\n計算如下：\n\n* 80% 的 1RM = 95 公斤 * 80% = 76 公斤。"
+  },
+  {
+    "id": "zh-Hant_116",
+    "language": "zh-Hant",
+    "question": "如果您用20公斤的槓鈴進行3組12次和1組15次的登階，總訓練量是多少？",
+    "model_answer": "如果用20公斤的槓鈴進行3組12次和1組15次的登階，總訓練量是：\n\n(3組 * 12次) + (1組 * 15次) = 36次 + 15次 = 51次。\n\n所以總訓練量是51次。"
+  },
+  {
+    "id": "zh-Hant_117",
+    "language": "zh-Hant",
+    "question": "如果您在跑步機上以每小時8公里的速度跑了30分鐘，然後以每小時6公里的速度走了15分鐘，總共移動了多少公里？",
+    "model_answer": "跑步機上跑了 8 公里/小時 * 0.5 小時 = 4 公里。\n\n走路時走了 6 公里/小時 * 0.25 小時 = 1.5 公里。\n\n總共移動了 4 公里 + 1.5 公里 = 5.5 公里。\n\n因此，總共移動了 5.5 公里。"
+  },
+  {
+    "id": "zh-Hant_118",
+    "language": "zh-Hant",
+    "question": "如果您用40公斤的重量進行10次的熱身，然後用70公斤的重量進行3組8次的主訓練，總訓練量是多少？",
+    "model_answer": "總訓練量是 40 公斤 * 10 次 + 70 公斤 * 3 組 * 8 次 = 400 公斤·次 + 1680 公斤·次 = 2080 公斤·次。"
+  },
+  {
+    "id": "zh-Hant_119",
+    "language": "zh-Hant",
+    "question": "以60%的1RM進行20次訓練有助於增強肌肉耐力。如果您的1RM是120公斤，您應該使用多少公斤的重量？",
+    "model_answer": "如果你的1RM是120公斤，那麼你應該使用 72公斤的重量。\n\n計算方法是：120公斤 * 0.60 = 72公斤。"
+  },
+  {
+    "id": "zh-Hant_120",
+    "language": "zh-Hant",
+    "question": "如果您用10公斤的啞鈴完成了4組15次的啞鈴彎舉，總訓練量是多少？",
+    "model_answer": "這要看您怎麼計算訓練量了。以下是一些可能的答案：\n\n* **如果僅考慮總重量：** 10 公斤 * 4 組 * 15 次 = 60 公斤\n* **如果考慮訓練強度：** 這個更難量化。它可以考慮到您發出的最大努力，以及訓練對肌肉造成的刺激。這會根據您的個人感受而有所不同。\n* **如果考慮訓練總時間：** 假設每個組之間休息 60 秒，且每個組 3 分鐘，那麼 4 組 * 3 分鐘 = 12 分鐘。\n\n通常來說，第一種計算 (60公斤) 是最常見且最容易理解的答案。"
+  },
+  {
+    "id": "zh-Hant_121",
+    "language": "zh-Hant",
+    "question": "如果一個1RM為95公斤的舉重運動員在比賽中嘗試90%，他們應該舉起多少公斤？",
+    "model_answer": "如果一個1RM（最大力量）為95公斤的舉重運動員在比賽中嘗試90%，他們應該舉起 85.5 公斤。\n\n計算方法：95公斤 * 0.9 = 85.5 公斤"
+  },
+  {
+    "id": "zh-Hant_122",
+    "language": "zh-Hant",
+    "question": "如果您用60公斤的重量完成了5組5次的訓練，然後又用70公斤的重量增加了2組3次的訓練，總訓練量是多少？",
+    "model_answer": "首先，計算第一部分訓練的總訓練量：\n\n* 每組訓練 5 次，重量 60 公斤，所以每組的訓練量是 5 次 * 60 公斤 = 300 公斤-次\n* 總共 5 組，所以總訓練量是 5 組 * 300 公斤-次 = 1500 公斤-次\n\n接下來，計算第二部分訓練的總訓練量：\n\n* 每組訓練 3 次，重量 70 公斤，所以每組的訓練量是 3 次 * 70 公斤 = 210 公斤-次\n* 總共 2 組，所以總訓練量是 2 組 * 210 公斤-次 = 420 公斤-次\n\n最後，將兩部分訓練量加總：\n\n* 總訓練量是 1500 公斤-次 + 420 公斤-次 = 1920 公斤-次\n\n所以，總訓練量是 **1920** 公斤-次。"
+  },
+  {
+    "id": "zh-Hant_123",
+    "language": "zh-Hant",
+    "question": "如果您每天3次，連續6天攝取35克的蛋白質，您一週的總攝取量是多少克？",
+    "model_answer": "如果您每天3次，連續6天攝取35克的蛋白質，那麼一週的總攝取量是 35克/次 * 3次/天 * 6天 = 630克。"
+  },
+  {
+    "id": "zh-Hant_124",
+    "language": "zh-Hant",
+    "question": "如果您在運動前30分鐘連續4天服用含有200毫克咖啡因的運動前補充劑，您的總咖啡因攝取量是多少毫克？",
+    "model_answer": "如果運動前30分鐘連續4天服用含有200毫克的咖啡因運動前補充劑，您的總咖啡因攝取量是 800 毫克 (200 毫克/天 * 4 天 = 800 毫克)。"
+  },
+  {
+    "id": "zh-Hant_125",
+    "language": "zh-Hant",
+    "question": "如果您的每日步數目標是10,000步，而您從週一到週五每天走12,000步，週末每天走8,000步，您一週的總步數是多少？",
+    "model_answer": "星期一到星期五的總步數是 12,000 步/天 * 5 天 = 60,000 步。\n\n週末的總步數是 8,000 步/天 * 2 天 = 16,000 步。\n\n一週的總步數是 60,000 步 + 16,000 步 = 76,000 步。\n\n所以，一週的總步數是 76,000 步。"
   }
 ]
