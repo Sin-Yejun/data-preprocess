@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="document.querySelectorAll('.question-block').forEach(b => b.classList.add('collapsed')); document.querySelectorAll('.question-title').forEach(t => t.classList.add('collapsed'));">
+<body>
 <div class="container">
     <h1>Evaluation of Model's Answer</h1>
     <div class="lang-tab">
@@ -35861,14 +35860,22 @@ function openCategory(evt, catName, langCode) {
     evt.currentTarget.className += " active";
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.markdown-content').forEach(function(element) {
-        element.innerHTML = marked.parse(element.textContent || element.innerText);
+document.addEventListener("DOMContentLoaded", function () {
+  /* 1) 마크다운 변환 */
+  document.querySelectorAll(".markdown-content").forEach(el => {
+    el.innerHTML = marked.parse(el.textContent || el.innerText);
+  });
+
+  /* 2) 언어 기본 탭 열기 */
+  const defaultLang = document.getElementById("defaultOpenLang");
+  if (defaultLang) defaultLang.click();
+
+  /* 3) 질문 제목 클릭 → .question-block 활성화 */
+  document.querySelectorAll(".question-title").forEach(title => {
+    title.addEventListener("click", () => {
+      title.closest(".question-block").classList.toggle("active");
     });
-    let defaultLang = document.getElementById("defaultOpenLang");
-    if (defaultLang) {
-        defaultLang.click();
-    }
+  });
 });
 </script>
 </body>

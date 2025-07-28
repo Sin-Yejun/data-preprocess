@@ -32,22 +32,25 @@ function openCategory(evt, categoryName, lang) {
     evt.currentTarget.className += " active";
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("defaultOpenLang").click();
-    
-    var markdownContent = document.querySelectorAll('.markdown-content');
-    markdownContent.forEach(function(element) {
-        var markdownText = element.getAttribute('data-markdown');
-        element.innerHTML = marked.parse(markdownText);
-    });
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("defaultOpenLang").click();
 
-    // Add click event listener to question titles for accordion functionality
-    const questionTitles = document.querySelectorAll('.question-title');
-    questionTitles.forEach(title => {
-        title.addEventListener('click', () => {
-            const questionBlock = title.closest('.question-block');
-            questionBlock.classList.toggle('collapsed');
-            title.classList.toggle('collapsed');
-        });
+  document.querySelectorAll(".markdown-content").forEach(el => {
+    const md = el.getAttribute("data-markdown") || "";
+    if (typeof marked !== "undefined") {
+      el.innerHTML = marked.parse(md);
+    } else {
+      // marked가 없으면 그냥 텍스트로 넣기
+      el.textContent = md;
+    }
+  });
+
+  // 이 부분이 실행돼야 질문 토글이 동작합니다
+  document.querySelectorAll(".question-title").forEach(title => {
+    title.addEventListener("click", () => {
+      title.closest(".question-block").classList.toggle("active");
     });
+  });
 });
+
+
