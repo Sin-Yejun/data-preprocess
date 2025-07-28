@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-INPUT_PATH = "generated_questions_100_v1_qwen_scored.json"  # 실제 경로로 수정
+INPUT_PATH = "final_data/QA_gemma.json"  # 실제 경로로 수정
 
 with open(INPUT_PATH, encoding="utf-8") as f:
     data = json.load(f)
@@ -12,9 +12,9 @@ df["lang"] = df["id"].str.split("_").str[0]
 # 분석 대상 점수 열
 cols = ["accuracy", "relevance", "explanatory_power", "fluency", "creativity"]
 
-# 1) 언어별 앞 25개만 골라 평균
+# 1) 언어별 앞 100개만 골라 평균 (뒤에 25개는 제외 - 연산문제라서)
 df["rank"] = df.groupby("lang").cumcount()
-subset = df[df["rank"] < 25]
+subset = df[df["rank"] < 100]
 lang_means = subset.groupby("lang")[cols].mean()
 
 # 2) 행 평균: 언어별 5개 지표의 평균
