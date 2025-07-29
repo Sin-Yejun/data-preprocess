@@ -102,6 +102,7 @@ function createHTML(qaData) {
             Object.keys(qaData[lang][category]).forEach(question => {
                 const questionBlock = document.createElement('div');
                 questionBlock.className = 'question-block';
+                questionBlock.dataset.question = question; // Add question data attribute
                 categoryContent.appendChild(questionBlock);
 
                 const questionTitle = document.createElement('h2');
@@ -113,10 +114,12 @@ function createHTML(qaData) {
                 answersContainer.className = 'answers-container';
                 questionBlock.appendChild(answersContainer);
 
-                Object.keys(qaData[lang][category][question]).forEach(model => {
+                const models = Object.keys(qaData[lang][category][question]);
+                models.forEach(model => {
                     const modelData = qaData[lang][category][question][model];
                     const answerCard = document.createElement('div');
                     answerCard.className = 'answer-card';
+                    answerCard.dataset.model = model;
                     answersContainer.appendChild(answerCard);
 
                     const modelTitle = document.createElement('h4');
@@ -134,6 +137,11 @@ function createHTML(qaData) {
                         modelTitle.appendChild(correctnessIndicator);
                     }
                     
+                    const voteCount = document.createElement('span');
+                    voteCount.className = 'vote-count';
+                    voteCount.textContent = '(0 votes)';
+                    modelTitle.appendChild(voteCount);
+
                     answerCard.appendChild(modelTitle);
 
                     const markdownContent = document.createElement('div');
@@ -146,6 +154,86 @@ function createHTML(qaData) {
     });
 }
 
+function updateVoteCounts(question, votes) {
+    const questionBlock = document.querySelector(`.question-block[data-question="${question}"]`);
+    if (questionBlock) {
+        // First, reset all vote counts for this question to 0 in the UI
+        const allVoteCounts = questionBlock.querySelectorAll('.vote-count');
+        allVoteCounts.forEach(vc => {
+            const modelName = vc.closest('.answer-card').dataset.model;
+            if (!votes[modelName]) {
+                vc.textContent = '(0 votes)';
+            }
+        });
+
+        // Then, update with the new values
+        Object.keys(votes).forEach(model => {
+            const voteCountEl = questionBlock.querySelector(`.answer-card[data-model="${model}"] .vote-count`);
+            if (voteCountEl) {
+                voteCountEl.textContent = `(${votes[model]} votes)`;
+            }
+        });
+    }
+}
+
+
+let userVotes = {}; // Stores user's votes, e.g., { "question": "model" }
+let userId = '';
+
+// Function to get or create a user ID
+function getOrCreateUserId() {
+    let id = localStorage.getItem('userId');
+    if (!id) {
+        // Basic UUID generator
+        id = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+            var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+        });
+        localStorage.setItem('userId', id);
+    }
+    return id;
+}
+
+async function handleVote(question, model, cardElement) {
+    try {
+        const response = await fetch('/vote', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ question, model, userId }),
+        });
+        const result = await response.json();
+
+        if (result.success) {
+            // Update total vote counts
+            updateVoteCounts(question, result.votes);
+
+            // Update local vote state
+            if (result.userVote) {
+                userVotes[question] = result.userVote;
+            } else {
+                delete userVotes[question];
+            }
+            
+            // Update visual selection
+            const questionBlock = cardElement.closest('.question-block');
+            questionBlock.querySelectorAll('.answer-card').forEach(card => card.classList.remove('selected-vote'));
+            if (result.userVote) {
+                const selectedCard = questionBlock.querySelector(`.answer-card[data-model="${result.userVote}"]`);
+                if (selectedCard) {
+                    selectedCard.classList.add('selected-vote');
+                }
+            }
+
+        } else {
+            alert(result.message || 'Could not submit vote.');
+        }
+    } catch (error) {
+        console.error('Error submitting vote:', error);
+        alert('An error occurred while submitting your vote.');
+    }
+}
 
 function openLang(evt, lang) {
     var i, langtabcontent, langtablinks;
@@ -181,8 +269,42 @@ function openCategory(evt, categoryName, lang) {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
+    userId = getOrCreateUserId();
     const qaData = await loadQAData();
     createHTML(qaData);
+
+    // Fetch all data in parallel
+    try {
+        const [totalVotesRes, myVotesRes] = await Promise.all([
+            fetch('/votes'),
+            fetch(`/my-votes/${userId}`)
+        ]);
+
+        const totalVotes = await totalVotesRes.json();
+        const myVotes = await myVotesRes.json();
+        
+        userVotes = myVotes;
+
+        // Update total vote counts
+        Object.keys(totalVotes).forEach(question => {
+            updateVoteCounts(question, totalVotes[question]);
+        });
+
+        // Highlight user's previous votes
+        Object.keys(userVotes).forEach(question => {
+            const model = userVotes[question];
+            const questionBlock = document.querySelector(`.question-block[data-question="${question}"]`);
+            if (questionBlock) {
+                const selectedCard = questionBlock.querySelector(`.answer-card[data-model="${model}"]`);
+                if (selectedCard) {
+                    selectedCard.classList.add('selected-vote');
+                }
+            }
+        });
+
+    } catch (error) {
+        console.error('Error fetching initial vote data:', error);
+    }
 
     document.getElementById("defaultOpenLang").click();
 
@@ -210,6 +332,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.querySelectorAll(".question-title").forEach(title => {
         title.addEventListener("click", () => {
             title.closest(".question-block").classList.toggle("active");
+        });
+    });
+
+    document.querySelectorAll('.answer-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const question = card.closest('.question-block').dataset.question;
+            const model = card.dataset.model;
+            handleVote(question, model, card);
         });
     });
 });

@@ -49,11 +49,12 @@ h1 {
    ============================= */
 .lang-tab {
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem 1rem; /* Add row-gap for wrapped items */
   border-bottom: 1px solid var(--border);
   background: var(--white);
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1rem; /* Adjust padding slightly */
   box-shadow: var(--shadow);
   border-radius: var(--radius) var(--radius) 0 0;
 }
@@ -189,11 +190,20 @@ h1 {
   border-radius: var(--radius);
   padding: 1rem 1.25rem;
   box-shadow: var(--shadow);
-  transition: transform var(--transition);
+  transition: all var(--transition); /* Use 'all' for transition */
+  cursor: pointer; /* Add cursor pointer */
 }
 
 .answer-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.07);
+}
+
+/* Style for the selected answer card */
+.answer-card.selected-vote {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--primary);
+  transform: translateY(-1px);
 }
 
 .answer-card h4 {
@@ -224,4 +234,14 @@ h1 {
 @media (max-width: 900px) {
   .answers-container { flex-direction: column; }
   .answer-card { width: 100%; }
+}
+
+/* =============================
+   Voting Section
+   ============================= */
+.vote-count {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 0.5rem;
 }
