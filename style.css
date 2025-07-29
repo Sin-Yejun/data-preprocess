@@ -159,7 +159,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  user-select: none;
 }
 
 .question-title::after {

@@ -695,7 +695,7 @@
     "language": "ko",
     "question": "트라이셉스 익스텐션 12kg 덤벨을 양손으로 10회씩 3세트 했다면 총 볼륨은 얼마인가요?",
     "model_answer": "트라이셉스 익스텐션 운동의 총 볼륨은 **12kg × 10회 × 3세트 = 360 kg·회**입니다.  \n(볼륨 계산 공식: 무게(kg) × 반복 횟수 × 세트 수)  \n\n이 운동은 총 360kg·회의 볼륨을 달성하셨습니다.",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "id": "ko_115",
@@ -1470,7 +1470,7 @@
     "language": "en",
     "question": "If you performed 3 sets of 10 triceps extensions with a 12kg dumbbell held in both hands, what is the total volume?",
     "model_answer": "The total volume is calculated by multiplying the number of sets, repetitions, and the total weight used per set.  \n\n- **Sets**: 3  \n- **Repetitions per set**: 10  \n- **Total weight per set**: 12 kg (per hand) × 2 hands = **24 kg**  \n\n**Volume = 3 sets × 10 reps × 24 kg = 720 kg·reps**  \n\nSo, the total volume is **720 kg·reps**.",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "id": "en_115",
