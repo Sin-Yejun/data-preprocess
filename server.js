@@ -50,46 +50,58 @@ app.get('/my-votes/:userId', async (req, res) => {
 
 // POST /vote - 투표 기록 (New simplified logic)
 app.post('/vote', async (req, res) => {
-    const { question, model: newModel, userId } = req.body;
+    const { questionId, model: newModel, userId, language } = req.body;
 
-    if (!question || !newModel || !userId) {
-        return res.status(400).json({ success: false, message: 'Question, model, and userId are required.' });
+    if (!questionId || !newModel || !userId || !language) {
+        return res.status(400).json({ success: false, message: 'QuestionId, model, userId, and language are required.' });
     }
 
     try {
-        const totalVotes = await readJsonFile(votesFilePath);
-        const userVotes = await readJsonFile(userVotesFilePath);
+        const totalVotes = await readJsonFile(votesFilePath, {});
+        const userVotes = await readJsonFile(userVotesFilePath, {});
 
-        // Initialize data structures if they don't exist
-        if (!totalVotes[question]) totalVotes[question] = {};
-        if (!totalVotes[question][newModel]) totalVotes[question][newModel] = 0;
+        // Initialize data structures
+        if (!totalVotes[language]) totalVotes[language] = {};
+        if (!totalVotes[language][questionId]) totalVotes[language][questionId] = {};
         if (!userVotes[userId]) userVotes[userId] = {};
+        if (!userVotes[userId][language]) userVotes[userId][language] = {};
 
-        const oldModel = userVotes[userId][question];
+        const oldModel = userVotes[userId][language][questionId];
 
-        if (oldModel === newModel) {
-            // Case 1: Unvoting (clicking the same model again)
-            if (totalVotes[question][oldModel] > 0) {
-                totalVotes[question][oldModel]--;
-            }
-            delete userVotes[userId][question];
-        } else {
-            // Case 2: Changing vote
-            if (oldModel) {
-                if (totalVotes[question][oldModel] > 0) {
-                    totalVotes[question][oldModel]--;
+        if (oldModel === newModel) { // Unvoting
+            if (totalVotes[language][questionId][oldModel]) {
+                totalVotes[language][questionId][oldModel]--;
+                if (totalVotes[language][questionId][oldModel] === 0) {
+                    delete totalVotes[language][questionId][oldModel];
                 }
             }
-            // Case 3: New vote (or finishing a changed vote)
-            totalVotes[question][newModel]++;
-            userVotes[userId][question] = newModel;
+            delete userVotes[userId][language][questionId];
+        } else { // New vote or changing vote
+            if (oldModel) { // Decrement old model count if changing vote
+                if (totalVotes[language][questionId][oldModel]) {
+                    totalVotes[language][questionId][oldModel]--;
+                    if (totalVotes[language][questionId][oldModel] === 0) {
+                        delete totalVotes[language][questionId][oldModel];
+                    }
+                }
+            }
+            // Increment new model count
+            if (!totalVotes[language][questionId][newModel]) {
+                totalVotes[language][questionId][newModel] = 0;
+            }
+            totalVotes[language][questionId][newModel]++;
+            // Set user's vote
+            userVotes[userId][language][questionId] = newModel;
         }
 
-        // Write updated data back to files
         await fs.writeFile(votesFilePath, JSON.stringify(totalVotes, null, 2), 'utf8');
         await fs.writeFile(userVotesFilePath, JSON.stringify(userVotes, null, 2), 'utf8');
 
-        res.status(200).json({ success: true, votes: totalVotes[question], userVote: userVotes[userId][question] || null });
+        res.status(200).json({
+            success: true,
+            votes: totalVotes[language][questionId] || {},
+            userVote: userVotes[userId]?.[language]?.[questionId] || null
+        });
     } catch (error) {
         console.error('Error saving vote:', error);
         res.status(500).json({ success: false, message: 'Error saving vote' });
