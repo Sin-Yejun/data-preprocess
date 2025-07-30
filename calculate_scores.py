@@ -38,7 +38,8 @@ def main():
     files_to_process = [
         "final_data/QA_gemma.json",
         "final_data/QA_qwen2.5.json",
-        "final_data/QA_qwen3.json"
+        "final_data/QA_qwen3.json",
+        "final_data/QA_qwen3_no_thiking.json"
     ]
 
     for file_path in files_to_process:
