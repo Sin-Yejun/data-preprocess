@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "en_051",
+    "language": "en",
+    "question": "Please create a sample daily meal plan for a man in his 30s who wants to lose body fat and does weight training + cardio 3 times a week.",
+    "model_answer": "Here’s a sample daily meal plan for a man in his 30s aiming to lose body fat, with weight training and cardio three times a week:\n\n**Breakfast:**  \nGreek yogurt with berries and almonds, paired with whole-grain toast and a boiled egg.\n\n**Mid-Morning Snack:**  \nA protein shake with whey isolate, banana, and spinach.\n\n**Lunch:**  \nGrilled chicken salad with mixed greens, quinoa, cherry tomatoes, and olive oil.\n\n**Afternoon Snack:**  \nHard-boiled egg and a small apple.\n\n**Dinner:**  \nBaked salmon with roasted vegetables (carrots, zucchini) and brown rice.\n\n**Evening Snack (optional):**  \nA handful of almonds and a glass of low-fat milk.\n\n**Hydration:**  \nDrink at least 3 liters of water daily.  \n\nAdjust portion sizes based on activity level and weight goals. Focus on lean proteins, complex carbs, and healthy fats."
+  },
+  {
+    "id": "en_052",
+    "language": "en",
+    "question": "Please recommend high-protein, low-fat foods that can be used as an alternative to chicken breast.",
+    "model_answer": "Here are high-protein, low-fat food alternatives to chicken breast:\n\n1. **Tofu** – Rich in protein and low in fat. Good in salads, stir-fries, or as a meat substitute.\n2. **Quinoa** – A complete protein with minimal fat. Use as a base for meals or in salads.\n3. **Greek Yogurt** – High in protein and low in fat. Can be used in smoothies or as a topping.\n4. **Edamame** – Contains plant-based protein and is low in fat. Great as a snack or side dish.\n5. **Soybeans** – High in protein and low in fat. Can be used in soups, stews, or as a meat substitute.\n6. **Lentils** – Provide ample protein and are low in fat. Ideal in vegetarian dishes or as a base for curries.\n7. **Salmon** – While higher in fat, it’s a good source of protein and healthy fats. Can be consumed in moderation.\n8. **Turkey Breast** – Lower in fat than chicken breast and high in protein. A great alternative in recipes.\n\nThese options offer variety and can support a balanced diet."
+  },
+  {
+    "id": "en_053",
+    "language": "en",
+    "question": "Among creatine, protein supplements, and vitamins, which supplement should be prioritized for workout effectiveness?",
+    "model_answer": "Creatine is generally prioritized for workout effectiveness. It enhances strength, power, and muscle growth by increasing phosphocreatine stores in muscles. Protein supplements support muscle repair and recovery but are most effective when combined with resistance training. Vitamins are essential for overall health but have a more indirect impact on workout performance. Prioritizing creatine ensures immediate benefits for strength and endurance during workouts. Protein should be included in a balanced diet, while vitamins are best taken as part of a comprehensive wellness routine. The choice depends on individual goals and dietary needs. Always consult a healthcare provider before starting any supplement."
+  },
+  {
+    "id": "en_054",
+    "language": "en",
+    "question": "Tell me about the effects of intermittent fasting on muscle growth.",
+    "model_answer": "Intermittent fasting (IF) can support muscle growth when combined with proper nutrition and resistance training. It may enhance insulin sensitivity, which aids in nutrient uptake and muscle repair. Some studies suggest IF can preserve lean mass, especially in calorie-restricted diets.\n\nHowever, muscle growth requires adequate protein intake and sufficient caloric consumption during feeding windows. IF may be less effective for individuals with high training volumes or those needing more calories for recovery.\n\nIt is important to maintain a balanced diet rich in protein, healthy fats, and complex carbohydrates. Consult a healthcare provider before starting IF, especially if you have underlying health conditions. Individual responses vary, so monitoring progress is key."
+  },
+  {
+    "id": "en_055",
+    "language": "en",
+    "question": "My BMR (Basal Metabolic Rate) from an InBody scan is 1,400 kcal. If I want to lose weight, what should my daily calorie intake be?",
+    "model_answer": "To lose weight, your daily calorie intake should be below your BMR. A common approach is to create a calorie deficit of 500–750 kcal per day for gradual weight loss.  \n\nWith a BMR of 1,400 kcal, aim for 1,400 – 1,750 kcal per day.  \n\nConsider activity level and goals. For faster results, aim for 1,200–1,500 kcal.  \n\nInclude protein to preserve muscle mass. Track progress and adjust as needed.  \n\nConsult a nutritionist for personalized advice."
+  },
+  {
+    "id": "en_056",
+    "language": "en",
+    "question": "What are the best foods to eat before and after a workout?",
+    "model_answer": "Before a workout, consume a light meal rich in carbs and protein, such as a banana with peanut butter or oatmeal with fruit. Avoid heavy fats and proteins. Hydrate adequately.\n\nAfter a workout, eat a combination of protein and carbs within 30–60 minutes. Options include a grilled chicken sandwich with sweet potato, yogurt with granola, or a smoothie with protein powder and fruit.\n\nSnacks like nuts, berries, or a toast with avocado can help maintain energy. Stay hydrated throughout the day.\n\nAvoid high-fat or high-sugar foods before exercising. Opt for balanced, easily digestible meals.\n\nInclude a post-workout meal that supports muscle recovery and replenishes glycogen stores. Plan meals to avoid overeating."
+  },
+  {
+    "id": "en_057",
+    "language": "en",
+    "question": "How should I handle unavoidable social drinking situations while on a diet?",
+    "model_answer": "Avoid drinking alcohol entirely if possible, as it can sabotage your diet. If you must drink, choose lighter options like dry wine or light beer. Drink water before, during, and after to stay hydrated. Limit portions and pace yourself to avoid overconsumption. Be mindful of hidden calories in mixed drinks. Opt for non-alcoholic alternatives when available. Prioritize healthy eating to counteract any effects of alcohol. Stay active and manage stress to support your diet goals. Communicate openly with friends about your dietary needs. Seek support if social drinking becomes a challenge."
+  },
+  {
+    "id": "en_058",
+    "language": "en",
+    "question": "Are 'cheat days' really effective for dieting? I'm curious about the proper way to have a cheat day.",
+    "model_answer": "Cheat days can be effective if used wisely. They help prevent burnout and maintain long-term adherence to a diet.  \nA proper cheat day should include balanced, nutrient-dense foods, not just high-calorie treats.  \nChoose a day with no strict restrictions, allowing yourself to eat freely but mindfully.  \nAvoid overeating; stick to portion sizes and prioritize whole foods.  \nPlan ahead to avoid temptation.  \nCheat days should complement, not replace, a healthy diet.  \nThey can boost motivation and sustainability.  \nFocus on overall progress, not short-term indulgence.  \nModeration is key.  \nConsult a healthcare professional for personalized advice."
+  },
+  {
+    "id": "en_059",
+    "language": "en",
+    "question": "If the total daily calorie intake is the same, does the frequency of meals (e.g., 3 meals vs. 5 meals a day) affect weight loss?",
+    "model_answer": "Yes, meal frequency can influence weight loss when total daily calories are the same. Eating more frequent meals may help maintain stable blood sugar levels and reduce overeating. It can also increase satiety, leading to better adherence to a calorie deficit.\n\nHowever, the impact varies by individual. Some people find that eating fewer meals helps control hunger and avoid excess calories. \n\nNutrient timing and quality matter more than quantity. Focus on whole foods, protein, and fiber for sustained fullness.\n\nMeal frequency should align with personal preferences and lifestyle. Consistency in overall calorie intake is key to weight loss."
+  },
+  {
+    "id": "en_060",
+    "language": "en",
+    "question": "For body fat loss, is a diet that completely eliminates carbohydrates (like a ketogenic diet) okay in the long term?",
+    "model_answer": "A ketogenic diet that eliminates most carbohydrates is not sustainable long-term for most people. It can lead to nutrient deficiencies, fatigue, and metabolic slowdown. \n\nLong-term adherence may result in muscle loss, hormonal imbalances, and difficulty maintaining weight loss. \n\nBalanced diets with moderate carbs are generally more effective and healthier for body fat loss. \n\nFocus on whole foods, lean proteins, healthy fats, and complex carbs for sustained results.\n\nCarb cycling or moderate low-carb approaches are often better for long-term success.\n\nConsult a healthcare provider before making drastic dietary changes."
+  },
+  {
+    "id": "en_061",
+    "language": "en",
+    "question": "Please create a 3-day-a-week routine to improve soccer skills.",
+    "model_answer": "**Day 1: Skill Development**  \nFocus on dribbling, passing, and shooting. Practice 30 minutes of dribbling drills, 20 minutes of passing accuracy, and 20 minutes of shooting with a ball. Include 10 minutes of agility ladder work.\n\n**Day 2: Strength & Conditioning**  \nTrain 45 minutes of strength exercises (squats, lunges, core). Follow with 30 minutes of cardio (jogging or cycling). Add 15 minutes of flexibility stretching.\n\n**Day 3: Game Simulation**  \nPlay 90-minute matches or small-sided games. Focus on teamwork, positioning, and decision-making. Include 15 minutes of post-game review and analysis.\n\n**Rest Days:**  \nEnsure adequate sleep and light activity like walking or stretching. Avoid heavy training to recover.  \nAdjust intensity based on individual fitness level."
+  },
+  {
+    "id": "en_062",
+    "language": "en",
+    "question": "What are the precautions for a beginner when including deadlifts in their routine?",
+    "model_answer": "Beginners should start with lighter weights to focus on form. Avoid overtraining by limiting sessions to once or twice per week. Prioritize proper warm-up and cool-down routines. Use a neutral spine position to prevent lower back injury. Learn correct foot placement and bar path. Consider working with a coach for feedback. Gradually increase weight as strength improves. Rest at least 48 hours between heavy lifts. Stay hydrated and listen to your body to avoid injury. Balance deadlifts with other exercises for overall development."
+  },
+  {
+    "id": "en_063",
+    "language": "en",
+    "question": "How should I balance the frequency of upper and lower body workouts?",
+    "model_answer": "To balance upper and lower body workouts, aim for equal weekly volume. Train each muscle group 2–3 times per week. For example, split into upper and lower days, or use push-pull-legs. Include 1–2 full-body sessions weekly for overall strength. Prioritize progressive overload and recovery. Allow at least 48 hours between training the same muscle group. Adjust based on goals—strength may require more volume, while endurance may need higher frequency. Listen to your body and adjust rest days as needed."
+  },
+  {
+    "id": "en_064",
+    "language": "en",
+    "question": "Is it okay to include squats, lunges, and hip thrusts all in the same routine?",
+    "model_answer": "Yes, including squats, lunges, and hip thrusts in the same routine is generally acceptable. These exercises target different muscle groups and can complement each other well.\n\nSquats focus on the legs and core. Lunges add balance and stability. Hip thrusts emphasize the glutes and hamstrings.\n\nCombining them can provide a comprehensive lower body workout. Ensure proper form to avoid injury. Vary rep ranges and sets for optimal results. Consider rest days for recovery."
+  },
+  {
+    "id": "en_065",
+    "language": "en",
+    "question": "My upper body is well-developed, but my lower body is lacking. How should I modify my routine?",
+    "model_answer": "Focus on compound movements for lower body strength. Include squats, deadlifts, and lunges. Add hip thrusts and glute bridges to target posterior chain muscles. Increase volume with leg presses and calf raises. Prioritize progressive overload. Ensure proper form to prevent injury. Incorporate mobility work for flexibility. Balance upper and lower body training. Adjust rep ranges for muscle growth. Track progress regularly. Consider consulting a trainer for personalized guidance."
+  },
+  {
+    "id": "en_066",
+    "language": "en",
+    "question": "When doing strength training and cardio on the same day, which order is more effective depending on the goal (muscle growth vs. fat loss)?",
+    "model_answer": "Performing strength training first is better for muscle growth. This allows full focus on lifting weights, maximizing muscle engagement and growth.  \nCardio after strength training helps with fat loss without interfering with muscle recovery.  \nIf the goal is fat loss, prioritize cardio first to burn more calories. However, this may reduce strength training effectiveness.  \nMuscle growth requires adequate protein and recovery, so strength training should come first.  \nFor optimal results, structure workouts to align with your primary goal.  \nBalance is key—adjust intensity and volume based on your objectives.  \nPrioritize rest and nutrition to support both muscle growth and fat loss.  \nAvoid overtraining to maintain progress and prevent injury.  \nTailor your routine to match your specific fitness goals.  \nConsistency and proper form are crucial for long-term success."
+  },
+  {
+    "id": "en_067",
+    "language": "en",
+    "question": "What is the importance of a pre-workout warm-up and a post-workout cool-down, and what movements should each consist of?",
+    "model_answer": "A pre-workout warm-up increases blood flow and prepares the body for exercise, reducing injury risk. It should include dynamic stretches like leg swings and arm circles. A post-workout cool-down helps prevent stiffness and promotes recovery. It should involve static stretches, such as hamstring stretches and chest opens. Both phases are essential for optimal performance and muscle recovery. Breathing exercises and light cardio, like walking, are also beneficial. Proper warm-up and cool-down routines enhance flexibility and overall fitness outcomes. Consistency is key for long-term benefits."
+  },
+  {
+    "id": "en_068",
+    "language": "en",
+    "question": "I always work out with the same weight and reps. I'm curious about specific methods for applying 'progressive overload'.",
+    "model_answer": "Progressive overload involves gradually increasing the demands on your muscles. Here are key methods:\n\n1. **Increase Weight**: Add 2.5–5% to your current weight each session or week.\n2. **Increase Reps**: Raise the number of repetitions by 1–2 each session or week.\n3. **Decrease Rest Time**: Reduce rest between sets to boost intensity.\n4. **Variation in Exercises**: Alter the movement pattern or angle to target muscles differently.\n5. **Track Progress**: Log workouts to identify trends and adjust accordingly.\n\nFocus on consistency and gradual increases. Adjust based on how your body feels."
+  },
+  {
+    "id": "en_069",
+    "language": "en",
+    "question": "When I work out, I often feel the effort in muscles other than the one I'm targeting. How can I improve this?",
+    "model_answer": "To minimize unnecessary muscle engagement during workouts, focus on proper form and technique. Ensure your movements are controlled and aligned with the target muscle. Avoid overexertion in secondary muscles by maintaining good posture and engaging core stability.\n\nUse resistance bands or weights that match your strength level to prevent compensatory movements. Practice mind-muscle connection by focusing on the targeted muscle during each rep. Consider working with a trainer to correct form issues.\n\nIncorporate isolation exercises to strengthen specific muscles. Gradually increase intensity to build strength without overworking other areas. Consistency and patience are key to improving muscle activation efficiency."
+  },
+  {
+    "id": "en_070",
+    "language": "en",
+    "question": "Can I do ab workouts every day, or do they need rest like other muscles?",
+    "model_answer": "Ab workouts can be done daily, but recovery is still important. Unlike larger muscle groups, abs recover faster. However, overtraining can lead to fatigue or injury. Alternate between high-intensity and low-intensity sessions. Include rest days for overall muscle balance. Focus on proper form to prevent strain. Adjust intensity based on your fitness level. Consistency is key, but balance is essential for long-term results. Monitor how your body feels. Listen to your body’s signals. Stay hydrated and nourish your muscles. Prioritize sleep for optimal recovery."
+  },
+  {
+    "id": "en_071",
+    "language": "en",
+    "question": "Please design an 8-week hypertrophy program for me. I can train 4 times a week.",
+    "model_answer": "Here’s an 8-week hypertrophy program for 4 days per week:\n\n**Weeks 1–4:**\n- **Day 1:** Chest & Triceps (Push Press, Bench Press, Overhead Press, Tricep Pushdowns)\n- **Day 2:** Back & Biceps (Deadlifts, Barbell Rows, Bicep Curls, Chin-ups)\n- **Day 3:** Legs (Squats, Deadlifts, Leg Press, Calf Raises)\n- **Day 4:** Shoulders & Abs (Shoulder Press, Lateral Raises, Face Pulls, Planks)\n\n**Weeks 5–8:**\n- **Day 1:** Chest & Triceps (Incline Bench, Close-Grip Pushups, Overhead Press, Tricep Dips)\n- **Day 2:** Back & Biceps (Pull-Ups, Barbell Rows, Bicep Curls, Reverse Flyes)\n- **Day 3:** Legs (Leg Press, Romanian Deadlifts, Hip Thrusts, Calf Raises)\n- **Day 4:** Shoulders & Abs (Seated Shoulder Press, Arnold Press, Rear Delt Flyes, Russian Twists)\n\nEach session includes 4–5 exercises with 3–4 sets of 8–12 reps. Focus on progressive overload and proper form."
+  },
+  {
+    "id": "en_072",
+    "language": "en",
+    "question": "Create a 4-week program with the goal of fat loss using only dumbbells.",
+    "model_answer": "**4-Week Fat Loss Program (Dumbbell Only)**\n\n**Week 1: Foundation**  \nFocus on full-body strength training 4x/week. Include compound lifts like squats, deadlifts, and bench presses. Add 30 minutes of HIIT 2x/week.\n\n**Week 2: Intensity Increase**  \nIncrease weight and reps. Add core workouts 3x/week. Incorporate cardio days with intervals (e.g., 30 seconds sprint, 1 minute walk).\n\n**Week 3: Endurance & Precision**  \nShift to higher rep ranges (15–20). Add mobility work 2x/week. Include 45-minute steady-state cardio 2x/week.\n\n**Week 4: Maintenance & Optimization**  \nFocus on muscle preservation. Reduce cardio, increase protein. Add 2x/week functional training (plyometrics, stability exercises).\n\n**Nutrition:** High-protein, low-carb diet. Track calories. Stay hydrated. Get 7–8 hours of sleep nightly."
+  },
+  {
+    "id": "en_073",
+    "language": "en",
+    "question": "If I want to combine strength and hypertrophy training, how should I structure my workouts?",
+    "model_answer": "To combine strength and hypertrophy, prioritize compound movements with moderate to high intensity. Split your workouts into upper and lower body days, focusing on 3–5 sets of 4–6 reps for strength and 3–4 sets of 8–12 reps for hypertrophy. Include progressive overload by increasing weight or reps over time. Ensure adequate rest (60–90 seconds between sets) and sufficient recovery between workouts. Incorporate accessory exercises for muscle balance and growth. Maintain a consistent training frequency, 2–3 times per week for each muscle group. Monitor progress and adjust volume or intensity as needed."
+  },
+  {
+    "id": "en_074",
+    "language": "en",
+    "question": "What are some variation methods (volume, intensity, rest, etc.) I can apply when my workout performance has plateaued?",
+    "model_answer": "When performance plateaus, consider these variations:\n\n- **Volume**: Increase or decrease total sets/rep ranges to challenge muscles.\n\n- **Intensity**: Adjust weights, reps, or resistance to raise effort levels.\n\n- **Rest periods**: Vary rest between sets or exercises to influence recovery and fatigue.\n\n- **Exercise order**: Change sequence to target muscles differently or alter energy systems.\n\n- **Tempo**: Modify movement speed (e.g., eccentric emphasis) to increase difficulty.\n\n- **Progressive overload**: Gradually increase weight, reps, or sets over time.\n\n- **Variety**: Switch exercises or add new movements to avoid adaptation.\n\n- **Workout split**: Alter training days or focus areas to prevent routine stagnation.\n\n- **Mind-muscle connection**: Improve focus during exercises for better engagement.\n\n- **Nutrition and sleep**: Ensure adequate recovery to support progress."
+  },
+  {
+    "id": "en_075",
+    "language": "en",
+    "question": "Explain the difference between the pyramid set method and the constant weight method, and in what situations is each method appropriate?",
+    "model_answer": "The pyramid set method involves gradually increasing the weight during each set, while the constant weight method uses the same weight for all sets.  \n\nThe pyramid set method is suitable for building strength and power, as it challenges the muscles with progressive overload.  \n\nThe constant weight method is better for endurance and maintaining muscle mass, as it allows for consistent intensity.  \n\nPyramid sets are often used in strength training programs.  \n\nConstant weight sets are common in hypertrophy and endurance training.  \n\nEach method has its own benefits depending on the training goal.  \n\nPyramid sets help improve neuromuscular efficiency.  \n\nConstant weight sets promote steady muscle activation.  \n\nChoose pyramid sets for strength development.  \n\nUse constant weight sets for consistency and endurance.  \n\nBoth methods are effective but serve different purposes."
+  },
+  {
+    "id": "en_076",
+    "language": "en",
+    "question": "I'm curious about the pros and cons of various split methods like 2-day, 3-day, and 5-day splits, and the criteria for choosing the right one for me.",
+    "model_answer": "Here are key points on split methods:\n\n- **2-day split**: Focuses on 2 workouts per day, often targeting different muscle groups. Pros: Efficient for time-constrained individuals. Cons: May limit progress for those needing more volume.\n\n- **3-day split**: Involves 3 workouts, typically splitting muscles into groups. Pros: Balanced approach for most trainees. Cons: Requires more time and planning.\n\n- **5-day split**: More intense, with multiple workouts per day. Pros: High volume and variety. Cons: Demanding and may lead to overtraining.\n\nChoose based on time, goals, and recovery capacity. Prioritize consistency and adjust intensity as needed."
+  },
+  {
+    "id": "en_077",
+    "language": "en",
+    "question": "How often should I change my workout program?",
+    "model_answer": "It depends on your goals and progress. For general fitness, every 4–6 weeks is common. If you're seeing results, consider adjusting every 6–8 weeks. For strength training, 6–8 weeks is typical. If you're plateauing, reassess every 3–4 weeks. Always listen to your body. Consistency matters more than frequency. Track progress to decide when to change. Avoid overtraining by balancing new challenges with recovery."
+  },
+  {
+    "id": "en_078",
+    "language": "en",
+    "question": "What is 'deloading,' and when and how should I do it?",
+    "model_answer": "Deloading is a period of reduced training volume and intensity to allow the body to recover. It is typically done every 4–6 weeks.  \nIt involves cutting back on workouts, focusing on active recovery, and ensuring adequate sleep and nutrition.  \nYou can deload by doing 1–2 light workouts per week, such as walking or yoga.  \nAvoid heavy lifting and high-intensity sessions.  \nListen to your body and adjust the deload if needed.  \nThis helps prevent overtraining and improves performance.  \nDeloading is especially useful for strength training and endurance athletes.  \nIt allows muscles to repair and prevents burnout.  \nStick to a structured deload schedule for best results.  \nConsult a coach if you're unsure about your approach."
+  },
+  {
+    "id": "en_079",
+    "language": "en",
+    "question": "Is training to 'failure' in every set essential for muscle growth?",
+    "model_answer": "Training to failure in every set is not essential for muscle growth. Research suggests that progressive overload and sufficient volume are more critical factors. Training to failure can enhance strength and muscle fiber recruitment, but it's not required for optimal results.\n\nVolume, intensity, and recovery are key. Training to failure in some sets can be beneficial, but overdoing it may lead to overtraining. Focus on proper form, adequate rest, and consistent progress.\n\nMuscle growth occurs through stimulation and recovery. Prioritize technique and progression over pushing to failure in all sets.\n\nBalanced training programs with varied rep ranges and adequate recovery yield better long-term results than strict failure-based routines.\n\nAvoid excessive emphasis on failure unless it aligns with your specific goals and training philosophy."
+  },
+  {
+    "id": "en_080",
+    "language": "en",
+    "question": "When I can't go to the gym, how can I structure a bodyweight-only program to prevent muscle loss and maintain strength?",
+    "model_answer": "Here’s a structured bodyweight-only routine to prevent muscle loss and maintain strength when you can’t go to the gym:\n\n1. **Warm-up**: 5–10 minutes of dynamic stretches or light cardio (e.g., jumping jacks, high knees).\n\n2. **Full-Body Circuits**: Perform 3–4 rounds of 4–5 exercises, holding each for 45 seconds to 1 minute, with 30–60 seconds rest between circuits.\n\n3. **Key Exercises**: Include push-ups, squats, lunges, planks, and glute bridges. Focus on compound movements to engage multiple muscle groups.\n\n4. **Progression**: Increase reps, reduce rest time, or add variations (e.g., wide push-ups, pause squats) as you get stronger.\n\n5. **Strength Maintenance**: Prioritize form over quantity to ensure muscles are being worked effectively.\n\n6. **Rest and Recovery**: Allow 48 hours of rest between full-body sessions to support muscle repair.\n\n7. **Nutrition**: Consume enough protein and calories to support muscle maintenance.\n\nThis approach keeps your muscles active while adapting to the lack of equipment."
+  },
+  {
+    "id": "en_081",
+    "language": "en",
+    "question": "If I have shoulder pain when bench pressing, what could be the cause and how should I deal with it?",
+    "model_answer": "Shoulder pain during bench pressing can stem from several causes, including poor form, overuse, muscle imbalances, or injury. Common issues include rotator cuff strain, impingement, or weak scapular stabilizers.\n\nFirst, check your posture: ensure your shoulders are slightly depressed and your elbows are bent at about 90 degrees. Avoid arching your back excessively.\n\nIf the pain persists, consider reducing weight or modifying the exercise. Incorporate scapular stabilization exercises like YTWL or face pulls.\n\nRest and ice the affected area if there's inflammation. Consult a physical therapist or healthcare provider for a proper diagnosis and tailored advice. Avoid heavy lifting until the issue is resolved."
+  },
+  {
+    "id": "en_082",
+    "language": "en",
+    "question": "My left knee occasionally makes a sound when I squat. Is it okay to continue exercising?",
+    "model_answer": "A popping sound in the knee during squats can be normal, especially if there's no pain or swelling. However, if it's accompanied by discomfort, instability, or locking, it may indicate an issue like meniscus damage or cartilage wear. Continue exercising cautiously, avoiding deep squats or heavy weights if pain occurs. Strengthen the quadriceps and hamstrings to support the knee. If symptoms persist or worsen, consult a healthcare professional. Monitor for any signs of inflammation or reduced range of motion. Rest and ice if needed. Gradually return to activity as tolerated. Always listen to your body."
+  },
+  {
+    "id": "en_083",
+    "language": "en",
+    "question": "Please give me some form tips to prevent lower back injuries during deadlifts.",
+    "model_answer": "Use a wide stance with feet shoulder-width apart. Keep the back straight, avoid rounding the lower back. Engage core muscles for stability. Hinge at the hips, not the waist. Keep the bar close to the body. Breathe in during the lift, exhale on the pull. Avoid locking the knees. Use a neutral spine position. Don’t arch the lower back excessively. Maintain proper form throughout the movement. Focus on controlled movements. Adjust weight as needed to maintain form. Seek guidance from a trainer if unsure. Warm up adequately before lifting. Rest between sets to prevent fatigue."
+  },
+  {
+    "id": "en_084",
+    "language": "en",
+    "question": "What's the best way to deal with persistent wrist pain during exercise? (Stop, substitute, or strengthen)",
+    "model_answer": "Persistent wrist pain during exercise can be addressed through stop, substitute, or strengthen strategies. \n\n**Stop:** Cease activities that exacerbate the pain and rest the wrist. \n\n**Substitute:** Replace exercises that strain the wrist with alternatives that minimize stress. \n\n**Strengthen:** Focus on exercises to build wrist stability and strength, such as resistance band workouts. \n\nConsult a healthcare professional if pain persists. \n\nPrioritize proper form and technique to prevent further injury. \n\nConsider using wrist supports or braces for support. \n\nGradually return to activity once pain subsides. \n\nAvoid overuse and ensure adequate recovery time. \n\nBalance exercise with rest and stretching."
+  },
+  {
+    "id": "en_085",
+    "language": "en",
+    "question": "Please provide a checklist for consistently exercising without frequent injuries.",
+    "model_answer": "Here is a checklist for consistent exercise with injury prevention:\n\n1. Warm up before each session with dynamic stretches.\n2. Use proper form and technique for all exercises.\n3. Gradually increase intensity and duration.\n4. Listen to your body and rest when needed.\n5. Stay hydrated and eat balanced meals.\n6. Incorporate strength training and flexibility exercises.\n7. Avoid overtraining and allow recovery days.\n8. Use appropriate footwear for your activity.\n9. Check equipment for wear and tear.\n10. Consult a professional if you have pre-existing conditions."
+  },
+  {
+    "id": "en_086",
+    "language": "en",
+    "question": "How can I distinguish between good muscle soreness after a workout and pain from an injury?",
+    "model_answer": "Good muscle soreness, known as delayed onset muscle soreness (DOMS), typically appears 24–72 hours after exercise and feels dull and aching. It usually improves over days. Pain from an injury is often sharp, localized, and may be accompanied by swelling, redness, or limited movement. If the pain persists beyond a few days or worsens, it could indicate an injury. Listen to your body: if you can still move the area without severe discomfort, it's likely DOMS. If movement is painful or impossible, seek medical advice. Rest, hydration, and gentle stretching can help with DOMS. Avoid pushing through pain that doesn't resolve. Always prioritize safety to prevent long-term issues."
+  },
+  {
+    "id": "en_087",
+    "language": "en",
+    "question": "Are accessories like lifting belts, straps, and knee sleeves really effective in preventing injuries? I'm curious about their proper use.",
+    "model_answer": "Accessories like lifting belts, straps, and knee sleeves can help prevent injuries when used correctly. Lifting belts support core muscles during heavy lifts, reducing lower back strain. Straps provide additional grip for heavier weights, but should be used cautiously to avoid over-reliance. Knee sleeves offer support and stability, reducing the risk of sprains. Proper technique is crucial—belts should be worn snugly around the waist, straps should be adjusted for comfort and control, and knee sleeves should fit securely. Always prioritize form over equipment. Consult a trainer for guidance on appropriate use."
+  },
+  {
+    "id": "en_088",
+    "language": "en",
+    "question": "I feel an imbalance between my left and right sides during exercise (one side feels more stimulation or takes more load). Can this lead to injury if ignored?",
+    "model_answer": "Yes, an imbalance between your left and right sides during exercise can increase the risk of injury if ignored. It may lead to overuse injuries, muscle strains, or joint stress on the more loaded side. Over time, this can cause chronic pain or reduced performance.\n\nCommon issues include imbalances in strength, flexibility, or neuromuscular control. This can affect posture, movement patterns, and overall biomechanics.\n\nIgnoring the imbalance may result in compensatory movements, which can strain other areas of the body.\n\nIt’s advisable to assess your form, strength, and flexibility. Consider consulting a physical therapist or trainer for a personalized evaluation and corrective exercises."
+  },
+  {
+    "id": "en_089",
+    "language": "en",
+    "question": "How should I deal with pain on the inside (golfer's elbow) or outside (tennis elbow) of my elbow during exercise?",
+    "model_answer": "Use a brace or strap to support the affected area. Avoid repetitive motions that strain the elbow. Ice the area for 15–20 minutes several times a day to reduce inflammation. Rest the elbow and avoid heavy lifting. Apply heat after 48 hours if stiffness persists. Wear a compression sleeve for support. Consult a physical therapist for targeted exercises. Take over-the-counter anti-inflammatory medication if needed. Gradually return to activity once pain subsides. Monitor for worsening symptoms and seek medical advice if necessary."
+  },
+  {
+    "id": "en_090",
+    "language": "en",
+    "question": "When there's pain, when is it effective to use an ice pack versus a heat pack?",
+    "model_answer": "Ice packs are effective for acute injuries, inflammation, or pain caused by recent trauma. They reduce swelling and numb the area. Use them within the first 48 hours after injury.\n\nHeat packs are better for chronic conditions, muscle stiffness, or pain from overuse. They relax muscles and improve blood flow. Use them for long-term issues or after the initial inflammation has subsided.\n\nAvoid using heat on fresh injuries or on areas with circulation problems. Always follow safety guidelines to prevent burns. Consult a healthcare professional if symptoms persist."
+  },
+  {
+    "id": "en_091",
+    "language": "en",
+    "question": "Please recommend core exercises that are safe for someone with a history of a herniated disc.",
+    "model_answer": "Here are core exercises suitable for someone with a history of a herniated disc:\n\n1. **Pelvic Tilts**: Strengthen the core and improve posture without straining the back.\n\n2. **Bird-Dog**: Enhances stability and coordination while minimizing spinal stress.\n\n3. **Dead Bugs**: Targets deep abdominal muscles and improves core control.\n\n4. **Plank Variations**: Start with a side plank to avoid lower back strain.\n\n5. **Bridges**: Strengthen the glutes and lower back gently.\n\n6. **Cat-Cow Stretch**: Improves spinal flexibility and alignment.\n\n7. **Supine Leg Raises**: Isolates the lower abdominal muscles without back pressure.\n\nAvoid high-impact or twisting movements. Always consult a healthcare provider before starting any new exercise program."
+  },
+  {
+    "id": "en_092",
+    "language": "en",
+    "question": "My ankle feels unstable after spraining it a few times. Is there a simple routine that can help with recovery?",
+    "model_answer": "For ankle stability after multiple sprains, focus on strength and balance. Start with 10–15 minutes of daily exercises. Begin with ankle circles, moving in all directions for 10 reps each. Next, perform heel raises to strengthen the calf muscles. Do 10–15 repetitions, 3 times a day. Incorporate single-leg stands to improve balance, holding each for 30 seconds to a minute. Use a foam pad for support if needed. Add gentle stretching for the calves and hamstrings. Avoid high-impact activities until fully healed. Consult a physiotherapist for personalized guidance. Consistency is key for long-term stability."
+  },
+  {
+    "id": "en_093",
+    "language": "en",
+    "question": "What stretching and strengthening exercises are necessary for someone with rounded shoulders?",
+    "model_answer": "For rounded shoulders, focus on chest stretches and shoulder blade retraction. Perform doorways chest stretch, wall angels, and shoulder rolls to improve posture. Strengthen the upper back with face pulls, rows, and scapular stabilizers. Incorporate core exercises like planks and bird-dogs to enhance overall stability. Avoid forward head posture by practicing neck stretches and chin tucks. Consistency is key—aim for 2–3 sessions per week. Monitor progress and adjust exercises as needed. Prioritize proper form to prevent injury. Balance flexibility with strength training for long-term results."
+  },
+  {
+    "id": "en_094",
+    "language": "en",
+    "question": "My back feels stiff and often hurts from sitting all day. Please recommend a 5-minute daily routine I can do.",
+    "model_answer": "Here’s a 5-minute daily routine to relieve back stiffness and pain from prolonged sitting:\n\n1. **Seated Spinal Twist (15 sec):** Twist your upper body gently to the right, then to the left. This improves flexibility and relieves tension.\n\n2. **Pelvic Tilts (15 sec):** Rock your pelvis forward and backward while sitting. This strengthens core muscles and alleviates lower back strain.\n\n3. **Shoulder Rolls (10 sec):** Roll your shoulders up and down to release upper back tension.\n\n4. **Ankle Circles (10 sec each foot):** Rotate each ankle clockwise and counterclockwise to improve circulation and reduce stiffness.\n\n5. **Deep Breathing (5 sec inhale, 5 sec exhale):** Focus on slow, deep breaths to relax your entire body.  \n\nPerform each step twice for maximum benefit. Consistency is key."
+  },
+  {
+    "id": "en_095",
+    "language": "en",
+    "question": "I've been told I have a severe case of 'text neck'. What exercises can I do to correct my posture?",
+    "model_answer": "Here are effective exercises to improve posture and alleviate text neck:\n\n1. **Chin Tucks**: Tuck your chin toward your chest, holding for 5 seconds, then release. Repeat 10–15 times.\n\n2. **Shoulder Rolls**: Roll shoulders forward in a circular motion 10 times, then backward 10 times.\n\n3. **Neck Stretches**: Gently tilt your head side to side, holding each stretch for 15–30 seconds.\n\n4. **Wall Angels**: Stand with back against a wall, arms at elbows, and move arms up and down along the wall.\n\n5. **Chest Openers**: Place hands on a chair, step back, and stretch arms overhead to open the chest.\n\n6. **Posture Awareness**: Practice sitting upright with feet flat on the floor and hands on knees or desk.\n\n7. **Strengthening Exercises**: Use resistance bands for shoulder blade retraction and upper back strength.\n\nIncorporate these into your daily routine for gradual improvement."
+  },
+  {
+    "id": "en_096",
+    "language": "en",
+    "question": "I'm about to start working out again after recovering from an injury. Are there any guidelines for returning safely?",
+    "model_answer": "Yes, follow these steps for a safe return to exercise:  \n1. Consult a healthcare provider before resuming activity.  \n2. Start with low-impact exercises to rebuild strength gradually.  \n3. Incorporate mobility and flexibility work to prevent re-injury.  \n4. Use proper form and technique to avoid strain.  \n5. Monitor your body for pain or discomfort, and adjust as needed.  \n6. Gradually increase intensity and duration over several weeks.  \n7. Consider working with a physical therapist or trainer for guidance.  \n8. Listen to your body and rest when necessary.  \n9. Stay hydrated and maintain a balanced diet.  \n10. Track progress to ensure steady improvement."
+  },
+  {
+    "id": "en_097",
+    "language": "en",
+    "question": "How can I use a foam roller and a massage gun most effectively for recovery and rehabilitation?",
+    "model_answer": "Use a foam roller for soft tissue release and muscle relaxation. Roll over tight areas for 20–30 seconds per spot. Focus on major muscle groups like quads, hamstrings, and back. Apply gentle pressure to avoid injury.\n\nA massage gun targets deeper tissues. Use it for 30 seconds to 1 minute per area. Ideal for releasing knots in muscles like the glutes or calves. Always start with low intensity and gradually increase as tolerated.\n\nCombine both tools for enhanced recovery. Use the foam roller for general muscle relaxation and the massage gun for targeted deep tissue work. Incorporate these into your routine 2–3 times weekly.\n\nAfter workouts, use them to reduce soreness and improve flexibility. Always warm up before using either tool to prevent strain. Listen to your body and adjust pressure as needed."
+  },
+  {
+    "id": "en_098",
+    "language": "en",
+    "question": "I can't squat deep or my lower back rounds. Please show me exercises to improve hip mobility.",
+    "model_answer": "Here are effective exercises to improve hip mobility:\n\n1. **Hip Flexor Stretch**: Stand facing a wall, place hands on the wall, and step one foot back while keeping the front knee bent. Hold for 30 seconds per side.\n\n2. **Pigeon Pose**: Start on all fours, bring one knee to the opposite side, lowering the hip toward the floor. Hold for 30 seconds per side.\n\n3. **Figure Four Stretch**: Lie on your back, bend both knees, and bring them toward your chest. Gently press your knees together while keeping your lower back on the floor.\n\n4. **Banded Lunge with Twist**: Hold a band between your feet, step into a lunge, and twist your torso to the side. Repeat 10–15 times per side.\n\n5. **Dynamic Hip Circles**: Stand with feet shoulder-width apart, circle your hips forward and backward for 10–15 repetitions each direction.\n\nPerform these 2–3 times per week for gradual improvement. Consistency is key."
+  },
+  {
+    "id": "en_099",
+    "language": "en",
+    "question": "I have a tingling sensation from my buttocks down to my leg (sciatica symptoms). Are there any stretches that can help alleviate this?",
+    "model_answer": "Yes, several stretches can help relieve sciatica symptoms. The piriformis stretch is effective for tightening the muscle that often compresses the sciatic nerve. Sit on the floor with one leg extended, pull the other knee to your chest, and hold for 30 seconds. Repeat on both sides.\n\nThe cat-cow stretch improves spinal flexibility and reduces tension. On your hands and knees, alternate between arching your back and rounding it. Do this for 1–2 minutes.\n\nThe hamstring stretch can also help. Stand facing a wall, place one foot back, and bend the front knee. Keep the back leg straight and hold for 30 seconds.\n\nAvoid prolonged sitting and use a cushion for lower back support. If symptoms persist, consult a healthcare professional."
+  },
+  {
+    "id": "en_100",
+    "language": "en",
+    "question": "What is the difference in how and when to use static stretching versus dynamic stretching?",
+    "model_answer": "Static stretching involves holding a stretch in a fixed position for 15–60 seconds. It is best done after exercise to improve flexibility and reduce muscle soreness.\n\nDynamic stretching involves moving through a range of motion. It is ideal before exercise to increase blood flow and prepare muscles for activity.\n\nStatic stretching is more effective for long-term flexibility gains but may reduce performance if done before workouts.\n\nDynamic stretching enhances mobility and readiness for physical activity without impairing performance.\n\nAvoid static stretches before exercise to prevent decreased strength and power.\n\nCombine both types for optimal results: dynamic before, static after."
+  },
+  {
+    "id": "ja_051",
+    "language": "ja",
+    "question": "体脂肪を減らしたく、週に3回ウェイトトレーニングと有酸素運動をしている30代男性向けの1日の食事プラン例を作成してください。",
+    "model_answer": "朝食  \nご飯1杯（炊き込みご飯）に卵2個、しらす大さじ2杯、人参1本、卵液をかけます。  \n\n昼食  \nサンドイッチ1枚（パン2枚、チーズ、ハム、キャベツ）、野菜たんぱく質スープ1杯。  \n\n夕食  \n鶏肉150g、豆腐1块、野菜炒め（トマト、玉ねぎ、人参）、味噌汁1杯。  \n\n間食  \nヨーグルト1杯、ナッツ大さじ1杯。  \n\n寝る前  \nヨーグルト1杯、バナナ1本。  \n\n水分摂取  \n1日合計2リットル以上。  \n\n脂質は魚や豆類を中心に選びます。  \n\n炭水化物は複合炭水化物を優先します。  \n\n摂取カロリーは1800〜2000㎉程度を目安にします。  \n\nタンパク質は1g/kg体重を目安に摂取します。  \n\n食品はなるべく加工品を避けます。"
+  },
+  {
+    "id": "ja_052",
+    "language": "ja",
+    "question": "鶏胸肉の代わりとなる、高タンパク・低脂肪の食品をおすすめしてください。",
+    "model_answer": "高タンパク・低脂肪の鶏胸肉の代替品としては、サーモンがおすすめです。サーモンにはたんぱく質が多く、脂質も適度で栄養価が高いです。また、豆腐も良さがあります。豆腐はたんぱく質含量が高く、脂質はほぼなく健康に良いです。さらに、ヨーグルトも選択肢になります。ヨーグルトはたんぱく質を含み、脂肪分が少ないので、ダイエットや健康維持に適しています。これらはすべて食事においてバランスの取れた選択肢です。"
+  },
+  {
+    "id": "ja_053",
+    "language": "ja",
+    "question": "クレアチン、プロテインサプリメント、ビタミンの中で、トレーニング効果のために最も優先すべきサプリメントはどれですか？",
+    "model_answer": "クレアチンはトレーニング効果のために最も優先すべきサプリメントです。筋肉の力強さとパフォーマンス向上に大きく貢献します。プロテインは筋肉の修復と成長には重要ですが、クレアチンが直接的な効果を発揮するため、トレーニング中に優先的に摂取することが望ましいです。ビタミンは体の基礎機能をサポートしますが、トレーニング効果に直接関係する点ではクレアチンがより重要です。適切な摂取量を守り、日々のトレーニングに活かしてください。"
+  },
+  {
+    "id": "ja_054",
+    "language": "ja",
+    "question": "断続的断食（インターミッテント・ファスティング）が筋肉の成長に与える影響について教えてください。",
+    "model_answer": "断続的断食は筋肉の成長に悪影響を与える可能性があります。栄養摂取が不足すると、筋肉の修復と成長に必要なアミノ酸やエネルギーが不足します。特にトレーニング後の回復期においては、十分な栄養補給が重要です。筋肉の成長には、タンパク質の摂取と適切な睡眠が不可欠です。断続的断食中にトレーニングを行う場合は、栄養補給をしっかりと行う必要があります。過度な断食は筋肉量の減少につながる場合があります。バランスの取れた食事と適度な断食が理想的です。"
+  },
+  {
+    "id": "ja_055",
+    "language": "ja",
+    "question": "InBodyの測定で基礎代謝量が1,400kcalでした。減量したい場合、1日の摂取カロリーはどのくらいにすべきですか？",
+    "model_answer": "InBodyで測定した基礎代謝量が1,400kcalの場合、減量を目指す場合は、基礎代謝量より少し低めに設定することが望ましいです。一般的には、基礎代謝量の80〜90％程度が目安とされます。  \n\n1日分の摂取カロリーは約1,260〜1,260kcal程度に設定することが推奨されます。  \n\nただし、運動量や生活スタイルによっても変動するため、適切なカロリーバランスを維持しながら減量を進めることをお勧めします。  \n\n減量中は、タンパク質を十分に摂取し、栄養バランスを整えることが大切です。  \n\n食事内容や運動量に応じて、調整が必要な場合もあります。  \n専門家に相談することも有効です。"
+  },
+  {
+    "id": "ja_056",
+    "language": "ja",
+    "question": "トレーニングの前後にはどのような食べ物を摂ると良いですか？",
+    "model_answer": "トレーニング前の1～2時間前に軽食を取ることが望ましいです。バナナや全粒穀物のパンなど、炭水化物とたんぱく質がバランスよく含まれた食品が適しています。トレーニング後にすぐには重食を避け、プロテイン飲料やヨーグルトなどのタンパク質源を摂取することがおすすめです。また、トレーニング中は水分補給を心がけ、電解質入りのドリンクも効果的です。栄養バランスを整え、回復を促すための食事も重要です。"
+  },
+  {
+    "id": "ja_057",
+    "language": "ja",
+    "question": "ダイエット中に避けられない飲み会には、どのように対処するのが良いですか？",
+    "model_answer": "飲酒を控えることが難しい場合は、アルコールの量を減らすようにしましょう。おつまみは低カロリーのもの選びましょう。お酒を飲む前に軽い運動をすることで、代謝が上がります。飲みすぎたら、水や牛乳で味を和らげましょう。食事は控えめにし、間食を避けてください。飲み会後は早めに寝るようにしましょう。炭水化物を多く含む食品は避けましょう。甘い飲み物は控えましょう。お酒を飲む前に、ビタミンやミネラルを補給しておくと良いです。飲みすぎたら、胃袋を休めるために食べ物を避けましょう。飲酒後に体重が増えることを防ぐため、水分を十分に摂取しましょう。"
+  },
+  {
+    "id": "ja_058",
+    "language": "ja",
+    "question": "「チートデイ」はダイエットに本当に効果がありますか？正しいチートデイの方法が知りたいです。",
+    "model_answer": "チートデイは適切に行うことでダイエット効果が期待できます。ただし、過度な摂取は逆効果です。毎週1日だけ高カロリー食品を食べることで、減量期間の間に太らないようにする目的があります。  \n\nチートデイの正しい方法は、減量期間の前後で行うことです。減量中は通常の食事で、チートデイは1日だけ高カロリー食品を食べる形です。  \n\nチートデイの際は、脂質や炭水化物を適量摂取し、タンパク質を補給することが重要です。過剰な糖分や加工食品は避けてください。  \n\nチートデイは、減量のモチベーションを保つための手段であり、継続的な食事管理と組み合わせて行うことが効果的です。  \n\nチートデイの際は、体調に合わせて調整することが大切です。過度な摂取は体に悪影響を与える可能性があります。  \n\nチートデイを実施する際は、自分の体の反応を見ながら、適切なバランスを保つことが求められます。"
+  },
+  {
+    "id": "ja_059",
+    "language": "ja",
+    "question": "1日の総摂取カロリーが同じであれば、食事の回数（例：1日3食 vs 5食）は減量に影響しますか？",
+    "model_answer": "1日の総摂取カロリーが同じであれば、食事の回数は減量に直接的な影響はありませんです。ただし、食事の回数によって栄養バランスや血糖値の変動が異なるため、体の状態に違いがあります。たとえば、1日3食であれば、胃腸に負担が少なく、長時間にわたるエネルギー供給になります。5食であれば、血糖値の上下が激しくなる可能性があります。どちらも適切な栄養摂取を心がけることが大切です。減量においては、カロリー制限だけでなく、食物の質も重要です。食べるタイミングも意識して調整すると効果が高まります。"
+  },
+  {
+    "id": "ja_060",
+    "language": "ja",
+    "question": "体脂肪を減らすために炭水化物を完全に排除する食事（ケトジェニックダイエットなど）は、長期的に見て問題ありませんか？",
+    "model_answer": "体脂肪を減らすための炭水化物排除食事は、短期的には効果が現れることがあります。しかし、長期的には栄養バランスが崩れ、健康に悪影響を与える可能性があります。炭水化物はエネルギー源として必要不可欠であり、食物繊維やビタミン類も含んでいます。適度な炭水化物摂取が推奨されます。筋肉の維持や脳の機能にも重要です。過度な制限は体に負担がかかります。バランスの取れた食事で脂肪を減らすのが最善です。"
+  },
+  {
+    "id": "ja_061",
+    "language": "ja",
+    "question": "サッカーのパフォーマンスを向上させるための、週3回のトレーニングルーティンを作成してください。",
+    "model_answer": "週3回のサッカー向けトレーニングルーティンを以下のように作成します。\n\n月曜日  \n朝にストレッチと軽いウォームアップを行います。その後、ボールコントロールとパス練習を30分行います。\n\n水曜日  \n朝に筋力トレーニングを30分行い、その後、シュート練習とフィジカルトレーニングを各30分行います。\n\n金曜日  \n朝にリズム練習とタックル練習を各30分行い、最後に冷却ダウンとストレッチを行います。\n\n各日は午前中に行うのがおすすめです。睡眠と栄養も大切です。\n\nトレーニング前後には水分補給と軽食を取りましょう。\n\n毎日の準備運動とリラクゼーションも重要です。\n\n週3回のトレーニングで体と心の準備ができます。\n\nこのルーティンを継続していただければと思います。"
+  },
+  {
+    "id": "ja_062",
+    "language": "ja",
+    "question": "初心者がデッドリフトをルーティンに取り入れる際の注意点は何ですか？",
+    "model_answer": "デッドリフトをルーティンに取り入れる際には、正しいフォームを確認することが大切です。背中が曲がらないように心がけましょう。重みが適度であることを確認してください。無理をしてはいけません。呼吸を意識して行うことが重要です。筋肉に負担がかかる前に、軽く慣れるための練習をしましょう。痛みを感じたらすぐにやめることが必要です。バランスを取るため、両足は同じ幅で開けましょう。無理なく続けられるよう、段階的に増量していくことが望ましいです。体の反応を見ながら、自分に合ったペースで行うことが大切です。"
+  },
+  {
+    "id": "ja_063",
+    "language": "ja",
+    "question": "上半身と下半身のトレーニングの頻度とバランスは、どのようにとるのが良いですか？",
+    "model_answer": "上半身と下半身のトレーニング頻度は、週に2～3回程度が目安です。上半身を2日間隔開けて、下半身も同様に計画することが重要です。筋肉の回復には日を置くことが必要であり、過度な負荷は逆効果です。トレーニングのバランスとしては、上半身と下半身をほぼ同じ回数で行うのが良いです。ただし、個人の体力や目的によって調整が必要です。無理をせず、徐々に増量していきましょう。トレーニング後の食事も大切です。栄養を補給することで、効果が長続きします。休息も忘れずに取ってください。"
+  },
+  {
+    "id": "ja_064",
+    "language": "ja",
+    "question": "スクワット、ランジ、ヒップスラストをすべて同じルーティンに入れても大丈夫ですか？",
+    "model_answer": "スクワット、ランジ、ヒップスラストを同じルーティンに組み込むことは可能ですです。ただし、それぞれの運動の目的と効果を考慮して、適切な順序とセット数を設定することが重要です。筋力向上にはそれぞれの運動を適切に繰り返す必要があります。無理な負荷は避けて、体の反応を見ながら調整してください。トレーニング後のリカバリーも大切です。バランスが取れていないと体に負担がかかります。それぞれの運動を別々に計画するのも一つの方法です。全体の流れを整えることで効果的です。安全第一で進めましょう。"
+  },
+  {
+    "id": "ja_065",
+    "language": "ja",
+    "question": "上半身はよく発達しているのに、下半身が物足りません。ルーティンをどのように修正すれば良いですか？",
+    "model_answer": "上半身の発達を促進するためには、有酸素運動と筋力トレーニングのバランスを取ることが重要です。下半身の筋力向上には、スクワットやデッドリフトなどの重みのある運動が効果的です。また、ストレッチや柔軟性の向上も重要な要素です。食事においても、たんぱく質の摂取を意識し、回復を促す栄養を心がけましょう。睡眠の質も重要なので、十分な休息を確保してください。毎日のルーティンにこれらの要素を組み入れることで、全体的な体のバランスが改善されます。"
+  },
+  {
+    "id": "ja_066",
+    "language": "ja",
+    "question": "筋力トレーニングと有酸素運動を同じ日に行う場合、どちらを先にやる方が目的（筋肥大／脂肪燃焼）にとって効果的ですか？",
+    "model_answer": "筋力トレーニングを先にすると筋肥大に効果的です。筋肉に負荷がかかることで筋肉の成長が促進されます。その後に有酸素運動を行うと、脂肪燃焼効果が高まります。ただし、体調や目標に応じて順序を調整することも可能です。筋肥大を目指す場合は、筋力トレーニングを優先して行うのが良いです。脂肪燃焼を目的とする場合は、有酸素運動を先にすることが効果的です。トレーニングの内容や時間帯によっても効果が異なります。自分の目的に合わせて計画を立てることが重要です。バランスよく取り組むことが効率的です。"
+  },
+  {
+    "id": "ja_067",
+    "language": "ja",
+    "question": "運動前のウォームアップと運動後のクールダウンの重要性、そしてそれぞれどのような動きで構成すべきですか？",
+    "model_answer": "運動前のウォームアップは体を準備し、怪我を防ぎます。軽いストレッチや足踏みなどの動きが適切です。運動後のクールダウンは心肺機能を落ち着かせ、柔軟性を保ちます。同じようにストレッチやゆっくりとした歩行が効果的です。どちらもバランスよく行うことが大切です。正しい姿勢を保つことで効果が最大化されます。体の反応に合わせて調整することが重要です。継続的に行うことで体の状態が改善されます。適度な運動は健康維持に役立ちます。心身のバランスを取ることが目標です。運動習慣を習慣化することで効果が長続きします。"
+  },
+  {
+    "id": "ja_068",
+    "language": "ja",
+    "question": "いつも同じ重量と回数でトレーニングしています。「漸進性過負荷の原則」を適用するための具体的な方法が知りたいです。",
+    "model_answer": "トレーニング重量や回数を少しずつ増やしていく方法があります。例えば、週に1度だけ重さを1キロずつ増やします。または、回数を5回ずつ増やす方式もあります。このように徐々に負荷を上げることで、筋肉が成長します。また、週に1回だけ増やす方法も効果的です。そのほか、トレーニングの種目を変えるのも良いです。常に同じ種目を続けると効果が低下するからです。これらの方法を組み合わせて、漸進性過負荷を実践してください。"
+  },
+  {
+    "id": "ja_069",
+    "language": "ja",
+    "question": "トレーニングをする時、ターゲットの筋肉ではなく、違う場所に力が入ってしまいます。 どうすれば改善できますか？",
+    "model_answer": "トレーニング时、ターゲットの筋肉に力が入らない場合があります。まず、呼吸を整えてから行うことが大切です。次に、関節の動きを意識し、ゆっくりと行うことで正確性が向上します。また、重りの選び方や姿勢も重要です。正しい姿勢を保つことで、本来のターゲットに力が集中します。さらに、トレーニング後のストレッチも有効です。これらを組み合わせて、徐々に改善していきましょう。"
+  },
+  {
+    "id": "ja_070",
+    "language": "ja",
+    "question": "腹筋運動は毎日やってもいいですか？それとも他の筋肉のように休息が必要ですか？",
+    "model_answer": "腹筋運動は毎日やっても問題ありませんが、他の筋肉と同様に休息が必要です。筋肉は成長し強化するためには休息時間が重要です。毎日同じ種目を続けると過労になり、怪我のリスクが高まります。週3〜4回の頻度がおすすめです。無理な重量や回数を避け、徐々に強化していくことが大切です。適度な負荷と十分な休息をバランスよく取りましょう。"
+  },
+  {
+    "id": "ja_071",
+    "language": "ja",
+    "question": "8週間の筋肥大プログラムを組んでください。週4回のトレーニングが可能です。",
+    "model_answer": "週4回の筋肥大トレーニングプログラムを以下のように計画します。  \n\n第1〜第2週：基本フォーム習得と軽い負荷で筋膜を刺激します。  \n第3〜第4週：負荷を増やし、各部位の筋肉を重点的に鍛えます。  \n第5〜第6週：複合運動を取り入れ、全体的な筋量アップを図ります。  \n第7〜第8週：高負荷で持久力向上を行い、筋肥大を定着させます。  \n\n各週ごとに週1回の休息日を設け、循環トレーニングを組み込みます。  \nトレーニング後にストレッチとリラクゼーションを実施してください。  \n食事もタンパク質を意識し、十分な睡眠を取ることが重要です。  \n週ごとの目標を明確に設定し、進捗を確認してください。  \nプログラムは個人の体調や経験に応じて調整してください。"
+  },
+  {
+    "id": "ja_072",
+    "language": "ja",
+    "question": "ダンベルだけを使って、4週間で体脂肪を減らすことを目標にしたプログラムを組んでください。",
+    "model_answer": "ダンベル training で4週間で体脂肪を減らすためのプログラムを以下に示します。  \n週に3回、 each session 60分程度を目安に進めます。  \n\n第1週：基礎動作習得  \nダンベルス쿼ット、ダンベルプッシュアップ、ダンベルーロップを各3セット行います。  \n\n第2週：強度向上  \n各動作を4セットに変更し、重さを少しずつ増やしていきます。  \n\n第3週：持久力向上  \nセット数を5つに増やし、呼吸を整えながら行うことで耐久性を高めます。  \n\n第4週：成果確認  \n前週より少し重さを加え、体脂肪減少の効果を確認します。  \n\n食事も一緒に調整し、カロリー制限とタンパク質摂取を意識してください。  \n睡眠と水分補給もしっかり取りましょう。  \n継続することが大切です。"
+  },
+  {
+    "id": "ja_073",
+    "language": "ja",
+    "question": "筋力と筋肥大を両立させたい場合、どのようにトレーニングを構成すれば良いですか？",
+    "model_answer": "筋力と筋肥大を両立させるには、適切な負荷とセット数を組み合わせることが大切です。重い重量で高回数を repetition し、筋肉の成長を促進します。トレーニング日数を増やして、同じ部位を頻繁に刺激するようにしましょう。休息日も設け、回復を図ることが重要です。食事ではたんぱく質を十分に摂取し、睡眠を確保してください。無理な重量をこよめに避け、徐々に負荷を増やすことで、安定した成長が得られます。トレーニング計画を立てて、週に2〜3回行うようにしましょう。正しいフォームを守り、体への負担を最小限に抑えましょう。常に自己管理を心がけてください。"
+  },
+  {
+    "id": "ja_074",
+    "language": "ja",
+    "question": "トレーニングのパフォーマンスが停滞したときに適用できるバリエーション（ボリューム／強度／休息など）の方法を教えてください。",
+    "model_answer": "トレーニングのパフォーマンスが停滞したときには、以下のバリエーションを検討してください。ボリュームを減らし、強度を上げることで効果的に進化させることができます。また、休息日を増やすことで回復を促進してください。筋肉の成長には適切な負荷と回復が重要です。週に2日間は軽い運動を含め、体のバランスを取るようにしてください。目標を明確に設定し、段階的に挑戦してみてください。継続性が鍵です。ご自身の体感に合わせて調整してください。"
+  },
+  {
+    "id": "ja_075",
+    "language": "ja",
+    "question": "ピラミッドセット法と固定重量法の違いを説明し、それぞれが適している状況はどのような場合ですか？",
+    "model_answer": "ピラミッドセット法は、重みを増して行うトレーニング方法です。最初は軽い重みで多くのセットを行い、徐々に重みを増やしながら行います。これにより、筋力の向上と耐久性が養われます。適しているのは、基礎を築きたいときや、筋肉量を増やすためです。\n\n固定重量法は、同じ重みを一定回数行うトレーニング方法です。重みを固定して回数を増やすことで、筋肉の強度が向上します。適しているのは、パフォーマンスを向上させたいときや、特定の種目を練習したいときです。\n\nピラミッドセット法は、筋肉の成長と耐久性を高めるのに適しています。固定重量法は、強度とパフォーマンスの向上に適しています。どちらも目的に応じて使い分けられます。"
+  },
+  {
+    "id": "ja_076",
+    "language": "ja",
+    "question": "2分割、3分割、5分割など、様々な分割法の長所と短所、そして自分に合った分割法を選ぶ基準が知りたいです。",
+    "model_answer": "2分割は操作が簡単ですが、精度が低いです。3分割はバランスが取れますが、時間のかかります。5分割は精度が高いですが、手間がかかります。  \n\n分割法を選ぶ際には、使用目的、時間、精度が必要なかを考慮してください。  \n複雑な作業には5分割が適しています。  \nシンプルな作業には2分割が効率的です。  \n中間的な作業には3分割がおすすめです。  \n\n自分のスキルやプロジェクトの規模に合わせて選ぶことが大切です。  \n分割の数が多いほど正確ですが、時間と手間も増えます。  \n自分の条件に合った方法を選ぶことが重要です。"
+  },
+  {
+    "id": "ja_077",
+    "language": "ja",
+    "question": "トレーニングプログラムは、どのくらいの頻度で変更するのが良いですか？",
+    "model_answer": "トレーニングプログラムの頻度については、目的と進捗に応じて調整することが大切です。一般的には、1か月ごとに見直すのが適しています。ただし、成果が明显に出てきた場合は、2週間ごとに変更するのも有効です。逆に、進捗が遅い場合は、3か月おきに見直すとよいでしょう。個人の状態や目標によっても違いがありますので、定期的に評価し、必要に応じて調整してください。トレーニング内容を変えることで、効果を高めることが可能です。常に柔軟に対応することをお勧めします。"
+  },
+  {
+    "id": "ja_078",
+    "language": "ja",
+    "question": "「ディロード（Deloading）」とは何ですか？また、いつ、どのように実施すべきですか？",
+    "model_answer": "「ディロード（Deloading）」とは、筋肉の回復を促進するために、トレーニング後の筋肉の緊張をほぐすためのリラクゼーションのことを指します。  \n\nトレーニング後、筋肉が緊張している状態なので、その直後に実施することが効果的です。  \n\n通常、トレーニング終了後、10分〜30分程度かけて行います。  \n\n水風呂や温かいお風呂、マッサージなど様々な方法があります。  \n\n体の状態に合わせて、適切な方法を選んでください。  \n\nご自身の体感に合わせて、調整してください。  \n\nしっかり休息することで、より良い結果を得られます。"
+  },
+  {
+    "id": "ja_079",
+    "language": "ja",
+    "question": "毎セット「失敗地点（Failure）」まで追い込むことは、筋肥大に不可欠ですか？",
+    "model_answer": "はい、失敗地点まで追い込むことは筋肥大に不可欠です。重りを極限まで使わせることで、筋肉に適切な刺激を与えられます。この刺激が筋肉の成長を促進します。また、失敗地点まで行うことで、筋肉の緊張感が高まり、より効果的に筋肥大が起こります。正しいフォームを保ちながら、無理に動かすのではなく、徐々に負荷を増やしていくことが大切です。筋肉に適切な負荷をかけ続けることが重要です。"
+  },
+  {
+    "id": "ja_080",
+    "language": "ja",
+    "question": "ジムに行けない時、自重トレーニングだけで筋力低下を防ぎ、筋力を維持するプログラムの組み方はありますか？",
+    "model_answer": "ジムに行けない場合でも自重トレーニングで筋力低下を防ぐことは可能です。以下のようなプログラムが効果的です。  \n\n朝の起床後、30分間かけて行うことをおすすめします。  \n\n1. 体幹を鍛えるためのプランクを3セット行います。  \n2. 腰背部を強化するためのスクワットを4セット行います。  \n3. 上半身を鍛えるためのプランクフィットを2セット行います。  \n4. 膝を保護しながら行うための椅子スクワットを3セット行います。  \n\nこれらを毎日続けることで、筋力は徐々に維持されます。  \n\n食事も大切です。タンパク質を十分に摂取し、睡眠をしっかり取ることが重要です。  \n\n筋肉量を減らさないためには、適度な運動と栄養管理が不可欠です。"
+  },
+  {
+    "id": "ja_081",
+    "language": "ja",
+    "question": "ベンチプレスをするときに肩が痛む場合、何が原因で、どう対処すべきですか？",
+    "model_answer": "ベンチプレス時に肩が痛む主な原因は、フォームの悪さや筋肉の緊張です。肩甲骨の動きが制限されている場合や、胸肌の柔軟性が不足していることもあります。また、無理な重量をこなすと関節に負担がかかります。\n\n対処法として、最初は軽い重量から始めて、正しいフォームを身につけることが大切です。肩の可動域を広げるストレッチや、胸筋の強化トレーニングも有効です。痛みがある場合は、トレーニングを中止し、リラクゼーションや熱いお風呂に入ることで回復を促進できます。必要であれば、専門家のアドバイスも受けましょう。"
+  },
+  {
+    "id": "ja_082",
+    "language": "ja",
+    "question": "スクワットをするときに、時々左膝から音が鳴ります。運動を続けても大丈夫ですか？",
+    "model_answer": "スクワットをすると左膝から音が鳴ることがあります。それは関節の摩耗や軟骨の変化の可能性があります。運動を続けると症状が悪化する恐れがあります。無理をせず、体の反応を見ながら行うことが大切です。必要であれば医師に相談してください。膝の痛みが続く場合は安静にしてください。適度な運動と休息のバランスを取ることが重要です。痛みが強い場合は早めに治療を受けることをお勧めします。ご自身の体調に合わせて行動してください。"
+  },
+  {
+    "id": "ja_083",
+    "language": "ja",
+    "question": "デッドリフトで腰の怪我を防ぐためのフォームのコツを教えてください。",
+    "model_answer": "デッドリフトで腰の怪我を防ぐためには、背中が一直線になることが大切です。重心を背中へ向け、腰ではなく背中を使って引き上げましょう。足の開き幅は肩幅程度に保ち、膝を軽く曲げて立っています。バーを引き上げる際は、腰を曲げずに背中で力を加えます。呼吸も重要で、バーを上げるときには息を吐き、下げるときは息を吸います。このフォームを意識しながら練習してください。"
+  },
+  {
+    "id": "ja_084",
+    "language": "ja",
+    "question": "運動中の手首の痛みが続く場合の対処法は？（運動の中止、代替、補強）",
+    "model_answer": "運動中の手首の痛みが続く場合は、即座に運動を中止してください。痛みが続く場合は、手首を安静に保ち、冷やすことが重要です。その後、適度なストレッチや軽いマッサージでリラックスさせましょう。痛みが強い場合は、医療機関に相談してください。代替として、他の種目や軽い運動を選ぶこともできます。補強には、手首の筋力を鍛えるエクササイズを週に2〜3回行うとよいです。正しいフォームを確認し、無理をしないように心がけてください。"
+  },
+  {
+    "id": "ja_085",
+    "language": "ja",
+    "question": "頻繁な怪我なく、コンスタントに運動を続けるためのチェックリストを教えてください。",
+    "model_answer": "毎日の運動前の準備が大切です。まず、十分な睡眠と栄養を取ることが重要です。次に、柔軟性を高めるストレッチを行います。運動中は水分補給を忘れず、適度な呼吸を保ちましょう。怪我を防ぐために、関節や筋肉の可動域を確認してください。運動後のリラックスも忘れないでください。必要であれば、医師や専門家に相談してください。運動計画は自分の体調に合わせて調整することが大切です。安全に運動を続けられるよう、定期的に体調チェックをします。運動後は十分な休息を取ることが重要です。運動習慣を継続するためには、自分に合った方法を見つけることが必要です。常に自己管理を行い、健康を第一に考えることが大切です。"
+  },
+  {
+    "id": "ja_086",
+    "language": "ja",
+    "question": "運動後の心地よい筋肉痛と、怪我による痛みはどのように見分ければ良いですか？",
+    "model_answer": "運動後の筋肉痛は、数日後にかけて軽く感じられることが多いです。怪我の痛みは、すぐに現れ、強い痛みやしびれを感じることがあります。また、怪我の場合は動きが制限されることがあります。筋肉痛は、軽いストレッチや温かいお風呂で緩和できます。怪我の場合は、安静にして冷やし、医師の診察を受けたほうがよいです。痛みが続く場合は、必ず病院を受診してください。体の状態をよく確認してください。"
+  },
+  {
+    "id": "ja_087",
+    "language": "ja",
+    "question": "リフティングベルト、ストラップ、膝サポーターのような器具は、本当に怪我の予防に効果がありますか？正しい使い方が知りたいです。",
+    "model_answer": "リフティングベルトは、腰の負担を軽減し、怪我の予防に有効です。正しい使い方として、動き始め前に着用し、重い物を運ぶときにはしっかり固定します。ストラップは、関節の安定を助け、特に膝や股関節のサポートに役立ちます。膝サポーターは、関節の保護に有用で、長時間の運動や負荷のかかる作業時に使用すると良いです。これらは、適切に使用すれば怪我を防ぐのに役立ちます。正しい使い方を学ぶためには、専門家に指導を受けたり、製品の使用説明書をよく読んでください。安全に使用するためには、自身の体調や状態に合ったものを選ぶことも大切です。"
+  },
+  {
+    "id": "ja_088",
+    "language": "ja",
+    "question": "運動中に左右の不均衡（片方だけにより刺激を感じたり、力が入ったりする現象）を感じます。これを放置すると怪我につながる可能性がありますか？",
+    "model_answer": "運動中に左右の不均衡を感じる場合、怪我につながる可能性があります。特に長時間続けると、筋肉のバランスが崩れ、関節や骨に負担がかかります。軽度であれば休憩などで調整すれば大丈夫ですが、持续している場合は医師に相談してください。体の不調を感じたら早めにチェックすることが重要です。適度な運動と休息のバランスを保つことが大切です。無理をせず、自分の体の反応を見守ることが望ましいです。"
+  },
+  {
+    "id": "ja_089",
+    "language": "ja",
+    "question": "運動中に肘の内側（ゴルフ肘）や外側（テニス肘）に痛みが出た場合、どのように対処すべきですか？",
+    "model_answer": "運動中にゴルフ肘またはテニス肘に痛みを感じた場合は、即座に活動を中止して休養を取ることが大切です。患部を冷やすことで炎症を軽減できます。また、ストレッチや軽い運動で筋肉を緩めることも有効です。痛みが強い場合は、医師の診断を受けましょう。無理をしないで、徐々に運動を戻すようにしてください。適度な負荷で体を整えることが重要です。ご自身の体に合わせてケアを行ってください。"
+  },
+  {
+    "id": "ja_090",
+    "language": "ja",
+    "question": "痛みがあるとき、冷湿布と温湿布は、それぞれいつ使うのが効果的ですか？",
+    "model_answer": "痛みがあるとき、冷湿布は炎症が起きている部位に使います。たとえば、ケガや発熱のときには冷湿布が効果的です。温湿布は血流を促進し、筋肉の緊張をほぐすために使います。例えば、腰痛や肩こりのときに使います。冷湿布は痛みが強いときや、腫れが見られるときにはおすすめです。温湿布は長時間の痛みや、寒さによる痛みには適しています。どちらも使い方を間違えると効果が低下する可能性がありますので、症状に応じて選ぶことが大切です。痛みが続く場合は医師に相談することも重要です。"
+  },
+  {
+    "id": "ja_091",
+    "language": "ja",
+    "question": "椎間板ヘルニアの既往歴がある人でもできる体幹トレーニングをおすすめしてください。",
+    "model_answer": "体幹トレーニングにおいては、椎間板ヘルニアの既往歴がある方には、負担が少ない動きを心がけましょう。まず、仰向けで足を広げて股関節を伸ばす「足指開きストレッチ」から始めてください。次に、仰向けで手を天井へ向けて腕を伸ばす「手のひら上向きストレッチ」も効果的です。さらに、椅子に座り、背中を丸めずに首をゆっくり動かす「首の回転ストレッチ」も推奨します。これらの運動は、体幹の強化と姿勢の改善に役立ちます。ただし、痛みを感じたらすぐに中止してください。定期的な運動は、体幹の安定性を高めるため重要です。"
+  },
+  {
+    "id": "ja_092",
+    "language": "ja",
+    "question": "足首を数回捻挫してから、不安定な感じがあります。回復に役立つ簡単なルーティンはありますか？",
+    "model_answer": "足首の不安定感が続く場合は、以下のルーティンを毎日行ってみてください。  \n軽いストレッチと筋力トレーニングが効果的です。  \n\nまず、足首をゆっくり回すストレッチを行います。  \n次に、足の裏を床につけた状態で足首を左右に動かします。  \nその後、体重を乗せたまま足首を軽く捻る動作を3セット行います。  \n\nまた、足の裏全体のマッサージも効果的です。  \nこれらの動作を10分程度行うことで、回復が促進されます。  \n\n足首の痛みが強い場合は、医師の診察を受けたほうが良いです。  \n適切な治療を受けることが大切です。"
+  },
+  {
+    "id": "ja_093",
+    "language": "ja",
+    "question": "巻き肩（ラウンドショルダー）の人に必要なストレッチと強化運動は何ですか？",
+    "model_answer": "巻き肩に必要なストレッチは、胸の筋肉を伸ばす「クロス・オーバー・ストレッチ」や、「ハムストリングス・ストレッチ」です。また、肩甲骨を稳定させるための強化運動として、「スクワット」や「プッシュアップ」が効果的です。さらに、背中の筋肉を強化する「ロー・パドル・スワイプ」も重要です。これらの運動を週3回以上行うことで、巻き肩の改善が見込めます。正しいフォームを保つことが大切です。ストレッチは毎日少しずつ行うことが望ましいです。筋肉の柔軟性を高めるための準備運動も忘れずにしましょう。バランスの取れた運動習慣を心がけましょう。"
+  },
+  {
+    "id": "ja_094",
+    "language": "ja",
+    "question": "一日中座っているせいで腰が凝って、よく痛みます。毎日できる5分間のルーティンをおすすめしてください。",
+    "model_answer": "腰の痛みを和らげるための5分間のルーティンです。  \nまず、お尻を軽くほぐすストレッチを行います。  \n次に、足首を回す運動を30秒行います。  \nその後、背中を伸ばすポーズを5回繰り返します。  \nさらに、足を組んで腰を押える動作を30秒行います。  \n最後に、ゆっくりと深呼吸を3回行います。  \nこれにより、血流が改善し、痛みが軽減されます。"
+  },
+  {
+    "id": "ja_095",
+    "language": "ja",
+    "question": "ストレートネック（スマホ首）がひどいと言われます。姿勢を矯正するためにはどのような運動をすれば良いですか？",
+    "model_answer": "ストレートネックの改善には、首と肩の柔軟性を高める運動が効果的です。まず、首の回転運動をしましょう。左右どちらかの耳を天井につけながら頭を傾けます。次に、肩のストレッチも重要です。片方の手を体の前方に伸ばし、もう一方の手でその手を引き寄せます。さらに、猫と牛の姿勢も効果的です。床に座り、胸をへし込みながら体を動かします。これらの運動を毎日少しずつ続けてください。姿勢を改善するためには、意識的に正しい姿勢を保つことも大切です。無理をせず、徐々に習慣化してください。"
+  },
+  {
+    "id": "ja_096",
+    "language": "ja",
+    "question": "怪我から回復した後、運動を再開しようと思います。安全に復帰するためのガイドラインはありますか？",
+    "model_answer": "怪我から回復した後、運動を再開する際には、医師や物理療法士と相談することが大切です。まずは軽い運動から始めて、体の状態を確認してください。無理な動きは避けて、痛みを感じたら中止しましょう。十分な休息と栄養摂取も重要です。段階的に強度を上げていき、体が慣れたら本格的な運動に移行できます。安全に復帰するためには、自分の体の信号に耳を傾けることが大切です。"
+  },
+  {
+    "id": "ja_097",
+    "language": "ja",
+    "question": "フォームローラーとマッサージガンは、回復とリハビリにどのように使うのが最も効果的ですか？",
+    "model_answer": "フォームローラーは、筋肉の緊張をほぐし、血流を促進するために使用します。リハビリでは、軽い圧力で関節周辺の筋肉を刺激し、柔軟性を向上させます。マッサージガンは、深部の筋肉に直接作用し、疲労を軽減するのに適しています。回復には、筋肉の緊張を解消し、血流を改善するための使用が効果的です。リハビリでは、関節の可動域を広げるためにも活用できます。両方を使う場合、まずフォームローラーで整体を行い、その後マッサージガンで深部の筋肉を刺激するのが良いです。それぞれの目的に応じて使い分けることが重要です。使用時間は、10分から20分程度が適切です。正しい操作方法を守ることが効果を最大限に引き出す鍵です。"
+  },
+  {
+    "id": "ja_098",
+    "language": "ja",
+    "question": "スクワットで深くしゃがめなかったり、腰が丸まってしまったりします。股関節の可動性を向上させる運動を教えてください。",
+    "model_answer": "スクワットで深くしゃがめなかったり、腰が丸まってしまう場合は、股関節の可動性が足りない可能性があります。股関節の可動性を向上させるための運動として、以下のような運動が効果的です。\n\nまず、椅子に座り、足を前後に開いて座ります。次に、足首を軽く曲げて、足先を天井に向けて上げます。この動作をゆっくりと10回行います。これにより、股関節の柔軟性が向上します。\n\nその後、床に座り、膝を90度に曲げて足を前後に開きます。この状態を維持しながら、足首を軽く曲げて足先を天井に向けて上げます。これを10回行うと、股関節の可動範囲が広がります。\n\nこれらの運動を週3回、 each 10回ずつ行うことで、股関節の可動性が改善し、スクワットの姿勢も安定するでしょう。持续的に練習することで、体の柔軟性が向上します。"
+  },
+  {
+    "id": "ja_099",
+    "language": "ja",
+    "question": "お尻から足にかけてしびれるような感じ（坐骨神経痛の症状）があります。これを和らげるのに役立つストレッチはありますか？",
+    "model_answer": "坐骨神経痛の症状でお尻から足にかけてしびれる場合は、以下のストレッチが有効です。  \nまず、仰向けに寝て足首を伸ばし、片足を軽く上げて膝を曲げます。  \n次に、腰を少し傾けながら足を地面につけるようにします。  \nこの姿勢を10秒間保ち、次にゆっくりと足を戻します。  \nこれを左右どちらも5回ずつ行います。  \nまた、猫のポーズと牛のポーズを交互にして腰の柔軟性を高めるのもおすすめです。  \nこれらにより、神経への圧迫を和らげることができます。  \n痛みがある場合は、医師の診断を受けてください。  \n適度な運動で症状を軽減できるようになります。  \nただし、痛みが強い場合は早めに病院へ行くことをお勧めします。"
+  },
+  {
+    "id": "ja_100",
+    "language": "ja",
+    "question": "静的ストレッチと動的ストレッチは、いつ、どのように使い分けるのが良いですか？",
+    "model_answer": "静的ストレッチは、運動後に行うのが適しています。体をほぐす目的で、関節をゆっくりと伸ばして保持します。動的ストレッチは、運動前に使用すると効果的です。軽い動きで筋肉を熱し上げ、柔軟性を高めます。どちらも正しい方法で行うことで、怪我を防ぎ、体の機能を向上させます。それぞれの目的に応じて使い分けてください。ストレッチの時間は、10〜30秒程度が目安です。体の反応を見ながら調整してください。安全に続けられるようにしましょう。"
+  },
+  {
+    "id": "ko_051",
+    "language": "ko",
+    "question": "체지방을 감량하고 싶은 30대 남성(주 3회 웨이트 + 유산소)의 하루 식단 예시를 구성해줘.",
+    "model_answer": "아침  \n6:00 아침 물 1杯  \n7:00 빵 1조각 + 부드러운 토스트 1개 + 우유 1杯  \n\n점심  \n12:30 그릴치킨 150g + 채소김치 1인분 + 고구마 1개 + 물 1杯  \n\n저녁  \n18:30 통밀밥 1인분 + 오트밀 1스푼 + 연어 1큰 술 + 채소 1인분 + 물 1杯  \n\n간식  \n15:00 아몬드 1 작은 술  \n19:30 그릭 요거트 100g + 체리 5개  \n\n운동 후  \n20:00 단백질 쉐이크 1杯 + 과일 1개  \n\n총 섭취량: 단백질 110g, 탄수화물 150g, 지방 40g (예상치)"
+  },
+  {
+    "id": "ko_052",
+    "language": "ko",
+    "question": "닭가슴살 대신 사용할 수 있는 고단백 저지방 식품을 추천해줘.",
+    "model_answer": "고단백 저지방 식품으로는 두부가 적합합니다. 두부는 단백질 함량이 높고 지방이 적어 건강에 이롭습니다.  \n다음으로는 오트밀도 추천합니다. 오트밀은 단백질과 섬유질이 풍부하며, 칼로리가 낮아 체중 관리에 좋습니다.  \n계란도 좋은 선택입니다. 계란은 단백질이 풍부하고, 지방도 낮은 편입니다.  \n스프가이드는 단백질이 풍부하고 지방이 적어 건강한 식사로 활용 가능합니다.  \n고구마는 단백질 함량이 낮지만, 섬유질과 비타민이 풍부하여 균형 잡힌 식사에 좋습니다."
+  },
+  {
+    "id": "ko_053",
+    "language": "ko",
+    "question": "크레아틴, 단백질 보충제, 비타민 중에서 운동 효과에 가장 우선순위를 둘 보충제는?",
+    "model_answer": "운동 효과에 가장 우선순위를 둘 보충제는 크레아틴입니다.  \n크레아틴은 근육의 에너지 생성에 필수적인 물질로, 운동 성능 향상과 근력 증가에 크게 기여합니다.  \n단백질 보충제는 근육 회복과 성장에 도움을 주지만, 크레아틴의 영향이 더 즉각적이고 구체적입니다.  \n비타민은 체내 대사와 건강 유지에 필요하지만, 운동 효과에 직접적인 영향은 작습니다.  \n크레아틴은 운동 전후에 섭취하는 것이 효과적입니다.  \n일일 섭취량은 일반적으로 3~5g 정도 권장됩니다.  \n크레아틴은 대부분의 운동 선수들이 사용하는 보충제입니다.  \n정확한 섭취 방법과 용량은 의사나 영양사와 상담하는 것이 좋습니다."
+  },
+  {
+    "id": "ko_054",
+    "language": "ko",
+    "question": "간헐적 단식이 근육 성장에 미치는 영향을 알려줘.",
+    "model_answer": "간헐적 단식은 근육 성장에 다양한 영향을 미칠 수 있습니다. 첫째, 단식 기간 동안 식사 간격이 확장되어 대사 활동이 줄어들고, 이는 근육 손실을 줄이는 데 도움이 됩니다. 둘째, 단식 시 인슐린 분비가 감소하여 지방 분해가 촉진되며, 이 과정에서 근육에 필요한 에너지가 더 효과적으로 이용됩니다. 셋째, 단식은 스트레스 호르몬인 코르티솔 수치를 낮추어 근육 파괴를 방지하는 데 도움이 됩니다. 넷째, 단식과 운동을 함께 실천하면 근육 합성 효율이 향상될 수 있습니다. 그러나 단식은 개인의 건강 상태와 운동량에 따라 결과가 다를 수 있으므로, 적절한 방법으로 실천해야 합니다."
+  },
+  {
+    "id": "ko_055",
+    "language": "ko",
+    "question": "인바디에서 기초대사량이 1,400kcal로 나왔는데, 감량을 원할 경우 하루 섭취 칼로리는?",
+    "model_answer": "인바디에서 기초대사량(BMR)이 1,400kcal라고 하면, 감량을 위해 일일 총 섭취 칼로리를 줄이는 것이 필요합니다. 일반적으로 체중 감량을 위해 일일 총 섭취 칼로리가 기초대사량의 10~20% 정도 낮아져야 합니다.  \n즉, 1,400kcal의 10%는 140kcal, 20%는 280kcal입니다.  \n따라서 감량을 위해 일일 총 섭취 칼로리는 약 1,260kcal ~ 1,120kcal 범위가 적당합니다.  \n단, 개인의 활동량과 목표에 따라 조정이 필요합니다."
+  },
+  {
+    "id": "ko_056",
+    "language": "ko",
+    "question": "운동 전과 후에 섭취하면 좋은 음식은 무엇인가요?",
+    "model_answer": "운동 전 30분 전에는 단백질과 복합탄수화물이 포함된 음식을 섭취하세요. 예를 들어, 토스트와 계란, 과일 등이 좋습니다.  \n운동 후 30분 내에는 탄수화물과 단백질이 포함된 음식을 섭취하세요. 예를 들어, 과일과 유제품, 통밀 베이글 등이 좋습니다.  \n운동 전에는 소량의 탄수화물과 단백질이 필요하며, 운동 후에는 탄수화물과 단백질을 함께 섭취하여 근육 회복과 에너지 충전에 도움이 됩니다.  \n운동 전 음식은 빠르게 소화되도록 하여 부담을 줄이고, 운동 후 음식은 근육 회복에 필요한 영양소를 제공합니다.  \n운동 전과 후에 섭취하는 음식은 운동 성능과 회복에 큰 영향을 미칩니다.  \n운동 전에는 고단백 식사가 좋고, 운동 후에는 탄수화물과 단백질이 포함된 식사가 좋습니다.  \n운동 전에는 빠른 소화가 가능한 음식을, 운동 후에는 천천히 섭취할 수 있는 음식을 선택하세요.  \n운동 전에는 단백질과 복합탄수화물이 포함된 음식, 운동 후에는 탄수화물과 단백질이 포함된 음식을 섭취하세요."
+  },
+  {
+    "id": "ko_057",
+    "language": "ko",
+    "question": "다이어트 중 피할 수 없는 술자리, 어떻게 대처하는 것이 좋을까요?",
+    "model_answer": "다이어트 중 피해야 할 술자리는 다음과 같습니다.  \n1. 알코올 함량이 높은 음주가 포함된 자리.  \n2. 칼로리가 많은 음료나 스프레이가 제공되는 자리.  \n3. 식사와 함께 음주가 자주 일어나는 자리.  \n\n이러한 자리에서 대처하는 방법은 다음과 같습니다.  \n- 미리 준비된 건강한 간식이나 음료를 가지고 갑니다.  \n- 음주 전후에 물을 충분히 마십니다.  \n- 상대방과 건강한 선택을 이야기하며 동의를 얻습니다.  \n- 필요하다면 대체 음료를 추천합니다.  \n- 자신감 있게 자신의 목표를 밝히고, 타인의 의견을 무시하지 않습니다.  \n- 힘들면 가벼운 운동이나 산책을 통해 스트레스를 해소합니다.  \n- 지속적인 자기 관리를 통해 체중 감소를 유지합니다.  \n- 필요하다면 전문가와 상담하여 더 효과적으로 대처할 수 있습니다."
+  },
+  {
+    "id": "ko_058",
+    "language": "ko",
+    "question": "'치팅데이'는 다이어트에 정말 효과가 있나요? 올바른 치팅데이 방법이 궁금합니다.",
+    "model_answer": "치팅데이는 단순히 음식을 과하게 먹는 것이 아니라, 체중 관리에 도움이 되는 전략입니다. 올바른 치팅데이 방법은 다음과 같습니다.\n\n1. 일주일에 한 번만 하세요. 너무 자주 하면 효과가 떨어집니다.  \n2. 헬스 운동을 먼저 해주세요. 근육량이 많아지면 체지방이 줄어듭니다.  \n3. 고단백, 고섬유 식사로 시작해요. 끝내는 음식이 아닌, 치팅을 위한 준비가 필요합니다.  \n4. 치팅 음식은 양이 적고, 칼로리가 낮은 것을 골라주세요.  \n5. 치팅 후에는 보충 음식을 먹어주세요. 예를 들어, 단백질과 섬유질이 많은 음식.  \n\n치팅데이는 균형 잡힌 식사와 운동을 통해 체중 감량에 도움이 됩니다. 과도한 칼로리 섭취는 피해야 합니다."
+  },
+  {
+    "id": "ko_059",
+    "language": "ko",
+    "question": "하루 총 섭취 칼로리가 같다면, 식사 횟수(예: 하루 3끼 vs 5끼)가 체중 감량에 영향을 미치나요?",
+    "model_answer": "식사 횟수는 체중 감량에 영향을 미칩니다.  \n같은 총 칼로리를 섭취하더라도, 식사 횟수가 많을 경우 혈당 조절이 잘 되고, 대사 활성화가 됩니다.  \n식사 간격이 짧아지면 과식 위험이 높아집니다.  \n영양소의 균형도 중요합니다.  \n단백질과 섬유질을 충분히 섭취하는 것이 좋습니다.  \n식사 빈도가 높으면 체지방 감소가 더 효과적일 수 있습니다.  \n식사 시간을 규칙적으로 관리하는 것이 중요합니다.  \n간식을 통해 칼로리가 분산될 수 있습니다.  \n식사 횟수는 개인의 생활 습관과 체력에 따라 달라집니다.  \n운동과 결합하여 체중 감량이 더 쉬워집니다."
+  },
+  {
+    "id": "ko_060",
+    "language": "ko",
+    "question": "체지방 감량을 위해 탄수화물을 완전히 배제하는 식단(저탄고지 등)은 장기적으로 괜찮을까요?",
+    "model_answer": "저탄고지 식단은 단기간에는 체지방 감량에 효과적이지만, 장기적으로는 건강에 부정적인 영향을 줄 수 있습니다. 탄수화물은 에너지 공급과 세포 유지에 필요합니다. 완전히 배제하면 대사가 불균형해지고, 심혈관 질환, 당뇨병 위험 증가 등의 문제가 발생할 수 있습니다.  \n영양균형을 위해 탄수화물은 과도하게 섭취하지 않고, 고섬유질, 저지방의 탄수화물을 적당히 섭취하는 것이 좋습니다.  \n저탄고지 식단은 단기적인 목적으로 사용할 수 있지만, 장기적인 건강을 위해 균형 잡힌 식단이 더 중요합니다.  \n운동과 함께 식단 조절을 통해 체지방을 줄이는 것이 효과적입니다.  \n식단은 단백질, 지방, 탄수화물의 비율을 고려해야 합니다.  \n건강한 체지방 감량은 균형 잡힌 식단과 규칙적인 운동을 통해 이루어집니다."
+  },
+  {
+    "id": "ko_061",
+    "language": "ko",
+    "question": "축구 능력 향상을 위한 주 3회 루틴을 짜줘.",
+    "model_answer": "주 3회 루틴을 다음과 같이 구성합니다.\n\n1. 월요일: 기초 운동 + 스프린트 30분  \n   - 기초 운동 20분 (가벼운 걷기, 스트레칭)  \n   - 스프린트 30분 (3~4세트, 각 세트 간 휴식 1분)  \n\n2. 수요일: 팀 연습 + 레저 플레이 1시간  \n   - 팀 연습 40분 (공격/수비 연습, 패스, 드리블)  \n   - 레저 플레이 20분 (자유 경기, 실전 감각 향상)  \n\n3. 금요일: 기술 연습 + 근력 운동 1시간  \n   - 기술 연습 40분 (드라이브, 외곽 드리블, 슈팅)  \n   - 근력 운동 20분 (하체 근력, 스트레칭 포함)  \n\n루틴은 8~10주간 지속 권장하며, 주 2회 추가 연습도 도움 됩니다."
+  },
+  {
+    "id": "ko_062",
+    "language": "ko",
+    "question": "초보자가 데드리프트를 루틴에 포함시킬 때 주의할 점은?",
+    "model_answer": "데드리프트를 루틴에 포함시키는 경우 다음과 같은 점을 주의해야 합니다.\n\n1. 체력과 근육 상태를 확인하세요. 부상이나 피로가 있는 상태에서는 무리하게 수행하지 마세요.\n\n2. 처음에는 가벼운 무게부터 시작해 점진적으로 증가시켜 근육에 적응하도록 합니다.\n\n3. 운동 전 후에 스트레칭과 이완 운동을 해 근육 긴장을 줄이고 부상 위험을 낮춥니다.\n\n4. 올바른 자세와 기술을 유지하는 것이 중요합니다. 잘못된 자세는 부상의 원인이 될 수 있습니다.\n\n5. 운동 후에는 충분한 휴식과 수분 섭취를 통해 회복을 도와줍니다.\n\n6. 운동을 하기 전에는 의사나 전문가의 조언을 받는 것도 좋습니다.\n\n7. 루틴에 포함시킬 때는 매일 꾸준히 반복하는 것이 효과적입니다.\n\n8. 운동 시 통증이 느껴지는 경우 즉시 중단하고 병원을 방문하세요.\n\n9. 운동 장소와 장비는 안전한 환경을 보장해야 합니다.\n\n10. 운동 후에는 자신의 진척 상황을 정기적으로 점검하여 적절한 계획을 수립하세요."
+  },
+  {
+    "id": "ko_063",
+    "language": "ko",
+    "question": "상체/하체 운동 빈도와 밸런스는 어떻게 맞추는 게 좋을까?",
+    "model_answer": "상체와 하체의 운동 빈도를 균형 있게 맞추려면, 일반적으로 3~4회 주 2~3회가 적당합니다. 상체 운동은 어깨, 가슴, 흉부 등이 중심이 되고, 하체 운동은 허리, 무릎, 발등이 중심이 됩니다. \n\n운동 빈도를 조절할 때는, 운동 종목과 목적에 따라 차이가 있습니다. 예를 들어, 체력 강화에는 매일 운동하는 것이 좋고, 체력 향상에는 주 3~4회가 적절합니다.\n\n운동 시간은 30분 이상 지속하는 것이 효과적입니다. 운동 후에는 충분한 이완과 수분 섭취가 필요합니다.\n\n운동 시에는 부상 방지를 위해 올바른 자세와 기술을 유지해야 합니다. 전문가의 지도를 받는 것도 중요합니다."
+  },
+  {
+    "id": "ko_064",
+    "language": "ko",
+    "question": "루틴에 스쿼트, 런지, 힙쓰러스트가 모두 들어가도 괜찮을까?",
+    "model_answer": "스쿼트, 런지, 힙스러스트는 모두 다리 근육을 강화하는 운동입니다. 함께 운동하면 다리의 근력과 유연성이 동시에 향상됩니다. 하지만 운동량을 조절하는 것이 중요합니다. 각 운동을 3~4세트씩 하면 충분합니다. 휴식 시간도 지켜서 부담을 줄이세요. 운동 후에는 스트레칭으로 근육을 이완시킵니다. 균형 있게 운동하면 효과가 더 좋습니다."
+  },
+  {
+    "id": "ko_065",
+    "language": "ko",
+    "question": "상체는 잘 발달했는데 하체가 부족해. 루틴을 어떻게 수정하면 좋을까?",
+    "model_answer": "상체 발달이 잘 되었으므로 하체 근육을 강화하는 루틴을 추가하세요.  \n하체 운동은 주 3회 이상 권장하며, 스쿼트, 런지, 플랭크 등 다양한 동작을 조합하세요.  \n근력 훈련은 4~6세트, 각 세트 10~15회씩 반복하는 것이 효과적입니다.  \n운동 전후로 스트레칭을 통해 유연성과 부상 예방을 도와주세요.  \n식단에서도 단백질 섭취를 늘려 근육 회복을 지원하세요."
+  },
+  {
+    "id": "ko_066",
+    "language": "ko",
+    "question": "근력 운동과 유산소 운동을 같은 날에 할 때, 어떤 순서로 하는 것이 목적(근성장/체지방 감량)에 더 효과적인가요?",
+    "model_answer": "근력 운동 후 유산소 운동을 하는 것이 효과적이다. 근력 운동은 근육을 자극해 체지방 감량에 도움을 주고, 유산소 운동은 칼로리 소모를 증가시킨다.  \n근력 운동을 먼저 하면 근육이 활성화되어 유산소 운동 중 더 많은 칼로리를 태우게 된다.  \n근력 운동 후 유산소 운동은 체력과 근육의 상태를 최적화하여 운동 효과를 높일 수 있다.  \n운동 시간은 60분 이상 유지하는 것이 좋으며, 점심시간前后에 운동하는 것이 가장 효과적이다.  \n운동 전에는 충분한 수분과 영양소를 섭취하고, 운동 후에는 회복에 필요한 영양을 보충해야 한다.  \n운동 후 스트레칭을 통해 근육의 피로를 완화하고, 부상 방지를 위해 주의해야 한다."
+  },
+  {
+    "id": "ko_067",
+    "language": "ko",
+    "question": "운동 전 웜업과 운동 후 쿨다운의 중요성은 무엇이며, 각각 어떤 동작으로 구성해야 하나요?",
+    "model_answer": "운동 전 웜업은 근육과 관절을 따뜻하게 하여 부상 위험을 줄이고, 운동 효율을 높입니다. 5~10분간 점진적으로 근력과 유연성을 향상시키는 동작이 필요합니다.\n\n운동 후 쿨다운은 심박수와 호흡을 천천히 내려보이며, 근육의 피로를 완화하고 재활용을 돕습니다. 스트레칭과 저강도 유산소 운동이 포함되어야 합니다.\n\n움업 예시: 다리 뒤 스트레칭, 어깨 회전, 허리 뒤 스트레칭  \n쿨다운 예시: 가벼운 걷기, 허리 스트레칭, 다리 앞으로 스트레칭  \n\n움업은 5~10분, 쿨다운은 5~10분 이상 지속해야 효과적입니다.  \n운동 전에는 충분한 수분 섭취와 고지방 음식 피하기가 중요합니다.  \n운동 후에는 보충 음료나 단백질 식사가 권장됩니다."
+  },
+  {
+    "id": "ko_068",
+    "language": "ko",
+    "question": "항상 같은 무게와 횟수로 운동하고 있습니다. '점진적 과부하'를 적용하기 위한 구체적인 방법이 궁금합니다.",
+    "model_answer": "운동 무게와 횟수를 조금씩 증가시키는 방법입니다.  \n1. 주 2~3회 운동할 때마다 무게를 2.5~5kg 늘립니다.  \n2. 횟수는 1~2회 더 하도록 조절합니다.  \n3. 주간에는 동일한 운동 종목을 유지하며 점진적으로 변화합니다.  \n4. 휴식일에는 무게를 원래대로 돌려놓습니다.  \n5. 월별에는 무게와 횟수를 각각 5~10% 증가시킵니다.  \n6. 체력과 부상 위험을 고려해 천천히 증가시킵니다.  \n7. 운동 전후로 스트레칭과 이완 운동을 추가합니다.  \n8. 운동 기록을 남기고, 매주 평균 점수를 비교합니다.  \n9. 체중이나 근력 향상이 느껴지면 과부하를 더 늘립니다.  \n10. 운동 후에 충분한 수면과 영양 섭취를 합니다."
+  },
+  {
+    "id": "ko_069",
+    "language": "ko",
+    "question": "운동할 때 목표 부위가 아닌 다른 곳에 힘이 들어가는 경우가 많습니다. 어떻게 개선할 수 있나요?",
+    "model_answer": "운동 시 목표 부위에 힘이 집중되지 않는 경우를 해결하기 위해서는 다음과 같은 방법을 추천합니다.\n\n1. **호흡 조절**: 호흡을 깊게 하고, 운동 중 천천히 숨을 들이마시며 힘을 가하는 것이 도움이 됩니다.\n\n2. **근육 계통의 훈련**: 목표 근육을 중심으로 한 훈련을 반복하여 근육의 감각과 통제력을 향상시킵니다.\n\n3. **운동 전 준비 동작**: 운동 전에 목표 부위를 움직이는 동작을 통해 근육의 유연성과 반응성을 높입니다.\n\n4. **운동 후 스트레칭**: 운동 후 목표 부위를 스트레칭해 근육의 피로를 완화하고, 힘의 집중도를 높입니다.\n\n5. **전문가 상담**: 운동 전문가나 트레이너와 상담해 개인 맞춤형 운동법을 확인하는 것도 중요합니다.\n\n6. **자기 인식 능력 향상**: 운동 중 자신이 어떤 부위에 힘을 가하고 있는지 주의 깊게 관찰하는 연습을 합니다.\n\n7. **운동 기술 정확도**: 운동 기술을 정확하게 익혀, 목표 부위에 힘을 집중하는 방법을 배웁니다.\n\n8. **운동 강도 조절**: 너무 강하게 운동하지 않고, 점진적으로 강도를 올리는 것이 도움이 됩니다.\n\n9. **운동 장소 선택**: 고요하고 안정적인 공간에서 운동을 하면 집중력이 높아집니다.\n\n10. **정기적인 운동 일정**: 일관된 운동 습관을 유지하면 근육의 반응이 좋아집니다."
+  },
+  {
+    "id": "ko_070",
+    "language": "ko",
+    "question": "복근 운동은 매일 해도 되나요? 아니면 다른 근육처럼 휴식이 필요한가요?",
+    "model_answer": "복근은 다른 근육과 달리 휴식이 필요하지 않습니다. 하지만 매일 운동하는 것은 오히려 부상 위험이 있을 수 있습니다.  \n일반적으로 2~3일 간격으로 운동하는 것이 좋습니다.  \n복근은 지속적인 수축으로 강화되므로, 일정 시간 동안 반복적으로 운동하는 것이 효과적입니다.  \n운동 후에는 충분히 휴식을 취하고, 수분 섭취와 영양 공급도 중요합니다.  \n복근은 다른 근육보다 회복이 빠르기 때문에, 매일 운동해도 무리가 없을 수 있습니다.  \n하지만 과도한 운동은 피해야 합니다."
+  },
+  {
+    "id": "ko_071",
+    "language": "ko",
+    "question": "8주간 근비대 프로그램을 구성해줘. 주당 4회 훈련 가능해.",
+    "model_answer": "1주차: 체력기초 (유산소 운동 30분 + 근력 운동 30분)  \n2주차: 근력 강화 (하체 중심 근력 운동 40분 + 유산소 20분)  \n3주차: 유연성 및 체력 (스트레칭 20분 + 유산소 40분)  \n4주차: 보조 운동 (무게 운동 30분 + 유산소 30분)  \n5주차: 근력 집중 (상체 근력 운동 40분 + 유산소 20분)  \n6주차: 유연성 향상 (스트레칭 30분 + 유산소 40분)  \n7주차: 종합 운동 (유산소 30분 + 근력 30분 + 스트레칭 20분)  \n8주차: 최종 검증 (유산소 40분 + 근력 40분 + 스트레칭 20분)"
+  },
+  {
+    "id": "ko_072",
+    "language": "ko",
+    "question": "덤벨만 가지고 4주간 체지방 감량을 목표로 한 프로그램을 짜줘.",
+    "model_answer": "1주차: 매일 아침 6~7분 빠른 스트레칭 + 오후 30분 덤벨 트레이닝(가슴, 등, 팔).  \n2주차: 아침 5분 요가 + 오후 30분 덤벨 트레이닝(복부, 허리, 다리).  \n3주차: 아침 10분 유산소 운동(달리기, 자전거) + 오후 30분 덤벨 트레이닝(근력 강화).  \n4주차: 아침 15분 스트레칭 + 오후 30분 덤벨 트레이닝(유산소 + 근력 병행).  \n식사: 매일 단백질 중심 식단, 탄수화물은 저탄수화물로 조절.  \n수분 섭취: 하루 3L 이상.  \n수면: 매일 7시간 이상."
+  },
+  {
+    "id": "ko_073",
+    "language": "ko",
+    "question": "스트렝스와 근비대를 병행하고 싶은 경우, 어떤 방식으로 훈련을 구성해야 할까?",
+    "model_answer": "스트렝스와 근비대를 병행하는 훈련은 단순히 두 운동을 섞는 것이 아니라, 각 운동의 목표를 명확히 해야 합니다. 먼저 스트렝스는 근육량과 힘 강화에 중점을 두고, 근비대는 근육의 크기와 체형 개선에 초점을 맞춥니다.\n\n훈련일정은 주 3~4회 이상 권장되며, 각 운동을 서로 다른 날에 집중해 수행하는 것이 좋습니다. 예를 들어, 스트렝스 훈련은 월요일, 수요일, 금요일, 그리고 근비대 훈련은 화요일, 목요일, 토요일을 할 수 있습니다.\n\n스트렝스 훈련에서는 중량을 높이고 반복 횟수를 줄여 힘을 강화합니다. 근비대 훈련에서는 중량을 낮추고 반복 횟수를 늘려 근육의 크기를 증가시킵니다.\n\n각 운동은 3~4세트, 8~12회의 반복 횟수를 권장하며, 휴식 시간은 60~90초 정도가 적절합니다. 이를 통해 두 운동 모두 효과적으로 수행할 수 있습니다."
+  },
+  {
+    "id": "ko_074",
+    "language": "ko",
+    "question": "운동 수행 능력이 정체되었을 때 적용할 수 있는 변형 방법(볼륨/강도/휴식 등)을 알려줘.",
+    "model_answer": "운동 수행 능력이 정체되면 다음 변형 방법을 적용할 수 있습니다.\n\n1. **볼륨 감소**: 총 운동량을 30~50% 줄여 부담을 줄입니다.\n2. **강도 낮춤**: 원 강도의 60~70%로 조절해 천천히 재개합니다.\n3. **휴식 시간 연장**: 세션 간 휴식 시간을 2~3분 더 확보합니다.\n4. **운동 종목 변경**: 비슷한 근육군을 사용하지만 다른 운동 방식으로 시도합니다.\n5. **이상 기능 운동**: 근력과 유산소를 결합한 혼합 운동을 도입합니다.\n6. **운동 빈도 감소**: 주 2~3회로 줄여 체력 회복을 돕습니다.\n7. **근력 운동 강화**: 저강도 but 고반복의 근력 운동을 추가합니다.\n8. **스트레칭 강화**: 운동 후 스트레칭을 10분 이상 진행합니다.\n\n이러한 방법으로 천천히 재활용을 시작하는 것이 좋습니다."
+  },
+  {
+    "id": "ko_075",
+    "language": "ko",
+    "question": "피라미드 세트 방식과 고정 중량 방식의 차이를 설명하고, 각 방식이 적합한 상황은?",
+    "model_answer": "피라미드 세트 방식은 무게를 증가시키며 세트를 진행하는 방식이다. 예를 들어, 1세트 10kg, 2세트 15kg, 3세트 20kg 등으로 진행한다. 이 방법은 근력 향상과 근육량 증가에 효과적이다.\n\n고정 중량 방식은 모든 세트에서 동일한 무게를 사용하는 방식이다. 예를 들어, 3세트 모두 10kg을 사용한다. 이 방법은 기초 근력 강화와 지속적인 근력 유지에 유리하다.\n\n피라미드 세트는 신체의 점진적인 적응을 통해 근육을 강화하는 데 적합하다. 고정 중량은 체력이 부족하거나 초보자에게 더 쉬운 훈련 방식이다."
+  },
+  {
+    "id": "ko_076",
+    "language": "ko",
+    "question": "2분할, 3분할, 5분할 등 다양한 분할법의 장단점과 자신에게 맞는 분할법을 선택하는 기준이 궁금합니다.",
+    "model_answer": "2분할은 간단하고 빠르게 실행되지만, 리스크가 높습니다. 3분할은 중간 수준의 리스크와 보상이 균형을 이루며, 5분할은 더 낮은 리스크와 보상이 특징입니다.  \n\n분할법 선택 기준은 자본금, 투자 목적, 위험 감정, 시장 상황 등이 있습니다.  \n\n자신에게 맞는 분할법은 투자자의 목표와 상황에 따라 달라집니다.  \n\n투자 목표가 단기적이라면 2분할이 적절할 수 있으며, 장기적이라면 5분할이 안전합니다.  \n\n위험 감정이 높다면 3분할, 낮다면 5분할이 적합합니다.  \n\n시장 상황도 고려해야 하며, 투자자마다 차이가 있습니다.  \n\n투자 전략과 개인의 상황을 종합해 결정하는 것이 중요합니다."
+  },
+  {
+    "id": "ko_077",
+    "language": "ko",
+    "question": "운동 프로그램은 얼마나 자주 바꿔주는 것이 좋은가요?",
+    "model_answer": "운동 프로그램은 주 1~2회 정도는 같은 운동을 반복하는 것이 좋습니다.  \n하지만 3주 이상 지속하면 운동 유형을 변경하는 것이 필요합니다.  \n다양한 운동을 통해 근육 발달과 체력 향상이 더 효과적입니다.  \n근력 운동, 유산소 운동, 유연성 운동 등 다양한 종목을 섞어 진행하세요.  \n운동 빈도와 내용을 주기적으로 조정해 체계적으로 접근하는 것이 중요합니다."
+  },
+  {
+    "id": "ko_078",
+    "language": "ko",
+    "question": "'디로딩(Deloading)'이란 무엇이며, 언제, 어떻게 실시해야 하나요?",
+    "model_answer": "디로딩은 기술적 또는 전략적인 맥락에서 작업이나 데이터를 해제하거나 분리하는 과정입니다. 주로 시스템, 프로세스, 또는 데이터베이스 관리에서 사용됩니다.\n\n디로딩은 일반적으로 다음 상황에서 실시합니다:\n- 시스템의 부하를 줄이기 위해\n- 데이터를 저장하거나 전송하기 위해\n- 특정 작업이 완료된 후에\n\n실시 방법은 다음과 같습니다:\n1. 필요한 작업을 중단합니다.\n2. 관련된 자원(메모리, 파일 등)을 해제합니다.\n3. 데이터를 필요한 곳으로 이동하거나 저장합니다.\n4. 시스템 상태를 확인하여 정상적으로 완료되었는지 확인합니다."
+  },
+  {
+    "id": "ko_079",
+    "language": "ko",
+    "question": "매 세트 '실패 지점(Failure)'까지 운동하는 것이 근성장에 필수적인가요?",
+    "model_answer": "실패 지점까지 운동하는 것은 근성장에 중요한 역할을 합니다. 이 과정에서 겪는 고통과 도전은 뇌의 성장호르몬 분비를 촉진하고, 인지적 유연성과 문제 해결 능력을 키웁니다. 실패를 경험함으로써 목표에 대한 이해와 자신감이 증가하며, 장기적인 성취에 기여합니다. 다만, 개인의 체력과 심리적 준비에 따라 접근 방식은 달라질 수 있습니다. 과도한 고통은 부정적인 영향을 줄 수 있으므로, 적절한 균형을 유지하는 것이 중요합니다."
+  },
+  {
+    "id": "ko_080",
+    "language": "ko",
+    "question": "헬스장에 갈 수 없을 때, 맨몸 운동만으로 근손실을 방지하고 근력을 유지하는 프로그램 구성 방법은 무엇인가요?",
+    "model_answer": "맨몸 운동으로 근손실을 방지하고 근력을 유지하려면 다음과 같은 프로그램을 구성할 수 있습니다.\n\n1. **요가**: 유연성과 근육 강화를 동시에 도와줍니다. 매일 30분 이상 수행합니다.\n\n2. **플랭크**: 복근과 core 근육을 강화합니다. 30초에서 1분간 3~4회 반복합니다.\n\n3. **고리 라이프트**: 허리와 청사리 근육을 강화합니다. 2~3세트, 각 세트 10~15회 수행합니다.\n\n4. **스쿼트**: 하체 근육을 강화합니다. 3세트, 각 세트 15~20회 수행합니다.\n\n5. **브릿지**: 허리와 햄스트링 근육을 강화합니다. 3세트, 각 세트 10~15회 수행합니다.\n\n6. **스텝업**: 다리 근육을 강화합니다. 3세트, 각 세트 10~15회 수행합니다.\n\n7. **무릎 레이즈**: 허리와 청사리 근육을 강화합니다. 3세트, 각 세트 15~20회 수행합니다.\n\n8. **팔 레이즈**: 상체 근육을 강화합니다. 3세트, 각 세트 15~20회 수행합니다.\n\n매일 30분 이상 꾸준히 수행하면 근손실을 방지할 수 있습니다."
+  },
+  {
+    "id": "ko_081",
+    "language": "ko",
+    "question": "벤치프레스를 할 때 어깨 통증이 있다면 무엇이 원인일 수 있고, 어떻게 대처해야 할까?",
+    "model_answer": "어깨 통증이 발생할 수 있는 원인은 다음과 같음:  \n1. 운동 전 준비운동 부족  \n2. 동작 기술 오류  \n3. 근육 불균형  \n4. 관절 연조직 과부하  \n\n대처 방법:  \n1. 운동 전 스트레칭과 전신 준비운동 필수  \n2. 정확한 동작 기술 확인 (전문가 상담 권장)  \n3. 어깨 근육 강화 운동 추가 (예: 라이즈업, 스쿼트)  \n4. 통증이 지속되면 의료진 진료 필요  \n5. 운동 강도 조절 및 휴식 시간 확보  \n\n심한 통증은 즉시 중단하고 병원 방문 권장."
+  },
+  {
+    "id": "ko_082",
+    "language": "ko",
+    "question": "스쿼트할때 간헐적으로 왼쪽 무릎에서 소리가 나는데, 계속 운동을 해도 괜찮을까?",
+    "model_answer": "스쿼트 시 왼쪽 무릎에서 간헐적인 소리가 나는 경우, 관절이나 인대의 이상이 있을 수 있습니다. 이는 과도한 힘을 가하거나 부상된 부위가 다시 부딪히는 현상일 수 있으므로 주의가 필요합니다.\n\n운동 중 지속적인 소리가 날 경우, 무릎 부상의 가능성이 높습니다. 특히 무릎 관절의 인대나 흉선이 손상되었을 수 있으니, 즉시 진료를 받는 것이 좋습니다.\n\n운동을 계속하다 보면 부상이 악화될 수 있으니, 우선 전문가의 진단을 받고 안전한 운동 방식을 확인해야 합니다.\n\n무릎의 상태가 안정적이지 않다면, 운동을 중단하고 치료를 우선시하는 것이 좋습니다.\n\n운동 전후로 무릎을 따뜻하게 하거나 스트레칭을 통해 유연성을 높이는 것도 도움이 됩니다.\n\n부상이 없다면, 운동을 이어가되 무리하지 않도록 주의해야 합니다."
+  },
+  {
+    "id": "ko_083",
+    "language": "ko",
+    "question": "데드리프트 시 허리 부상을 방지하기 위한 자세 팁을 알려줘.",
+    "model_answer": "데드리프트 시 허리 부상 예방을 위해 다음과 같은 자세를 유지하세요.  \n1. 허리를 곧게 펴고, 어깨를 뒤로 당겨 허리가 곧게 들어 서세요.  \n2. 몸을 숙일 때는 무릎을 구부려 허리에 부담을 주지 않도록 하세요.  \n3. 장비 착용 시 허리 밴드나 보조대를 사용해 균형을 유지하세요.  \n4. 허리에 무리가 가지 않도록 천천히 움직이고, 가속도를 조절하세요.  \n5. 허리 근육을 강화하는 운동을 꾸준히 해서 체력과 유연성을 높이세요.  \n6. 허리 통증이 느껴지면 즉시 멈추고, 병원에서 진료를 받으세요.  \n7. 허리 보호를 위해 전용 스포츠웨어를 착용하세요.  \n8. 허리에 무리가 가지 않도록 운동 전후에 스트레칭을 해주세요.  \n9. 허리 부상 예방을 위해 올바른 자세를 유지하며 운동하세요.  \n10. 허리에 무리가 가지 않도록 운동량을 점진적으로 증가시켜야 합니다."
+  },
+  {
+    "id": "ko_084",
+    "language": "ko",
+    "question": "운동 중 손목 통증이 계속될 때 대처법은? (운동 중단 or 대체 or 보강)",
+    "model_answer": "운동 중 손목 통증이 지속된다면 즉시 운동을 중단해야 합니다.  \n통증이 지속된다면 손목을 휴식시키고 냉찜질을 해 줍니다.  \n운동 종료 후 손목을 눌러보며 부상 여부를 확인합니다.  \n다음 운동에는 강도를 낮추거나 다른 운동으로 교체합니다.  \n손목에 문제가 있다면 의료진의 진료를 받는 것이 중요합니다.  \n운동 전 후에 손목을 스트레칭하고 보호 장비를 사용하는 것도 좋습니다.  \n통증이 심하다면 운동을 피하고 병원 방문이 필요할 수 있습니다.  \n손목 통증은 무시하면 장기적인 문제로 이어질 수 있습니다.  \n운동 중 통증을 느끼면 즉각적으로 대응하는 것이 중요합니다.  \n손목 보호를 위해 운동 전후에 적절한 준비와 회복을 하는 것이 좋습니다."
+  },
+  {
+    "id": "ko_085",
+    "language": "ko",
+    "question": "잦은 부상 없이 운동을 꾸준히 하기 위한 체크리스트를 알려줘.",
+    "model_answer": "운동 전 후 체크리스트입니다.\n\n1. 충분한 수면과 식사做好  \n2. 운동 전 유산소 운동으로 체온 상승  \n3. 운동 중 물을 자주 마시고 수분 보충  \n4. 무릎, 무족, 허리 등 취약 부위 관리  \n5. 운동 후 스트레칭으로 근육 이완  \n6. 운동 장비는 항상 청결하고 정확하게 사용  \n7. 운동 강도는 자신에게 맞게 조절  \n8. 부상 경고 신호에 주의하여 즉시 중단  \n9. 운동 후 피로감이 지속되면 진료 필요  \n10. 일정하게 운동 루틴을 유지  \n11. 운동 전후에는 부상 예방 라이너 사용  \n12. 운동 후에는 휴식과 재생을 위해 충분한 시간 확보  \n13. 운동 전에는 관절 보호 차림 착용  \n14. 운동 중에는 균형 잡힌 자세 유지  \n15. 운동 후에는 근육 피로를 관리하는 식사 준비"
+  },
+  {
+    "id": "ko_086",
+    "language": "ko",
+    "question": "운동 후의 기분 좋은 근육통과 부상으로 인한 통증은 어떻게 구분하나요?",
+    "model_answer": "운동 후 나타나는 기분 좋은 근육통은 일반적으로 **근육 피로**로 분류됩니다. 이는 운동 중 근육이 과도하게 사용되면서 자연스럽게 발생하며, 24~48시간 내에 자극이나 휴식으로 완화됩니다.\n\n반면, 부상으로 인한 통증은 다음과 같은 특징이 있습니다:  \n- 통증이 **즉각적으로** 발생하거나 강렬함  \n- **부상 부위**에 집중됨  \n- **움직일 때 더 심해짐**  \n- **긴 시간 동안 지속**되거나 악화됨  \n\n부상 시에는 즉시 전문가 상담을 받는 것이 중요합니다."
+  },
+  {
+    "id": "ko_087",
+    "language": "ko",
+    "question": "리프팅 벨트, 스트랩, 무릎 보호대와 같은 장비들이 부상 방지에 정말 효과가 있나요? 올바른 사용법이 궁금합니다.",
+    "model_answer": "리프팅 벨트는 허리 근육을 지지해 부상 예방에 도움이 됩니다. 하지만 과도하게 사용하면 근육이 약해질 수 있으니, 운동 전후에 단기간 사용하는 것이 좋습니다.  \n\n스트랩은 근육을 고정해 힘을 분산시켜 부상 예방에 효과적입니다. 하지만 과도한 긴장은 근육에 부담을 줄 수 있으므로, 적절한 조절이 필요합니다.  \n\n무릎 보호대는 무릎 부상 예방에 유용하지만, 운동 중에 너무 떨어지면 오히려 부상 위험을 줄 수 있습니다.  \n\n리프팅 벨트는 운동 전후 10분간 사용하고, 스트랩은 운동 중에 조절해 사용해야 합니다. 무릎 보호대는 운동 중에 착용하고, 운동 후에는 제거해야 합니다.  \n\n올바른 사용법은 장비의 목적과 운동 종류에 따라 달라집니다. 운동 전문가나 트레이너와 상담하는 것이 좋습니다."
+  },
+  {
+    "id": "ko_088",
+    "language": "ko",
+    "question": "운동 중 좌우 불균형(한쪽만 더 자극이 오거나 힘이 실리는 현상)이 느껴지는데, 방치하면 부상으로 이어질 수 있요?",
+    "model_answer": "네, 운동 중 좌우 불균형은 부상 위험을 높일 수 있습니다.  \n한쪽 관절이나 근육만 강하게 사용되면 과도한 피로가 쌓이고, 유연성도 줄어들 수 있습니다.  \n지속적인 불균형은 관절염이나 무릎, 어깨 등의 장기적인 문제를 유발할 수 있습니다.  \n운동 시 동작을 정확히 하여 균형을 유지하는 것이 중요합니다.  \n운동 전 후 체력과 근육 상태를 점검하는 것도 도움이 됩니다.  \n불균형이 지속된다면 전문가의 도움을 받는 것이 좋습니다."
+  },
+  {
+    "id": "ko_089",
+    "language": "ko",
+    "question": "운동 중 팔꿈치 안쪽(골프 엘보)이나 바깥쪽(테니스 엘보)에 통증이 발생했을 때, 어떻게 대처해야 하나요?",
+    "model_answer": "팔꿈치 통증이 생겼을 때는 즉시 운동을 중단하고 휴식을 취해야 합니다. 골프 엘보와 테니스 엘보는 관절과 근육의 부상이므로, 부상 부위를 가볍게 눌러보거나 열매 같은 것에 마사지를 해주는 것도 도움이 됩니다. 냉찜질을 하면 출혈을 줄일 수 있으니, 24시간 이내에는 냉찜질을 하고 이후에는 따뜻한 목욕이나 온열 치료를 할 수 있습니다. 부상 부위에 압박 밴드를 두르면 출혈을 줄일 수 있으니, 필요하다면 그걸 사용해 보세요. 의사나 외상 전문가에게 상담하는 것이 좋습니다. 운동 전후에 휴식과 스트레칭을 꾸준히 하여 부상 예방도 중요합니다."
+  },
+  {
+    "id": "ko_090",
+    "language": "ko",
+    "question": "통증이 있을 때 냉찜질과 온찜질, 언제 어떤 것을 해야 효과적인가요?",
+    "model_answer": "통증이 있을 때 냉찜질은 염증이 심한 경우, 온찜질은 통증이 지속되는 경우 효과적입니다.  \n염증이 뚜렷할 때 냉찜질을 10~15분간 하면 부종을 줄이고 통증을 완화시킬 수 있습니다.  \n통증이 지속되거나 쿨링 후 여전히 아프다면 온찜질을 15~20분간 하여 혈액 순환을 촉진합니다.  \n냉찜질은 매일 2~3회, 온찜질은 매일 1~2회 반복하는 것이 좋습니다.  \n통증이 급격히 증가하거나 둔통이 지속된다면 즉시 의사와 상담해야 합니다."
+  },
+  {
+    "id": "ko_091",
+    "language": "ko",
+    "question": "허리 디스크 병력이 있는 사람도 할 수 있는 코어 운동을 추천해줘.",
+    "model_answer": "허리디스크 문제를 가진 경우 과도한 힘든 운동은 피해야 합니다. 다음 코어 운동은 안전하게 수행할 수 있습니다.\n\n1. 허리 보호 자세로 엉덩이 들어 올리기  \n2. 허리에 부담을 주지 않는 허리 스트레칭  \n3. 바닥에 누워 허리와 엉덩이를 구부리는 운동  \n4. 바닥에 누워 허리와 무릎을 구부리는 운동  \n5. 허리에 부담을 주지 않는 요가 자세 (예: 허리 라이언)  \n\n운동 시 허리에 과도한 스트레스가 가不要하므로, 천천히 하며 통증이 느껴지면 중단해야 합니다. 전문가의 조언을 받는 것도 좋습니다."
+  },
+  {
+    "id": "ko_092",
+    "language": "ko",
+    "question": "발목을 몇 번 접질린 이후로 불안정한 느낌이 있어. 회복에 도움이 되는 간단한 루틴 있을까?",
+    "model_answer": "발목의 불안정감이 지속된다면 신체 검사가 필요할 수 있으니 우선 의사와 상담하시기 바랍니다. 하지만 일시적인 회복을 위해 다음 루틴을 시도해보세요.\n\n1. 발목을 뒤로 펴고 10회 정도 스트레칭합니다.  \n2. 발가락을 곧게 펼치고 10회 반복하여 유연성을 높입니다.  \n3. 발목을 들어 올리고 내려놓는 운동을 10회 합니다.  \n4. 무릎을 구부리고 발목을 움직이는 동작을 10회 반복합니다.  \n5. 매일 아침과 저녁 각 10분간 휴식을 취하며 발목을 가볍게 움직입니다.  \n\n운동은 통증이 느껴지지 않도록 주의하세요."
+  },
+  {
+    "id": "ko_093",
+    "language": "ko",
+    "question": "굽은 어깨(라운드 숄더)를 가진 사람에게 필요한 스트레칭과 강화 운동은?",
+    "model_answer": "라운드 숄더를 가진 사람에게는 어깨 근육의 긴장을 줄이고 척추를 정렬하는 운동이 필요합니다.  \n\n1. **어깨 펼치기 스트레칭**: 어깨를 뒤로 뻗고 머리 위로 들어 올리는 자세로 15~30초 유지.  \n2. **가슴 스트레칭**: 손을 어깨 위로 뻗고 몸을 앞으로 굽히며 15~30초 유지.  \n3. **어깨 후면 스트레칭**: 팔을 뒤로 뻗고 허리를 구부려 15~30초 유지.  \n\n강화 운동:  \n4. **스쿼트**: 척추를 정렬하며 하체 근육을 강화.  \n5. **플랭크**: core와 어깨 근육을 강화.  \n6. **바벨 라이즈**: 어깨 전면 근육을 강화.  \n\n일상적으로도 자세를 바로잡는 것이 중요합니다."
+  },
+  {
+    "id": "ko_094",
+    "language": "ko",
+    "question": "하루 종일 앉아 있다 보니 허리가 뻐근하고 자주 아파. 매일 할 수 있는 5분 루틴 추천해줘.",
+    "model_answer": "허리 통증 완화를 위한 5분 루틴입니다.  \n1. 천천히 10회 허리 스트레칭: 허리를 구부리고 팔을 뻗으며 10회 반복.  \n2. 30초 허리 복근 운동: 허리를 구부리고 복근을 쭉 펴며 30초 유지.  \n3. 10회 허리 기립 운동: 바닥에서 손을 뒤로 펴고 허리를 들어 올리며 10회.  \n4. 30초 허리 텁스: 허리를 뒤로 젖히고 양쪽으로 펼쳐 30초.  \n5. 10회 허리 편도 운동: 허리를 좌우로 편하게 움직이며 10회.  \n매일 5분간 반복하면 허리 건강이 좋아집니다."
+  },
+  {
+    "id": "ko_095",
+    "language": "ko",
+    "question": "거북목이 심하다는 말을 듣는데, 자세 교정을 위해 어떤 운동을 하면 좋을까?",
+    "model_answer": "거북목을 개선하기 위해 다음과 같은 운동을 추천합니다.  \n1. 목 뒤 근육을 풀어주는 **두근거림 운동**을 하루 2~3회 반복합니다.  \n2. **목을 뒤로 젖히는 운동**으로 목의 유연성을 높입니다.  \n3. **상체를 앞으로 숙이는 운동**으로 목과 어깨의 긴장을 완화합니다.  \n4. **양팔을 뒤로 뻗어 가슴을 두드리는 운동**으로 어깨와 목의 균형을 맞춥니다.  \n5. **수면 중 자세를 조절하는 습관**도 중요합니다.  \n운동은 매일 꾸준히 하여 천천히 개선해보세요."
+  },
+  {
+    "id": "ko_096",
+    "language": "ko",
+    "question": "부상 회복 후 운동을 다시 시작하려고 합니다. 안전하게 복귀하기 위한 가이드라인이 있을까요?",
+    "model_answer": "부상 회복 후 운동을 다시 시작할 때는 점진적으로 재활을 진행해야 합니다.  \n처음에는 부상 부위의 통증이나 제한이 없도록 천천히 시작하세요.  \n\n운동 전에는 충분한 스트레칭과 전рас도를 해야 합니다.  \n운동 후에는 부상 부위를 정기적으로 점검하고, 통증이 생기면 즉시 중단해야 합니다.  \n\n전문가의 지도를 받는 것이 중요합니다.  \n운동 강도는 부상의 심각도에 따라 조정해야 하며, 점진적으로 증가시켜야 합니다.  \n\n운동 후에는 충분한 휴식과 수분 섭취를 유지하세요.  \n운동 기록을 남기고, 월별로 체력 진척을 확인하는 것도 좋습니다."
+  },
+  {
+    "id": "ko_097",
+    "language": "ko",
+    "question": "폼롤러와 마사지건, 회복과 재활에 어떻게 활용해야 가장 효과적인가요?",
+    "model_answer": "폼롤러는 근육의 긴장을 해소하고 유연성을 높이기 위해 사용합니다. 자주 사용하면 관절 운동 범위를 넓히고, 체력 향상에 도움이 됩니다. 마사지건은 근육의 혈류를 촉진하여 피로를 완화하고, 염증을 줄입니다. 재활 단계에서는 부상 부위에 집중해 사용하는 것이 좋습니다. 회복 단계에서는 마사지건으로 근육을 이완하고, 폼롤러로 유연성 향상에 활용하면 효과적입니다. 두 가지를 조합해 사용할 때 통증 감소와 회복 속도가 빨라집니다. 특히, 운동 후에는 이 두 장비를 함께 사용하는 것이 좋습니다. 근육의 긴장과 유연성을 동시에 관리할 수 있습니다. 적절한 시간과 방법으로 사용하면 재활과 회복에 큰 도움이 됩니다. 일관된 사용이 중요합니다. 환자의 상태에 따라 사용 빈도를 조절해야 합니다. 과도한 사용은 오히려 부작용을 초래할 수 있습니다. 따라서 전문가의 조언을 받는 것도 좋습니다."
+  },
+  {
+    "id": "ko_098",
+    "language": "ko",
+    "question": "스쿼트 시 깊이 앉지 못하거나 허리가 말립니다. 고관절 가동성을 향상시키는 운동을 알려주세요.",
+    "model_answer": "고관절 가동성을 향상시키기 위해 다음과 같은 운동을 추천합니다.\n\n1. **플랭크 헤드 레이즈**: 허리와 엉덩이를 높이 들고 몸을 일직선으로 유지하며 헤드를 들어 올립니다.  \n2. **스쿼트 헤드 레이즈**: 스쿼트 자세에서 헤드를 들어 올리며 허리를 곧게 만듭니다.  \n3. **하이 허리 스쿼트**: 허리를 곧게 하되, 엉덩이를 높이 들고 스쿼트를 합니다.  \n4. **하이 허리 런지**: 허리를 곧게 유지하며 발을 뻗으며 런지를 합니다.  \n5. **하이 허리 데드리프트**: 허리를 곧게 유지하며 무게를 들어 올립니다.  \n\n이 운동들은 허리와 고관절의 유연성을 향상시켜 스쿼트 수행에 도움이 됩니다."
+  },
+  {
+    "id": "ko_099",
+    "language": "ko",
+    "question": "엉덩이부터 다리까지 저린 느낌(좌골신경통 증상)이 있는데, 완화에 도움이 되는 스트레칭이 있을까요?",
+    "model_answer": "좌골신경통의 증상인 엉덩이부터 다리까지의 통증 완화를 위한 스트레칭 방법은 다음과 같습니다.\n\n1. **햄스트링 스트레칭**: 허리와 무릎을 구부리고 발을 뒤로 밀어 천천히 스트레칭합니다.\n2. **저항대 사용 스트레칭**: 저항대를 무릎 위에 올려 다리를 뒤로 밀어 천천히 스트레칭합니다.\n3. **바이오메커니컬 스트레칭**: 천천히 체중을 이용해 다리를 뒤로 밀어 체력과 유연성을 동시에 향상시킵니다.\n4. **다리 뒷면 스트레칭**: 발을 뒤로 밀고 허리를 곧게 펴며 천천히 스트레칭합니다.\n5. **다리 전면 스트레칭**: 다리를 앞으로 뻗고 허리를 곧게 펴며 천천히 스트레칭합니다.\n\n스트레칭 시 통증이 느껴지면 중단하고, 매일 5~10분간 꾸준히 수행하는 것이 중요합니다."
+  },
+  {
+    "id": "ko_100",
+    "language": "ko",
+    "question": "정적 스트레칭과 동적 스트레칭은 언제, 어떻게 활용하는 것이 다른가요?",
+    "model_answer": "정적 스트레칭은 운동 전이나 후에 활용되며, 근육을 천천히 늘이면서 15~30초간 유지합니다. 동적 스트레칭은 운동 전에 사용되며, 관절의 범위를 확대하기 위해 부드럽게 움직입니다.  \n\n정적 스트레칭은 유연성을 높이고, 동적 스트레칭은 운동 준비에 도움을 줍니다.  \n\n정적 스트레칭은 근육 긴장을 완화하고, 동적 스트레칭은 혈류를 촉진합니다.  \n\n운동 전에는 동적 스트레칭을, 운동 후에는 정적 스트레칭을 하면 효과적입니다.  \n\n두 방법 모두 운동 관련 부상 예방에 도움이 됩니다.  \n\n정적 스트레칭은 특정 근육에 집중되고, 동적 스트레칭은 전체 관절 움직임을 강조합니다.  \n\n정적 스트레칭은 장시간 유지해야 하지만, 동적 스트레칭은 짧은 시간 내 완료됩니다."
+  },
+  {
+    "id": "zh-Hant_051",
+    "language": "zh-Hant",
+    "question": "請為一位30多歲、想減掉體脂肪、每週進行3次重量訓練和有氧運動的男性，設計一份一天的飲食菜單範例。",
+    "model_answer": "以下為一位30多歲、目標減脂、每周進行3次重量訓練及有氧運動男性的每日飲食菜單範例：\n\n早餐：全麥吐司2片、水煮蛋1個、牛奶200ml、水果1份（如香蕉或蘋果）。\n\n加餐：無糖酸奶100g、少量坚果1小把。\n\n午餐：糙米100g、烤雞胸肉150g、西兰花100g、番茄生菜沙拉。\n\n加餐：蛋白棒1根或低脂脫脂奶1杯。\n\n晚餐：蒸魚150g、炒青菜200g、紫薯100g、糙米50g。\n\n加餐：低脂乳製品或水果1份。\n\n總熱量控制在約1800-2000大卡，確保高蛋白、低熱量、高纖維，配合運動效果最佳。"
+  },
+  {
+    "id": "zh-Hant_052",
+    "language": "zh-Hant",
+    "question": "請推薦可以替代雞胸肉的高蛋白、低脂肪食物。",
+    "model_answer": "以下為可替代雞胸肉的高蛋白、低脂肪食物推薦：\n\n1. **魚類**：如三文魚、鯖魚，富含Omega-3脂肪酸，蛋白質含量高且脂肪低。  \n2. **豆類**：如黃豆、黑豆，含豐富植物蛋白，脂肪含量低且富含膳食纖維。  \n3. **雞蛋**：每個蛋約含6克蛋白質，脂肪含量低，適合作為蛋白質來源。  \n4. **豆腐**：含高蛋白質，低脂肪，且富含钙與鐵。  \n5. **瘦牛肉**：選擇 lean cut，蛋白質高且脂肪含量較低。  \n6. **藜麥**：全穀物，蛋白質含量高，脂肪含量低，且營養均衡。  \n\n以上食物均適合追求健康飲食者作為雞胸肉的替代選項。"
+  },
+  {
+    "id": "zh-Hant_053",
+    "language": "zh-Hant",
+    "question": "在肌酸、乳清蛋白和維他命之中，為了提升運動效果，應該優先考慮哪種補充品？",
+    "model_answer": "提升運動效果時，應優先考慮肌酸。肌酸有助於增加肌肉力量與耐力，並促進肌肉恢復。乳清蛋白主要提供蛋白質，幫助肌肉修復與成長；維他命則參與代謝與免疫功能。三者中，肌酸對短時間高強度運動的表現影響最直接且顯著。合理搭配使用，可達成更佳的運動成效。"
+  },
+  {
+    "id": "zh-Hant_054",
+    "language": "zh-Hant",
+    "question": "請告訴我間歇性斷食對肌肉生長的影響。",
+    "model_answer": "間歇性斷食（Intermittent Fasting, IF）對肌肉生長的影響因人而異，取決於個人的體質、訓練習慣及營養攝取方式。短期而言，斷食可能促進代謝調節，提升胰島素敏感性，有助於脂肪燃焼。然而，若斷食期間過度限制熱量，可能影響蛋白質合成，不利於肌肉修復與增長。\n\n持續進行間歇性斷食者，需確保斷食期後攝取足夠的高品質蛋白質及營養，以維持肌肉質量。研究顯示，合理安排斷食與進食窗口，並配合適當訓練，可降低肌肉流失風險。總體而言，間歇性斷食不應完全取代正規飲食，需根據個人情況調整。"
+  },
+  {
+    "id": "zh-Hant_055",
+    "language": "zh-Hant",
+    "question": "我的InBody測出來的基礎代謝率是1400大卡。如果我想減重，一天的熱量攝取應該是多少？",
+    "model_answer": "根據一般減重原則，每日熱量攝入應低於基礎代謝率（BMR）約500-750大卡，以創造負熱量平衡。您的基礎代謝率為1400大卡，若目標為每周減重0.5公斤，建議每日攝取約1200-1350大卡。\n\n具體數值需考量活動量、目標速度及飲食結構。若活動量較高，可適當提高攝取量至1400-1500大卡，但仍需保持總熱量負荷。建議搭配均衡飲食與适量運動，以提升減重效率與健康性。"
+  },
+  {
+    "id": "zh-Hant_056",
+    "language": "zh-Hant",
+    "question": "運動前和運動後適合吃什麼食物？",
+    "model_answer": "運動前30分鐘至1小時，宜食用易消化且富含碳水化合物的食物，如香蕉、全麥面包或燕麥粥，以提供即時能量。運動中可補充水分及電解質，如運動飲料或淡盐水。\n\n運動後30分鐘內，建議攝取高蛋白質與碳水化合物的組合，如雞胸肉沙拉、優格或乳酪配全麥麵包，有助於肌肉恢復與能量補充。避免高脂肪及高糖分食物，以免影響體能表現與消化。"
+  },
+  {
+    "id": "zh-Hant_057",
+    "language": "zh-Hant",
+    "question": "在減肥期間，如果遇到無法避免的飲酒場合，應該如何應對？",
+    "model_answer": "減肥期間若需飲酒，應選擇低酒精度飲料，如啤酒（12%以下）或葡萄酒（12%左右）。飲酒前可先吃富含蛋白質與碳水化合物的食物，以延緩酒精吸收。飲酒後應多喝水，促進酒精代謝。飲酒次數與量應控制，避免過量。若飲酒後感到疲倦或不適，應適當調整運動計畫。飲酒後應避免高熱量食物，以免影響減重進展。可考慮使用代謝促進食品，如綠茶或維生素B群。飲酒後應充分休息，有助於身體恢復。應定期監測體重與體脂變化，以評估減肥成效。若飲酒頻率過高，建議諮詢專業營養師或醫生。"
+  },
+  {
+    "id": "zh-Hant_058",
+    "language": "zh-Hant",
+    "question": "「欺騙日」對減肥真的有效嗎？我想知道正確執行欺騙日的方法。",
+    "model_answer": "「欺騙日」為一種短期減重策略，透過控制食物攝入量，促使身體進入燃脂模式。其原理在於，當人長期節食後，身體會降低基礎代謝率以保存能量，而「欺騙日」可幫助恢復代謝，促進減重。\n\n正確執行方法如下：  \n1. 選擇非節食日，避免過度限制飲食。  \n2. 選擇低熱量、高蛋白質的食物，如雞肉、魚類、蛋等。  \n3. 控制總熱量攝入，建議每日不超過1200-1500大卡。  \n4. 避免高糖、高脂肪食物，並保持充足水分。  \n5. 建議每週執行1-2次，並配合正常飲食調整。\n\n此方法需搭配運動與均衡飲食，方能達到最佳效果。"
+  },
+  {
+    "id": "zh-Hant_059",
+    "language": "zh-Hant",
+    "question": "如果一天的總熱量攝取相同，用餐次數（例如：一天三餐 vs. 五餐）會影響減重效果嗎？",
+    "model_answer": "一日總熱量攝取相同的情況下，用餐次數可能影響減重效果。研究顯示，增加用餐次數可有助於穩定血糖水平，減少過度進食的風險，並提升代謝率。此外，分散攝取熱量可能延緩食欲，降低暴飲暴食的機率。\n\n然而，減重主要依賴總熱量赤字，用餐次數的影響因人而異。若飲食質量高、營養均衡，則無論餐數多少，均可能促進體重下降。建議根據個人生活習慣及體質，選擇合適的用餐模式。"
+  },
+  {
+    "id": "zh-Hant_060",
+    "language": "zh-Hant",
+    "question": "為了減掉體脂肪，完全不攝取碳水化合物的飲食（例如生酮飲食）長期下來是可行的嗎？",
+    "model_answer": "完全不攝取碳水化合物的飲食，如生酮飲食，短期內可能有助於減脂，但長期執行未必可行且存在風險。此類飲食會導致碳水化合物攝取極低，可能影響腦部功能與運動表現。此外，長期缺乏碳水化合物可能引發營養不均衡，增加代謝紊亂與腸道健康問題。\n\n建議適度控制碳水化合物攝取，並確保總熱量赤字與營養均衡。若考慮生酮飲食，應在專業醫療人員指導下進行，以降低潛在風險。"
+  },
+  {
+    "id": "zh-Hant_061",
+    "language": "zh-Hant",
+    "question": "請設計一份每週3天，用來提升足球能力的訓練課表。",
+    "model_answer": "**足球能力提升訓練課表（每周3天）**\n\n** Monday**  \n07:00–08:00：熱身運動（動態拉伸、低強度跑動）  \n08:00–09:30：技術訓練（傳球、接球、控球）  \n09:30–10:30：小場比賽（3v3，強調團隊配合）  \n\n** Wednesday**  \n07:00–08:00：熱身運動（靜態拉伸、高強度跑動）  \n08:00–09:30：體能訓練（短距離冲刺、耐力跑）  \n09:30–10:30：防守訓練（盯人、搶斷、傳遞）  \n\n** Friday**  \n07:00–08:00：熱身運動（結合球類活動）  \n08:00–09:30：戰術訓練（攻防陣型、位置意識）  \n09:30–10:30：大場比賽（11v11，強調比賽節奏）  \n\n每週訓練注重技術、體能與戰術的綜合發展。"
+  },
+  {
+    "id": "zh-Hant_062",
+    "language": "zh-Hant",
+    "question": "初學者將硬舉加入訓練課表時，有哪些注意事項？",
+    "model_answer": "初學者將硬舉加入訓練課表時，應注意以下事項：\n\n1. **技術正確性**：確保動作標準，避免脊柱受力過大，可先於低重量練習掌握姿勢。\n\n2. **逐步增加負重**：初期以自重或輕量開始，逐步適應後再增加重量，防止肌肉拉傷。\n\n3. **休息與恢復**：每週訓練次數不宜過多，確保肌肉有足夠時間修復。\n\n4. **熱身與冷卻**：訓練前後進行充分熱身及冷卻，降低運動傷害風險。\n\n5. **均衡訓練**：配合其他肌群訓練，避免單一動作造成肌群不平衡。\n\n6. **監測進度**：記錄訓練數據，觀察身體反應，調整訓練計畫。\n\n7. **專業指導**：建議在教練指導下進行，確保安全與有效性。\n\n8. **飲食與睡眠**：保持良好營養與作息，支持肌肉成長與康復。"
+  },
+  {
+    "id": "zh-Hant_063",
+    "language": "zh-Hant",
+    "question": "上半身和下半身訓練的頻率和平衡應該如何安排？",
+    "model_answer": "上半身與下半身訓練的頻率應根據個人目標與體能狀況調整。一般建議每周進行3–4次力量訓練，每次專注於不同肌群。上半身與下半身可交替訓練，例如：上半身訓練隔天進行下半身訓練，或分為上下半身各訓練2次。\n\n若目標為增肌，可於每週安排2次上半身與2次下半身訓練，確保肌群有足夠恢復時間。若目標為體脂減少，可增加訓練頻率至每週4次，並配合有氧運動。\n\n訓練間隔建議為48–72小時，以促進肌肉生長與恢復。需注意動作標準與負重控制，避免過度訓練導致傷害。"
+  },
+  {
+    "id": "zh-Hant_064",
+    "language": "zh-Hant",
+    "question": "在同一個訓練課表中同時安排深蹲、弓箭步和臀推是可以的嗎？",
+    "model_answer": "在同一訓練課表中同時安排深蹲、弓箭步和臀推是可行的，但需注意以下事項：\n\n1. 三項動作皆屬下肢力量訓練，建議安排在不同訓練日以避免過度負荷。  \n2. 若在同一訓練日進行，應合理分配組數與休息時間，確保肌肉恢復。  \n3. 动作之間的順序應考慮肌群協調性，如先做深蹲再做弓箭步，最後進行臀推。  \n4. 計算總組數與總重量，避免單次訓練負荷過重。  \n5. 考慮個人體能水平，初學者可先分開訓練，逐步增加複合動作。  \n\n此安排需根據個人目標與訓練經驗調整。"
+  },
+  {
+    "id": "zh-Hant_065",
+    "language": "zh-Hant",
+    "question": "我的上半身發展得不錯，但下半身比較弱。我應該如何修改我的課表？",
+    "model_answer": "為改善下半身肌力，建議調整課表以增加針對性訓練。可安排每周至少兩次下肢力量訓練，如深蹲、硬拉及腿舉。同時，加入有氧運動如跑步或跳繩，提升燃脂效率。若時間有限，可於每日伸展操中加強腿部拉伸，促進柔韌性。此外，確保每週有至少一天休息，避免過度訓練。建議搭配均衡飲食，增加蛋白質攝取，有助肌肉修復與成長。定期評估進度，逐步提升訓練強度。"
+  },
+  {
+    "id": "zh-Hant_066",
+    "language": "zh-Hant",
+    "question": "在同一天進行肌力訓練和有氧運動時，根據目標（增肌／減脂），哪種順序更有效？",
+    "model_answer": "同一天進行肌力訓練與有氧運動的順序，應根據訓練目標調整。若目標為增肌，建議先進行肌力訓練，以確保肌肉得到充分刺激與營養供應。若目標為減脂，則可先做有氧運動，以提升基礎代謝率，促進脂肪燃燒。\n\n肌力訓練後進行有氧運動，有助於延長肌肉損傷時間，提升肌肉適應能力。有氧運動後進行肌力訓練，可能影響肌肉力量表現，且易導致過度疲勞。\n\n總體而言，增肌優先安排肌力訓練，減脂則可優先進行有氧運動，以達成最佳訓練效果。"
+  },
+  {
+    "id": "zh-Hant_067",
+    "language": "zh-Hant",
+    "question": "運動前暖身和運動後緩和的重要性是什麼？分別應該包含哪些動作？",
+    "model_answer": "運動前暖身可提升肌肉溫度與血液循環，減少運動傷害風險。應包含動態拉伸、慢速有氧運動及肌肉激活動作。\n\n運動後緩和可促進乳酸代謝，減輕肌肉酸痛，加速恢復。應包含靜態拉伸、低強度有氧運動及冷卻伸展。\n\n正確進行暖身與緩和，有助於提高運動表現，並維護長期運動健康。各階段動作需根據個人體能調整，避免過度負荷。"
+  },
+  {
+    "id": "zh-Hant_068",
+    "language": "zh-Hant",
+    "question": "我總是使用相同的重量和次數進行訓練。我想知道應用「漸進式超負荷」的具體方法。",
+    "model_answer": "漸進式超負荷可透過三方面調整：重量、次數與組間休息時間。建議每6週調整一次，初期可增加5-10%重量，次數保持相同或增加2-5次。若重量難以提升，可減少次數並增加組數。組間休息時間可由1分鐘增至2-3分鐘，以提高訓練強度。需確保動作標準，避免代償。定期評估肌肉增長與力線，調整方案以達成持續進步。"
+  },
+  {
+    "id": "zh-Hant_069",
+    "language": "zh-Hant",
+    "question": "運動時，常常感覺到不是目標肌群在出力，而是其他部位在代償。該如何改善這個問題？",
+    "model_answer": "運動時若出現非目標肌群代償的情況，可能因動作模式不正確、核心穩定性不足或肌肉失衡所致。應先確認動作標準性，確保目標肌群處於主動收縮狀態。其次，加強核心肌群訓練，提升身體穩定性。同時，進行肌肉平衡訓練，針對弱化肌群進行加強練習。最後，可考慮諮詢專業運動教練或物理治療師，以調整訓練方案。定期評估進展，確保訓練效果。"
+  },
+  {
+    "id": "zh-Hant_070",
+    "language": "zh-Hant",
+    "question": "腹肌可以每天訓練嗎？還是像其他肌群一樣需要休息？",
+    "model_answer": "腹肌每日訓練是否適合，需視訓練方式及目標而定。若進行低強度的核心穩定練習，如平板支撑或靜態收腹，則可每日進行。但若進行高強度的力量訓練，如仰卧起坐或懸垂举腿，建議每週訓練3–4次，並安排休息日以促進肌肉恢復。\n\n肌肉生長與修復需依賴休息，故腹肌亦不例外。過度訓練可能導致肌肉損傷或過度疲勞。建議搭配適當的營養與睡眠，以提升訓練效果。訓練頻率應根據個人體能調整，避免忽冷忽熱。"
+  },
+  {
+    "id": "zh-Hant_071",
+    "language": "zh-Hant",
+    "question": "請為我設計一個為期8週的肌肥大訓練計畫。我每週可以訓練4天。",
+    "model_answer": "以下為8週肌肥大訓練計畫，每週訓練4天，安排於週一、週三、週五、週日：\n\n**第1–4週：基礎階段**  \n週一：胸肌 + 三頭肌  \n週三：背肌 + 二頭肌  \n週五：腿肌 + 腹肌  \n週日：肩肌 + 腰腹  \n\n**第5–8週：進階階段**  \n週一：胸肌 + 肩肌  \n週三：背肌 + 三頭肌  \n週五：腿肌 + 二頭肌  \n週日：肩肌 + 腹肌  \n\n每週增加重量或組數，保持60–85% 1RM力竭程度。建議每日休息60分鐘以上，並配合高蛋白飲食與充足睡眠。"
+  },
+  {
+    "id": "zh-Hant_072",
+    "language": "zh-Hant",
+    "question": "請設計一個為期4週、只使用啞鈴、以減脂為目標的訓練計畫。",
+    "model_answer": "**4週啞鈴減脂訓練計畫**  \n\n**週次結構**：每週訓練3次，每次60分鐘，分為熱身、主訓練與冷卻。  \n\n**週一（全身肌群）**  \n- 深蹲：4組×12次  \n- 胸肌推舉：4組×12次  \n- 弓步走：4組×15次（每腿）  \n\n**週三（上半身）**  \n- 傾斜俯卧撑：4組×12次  \n- 哑铃划船：4組×12次  \n- 平板支撑：3組×45秒  \n\n**週五（下半身）**  \n- 单腿哑铃硬拉：4組×12次（每腿）  \n- 臀桥：4組×15次  \n- 保加利亚分腿蹲：4組×12次（每腿）  \n\n**注意事項**：每日攝入負_calorie，確保睡眠7小時以上，搭配有氧運動提升燃脂效果。"
+  },
+  {
+    "id": "zh-Hant_073",
+    "language": "zh-Hant",
+    "question": "如果我想同時進行肌力和肌肥大的訓練，應該如何安排我的訓練內容？",
+    "model_answer": "為達成肌力與肌肥大雙重目標，建議采用結構化訓練方案。每周安排3-4次訓練，每次聚焦不同肌群。例如：週一訓練胸肌與三頭肌，週三訓練背肌與二頭肌，週五訓練腿肌與核心，週日可做全身性強化訓練。\n\n每組重量應控制在8-12次範圍，確保最後幾次能盡力完成。休息時間約60-90秒，以促進肌肉恢復與成長。訓練後配合適當蛋白質攝取與充足睡眠，有助於肌肉修復與增肌。"
+  },
+  {
+    "id": "zh-Hant_074",
+    "language": "zh-Hant",
+    "question": "當我的運動表現停滯時，可以應用哪些變化方法（訓練量／強度／休息等）？",
+    "model_answer": "當運動表現停滯時，可調整訓練量、強度與休息方式以促進進步。首先，適當減少訓練量，增加休息時間，有助於身體恢復與適應。其次，提升訓練強度，例如增加負重或速度，刺激神經肌肉系統。再者，改變訓練內容，加入新種類的動作或訓練方式，避免適應性下降。此外，調整訓練頻率，間歇性地進行高強度訓練，可提高適應力。最後，確保充足睡眠與營養攝取，支持身體修復與能量補給。上述方法可協助突破平台期，提升運動表現。"
+  },
+  {
+    "id": "zh-Hant_075",
+    "language": "zh-Hant",
+    "question": "請解釋金字塔組和固定重量組訓練方式的差別，以及各自適合的情況。",
+    "model_answer": "金字塔組與固定重量組是兩種不同的訓練方式，其核心差異在於重量與組數的安排。\n\n金字塔組是指由輕到重逐步增加重量，通常用於提升力量與肌耐力。適合初學者或希望提高訓練強度的人群。\n\n固定重量組則是在每組中使用相同重量，主要強調控制與穩定性。適合進階者或需精確控制訓練強度的情況。\n\n兩種方式各有優勢，選擇應根據個人目標與訓練階段而定。"
+  },
+  {
+    "id": "zh-Hant_076",
+    "language": "zh-Hant",
+    "question": "我想知道二分割、三分割、五分割等不同分割訓練法的優缺點，以及如何選擇適合自己的分割法。",
+    "model_answer": "二分割、三分割、五分割是常見的訓練方法，適用於不同訓練目標與階段。\n\n**二分割**：將訓練資料分成訓練集與測試集，優點是簡易易懂，缺點是可能導致資料過小，影響模型效能。\n\n**三分割**：增加驗證集，可評估模型過擬合情況，但需更多資料，且分割方式影響結果。\n\n**五分割**：分為五組，重複訓練次數提高準確性，適合資料量足夠的情況，但計算成本較高。\n\n選擇時應考量資料規模、訓練目標及模型複雜度。資料少則選二分割，需評估模型表現則選三分割或五分割。"
+  },
+  {
+    "id": "zh-Hant_077",
+    "language": "zh-Hant",
+    "question": "我的訓練計畫應該多久更換一次？",
+    "model_answer": "訓練計畫應每3至6個月根據進度與目標調整一次。若訓練目標明確且穩定，可延長至半年；若體能或技術有顯著進步，或遇到平台期，建議每3個月評估一次。調整時需考量身體狀況、訓練反應及進階需求。定期檢測體能指標，如最大攝氧量、力量等，有助於判斷是否需要修改計畫。保持靈活性，以確保訓練效果與持續進步。"
+  },
+  {
+    "id": "zh-Hant_078",
+    "language": "zh-Hant",
+    "question": "什麼是「減量訓練（Deloading）」？應該在什麼時候、以及如何執行？",
+    "model_answer": "減量訓練（Deloading）是一種訓練策略，用於恢復肌肉與神經系統，避免過度訓練導致的表現下降與傷害。通常在長周期訓練的中期或後期進行，例如每6至8週後執行一次。\n\n執行方式包括減少總訓練量與強度，例如將訓練週數減半，或降低重量與複數。訓練內容以低強度、高頻率的活動为主，如輕重量高次數的動作或休息日。\n\n減量訓練有助於提升後續訓練的表現，並促進身體恢復與適應。建議根據個人狀況調整訓練強度與時間安排。"
+  },
+  {
+    "id": "zh-Hant_079",
+    "language": "zh-Hant",
+    "question": "每個訓練組都做到「力竭（Failure）」對肌肉生長是必要的嗎？",
+    "model_answer": "每組訓練至力竭並非絕對必要，但有助於刺激肌肉生長。力竭可增加肌肥大效果，因它能提升訓練強度與時間。然而，過度追求力竭可能導致過度疲勞，影響恢復與表現。建議每組做8–12次，根據目標調整次數與重量。訓練後充分休息與營養補給亦為關鍵。合理安排訓練週期，確保肌肉有足夠恢復時間。"
+  },
+  {
+    "id": "zh-Hant_080",
+    "language": "zh-Hant",
+    "question": "當我無法去健身房時，應該如何安排一個只用自身體重的訓練計畫，以防止肌肉流失並維持肌力？",
+    "model_answer": "當無法前往健身房時，可於家中進行自重訓練，以維持肌力與防止肌肉流失。建議每日安排3–4次訓練，每次30–60分鐘。訓練內容包括深蹲、俯卧撑、引體向上、平板支撑及臀桥等動作。\n\n每週至少進行2次力量訓練，結合耐力與穩定性練習。訓練間隔建議為隔天一次，確保肌肉恢復。訓練前進行5–10分鐘熱身，訓練後做拉伸運動，以減少傷害風險。\n\n此外，保持足夠睡眠與均衡飲食，確保蛋白質攝取充足，有助於肌肉修復與成長。定期追蹤體重與體脂變化，調整訓練強度與內容。"
+  },
+  {
+    "id": "zh-Hant_081",
+    "language": "zh-Hant",
+    "question": "如果我在做臥推時肩膀疼痛，可能的原因是什麼？應該如何處理？",
+    "model_answer": "臥推時肩膀疼痛可能由以下原因引起：肩關節韌帶拉傷、肩袖肌群疲勞、肩胛骨穩定性不足或肌肉失衡。\n\n應立即停止運動，休息並冰敷患處，以減輕炎症。可進行肩部伸展與強化訓練，如肩部外旋、YTWL exercises，以增強穩定性。若症狀持續或加重，建議就醫檢查，排除肩關節損傷或滑囊炎等問題。適當調整訓練方式，避免過度負荷，有助於恢復。"
+  },
+  {
+    "id": "zh-Hant_082",
+    "language": "zh-Hant",
+    "question": "我在深蹲時左邊膝蓋偶爾會發出聲音。繼續運動是沒問題的嗎？",
+    "model_answer": "深蹲時左膝偶爾發聲，可能因關節內氣泡破裂或軟組織移動所致。若無疼痛或活動受限，通常無礙健康。建議注意姿勢正確，避免過度負荷。運動後可做熱身與拉伸，以減輕关节壓力。若聲音頻繁或伴隨疼痛，建議諮詢醫療專業人員進行檢查。持續運動需根據自身情況調整強度，確保安全。"
+  },
+  {
+    "id": "zh-Hant_083",
+    "language": "zh-Hant",
+    "question": "請提供一些在進行硬舉時，避免下背部受傷的姿勢技巧。",
+    "model_answer": "進行硬舉時，為避免下背部受傷，應保持正確姿勢。脊柱應保持中立，避免過度彎曲。雙腳與肩同寬，足尖微內扣，以穩定核心。背部應緊貼杠杆，肩胛骨收縮，保持身體直立。下背部不可過度拱起，以免增加壓力。起重量應逐步提升，避免過度負荷。呼吸節奏正確，吸氣時腰腹收紧，壓杠時呼氣。動作過程中，重心應位於腳掌中央，避免前傾或後仰。全程保持核心肌群緊張，以支撐脊柱。"
+  },
+  {
+    "id": "zh-Hant_084",
+    "language": "zh-Hant",
+    "question": "處理運動中持續手腕疼痛的最佳方法是什麼？（停止、替代或強化）",
+    "model_answer": "處理運動中持續手腕疼痛，應优先考慮停止活動，避免進一步傷害。若疼痛由過度使用引起，可暫停運動並進行冷敷以減輕炎症。同時，建議諮詢專業醫療人員以確認診斷，排除骨折或肌腱炎等症狀。\n\n若經檢查確認為無嚴重傷害，可考慮進行手腕強化訓練，如使用阻力帶進行穩定性練習，逐步恢復力量。替代方案包括調整運動姿勢或選擇低衝擊運動，以減少手腕負荷。需注意恢復過程應循序漸進，避免過度訓練。"
+  },
+  {
+    "id": "zh-Hant_085",
+    "language": "zh-Hant",
+    "question": "請提供一個能持續運動又不容易受傷的檢查清單。",
+    "model_answer": "以下為持續運動且減少受傷風險的檢查清單：\n\n1. 運動前進行充分熱身，至少10分鐘。  \n2. 運動後做好冷卻與拉伸，避免肌肉緊張。  \n3. 保持適當運動強度，避免過度訓練。  \n4. 定期檢查關節與肌腱狀況，有異常及早就醫。  \n5. 穿著合適、支撐性佳的運動鞋。  \n6. 注意運動環境，選擇平坦、安全的地點。  \n7. 均衡飲食，確保足夠營養與水分攝取。  \n8. 睡眠充足，有助身體恢復與傷害預防。  \n9. 定期進行體能評估，調整運動計畫。  \n10. 如有慢性病史，應諮詢專業醫療人員意見。"
+  },
+  {
+    "id": "zh-Hant_086",
+    "language": "zh-Hant",
+    "question": "如何區分運動後好的肌肉痠痛和因受傷引起的疼痛？",
+    "model_answer": "運動後肌肉痠痛通常發生於運動後幾小時至一天內，持續時間較短，且活動時疼痛會減輕。此種疼痛多為肌肉乳酸堆积所致，屬正常範圍。\n\n若疼痛持續數天，且活動時加劇，或伴有腫脹、紅腫、活動受限等症狀，則可能為受傷所致。此外，疼痛定位明確，如特定關節或肌群，亦提示可能受傷。\n\n建議運動後適當休息與冷敷，若疼痛持續或加劇，應及時就醫檢查。"
+  },
+  {
+    "id": "zh-Hant_087",
+    "language": "zh-Hant",
+    "question": "像拉力帶、護腕、護膝這樣的配件真的能有效預防受傷嗎？我想知道它們的正確使用方法。",
+    "model_answer": "拉力帶、護腕及護膝等運動配件，可於特定情境下降低運動-related受傷風險。其效果取決於正確使用方式與運動類型。\n\n拉力帶可用於增強肌群力量與改善動作模式，建議在專業指導下使用，避免過度拉伸造成肌肉拉傷。護腕與護膝則適用於高衝擊運動，如跑步、球類運動，可提供穩定與保護，但需確保合身且緊密貼合，以免影響動態表現。\n\n正確使用時，應根據個人體型選擇合適尺寸，並在運動前充分熱身。佩戴時需保持自然姿勢，避免過度壓迫血管或神經。定期檢查配件狀況，確保無損壞方可使用。"
+  },
+  {
+    "id": "zh-Hant_088",
+    "language": "zh-Hant",
+    "question": "我在運動時感覺到左右不平衡（一邊感覺到更多刺激或承受更多負荷）。如果忽略這個問題，會導致受傷嗎？",
+    "model_answer": "運動時若感受左右不平衡，可能導致肌肉發力不均、關節承重不均，增加受傷風險。長期忽略可能引發肌膚勞損、扭傷或運動傷害。\n\n建議調整動作幅度與負重，確保雙側均衡參與。可進行平衡訓練以增強穩定性。若持續不適，應及時諮詢專業運動指導或醫療人員。\n\n適當休息與恢復亦有助預防傷害。運動前後應做好熱身與拉伸，以降低不平衡帶來的潛在風險。"
+  },
+  {
+    "id": "zh-Hant_089",
+    "language": "zh-Hant",
+    "question": "運動時，如果手肘內側（高爾夫球肘）或外側（網球肘）疼痛，應該如何處理？",
+    "model_answer": "運動時若出現手肘內側（高爾夫球肘）或外側（網球肘）疼痛，應立即停止動作，避免加劇傷害。可進行冷敷，每次15-20分鐘，每日3-4次，以減少炎症與肿胀。同時，進行輕度伸展與加強肌群訓練，如手腕伸屈、前臂旋轉等，有助於緩解症狀。若疼痛持續或加劇，應就醫檢查，排除肌腱炎或其他傷害。日常注意正確運動姿勢，避免重複性動作，以預防未來發生類似情況。"
+  },
+  {
+    "id": "zh-Hant_090",
+    "language": "zh-Hant",
+    "question": "疼痛時，什麼時候冰敷、什麼時候熱敷比較有效？",
+    "model_answer": "疼痛發作初期，通常適宜冰敷，以減輕炎症與肿胀。一般建議每次冰敷15-20分鐘，每日3-4次。  \n當炎症緩解後，若疼痛由肌肉緊張或瘀傷引起，則可改為熱敷，有助於放松肌肉、促進血液循環。  \n若疼痛持續不退或症狀加劇，應及時就醫檢查。  \n不同類型的疼痛適用方法可能有異，需根據具體情況判斷。  \n冷敷與熱敷均需避免直接接觸皮膚，應以毛巾包裹以防燙傷。"
+  },
+  {
+    "id": "zh-Hant_091",
+    "language": "zh-Hant",
+    "question": "請推薦一些適合有椎間盤突出病史的人做的核心運動。",
+    "model_answer": "針對椎間盤突出病史者，建議進行低衝擊、穩定核心的運動。以下為適宜運動：\n\n1. 腰背肌等長收縮練習：加強核心穩定，避免腰椎壓力。\n2. 膝蓋抬高運動：緩解腰椎壓力，改善血流。\n3. 平板支撐（嬰兒式）：增強腹肌與核心穩定性。\n4. 頸肩韌帶拉伸：預防姿勢不良導致的腰痛。\n5. 慢速深蹲（不彎曲膝蓋）：強化臀部與核心，避免脊柱負荷。\n\n運動時應避免劇烈扭轉或劇烈伸展，並在專業指導下進行，以確保安全。"
+  },
+  {
+    "id": "zh-Hant_092",
+    "language": "zh-Hant",
+    "question": "我的腳踝在扭傷幾次後感覺不穩定。有什麼簡單的日常訓練可以幫助恢復嗎？",
+    "model_answer": "腳踝穩定性下降可透過日常練習加強肌力與本體感。建議進行以下訓練：\n\n1. 平衡訓練：單腳站立，逐步增加時間，可用平衡球或泡沫軸提升穩定性。\n2. 抬腿運動：仰卧抬腿，逐漸增加幅度，強化大腿前側肌肉。\n3. 腳踝內外轉動：坐姿下主動旋轉足踝，每日多次，促進關節活動度。\n4. 強化訓練：使用彈力帶做腳踝抗阻訓練，提升肌肉控制力。\n5. 步态調整：避免過度內翻或外翻步態，減少關節負荷。\n\n以上訓練應在無痛範圍內進行，持續執行可改善穩定性。若症狀持續，建議就醫檢查。"
+  },
+  {
+    "id": "zh-Hant_093",
+    "language": "zh-Hant",
+    "question": "有圓肩問題的人需要做哪些伸展和強化運動？",
+    "model_answer": "圓肩問題常因肌肉失衡引起，需進行以下伸展與強化運動：\n\n1. **頸部側屈伸展**：雙手向耳側伸展，保持15秒，緩慢彎曲頸部，緩解肩背緊張。\n\n2. **肩胛骨擴展**：雙手交叉胸前， slowly 向前推壓，擴展肩胛骨，改善後側肌群緊張。\n\n3. **三角肌後束拉伸**：上身向前彎曲，雙手向前伸展，拉伸肩部後側肌群。\n\n4. **斜方肌強化**：單手扶椅，另一手抬高至肩際，保持30秒，強化肩部穩定性。\n\n5. **胸大肌拉伸**：手臂向前伸展，身體後仰，拉伸胸部肌肉，緩解過度緊張。\n\n建議每周進行3–4次，每次20–30分鐘，配合正確姿勢以達最佳效果。"
+  },
+  {
+    "id": "zh-Hant_094",
+    "language": "zh-Hant",
+    "question": "因為整天坐著，我的背部感覺僵硬且經常疼痛。請推薦一個每天可以做的5分鐘日常伸展。",
+    "model_answer": "可執行以下5分鐘背部伸展運動：\n\n1. **貓牛式伸展**：跪地，吸氣時拱背（牛式），呼氣時塌腰（貓式），重複10次。  \n2. **肩背拉伸**：站立，雙手向前伸展，頭向後仰，保持10秒，換邊重複。  \n3. **脊柱側彎伸展**：站立，雙腳與肩同寬，吸氣時身體向左傾，保持5秒，換邊重複。  \n4. **橋式伸展**：仰卧，屈膝，抬高臀部形成橋形，保持15秒，緩慢降低。  \n5. **坐姿胸椎伸展**：坐直，雙手交叉於胸前，頭向側方傾斜，保持10秒，換邊重複。\n\n每日執行，有助緩解背部僵硬與疼痛。"
+  },
+  {
+    "id": "zh-Hant_095",
+    "language": "zh-Hant",
+    "question": "我被告知有嚴重的「烏龜頸」。可以做哪些運動來矯正姿勢？",
+    "model_answer": "「烏龜頸」多因長期不良姿勢導致頸部前傾，可進行以下運動以改善：\n\n1. 頸部後仰伸展：坐直後 slowly 向後仰頭，保持5秒，重複10次。\n2. 頸部側屈運動：頭向左右側傾， each side 10次。\n3. 頸部旋轉運動：頭 slowly 向左右轉動， each direction 10次。\n4. 肩部拉伸：將雙手交叉於胸前，向前彎腰，保持10秒，重複3次。\n5. 站立肩胛骨拉伸：雙手扶牆，身體向前傾，保持30秒。\n\n運動時應避免劇烈動作，並在專業指導下進行，以確保安全有效。"
+  },
+  {
+    "id": "zh-Hant_096",
+    "language": "zh-Hant",
+    "question": "我在受傷康復後準備重新開始運動。有什麼安全恢復訓練的指南嗎？",
+    "model_answer": "傷口康復後重返運動，應遵循系統性恢復訓練指南。建議先經醫護人員評估，確認傷處已 fully 治癒。初期以低強度、無痛動作為主，如靜態拉伸與輕度肌力訓練。逐步增加活動量，並注意動作標準性，避免二次傷害。\n\n可參考物理治療師制定的個人化恢復計畫，包含關節活動度訓練、核心穩定性練習及逐步提升的耐力訓練。運動期間應配合冷敷與熱敷交替，並定期檢查身體反應。選擇合適的運動項目，避免過度負荷，確保安全回歸運動狀態。"
+  },
+  {
+    "id": "zh-Hant_097",
+    "language": "zh-Hant",
+    "question": "如何最有效地使用滾筒和按摩槍來進行恢復和復健？",
+    "model_answer": "滾筒與按摩槍可作為輔助恢復與復健工具，使用時應遵循以下原則：\n\n1. 滾筒：以輕柔壓力施力，沿肌肉長軸滾動，促進代謝與鬆弛，每次約10-15分鐘。\n\n2. 按摩槍：選擇合適電壓與震動強度，避免過度刺激，重點施於緊張肌群，每次約5-10分鐘。\n\n3. 使用前需熱身，並在恢復期後逐步增加強度，避免傷害。\n\n4. 每週建議使用2-3次，配合拉伸與運動訓練效果更佳。\n\n5. 若有傷痛或疾病，應諮詢專業人員，避免誤用導致二次傷害。"
+  },
+  {
+    "id": "zh-Hant_098",
+    "language": "zh-Hant",
+    "question": "我深蹲時蹲不下去，或是下背部會彎曲。請告訴我一些改善髖關節活動度的運動。",
+    "model_answer": "以下為改善髖關節活動度的運動建議：\n\n1. 高抬腿跑：站立，雙腳與肩同寬，快速抬高双腿至腰部以上，保持核心穩定。\n2. 仰卧髋屈伸：仰卧，一腿伸直，另一腿屈膝， slowly 抬高屈膝腿至胸部，再緩慢放下。\n3. 坐姿腿抬高：坐直，一條腿伸直，慢慢抬高至與身體成直角，保持幾秒後放下。\n4. 跪姿臀橋：跪地，双脚與肩同寬，臀部向後推起，直至身體呈直線，再 slowly 放下。\n5. 髖橋（Pistol Pose）：單腿站立，另一腿後舉，臀部向後推起，保持平衡。\n\n建議每周進行3-4次，每次10-15分鐘，以提升髖關節活動度與穩定性。"
+  },
+  {
+    "id": "zh-Hant_099",
+    "language": "zh-Hant",
+    "question": "我的臀部到腿部有麻刺感（坐骨神經痛症狀）。有什麼伸展運動可以幫助緩解嗎？",
+    "model_answer": "針對坐骨神經痛引起的臀部至腿部麻刺感，建議進行以下伸展運動：\n\n1. **仰卧腿抬高**：仰躺，一腿伸直抬高，保持5-10秒，再慢慢放下，重复10次，雙腿交替進行。\n\n2. **貓牛式伸展**：四足跪姿，吸氣時拱背低头，呼氣時塌腰抬头，重复10次，有助於鬆解脊柱壓力。\n\n3. **弓步伸展**：向前弓步，保持身體直立，後膝接近地面， holding 10-15秒，換邊重複。\n\n4. **髂腰肌伸展**：坐在椅子上，双腿伸直，雙手扶椅背，身體前傾，保持30秒，緩解大腿前方緊張。\n\n5. **骨盆 tilting**：仰卧，雙腿伸直，同時將骨盆向左右傾斜，各保持10秒，重複5次。\n\n運動前應熱身，並避免過度拉伸，若症狀持續或加劇，建議就醫檢查。"
+  },
+  {
+    "id": "zh-Hant_100",
+    "language": "zh-Hant",
+    "question": "靜態伸展和動態伸展在使用時機和方式上有何不同？",
+    "model_answer": "靜態伸展與動態伸展在使用時機及方式上有顯著差異。靜態伸展適用于運動後，以延長肌肉彈性與靈活性，做法為保持伸展姿勢約30秒至1分鐘，緩慢而穩定。\n\n動態伸展則適用於運動前，旨在提升肌肉溫度與活動範圍，其方式為透過逐漸增大的主動動作，如腿部擺動或手臂波動，以增加關節活動度。\n\n兩者目的不同，需依運動階段選擇適當的伸展方式。"
+  }
+]

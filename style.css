@@ -159,13 +159,14 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
+  cursor: default;
 }
 
 .question-title::after {
   content: "\25BC"; /* down chevron */
   font-size: 0.85rem;
   transition: transform var(--transition);
+  display: none;
 }
 
 .question-block.active .question-title::after {

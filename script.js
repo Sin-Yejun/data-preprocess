@@ -6,8 +6,6 @@ const translations = {
         english: "English",
         japanese: "Japanese",
         chinese: "Traditional Chinese",
-        expandAll: "Expand All",
-        collapseAll: "Collapse All",
     },
     ko: {
         title: "모델 답변 정확도 비교",
@@ -16,8 +14,6 @@ const translations = {
         english: "영어",
         japanese: "일본어",
         chinese: "중국어 번체",
-        expandAll: "전체 펼치기",
-        collapseAll: "전체 닫기",
     },
     ja: {
         title: "モデル回答の正解率比較",
@@ -26,8 +22,6 @@ const translations = {
         english: "英語",
         japanese: "日本語",
         chinese: "繁体字中国語",
-        expandAll: "すべて展開",
-        collapseAll: "すべて折りたたむ",
     },
     'zh-Hant': {
         title: "模型答案正確性比較",
@@ -36,44 +30,44 @@ const translations = {
         english: "英語",
         japanese: "日語",
         chinese: "繁體中文",
-        expandAll: "全部展開",
-        collapseAll: "全部收合",
     }
 };
 
 async function loadQAData() {
-    const models = ['gemma', 'qwen2.5', 'qwen3'];
+    const models = ['gemma_vote', 'qwen3_no_thinking_vote'];
     const qaData = {};
 
     for (const model of models) {
-        const response = await fetch(`final_data/QA_${model}.json`);
+        const response = await fetch(`vote/questions_${model}.json`);
         const data = await response.json();
         data.forEach(item => {
             const { language, id, question, model_answer, is_correct } = item;
-            let category;
-            const questionNumber = parseInt(id.split('_')[1]);
+            const category = 'Exercise';                 // 고정 카테고리
+            const questionNumber = parseInt(id.split('_')[1], 10);
             const questionId = `q${String(questionNumber).padStart(3, '0')}`;
 
-            if (questionNumber >= 1 && questionNumber <= 50) {
-                category = 'General';
-            } else if (questionNumber >= 51 && questionNumber <= 100) {
-                category = 'Exercise';
-            } else if (questionNumber >= 101 && questionNumber <= 125) {
-                category = 'Calculation';
-            } else {
-                category = 'Other';
+            // ① 언어·카테고리 초기화
+            if (!qaData[language]) qaData[language] = {};
+            if (!qaData[language][category]) qaData[language][category] = {};
+
+            // ② ‘질문 텍스트’가 아니라 **고유한 ID**를 키로 사용
+            if (!qaData[language][category][questionId]) {
+                qaData[language][category][questionId] = {
+                    id: questionId,          // 가독성을 위해 ID 한 번 더 보관
+                    question,                // 실제 질문 문장
+                    models: {}               // 모델별 답변 저장소
+                };
             }
 
-            if (!qaData[language]) {
-                qaData[language] = {};
-            }
-            if (!qaData[language][category]) {
-                qaData[language][category] = {};
-            }
-            if (!qaData[language][category][question]) {
-                qaData[language][category][question] = { id: questionId, models: {} };
-            }
-            qaData[language][category][question].models[model] = { answer: model_answer, is_correct: is_correct };
+            // ③ 모델 이름 정제 후 답변 입력
+            const modelName = model
+                .replace('_vote', '')
+                .replace('_no_thinking', '');
+
+            qaData[language][category][questionId].models[modelName] = {
+                answer: model_answer,
+                is_correct
+            };
         });
     }
     return qaData;
@@ -83,54 +77,25 @@ function createHTML(qaData, lang) {
     const container = document.querySelector('.container');
     container.innerHTML = `<h1 data-i18n="h1">${translations[lang].h1}</h1>`;
 
-    const controlsContainer = document.createElement('div');
-    controlsContainer.className = 'controls-container';
-    container.appendChild(controlsContainer);
-
-    const expandCollapseContainer = document.createElement('div');
-    expandCollapseContainer.className = 'expand-collapse-buttons';
-    expandCollapseContainer.innerHTML = 
-        `<button id="expand-all" class="control-button" data-i18n="expandAll">${translations[lang].expandAll}</button>` +
-        `<button id="collapse-all" class="control-button" data-i18n="collapseAll">${translations[lang].collapseAll}</button>`;
-    controlsContainer.appendChild(expandCollapseContainer);
-
     const langContent = document.createElement('div');
     langContent.id = lang;
     langContent.className = 'lang-tabcontent';
-    langContent.style.display = 'block'; // Show current language content
+    langContent.style.display = 'block';
     container.appendChild(langContent);
 
-    const categoryTab = document.createElement('div');
-    categoryTab.className = 'category-tab';
-    langContent.appendChild(categoryTab);
+    const category = 'Exercise';
+    const categoryContent = document.createElement('div');
+    categoryContent.id = `${lang}-${category}`;
+    categoryContent.className = 'category-content'; // No longer a tab content
+    langContent.appendChild(categoryContent);
 
-    const categoryOrder = ['General', 'Exercise', 'Calculation', 'Other'];
-    const sortedCategories = Object.keys(qaData[lang]).sort((a, b) => {
-        return categoryOrder.indexOf(a) - categoryOrder.indexOf(b);
-    });
-
-    sortedCategories.forEach((category, catIndex) => {
-        const categoryButton = document.createElement('button');
-        categoryButton.className = 'category-tablinks';
-        categoryButton.textContent = category;
-        categoryButton.onclick = (event) => openCategory(event, `${lang}-${category}`, lang);
-        if (catIndex === 0) {
-            categoryButton.classList.add('defaultOpenCat');
-        }
-        categoryTab.appendChild(categoryButton);
-
-        const categoryContent = document.createElement('div');
-        categoryContent.id = `${lang}-${category}`;
-        categoryContent.className = 'category-tabcontent';
-        langContent.appendChild(categoryContent);
-
-        let questionCount = 1;
-        Object.keys(qaData[lang][category]).forEach(question => {
-            const questionData = qaData[lang][category][question];
-            const questionId = questionData.id;
+    let questionCount = 1;
+    if (qaData[lang]?.[category]) {
+        Object.values(qaData[lang][category]).forEach(questionData => {
+            const { id: questionId, question, models: modelMap } = questionData;
 
             const questionBlock = document.createElement('div');
-            questionBlock.className = 'question-block';
+            questionBlock.className = 'question-block active'; // Always expanded
             questionBlock.dataset.questionId = questionId;
             questionBlock.dataset.question = question;
             categoryContent.appendChild(questionBlock);
@@ -144,9 +109,8 @@ function createHTML(qaData, lang) {
             answersContainer.className = 'answers-container';
             questionBlock.appendChild(answersContainer);
 
-            const models = Object.keys(questionData.models);
-            models.forEach(model => {
-                const modelData = questionData.models[model];
+
+            Object.entries(modelMap).forEach(([model, modelData]) => {
                 const answerCard = document.createElement('div');
                 answerCard.className = 'answer-card';
                 answerCard.dataset.model = model;
@@ -166,42 +130,15 @@ function createHTML(qaData, lang) {
                     }
                     modelTitle.appendChild(correctnessIndicator);
                 }
-                
-                const voteCount = document.createElement('span');
-                voteCount.className = 'vote-count';
-                voteCount.textContent = '(0 votes)';
-                modelTitle.appendChild(voteCount);
 
                 answerCard.appendChild(modelTitle);
 
                 const markdownContent = document.createElement('div');
                 markdownContent.className = 'markdown-content';
-                markdownContent.setAttribute('data-markdown', modelData.answer);
+                markdownContent.dataset.markdown = modelData.answer;  // 변수 이름 통일
                 answerCard.appendChild(markdownContent);
             });
         });
-    });
-}
-
-function updateVoteCounts(questionId, votes) {
-    const questionBlock = document.querySelector(`.question-block[data-question-id="${questionId}"]`);
-    if (questionBlock) {
-        const allVoteCounts = questionBlock.querySelectorAll('.vote-count');
-        allVoteCounts.forEach(vc => {
-            const modelName = vc.closest('.answer-card').dataset.model;
-            if (!votes || !votes[modelName]) {
-                vc.textContent = '(0 votes)';
-            }
-        });
-
-        if (votes) {
-            Object.keys(votes).forEach(model => {
-                const voteCountEl = questionBlock.querySelector(`.answer-card[data-model="${model}"] .vote-count`);
-                if (voteCountEl) {
-                    voteCountEl.textContent = `(${votes[model]} votes)`;
-                }
-            });
-        }
     }
 }
 
@@ -211,7 +148,7 @@ let userId = '';
 function getOrCreateUserId() {
     let id = localStorage.getItem('userId');
     if (!id) {
-        id = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        id = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
             var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
             return v.toString(16);
         });
@@ -235,8 +172,6 @@ async function handleVote(questionId, model, cardElement) {
         const result = await response.json();
 
         if (result.success) {
-            updateVoteCounts(questionId, result.votes);
-
             if (!userVotes[lang]) {
                 userVotes[lang] = {};
             }
@@ -246,10 +181,10 @@ async function handleVote(questionId, model, cardElement) {
             } else {
                 delete userVotes[lang][questionId];
             }
-            
+
             const questionBlock = cardElement.closest('.question-block');
             questionBlock.querySelectorAll('.answer-card').forEach(card => card.classList.remove('selected-vote'));
-            
+
             if (userVotes[lang][questionId]) {
                 const selectedCard = questionBlock.querySelector(`.answer-card[data-model="${userVotes[lang][questionId]}"]`);
                 if (selectedCard) {
@@ -266,20 +201,6 @@ async function handleVote(questionId, model, cardElement) {
     }
 }
 
-function openCategory(evt, categoryName, lang) {
-    var i, categorytabcontent, categorytablinks;
-    categorytabcontent = document.querySelectorAll('#' + lang + ' .category-tabcontent');
-    for (i = 0; i < categorytabcontent.length; i++) {
-        categorytabcontent[i].style.display = "none";
-    }
-    categorytablinks = document.querySelectorAll('#' + lang + ' .category-tablinks');
-    for (i = 0; i < categorytablinks.length; i++) {
-        categorytablinks[i].className = categorytablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(categoryName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
 function setLanguage(lang) {
     if (translations[lang]) {
         document.title = translations[lang].title;
@@ -291,6 +212,19 @@ function setLanguage(lang) {
         });
     }
 }
+if (typeof marked !== 'undefined') {
+    marked.use({
+        renderer: {
+            del(text) {
+                // text가 객체이고 text.text 속성이 존재하면 그 값을 사용, 아니면 원래 text 사용
+                const innerText = (typeof text === 'object' && text.text) ? text.text : text;
+                return `~${innerText}~`;
+            }
+        }
+    });
+}
+
+
 
 document.addEventListener("DOMContentLoaded", async () => {
     const params = new URLSearchParams(window.location.search);
@@ -301,7 +235,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     userId = getOrCreateUserId();
     const qaData = await loadQAData();
-    
+
     if (!qaData[lang]) {
         lang = Object.keys(qaData)[0];
         const url = new URL(window.location);
@@ -317,17 +251,17 @@ document.addEventListener("DOMContentLoaded", async () => {
             fetch('/votes'),
             fetch(`/my-votes/${userId}`)
         ]);
+        const parseJSON = async res => {
+            if (res.ok && res.headers.get('content-type')?.includes('application/json')) {
+                return res.json();
+            }
+            console.warn('Non‑JSON or error response:', res.status, res.url);
+            return {};         // 파싱 실패 시 빈 객체 반환
+        };
+        const totalVotes = await parseJSON(totalVotesRes);
+        const myVotes = await parseJSON(myVotesRes);
 
-        const totalVotes = await totalVotesRes.json();
-        const myVotes = await myVotesRes.json();
-        
         userVotes = myVotes;
-
-        if (totalVotes[lang]) {
-            Object.keys(totalVotes[lang]).forEach(questionId => {
-                updateVoteCounts(questionId, totalVotes[lang][questionId]);
-            });
-        }
 
         if (userVotes[lang]) {
             Object.keys(userVotes[lang]).forEach(questionId => {
@@ -348,11 +282,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error('Error fetching initial vote data:', error);
     }
 
-    const defaultCategory = document.querySelector('.defaultOpenCat');
-    if (defaultCategory) {
-        defaultCategory.click();
-    }
-
     document.querySelectorAll(".markdown-content").forEach(el => {
         const md = el.getAttribute("data-markdown") || "";
         if (typeof marked !== "undefined") {
@@ -360,24 +289,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         } else {
             el.textContent = md;
         }
-    });
-
-    document.getElementById("expand-all").addEventListener("click", () => {
-        document.querySelectorAll(".question-block").forEach(block => {
-            block.classList.add("active");
-        });
-    });
-
-    document.getElementById("collapse-all").addEventListener("click", () => {
-        document.querySelectorAll(".question-block").forEach(block => {
-            block.classList.remove("active");
-        });
-    });
-
-    document.querySelectorAll(".question-title").forEach(title => {
-        title.addEventListener("click", () => {
-            title.closest(".question-block").classList.toggle("active");
-        });
     });
 
     document.querySelectorAll('.answer-card').forEach(card => {
