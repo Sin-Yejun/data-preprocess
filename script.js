@@ -1,9 +1,32 @@
+if (typeof marked !== "undefined") {
+    marked.use({
+        extensions: [
+            {
+                name: "noSingleTildeStrike",
+                level: "inline",
+                start(src) {
+                    return src.indexOf("~");      // 첫 ~ 위치
+                },
+                tokenizer(src) {
+                    if (/^~~/.test(src)) return;  // ~~ 로 시작 → 기본 del 처리
+                    const m = /^~/.exec(src);      // 단일 ~ → 일반 텍스트로
+                    if (m) {
+                        return { type: "text", raw: m[0], text: m[0] };
+                    }
+                }
+            }
+        ]
+    });
+}
 async function loadQAData() {
-    const models = ['gemma', 'qwen2.5', 'qwen3'];
+    const models = [
+        { name: 'gemma', file: 'vote/questions_gemma_vote.json' },
+        { name: 'qwen3', file: 'vote/questions_qwen3_no_thinking_vote.json' }
+    ];
     const qaData = {};
 
-    for (const model of models) {
-        const response = await fetch(`final_data/QA_${model}.json`);
+    for (const modelInfo of models) {
+        const response = await fetch(modelInfo.file);
         const data = await response.json();
         data.forEach(item => {
             const { language, id, question, model_answer, is_correct } = item;
@@ -29,7 +52,7 @@ async function loadQAData() {
             if (!qaData[language][category][question]) {
                 qaData[language][category][question] = {};
             }
-            qaData[language][category][question][model] = { answer: model_answer, is_correct: is_correct };
+            qaData[language][category][question][modelInfo.name] = { answer: model_answer, is_correct: is_correct };
         });
     }
     return qaData;
@@ -63,7 +86,7 @@ function createHTML(qaData) {
 
     const expandCollapseContainer = document.createElement('div');
     expandCollapseContainer.className = 'expand-collapse-buttons';
-    expandCollapseContainer.innerHTML = 
+    expandCollapseContainer.innerHTML =
         '<button id="expand-all" class="control-button">전체 펼치기</button>' +
         '<button id="collapse-all" class="control-button">전체 닫기</button>';
     langTab.appendChild(expandCollapseContainer);
@@ -133,7 +156,7 @@ function createHTML(qaData) {
                         }
                         modelTitle.appendChild(correctnessIndicator);
                     }
-                    
+
                     answerCard.appendChild(modelTitle);
 
                     const markdownContent = document.createElement('div');
@@ -186,13 +209,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     document.getElementById("defaultOpenLang").click();
 
+    /* 📌 marked.parse 전에 파서 옵션이 이미 적용되어 있음 */
     document.querySelectorAll(".markdown-content").forEach(el => {
         const md = el.getAttribute("data-markdown") || "";
-        if (typeof marked !== "undefined") {
-            el.innerHTML = marked.parse(md);
-        } else {
-            el.textContent = md;
-        }
+        el.innerHTML = marked.parse(md);
     });
 
     document.getElementById("expand-all").addEventListener("click", () => {
