@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n="submitted_title">제출 완료</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f3f4f6;
+            color: #111827;
+        }
+        .message {
+            text-align: center;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1 data-i18n="submitted_h1">제출이 완료되었습니다.</h1>
+        <p data-i18n="submitted_p">참여해주셔서 감사합니다!</p>
+    </div>
+    <script>
+        const translations = {
+            en: {
+                submitted_title: "Submission Complete",
+                submitted_h1: "Your submission is complete.",
+                submitted_p: "Thank you for your participation!",
+            },
+            ko: {
+                submitted_title: "제출 완료",
+                submitted_h1: "제출이 완료되었습니다.",
+                submitted_p: "참여해주셔서 감사합니다!",
+            },
+            ja: {
+                submitted_title: "提出完了",
+                submitted_h1: "提出が完了しました。",
+                submitted_p: "ご協力いただきありがとうございます！",
+            },
+            'zh-Hant': {
+                submitted_title: "提交完成",
+                submitted_h1: "您的提交已完成。",
+                submitted_p: "感謝您的參與！",
+            }
+        };
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search);
+            let lang = params.get('lang') || 'en';
+            if (!translations[lang]) {
+                lang = 'en';
+            }
+
+            document.documentElement.lang = lang.split('-')[0];
+
+            if (translations[lang]) {
+                document.querySelectorAll('[data-i18n]').forEach(el => {
+                    const key = el.getAttribute('data-i18n');
+                    if (translations[lang][key]) {
+                        if (el.tagName === 'TITLE') {
+                            el.textContent = translations[lang][key];
+                        } else {
+                            el.innerHTML = translations[lang][key];
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

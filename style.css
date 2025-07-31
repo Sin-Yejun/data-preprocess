@@ -40,8 +40,59 @@ body {
 h1 {
   text-align: center;
   color: var(--text);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: clamp(1.75rem, 2vw + 1rem, 2.25rem);
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--card-bg);
+    border-radius: var(--radius);
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+}
+
+.progress-container {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+}
+
+.nav-buttons button {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: var(--radius);
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 0.5rem;
+}
+
+#submit-btn {
+    background-color: #16a34a; /* green-600 */
+}
+
+#submit-btn:hover:not(:disabled) {
+    background-color: #15803d; /* green-700 */
+}
+
+#submit-btn:disabled {
+    background-color: var(--muted);
+    cursor: not-allowed;
+}
+
+.nav-buttons button:hover {
+    background: var(--primary-dark);
+}
+
+.nav-buttons button:disabled {
+    background: var(--muted);
+    cursor: not-allowed;
 }
 
 /* =============================
@@ -150,6 +201,11 @@ h1 {
   margin-bottom: 1.5rem;
   overflow: hidden;
   transition: var(--transition);
+  display: none; /* Hide questions by default */
+}
+
+.question-block.active {
+    display: block; /* Show active question */
 }
 
 .question-title {
@@ -174,15 +230,12 @@ h1 {
 }
 
 .answers-container {
-  display: none;
+  display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
   padding: 1rem 1.25rem 1.5rem;
 }
 
-.question-block.active .answers-container {
-  display: flex;
-}
 
 .answer-card {
   flex: 1 1 300px;
@@ -193,6 +246,7 @@ h1 {
   box-shadow: var(--shadow);
   transition: all var(--transition); /* Use 'all' for transition */
   cursor: pointer; /* Add cursor pointer */
+  position: relative;
 }
 
 .answer-card:hover {
@@ -207,13 +261,11 @@ h1 {
   transform: translateY(-1px);
 }
 
-.answer-card h4 {
-  margin-bottom: 0.75rem;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
-  border-bottom: 2px solid var(--primary);
-  padding-bottom: 0.5rem;
+.correct, .incorrect {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .correct { color: #16a34a; }  /* green‑600 */
