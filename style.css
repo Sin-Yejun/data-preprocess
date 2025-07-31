@@ -29,6 +29,7 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  padding-top: 80px; /* Add padding to prevent content from being hidden by the fixed nav */
 }
 
 .container {
@@ -45,20 +46,56 @@ h1 {
 }
 
 .navigation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    background-color: var(--card-bg);
-    border-radius: var(--radius);
-    margin-bottom: 1.5rem;
+    padding: 1rem 2rem; /* Increased padding */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border-bottom: 1px solid var(--border);
+    z-index: 1000;
     box-shadow: var(--shadow);
+    transition: var(--transition);
 }
 
 .progress-container {
-    font-size: 1.1rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+#progress-bar-background {
+    flex-grow: 1;
+    height: 12px;
+    background-color: var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#progress-bar-foreground {
+    width: 0%; /* Initial width */
+    height: 100%;
+    background-color: var(--primary);
+    border-radius: 6px;
+    transition: width 0.5s ease-in-out; /* Animation */
+}
+
+#progress-text {
+    font-size: 1rem;
     font-weight: 600;
-    color: var(--primary-dark);
+    color: var(--text);
+    min-width: 50px; /* Prevents layout shift */
+    text-align: right;
+}
+
+.nav-buttons {
+    flex-shrink: 0; /* Prevent the button from shrinking */
 }
 
 .nav-buttons button {
@@ -270,6 +307,13 @@ h1 {
 
 .correct { color: #16a34a; }  /* green‑600 */
 .incorrect { color: #dc2626; } /* red‑600 */
+
+.model-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
 
 .markdown-content {
   font-size: 0.95rem;

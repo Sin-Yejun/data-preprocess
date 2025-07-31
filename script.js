@@ -115,11 +115,17 @@ function createHTML(qaData, lang) {
 
             const shuffledModels = Object.entries(modelMap).sort(() => 0.5 - Math.random());
 
-            shuffledModels.forEach(([model, modelData]) => {
+            const labels = ['A', 'B'];
+            shuffledModels.forEach(([model, modelData], modelIndex) => {
                 const answerCard = document.createElement('div');
                 answerCard.className = 'answer-card';
                 answerCard.dataset.model = model;
                 answersContainer.appendChild(answerCard);
+
+                const modelLabel = document.createElement('div');
+                modelLabel.className = 'model-label';
+                modelLabel.textContent = labels[modelIndex];
+                answerCard.appendChild(modelLabel);
 
                 if (modelData.is_correct !== undefined) {
                     const correctnessIndicator = document.createElement('span');
@@ -150,9 +156,6 @@ function showQuestion(index) {
     if (newQuestion) {
         newQuestion.classList.add('active');
     }
-
-    document.getElementById('prev-btn').disabled = index === 0;
-    document.getElementById('next-btn').disabled = index === questionsInView.length - 1;
     updateProgress();
 }
 
@@ -162,16 +165,21 @@ function updateProgress() {
     const totalQuestions = questionsInView.length;
     
     const votedIds = new Set(Object.keys(userVotes[lang] || {}));
-    const votedOnScreen = questionsInView.filter(q => votedIds.has(q.id));
+    const votedCount = questionsInView.filter(q => votedIds.has(q.id)).length;
     
     const progressText = document.getElementById('progress-text');
-    if (progressText) {
-        progressText.textContent = `${votedOnScreen.length} / ${totalQuestions}`;
+    const progressBarForeground = document.getElementById('progress-bar-foreground');
+
+    if (progressText && progressBarForeground) {
+        const percentage = totalQuestions > 0 ? (votedCount / totalQuestions) * 100 : 0;
+        
+        progressText.textContent = `${votedCount} / ${totalQuestions}`;
+        progressBarForeground.style.width = `${percentage}%`;
     }
 
     const submitBtn = document.getElementById('submit-btn');
     if (submitBtn) {
-        submitBtn.disabled = votedOnScreen.length < totalQuestions;
+        submitBtn.disabled = votedCount < totalQuestions;
     }
 }
 
@@ -246,22 +254,36 @@ function handleVote(questionId, model, cardElement) {
     const params = new URLSearchParams(window.location.search);
     let lang = params.get('lang') || 'en';
 
+    // Disable voting on the current question to prevent multiple quick votes
+    const currentQuestionBlock = cardElement.closest('.question-block');
+    const answerCards = currentQuestionBlock.querySelectorAll('.answer-card');
+    answerCards.forEach(card => card.style.pointerEvents = 'none');
+
+
     if (!userVotes[lang]) userVotes[lang] = {};
 
-    if (userVotes[lang][questionId] === model) {
-        delete userVotes[lang][questionId];
-    } else {
-        userVotes[lang][questionId] = model;
+    // If the user clicks the same answer again, we don't unvote, just proceed.
+    // The primary action is to move forward.
+    userVotes[lang][questionId] = model;
+    
+    // Visually select the card
+    currentQuestionBlock.querySelectorAll('.answer-card').forEach(card => card.classList.remove('selected-vote'));
+    const selectedCard = currentQuestionBlock.querySelector(`.answer-card[data-model="${model}"]`);
+    if (selectedCard) {
+        selectedCard.classList.add('selected-vote');
     }
-
-    const questionBlock = cardElement.closest('.question-block');
-    questionBlock.querySelectorAll('.answer-card').forEach(card => card.classList.remove('selected-vote'));
-
-    if (userVotes[lang][questionId]) {
-        const selectedCard = questionBlock.querySelector(`.answer-card[data-model="${userVotes[lang][questionId]}"]`);
-        if (selectedCard) selectedCard.classList.add('selected-vote');
-    }
+    
     updateProgress();
+
+    // Automatically move to the next question after a short delay
+    setTimeout(() => {
+        if (currentQuestionIndex < questionsInView.length - 1) {
+            currentQuestionIndex++;
+            showQuestion(currentQuestionIndex);
+        }
+        // Re-enable voting on the new question (or all for simplicity)
+        document.querySelectorAll('.answer-card').forEach(card => card.style.pointerEvents = 'auto');
+    }, 300); // 1 second delay
 }
 
 async function submitVotes() {
@@ -407,20 +429,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             const model = card.dataset.model;
             handleVote(questionId, model, card);
         });
-    });
-
-    document.getElementById('next-btn').addEventListener('click', () => {
-        if (currentQuestionIndex < questionsInView.length - 1) {
-            currentQuestionIndex++;
-            showQuestion(currentQuestionIndex);
-        }
-    });
-
-    document.getElementById('prev-btn').addEventListener('click', () => {
-        if (currentQuestionIndex > 0) {
-            currentQuestionIndex--;
-            showQuestion(currentQuestionIndex);
-        }
     });
 
     // --- 제출 버튼 이벤트 리스너 ---
