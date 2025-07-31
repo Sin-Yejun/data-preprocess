@@ -16,6 +16,7 @@ const db = new Firestore();
 
 app.use(express.json());
 app.use(express.static(__dirname));
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 // GET /votes - Firestore에서 전체 투표 현황 반환
 app.get('/votes', async (req, res) => {

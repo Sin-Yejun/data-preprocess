@@ -1,44 +1,60 @@
 const translations = {
     en: {
-        title: "Model Answer Correctness Comparison",
-        h1: "Evaluation of Model's Answer",
+        title: "BurnFit New Ai Agent",
+        h1: "Introducing the NEW ai for the new BurnFit",
+        description: "The new AI agent for BurnFit helps with your records and habits, analyzes your progress, and recommends ways for clearer growth.<br>Please <strong>choose the more useful and preferred answer</strong> from the two options below.<br>With just a simple choice, you can help us build a better BurnFit together.<br><br><em>*Estimated time: about 1-2 minutes / Feel free to participate!</em>",
         prev: "Previous",
         next: "Next",
         submit: "Submit",
+        submit_dialog_title: "Confirm Submission",
         submit_confirm: "Are you sure you want to submit? You cannot return to the evaluation page after submission.",
+        dialog_cancel: "Cancel",
+        dialog_confirm: "Confirm",
         submitted_title: "Submission Complete",
         submitted_h1: "Your submission is complete.",
         submitted_p: "Thank you for your participation!",
     },
     ko: {
-        title: "모델 답변 정확도 비교",
-        h1: "모델의 답변 평가",
+        title: "BurnFit New Ai Agent",
+        h1: "새로운 번핏을 위한, NEW ai 등장",
+        description: "번핏에 도입될 새로운 AI 에이전트는 여러분의 기록과 습관을 돕고, 기록을 분석하며, 더 선명한 성장을 위한 방법을 추천합니다.<br>아래 제시된 두 개의 답변 중, <strong>더 유용하고 마음에 드는 답변을 선택</strong>해주세요.<br>간단한 선택만으로도, 더 나은 번핏을 함께 만들어갈 수 있습니다.<br><br><em>*소요 시간 : 약 1~2분 / 부담 없이 참여해주세요!</em>",
         prev: "이전",
         next: "다음",
         submit: "제출",
+        submit_dialog_title: "제출 확인",
         submit_confirm: "제출하시겠습니까? 제출 후에는 평가 페이지로 돌아올 수 없습니다.",
+        dialog_cancel: "취소",
+        dialog_confirm: "확인",
         submitted_title: "제출 완료",
         submitted_h1: "제출이 완료되었습니다.",
         submitted_p: "참여해주셔서 감사합니다!",
     },
     ja: {
-        title: "モデル回答の正解率比較",
-        h1: "モデルの回答評価",
+        title: "BurnFit 新AIエージェント",
+        h1: "新しいBurnFitのための、NEW ai登場",
+        description: "BurnFitに導入される新しいAIエージェントは、あなたの記録と習慣をサポートし、記録を分析し、より明確な成長のための方法を推奨します。<br>以下に提示された2つの回答の中から、<strong>より有用で気に入った回答を選択</strong>してください。<br>簡単な選択だけでも、より良いBurnFitを一緒に作っていくことができます。<br><br><em>*所要時間：約1〜2分 / お気軽にご参加ください！</em>",
         prev: "前へ",
         next: "次へ",
         submit: "提出",
+        submit_dialog_title: "提出の確認",
         submit_confirm: "提出しますか？提出後は評価ページに戻れません。",
+        dialog_cancel: "キャンセル",
+        dialog_confirm: "確認",
         submitted_title: "提出完了",
         submitted_h1: "提出が完了しました。",
         submitted_p: "ご協力いただきありがとうございます！",
     },
     'zh-Hant': {
-        title: "模型答案正確性比較",
-        h1: "模型的答案評估",
+        title: "BurnFit 全新 Ai 代理",
+        h1: "為全新的 BurnFit，NEW ai 登場",
+        description: "即將引入 BurnFit 的全新 AI 代理，將幫助您記錄和養成習慣，分析您的記錄，並推薦更清晰的成長方法。<br>請從下面提出的兩個答案中，<strong>選擇您認為更有用、更喜歡的答案</strong>。<br>僅需簡單的選擇，就能與我們共同打造一個更好的 BurnFit。<br><br><em>*預計時間：約 1-2 分鐘 / 歡迎輕鬆參與！</em>",
         prev: "上一頁",
         next: "下一頁",
         submit: "提交",
+        submit_dialog_title: "確認提交",
         submit_confirm: "確定要提交嗎？提交後將無法返回評估頁面。",
+        dialog_cancel: "取消",
+        dialog_confirm: "確認",
         submitted_title: "提交完成",
         submitted_h1: "您的提交已完成。",
         submitted_p: "感謝您的參與！",
@@ -432,28 +448,68 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
 
     // --- 제출 버튼 이벤트 리스너 ---
-    // 위에서 선택한 투표 처리 방식에 맞춰 아래 리스너의 주석을 수정하세요.
-
-    /*
-    // [방법 1: 실시간 저장] 사용 시 (기본값)
-    document.getElementById('submit-btn').addEventListener('click', () => {
-        const params = new URLSearchParams(window.location.search);
-        const lang = params.get('lang') || 'en';
-        if (confirm(translations[lang].submit_confirm)) {
-            window.location.href = `submitted.html?lang=${lang}`;
-        }
-    });
-    */
-    // [방법 2: 일괄 제출] 사용 시
     document.getElementById('submit-btn').addEventListener('click', async () => {
         const params = new URLSearchParams(window.location.search);
         const lang = params.get('lang') || 'en';
-        if (confirm(translations[lang].submit_confirm)) {
-            const success = await submitVotes();
-            if (success) {
-                localStorage.setItem('hasVoted', 'true'); // 투표 완료 기록
-                window.location.href = `submitted.html?lang=${lang}`;
+        
+        showCustomConfirm(
+            translations[lang].submit_dialog_title, 
+            translations[lang].submit_confirm, 
+            async () => {
+                const success = await submitVotes();
+                if (success) {
+                    localStorage.setItem('hasVoted', 'true'); // 투표 완료 기록
+                    window.location.href = `submitted.html?lang=${lang}`;
+                }
             }
-        }
+        );
     });
 });
+
+function showCustomConfirm(title, message, onConfirm) {
+    const params = new URLSearchParams(window.location.search);
+    const lang = params.get('lang') || 'en';
+
+    const dialogOverlay = document.getElementById('custom-dialog-overlay');
+    const titleEl = document.getElementById('custom-dialog-title');
+    const messageEl = document.getElementById('custom-dialog-message');
+    const confirmBtn = document.getElementById('dialog-confirm-btn');
+    const cancelBtn = document.getElementById('dialog-cancel-btn');
+
+    titleEl.textContent = title;
+    messageEl.textContent = message;
+
+    // Set button text from translations
+    if (translations[lang]) {
+        confirmBtn.textContent = translations[lang].dialog_confirm || 'Confirm';
+        cancelBtn.textContent = translations[lang].dialog_cancel || 'Cancel';
+    }
+
+    dialogOverlay.classList.remove('hidden');
+
+    const confirmHandler = () => {
+        onConfirm();
+        cleanup();
+    };
+
+    const cancelHandler = () => {
+        cleanup();
+    };
+
+    const cleanup = () => {
+        dialogOverlay.classList.add('hidden');
+        confirmBtn.removeEventListener('click', confirmHandler);
+        cancelBtn.removeEventListener('click', cancelHandler);
+        dialogOverlay.removeEventListener('click', overlayClickHandler);
+    };
+    
+    const overlayClickHandler = (e) => {
+        if (e.target === dialogOverlay) {
+            cleanup();
+        }
+    };
+
+    confirmBtn.addEventListener('click', confirmHandler);
+    cancelBtn.addEventListener('click', cancelHandler);
+    dialogOverlay.addEventListener('click', overlayClickHandler);
+}

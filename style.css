@@ -2,16 +2,16 @@
    Global Theme Variables
    ============================= */
 :root {
-  --bg: #f3f4f6;               /* page background */
-  --primary: #2563eb;          /* primary action blue (Tailwind blue‑600) */
-  --primary-dark: #1e40af;     /* darker blue for hover / emphasis */
+  --bg: #f6f7f9;               /* page background */
+  --primary: #329eff;          /* New primary color */
+  --primary-dark: #1A88E6;     /* Darker version for hover/emphasis */
   --white: #ffffff;
-  --text: #111827;             /* gray‑900 */
-  --muted: #6b7280;            /* gray‑500 */
+  --text: #2a333c;             /* Main contrast color */
+  --muted: #8D949B;            /* Muted text color */
   --card-bg: #ffffff;
-  --border: #e5e7eb;           /* gray‑200 */
-  --shadow: 0 4px 6px rgba(0,0,0,0.05);
-  --radius: 8px;
+  --border: #eeeeee;           /* Lighter border color */
+  --shadow: 0 4px 15px rgba(0,0,0,0.05); /* Slightly softer shadow */
+  --radius: 12px;              /* Slightly larger radius for a softer look */
   --transition: 0.25s ease;
 }
 
@@ -25,11 +25,13 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.6;
+  line-height: 1.7; /* Increased base line-height for better readability */
   padding-top: 80px; /* Add padding to prevent content from being hidden by the fixed nav */
+  -webkit-font-smoothing: antialiased; /* Smoother font rendering */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -43,6 +45,26 @@ h1 {
   color: var(--text);
   margin-bottom: 1rem;
   font-size: clamp(1.75rem, 2vw + 1rem, 2.25rem);
+}
+
+.description-container {
+    text-align: center;
+    color: #4a5568; /* Changed to a more visible gray */
+    max-width: 800px;
+    margin: 0 auto 2rem; /* 0 auto for horizontal centering, 2rem for bottom margin */
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.description-container em {
+    font-size: 0.9rem;
+    color: #9ca3af; /* gray-400 */
+    font-style: normal;
+}
+
+.description-container strong {
+    color: var(--text);
+    font-weight: 600;
 }
 
 .navigation-container {
@@ -62,12 +84,19 @@ h1 {
     transition: var(--transition);
 }
 
+.header-logo {
+    height: 28px; /* Adjust height as needed */
+    width: auto;
+}
+
 .progress-container {
     flex-grow: 1;
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 0 1rem;
+    margin: 0 auto; /* Center the progress container */
+    max-width: 600px; /* Max width for the progress bar area */
 }
 
 #progress-bar-background {
@@ -276,10 +305,10 @@ h1 {
 
 .answer-card {
   flex: 1 1 300px;
-  background: #fafafa;
+  background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1rem 1.25rem;
+  padding: 1.5rem; /* Increased padding */
   box-shadow: var(--shadow);
   transition: all var(--transition); /* Use 'all' for transition */
   cursor: pointer; /* Add cursor pointer */
@@ -287,8 +316,8 @@ h1 {
 }
 
 .answer-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.07);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
 /* Style for the selected answer card */
@@ -316,13 +345,47 @@ h1 {
 }
 
 .markdown-content {
-  font-size: 0.95rem;
-  line-height: 1.65;
+  font-size: 1rem; /* Slightly increased font size from 0.95rem */
+  line-height: 1.75; /* Increased line-height for better text flow */
   color: var(--text);
 }
 
 .markdown-content * {
   max-width: 100%;
+}
+
+/* Add vertical spacing for better rhythm */
+.markdown-content p,
+.markdown-content ul,
+.markdown-content ol,
+.markdown-content blockquote {
+    margin-bottom: 1.25em;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5 {
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+    line-height: 1.3;
+}
+
+/* Remove margin from the last element to prevent extra space at the end */
+.markdown-content > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Fix for list overflow */
+.markdown-content ul,
+.markdown-content ol {
+  padding-left: 1.5em; /* Adjust left padding for lists */
+}
+
+.markdown-content li {
+  word-wrap: break-word; /* Ensure long words in list items do not overflow */
+  margin-bottom: 0.5em; /* Space out list items */
 }
 
 /* =============================
@@ -341,4 +404,92 @@ h1 {
   font-weight: 400;
   color: var(--muted);
   margin-left: 0.5rem;
+}
+
+/* =============================
+   Custom Dialog
+   ============================= */
+#custom-dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+#custom-dialog-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#custom-dialog-box {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+#custom-dialog-overlay.hidden #custom-dialog-box {
+    transform: scale(0.9);
+}
+
+#custom-dialog-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+#custom-dialog-message {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+}
+
+#custom-dialog-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#custom-dialog-buttons button {
+    border: none;
+    border-radius: var(--radius);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    min-width: 100px;
+}
+
+#dialog-cancel-btn {
+    background-color: var(--border);
+    color: var(--muted);
+}
+
+#dialog-cancel-btn:hover {
+    background-color: #e0e0e0; /* Slightly darker gray */
+}
+
+#dialog-confirm-btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+#dialog-confirm-btn:hover {
+    background-color: var(--primary-dark);
 }

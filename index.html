@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="title">Model Answer Correctness Comparison</title>
+    <link rel="icon" href="assets/burnfit_icon.png" type="image/png">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
     <h1 data-i18n="h1"></h1>
+    <div class="description-container">
+        <p data-i18n="description"></p>
+    </div>
     <div class="navigation-container">
+        <img src="assets/burnfit_logo.png" alt="Burnfit Logo" class="header-logo">
         <div class="progress-container">
             <div id="progress-bar-background">
                 <div id="progress-bar-foreground"></div>
@@ -18,7 +26,7 @@
             <span id="progress-text"></span>
         </div>
         <div class="nav-buttons">
-            <button id="submit-btn" data-i18n="submit" disabled>제출</button>
+            <button id="submit-btn" data-i18n="submit" disabled></button>
         </div>
     </div>
     <div id="questions-container">
@@ -26,5 +34,17 @@
     </div>
 </div>
 <script src="script.js"></script>
+
+<div id="custom-dialog-overlay" class="hidden">
+    <div id="custom-dialog-box">
+        <h4 id="custom-dialog-title"></h4>
+        <p id="custom-dialog-message"></p>
+        <div id="custom-dialog-buttons">
+            <button id="dialog-cancel-btn" data-i18n="dialog_cancel"></button>
+            <button id="dialog-confirm-btn" data-i18n="dialog_confirm"></button>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
