@@ -1,8 +1,8 @@
 const translations = {
     en: {
         title: "BurnFit New Ai Agent",
-        h1: "Introducing the NEW ai for the new BurnFit",
-        description: "The new AI agent for BurnFit helps with your records and habits, analyzes your progress, and recommends ways for clearer growth.<br>Please <strong>choose the more useful and preferred answer</strong> from the two options below.<br>With just a simple choice, you can help us build a better BurnFit together.<br><br><em>*Estimated time: about 1-2 minutes / Feel free to participate!</em>",
+        h1: "Introducing the New AI for the new BurnFit",
+        description: "The new AI agent for BurnFit helps with your records and habits,<br>analyzes your progress, and recommends ways for clearer growth.<br>Please <strong>choose the more useful and preferred answer</strong> from the two options below.<br>With just a simple choice, you can help us build a better BurnFit together.<br><br><em>*Estimated time: about 1-2 minutes / Feel free to participate!</em>",
         prev: "Previous",
         next: "Next",
         submit: "Submit",
@@ -16,8 +16,8 @@ const translations = {
     },
     ko: {
         title: "BurnFit New Ai Agent",
-        h1: "새로운 번핏을 위한, NEW ai 등장",
-        description: "번핏에 도입될 새로운 AI 에이전트는 여러분의 기록과 습관을 돕고, 기록을 분석하며, 더 선명한 성장을 위한 방법을 추천합니다.<br>아래 제시된 두 개의 답변 중, <strong>더 유용하고 마음에 드는 답변을 선택</strong>해주세요.<br>간단한 선택만으로도, 더 나은 번핏을 함께 만들어갈 수 있습니다.<br><br><em>*소요 시간 : 약 1~2분 / 부담 없이 참여해주세요!</em>",
+        h1: "새로운 번핏을 위한, New Ai 등장",
+        description: "번핏에 도입될 새로운 AI 에이전트는 여러분의 기록과 습관을 돕고,<br>기록을 분석하며, 더 선명한 성장을 위한 방법을 추천합니다.<br>아래 제시된 두 개의 답변 중, <strong>더 유용하고 마음에 드는 답변을 선택</strong>해주세요.<br>간단한 선택만으로도, 더 나은 번핏을 함께 만들어갈 수 있습니다.<br><br><em>*소요 시간 : 약 1~2분 / 부담 없이 참여해주세요!</em>",
         prev: "이전",
         next: "다음",
         submit: "제출",
@@ -31,8 +31,8 @@ const translations = {
     },
     ja: {
         title: "BurnFit 新AIエージェント",
-        h1: "新しいBurnFitのための、NEW ai登場",
-        description: "BurnFitに導入される新しいAIエージェントは、あなたの記録と習慣をサポートし、記録を分析し、より明確な成長のための方法を推奨します。<br>以下に提示された2つの回答の中から、<strong>より有用で気に入った回答を選択</strong>してください。<br>簡単な選択だけでも、より良いBurnFitを一緒に作っていくことができます。<br><br><em>*所要時間：約1〜2分 / お気軽にご参加ください！</em>",
+        h1: "新しいBurnFitのための、New Ai登場",
+        description: "BurnFitに導入される新しいAIエージェントは、あなたの記録と習慣をサポートし、<br>記録を分析し、より明確な成長のための方法を推奨します。<br>以下に提示された2つの回答の中から、<strong>より有用で気に入った回答を選択</strong>してください。<br>簡単な選択だけでも、より良いBurnFitを一緒に作っていくことができます。<br><br><em>*所要時間：約1〜2分 / お気軽にご参加ください！</em>",
         prev: "前へ",
         next: "次へ",
         submit: "提出",
@@ -46,8 +46,8 @@ const translations = {
     },
     'zh-Hant': {
         title: "BurnFit 全新 Ai 代理",
-        h1: "為全新的 BurnFit，NEW ai 登場",
-        description: "即將引入 BurnFit 的全新 AI 代理，將幫助您記錄和養成習慣，分析您的記錄，並推薦更清晰的成長方法。<br>請從下面提出的兩個答案中，<strong>選擇您認為更有用、更喜歡的答案</strong>。<br>僅需簡單的選擇，就能與我們共同打造一個更好的 BurnFit。<br><br><em>*預計時間：約 1-2 分鐘 / 歡迎輕鬆參與！</em>",
+        h1: "為全新的 BurnFit， New Ai 登場",
+        description: "即將引入 BurnFit 的全新 AI 代理，將幫助您記錄和養成習慣，<br>分析您的記錄，並推薦更清晰的成長方法。<br>請從下面提出的兩個答案中，<strong>選擇您認為更有用、更喜歡的答案</strong>。<br>僅需簡單的選擇，就能與我們共同打造一個更好的 BurnFit。<br><br><em>*預計時間：約 1-2 分鐘 / 歡迎輕鬆參與！</em>",
         prev: "上一頁",
         next: "下一頁",
         submit: "提交",
