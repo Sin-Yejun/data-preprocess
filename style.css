@@ -13,6 +13,19 @@
   --shadow: 0 4px 15px rgba(0,0,0,0.05); /* Slightly softer shadow */
   --radius: 12px;              /* Slightly larger radius for a softer look */
   --transition: 0.25s ease;
+  --nav-bg: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] {
+    --bg: #1a202c;
+    --text: #e2e8f0;
+    --muted: #a0aec0;
+    --card-bg: #2d3748;
+    --border: #4a5568;
+    --shadow: 0 4px 15px rgba(0,0,0,0.2);
+    --primary: #4299e1;
+    --primary-dark: #2b6cb0;
+    --nav-bg: rgba(45, 55, 72, 0.9);
 }
 
 /* =============================
@@ -76,7 +89,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem; /* Increased padding */
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    background-color: var(--nav-bg); /* Semi-transparent white */
     backdrop-filter: blur(10px); /* Frosted glass effect */
     border-bottom: 1px solid var(--border);
     z-index: 1000;
@@ -124,6 +137,9 @@ h1 {
 }
 
 .nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     flex-shrink: 0; /* Prevent the button from shrinking */
 }
 
@@ -159,6 +175,32 @@ h1 {
 .nav-buttons button:disabled {
     background: var(--muted);
     cursor: not-allowed;
+}
+
+#theme-toggle-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#theme-toggle-btn:hover {
+    background: var(--border);
+}
+
+.sun-icon, .moon-icon {
+    display: none;
+}
+
+[data-theme='light'] .sun-icon {
+    display: block;
+}
+
+[data-theme='dark'] .moon-icon {
+    display: block;
 }
 
 /* =============================
@@ -549,4 +591,20 @@ h1 {
 .question-block.fade-in {
     /* Needs to be active (display:block) to be visible */
     animation: fade-in 0.25s ease-in forwards;
+}
+
+/* = a태그 스타일 */
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .header-logo {
+        display: none;
+    }
 }

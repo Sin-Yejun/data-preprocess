@@ -391,6 +391,28 @@ if (typeof marked !== 'undefined') {
 
 
 document.addEventListener("DOMContentLoaded", async () => {
+    const themeToggleButton = document.getElementById('theme-toggle-btn');
+    const currentTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    if (currentTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+
+    themeToggleButton.addEventListener('click', () => {
+        let theme = document.documentElement.getAttribute('data-theme');
+        if (theme === 'dark') {
+            theme = 'light';
+        } else {
+            theme = 'dark';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+    });
+
+
     const params = new URLSearchParams(window.location.search);
     let lang = params.get('lang') || 'en';
     if (!translations[lang]) {
