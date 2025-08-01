@@ -164,14 +164,30 @@ function createHTML(qaData, lang) {
     }
 }
 
-function showQuestion(index) {
+function showQuestion(index, previousIndex = -1) {
     const questions = document.querySelectorAll('.question-block');
-    questions.forEach(q => q.classList.remove('active'));
-
+    const currentQuestion = document.querySelector(`.question-block[data-index="${previousIndex}"]`);
     const newQuestion = document.querySelector(`.question-block[data-index="${index}"]`);
-    if (newQuestion) {
+
+    if (currentQuestion) {
+        currentQuestion.classList.add('fade-out');
+        currentQuestion.addEventListener('animationend', () => {
+            currentQuestion.classList.remove('active');
+            currentQuestion.classList.remove('fade-out');
+            
+            if (newQuestion) {
+                newQuestion.classList.add('active');
+                newQuestion.classList.add('fade-in');
+                newQuestion.addEventListener('animationend', () => {
+                    newQuestion.classList.remove('fade-in');
+                }, { once: true });
+            }
+        }, { once: true });
+    } else if (newQuestion) {
+        // Initial load, no fade-out needed
         newQuestion.classList.add('active');
     }
+
     updateProgress();
 }
 
@@ -294,12 +310,13 @@ function handleVote(questionId, model, cardElement) {
     // Automatically move to the next question after a short delay
     setTimeout(() => {
         if (currentQuestionIndex < questionsInView.length - 1) {
+            const previousIndex = currentQuestionIndex;
             currentQuestionIndex++;
-            showQuestion(currentQuestionIndex);
+            showQuestion(currentQuestionIndex, previousIndex);
         }
         // Re-enable voting on the new question (or all for simplicity)
         document.querySelectorAll('.answer-card').forEach(card => card.style.pointerEvents = 'auto');
-    }, 300); // 1 second delay
+    }, 250); // 0.25 second delay to match animation
 }
 
 async function submitVotes() {

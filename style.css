@@ -493,3 +493,60 @@ h1 {
 #dialog-confirm-btn:hover {
     background-color: var(--primary-dark);
 }
+
+/* =============================
+   Submitted Page
+   ============================= */
+.submitted-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+
+.submitted-container h1 {
+    font-size: 2.5rem;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+.submitted-container p {
+    font-size: 1.2rem;
+    color: var(--muted);
+}
+
+/* =============================
+   Question Transitions
+   ============================= */
+@keyframes fade-out {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.question-block.fade-out {
+    animation: fade-out 0.25s ease-out forwards;
+}
+
+.question-block.fade-in {
+    /* Needs to be active (display:block) to be visible */
+    animation: fade-in 0.25s ease-in forwards;
+}
