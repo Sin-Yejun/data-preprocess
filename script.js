@@ -1,8 +1,8 @@
 const translations = {
     en: {
-        title: "BurnFit New Ai Agent",
-        h1: "Introducing the New AI for the new BurnFit",
-        description: "The new AI agent for BurnFit helps with your records and habits,<br>analyzes your progress, and recommends ways for clearer growth.<br>Please <strong>choose the more useful and preferred answer</strong> from the two options below.<br>With just a simple choice, you can help us build a better BurnFit together.<br><br><em>*Estimated time: about 1-2 minutes / Feel free to participate!</em>",
+        title: "BurnFit New AI Agent",
+        h1: "Introducing BurnFit’s New AI Assistant",
+        description: "The new AI agent tracks your progress, gives you insights,<br>and helps you build stronger habits for clearer muscle growth.<br><br><strong>Please pick one of the two options below</strong> - your feedback helps us make BurnFit even better.<br><br><em>*This survey takes only 1–2 minutes. We’d love to hear from you!</em>",
         prev: "Previous",
         next: "Next",
         submit: "Submit",
@@ -15,9 +15,9 @@ const translations = {
         submitted_p: "Thank you for your participation!",
     },
     ko: {
-        title: "BurnFit New Ai Agent",
-        h1: "새로운 번핏을 위한, New Ai 등장",
-        description: "번핏에 도입될 새로운 AI 에이전트는 여러분의 기록과 습관을 돕고,<br>기록을 분석하며, 더 선명한 성장을 위한 방법을 추천합니다.<br>아래 제시된 두 개의 답변 중, <strong>더 유용하고 마음에 드는 답변을 선택</strong>해주세요.<br>간단한 선택만으로도, 더 나은 번핏을 함께 만들어갈 수 있습니다.<br><br><em>*소요 시간 : 약 1~2분 / 부담 없이 참여해주세요!</em>",
+        title: "BurnFit New AI Agent",
+        h1: "새로운 번핏을 위한, New AI 등장",
+        description: "번핏에 도입될 새로운 AI 에이전트는 여러분의 기록과 습관을 돕고,<br>기록을 분석하며, 더 선명한 성장을 위한 방법을 추천합니다.<br><br>아래 제시된 두 개의 답변 중, <strong>더 유용하고 마음에 드는 답변을 선택</strong>해주세요.<br>간단한 선택만으로도, 더 나은 번핏을 함께 만들어갈 수 있습니다.<br><br><em>*소요 시간 : 약 1~2분 / 부담 없이 참여해주세요!</em>",
         prev: "이전",
         next: "다음",
         submit: "제출",
@@ -30,9 +30,9 @@ const translations = {
         submitted_p: "참여해주셔서 감사합니다!",
     },
     ja: {
-        title: "BurnFit 新AIエージェント",
-        h1: "新しいBurnFitのための、New Ai登場",
-        description: "BurnFitに導入される新しいAIエージェントは、あなたの記録と習慣をサポートし、<br>記録を分析し、より明確な成長のための方法を推奨します。<br>以下に提示された2つの回答の中から、<strong>より有用で気に入った回答を選択</strong>してください。<br>簡単な選択だけでも、より良いBurnFitを一緒に作っていくことができます。<br><br><em>*所要時間：約1〜2分 / お気軽にご参加ください！</em>",
+        title: "BurnFit New AI Agent",
+        h1: "BurnFitにNew Aiが登場！",
+        description: "BurnFitに新たに導入されるAIサポートは、トレーニング記録の管理や習慣化を助け、<br>記録を分析し、みなさんがさらに成長するためのアドバイスを行います。<br><br>以下に表示された2つの回答の中から、<strong>より参考になると感じた回答を選択してください。</strong><br>より良いBurnFitをつくるために、ぜひご協力をお願いいたします。<br><br><em>*所要時間：約1〜2分 / お気軽にご参加ください！</em>",
         prev: "前へ",
         next: "次へ",
         submit: "提出",
@@ -45,9 +45,9 @@ const translations = {
         submitted_p: "ご協力いただきありがとうございます！",
     },
     'zh-Hant': {
-        title: "BurnFit 全新 Ai 代理",
-        h1: "為全新的 BurnFit， New Ai 登場",
-        description: "即將引入 BurnFit 的全新 AI 代理，將幫助您記錄和養成習慣，<br>分析您的記錄，並推薦更清晰的成長方法。<br>請從下面提出的兩個答案中，<strong>選擇您認為更有用、更喜歡的答案</strong>。<br>僅需簡單的選擇，就能與我們共同打造一個更好的 BurnFit。<br><br><em>*預計時間：約 1-2 分鐘 / 歡迎輕鬆參與！</em>",
+        title: "BurnFit New AI Agent",
+        h1: "為全新的 BurnFit， New AI 登場",
+        description: "即將引入 BurnFit 的全新 AI 代理，將幫助您記錄和養成習慣，<br>分析您的記錄，並推薦更清晰的成長方法。<br><br>請從下面提出的兩個答案中，<strong>選擇您認為更有用、更喜歡的答案</strong>。<br>僅需簡單的選擇，就能與我們共同打造一個更好的 BurnFit。<br><br><em>*預計時間：約 1-2 分鐘 / 歡迎輕鬆參與！</em>",
         prev: "上一頁",
         next: "下一頁",
         submit: "提交",
@@ -58,7 +58,22 @@ const translations = {
         submitted_title: "提交完成",
         submitted_h1: "您的提交已完成。",
         submitted_p: "感謝您的參與！",
-    }
+    },
+    id: {
+        title: "BurnFit New AI Agent",
+        h1: "Memperkenalkan Asisten AI Baru BurnFit",
+        description: "AI agent baru melacak progres Anda, memberikan wawasan,<br>dan membantu Anda membangun kebiasaan yang lebih kuat untuk pertumbuhan otot yang lebih jelas.<br><br><strong>Silakan pilih salah satu dari dua opsi di bawah ini</strong> - masukan Anda membantu kami membuat BurnFit menjadi lebih baik.<br><br><em>*Survei ini hanya memakan waktu 1–2 menit. Kami ingin mendengar dari Anda!</em>",
+        prev: "Sebelumnya",
+        next: "Selanjutnya",
+        submit: "Kirim",
+        submit_dialog_title: "Konfirmasi Pengiriman",
+        submit_confirm: "Apakah Anda yakin ingin mengirim? Anda tidak dapat kembali ke halaman evaluasi setelah pengiriman.",
+        dialog_cancel: "Batal",
+        dialog_confirm: "Konfirmasi",
+        submitted_title: "Pengiriman Selesai",
+        submitted_h1: "Pengiriman Anda telah selesai.",
+        submitted_p: "Terima kasih atas partisipasi Anda!",
+    },
 };
 
 async function loadQAData() {

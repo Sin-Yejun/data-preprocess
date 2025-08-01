@@ -50,7 +50,7 @@ h1 {
 .description-container {
     text-align: center;
     color: #4a5568; /* Changed to a more visible gray */
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto 2rem; /* 0 auto for horizontal centering, 2rem for bottom margin */
     font-size: 1.05rem;
     line-height: 1.7;
