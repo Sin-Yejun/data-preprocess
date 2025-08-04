@@ -1,17 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Model Answer Correctness Comparison</title>
+    <title data-i18n="title">Model Answer Correctness Comparison</title>
+    <link rel="icon" href="assets/burnfit_icon.png" type="image/png">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-    <h1>Evaluation of Model's Answer</h1>
-    <!-- Data will be loaded here by script.js -->
+    <h1 data-i18n="h1"></h1>
+    <div class="description-container">
+        <p data-i18n="description"></p>
+    </div>
+    <div class="navigation-container">
+        <img src="assets/burnfit_logo.png" alt="Burnfit Logo" class="header-logo">
+        <div class="progress-container">
+            <div id="progress-bar-background">
+                <div id="progress-bar-foreground"></div>
+            </div>
+            <span id="progress-text"></span>
+        </div>
+        <div class="nav-buttons">
+            <button id="submit-btn" data-i18n="submit" disabled></button>
+            <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.106a.75.75 0 010 1.06l-1.591 1.59a.75.75 0 11-1.06-1.06l1.59-1.59a.75.75 0 011.06 0zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5h2.25a.75.75 0 01.75.75zM17.894 17.894a.75.75 0 011.06 0l1.59 1.591a.75.75 0 11-1.06 1.06l-1.59-1.59a.75.75 0 010-1.061zM12 18.75a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0v-2.25a.75.75 0 01.75-.75zM5.106 17.894a.75.75 0 010-1.06l1.59-1.591a.75.75 0 111.06 1.06l-1.59 1.59a.75.75 0 01-1.06 0zM4.5 12a.75.75 0 01-.75.75H1.5a.75.75 0 010-1.5h2.25a.75.75 0 01.75.75zM6.106 5.106a.75.75 0 011.06 0l1.591 1.59a.75.75 0 01-1.06 1.06l-1.59-1.59a.75.75 0 010-1.06z"></path></svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 004.472-.69a.75.75 0 01.82.162a10.5 10.5 0 01-1.589 1.589A10.5 10.5 0 0112 22.5a10.5 10.5 0 01-10.5-10.5c0-4.306 2.56-8.007 6.22-9.674a.75.75 0 01.806.162z" clip-rule="evenodd"></path></svg>
+            </button>
+        </div>
+    </div>
+    <div id="questions-container">
+        <!-- Data will be loaded here by script.js -->
+    </div>
 </div>
 <script src="script.js"></script>
+
+<div id="custom-dialog-overlay" class="hidden">
+    <div id="custom-dialog-box">
+        <h4 id="custom-dialog-title"></h4>
+        <p id="custom-dialog-message"></p>
+        <div id="custom-dialog-buttons">
+            <button id="dialog-cancel-btn" data-i18n="dialog_cancel"></button>
+            <button id="dialog-confirm-btn" data-i18n="dialog_confirm"></button>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

@@ -2,17 +2,30 @@
    Global Theme Variables
    ============================= */
 :root {
-  --bg: #f3f4f6;               /* page background */
-  --primary: #2563eb;          /* primary action blue (Tailwind blue‑600) */
-  --primary-dark: #1e40af;     /* darker blue for hover / emphasis */
+  --bg: #f6f7f9;               /* page background */
+  --primary: #329eff;          /* New primary color */
+  --primary-dark: #1A88E6;     /* Darker version for hover/emphasis */
   --white: #ffffff;
-  --text: #111827;             /* gray‑900 */
-  --muted: #6b7280;            /* gray‑500 */
+  --text: #2a333c;             /* Main contrast color */
+  --muted: #8D949B;            /* Muted text color */
   --card-bg: #ffffff;
-  --border: #e5e7eb;           /* gray‑200 */
-  --shadow: 0 4px 6px rgba(0,0,0,0.05);
-  --radius: 8px;
+  --border: #eeeeee;           /* Lighter border color */
+  --shadow: 0 4px 15px rgba(0,0,0,0.05); /* Slightly softer shadow */
+  --radius: 12px;              /* Slightly larger radius for a softer look */
   --transition: 0.25s ease;
+  --nav-bg: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme='dark'] {
+    --bg: #1a202c;
+    --text: #e2e8f0;
+    --muted: #a0aec0;
+    --card-bg: #2d3748;
+    --border: #4a5568;
+    --shadow: 0 4px 15px rgba(0,0,0,0.2);
+    --primary: #4299e1;
+    --primary-dark: #2b6cb0;
+    --nav-bg: rgba(45, 55, 72, 0.9);
 }
 
 /* =============================
@@ -25,10 +38,13 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.6;
+  line-height: 1.7; /* Increased base line-height for better readability */
+  padding-top: 80px; /* Add padding to prevent content from being hidden by the fixed nav */
+  -webkit-font-smoothing: antialiased; /* Smoother font rendering */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -40,8 +56,151 @@ body {
 h1 {
   text-align: center;
   color: var(--text);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: clamp(1.75rem, 2vw + 1rem, 2.25rem);
+}
+
+.description-container {
+    text-align: center;
+    color: #4a5568; /* Changed to a more visible gray */
+    max-width: 1200px;
+    margin: 0 auto 2rem; /* 0 auto for horizontal centering, 2rem for bottom margin */
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.description-container em {
+    font-size: 0.9rem;
+    color: #9ca3af; /* gray-400 */
+    font-style: normal;
+}
+
+.description-container strong {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.navigation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; /* Increased padding */
+    background-color: var(--nav-bg); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border-bottom: 1px solid var(--border);
+    z-index: 1000;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.header-logo {
+    height: 28px; /* Adjust height as needed */
+    width: auto;
+}
+
+.progress-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin: 0 auto; /* Center the progress container */
+    max-width: 600px; /* Max width for the progress bar area */
+}
+
+#progress-bar-background {
+    flex-grow: 1;
+    height: 12px;
+    background-color: var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#progress-bar-foreground {
+    width: 0%; /* Initial width */
+    height: 100%;
+    background-color: var(--primary);
+    border-radius: 6px;
+    transition: width 0.5s ease-in-out; /* Animation */
+}
+
+#progress-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    min-width: 50px; /* Prevents layout shift */
+    text-align: right;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0; /* Prevent the button from shrinking */
+}
+
+.nav-buttons button {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: var(--radius);
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 0.5rem;
+}
+
+#submit-btn {
+    background-color: #16a34a; /* green-600 */
+}
+
+#submit-btn:hover:not(:disabled) {
+    background-color: #15803d; /* green-700 */
+}
+
+#submit-btn:disabled {
+    background-color: var(--muted);
+    cursor: not-allowed;
+}
+
+.nav-buttons button:hover {
+    background: var(--primary-dark);
+}
+
+.nav-buttons button:disabled {
+    background: var(--muted);
+    cursor: not-allowed;
+}
+
+#theme-toggle-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#theme-toggle-btn:hover {
+    background: var(--border);
+}
+
+.sun-icon, .moon-icon {
+    display: none;
+}
+
+[data-theme='light'] .sun-icon {
+    display: block;
+}
+
+[data-theme='dark'] .moon-icon {
+    display: block;
 }
 
 /* =============================
@@ -49,11 +208,12 @@ h1 {
    ============================= */
 .lang-tab {
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem 1rem; /* Add row-gap for wrapped items */
   border-bottom: 1px solid var(--border);
   background: var(--white);
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1rem; /* Adjust padding slightly */
   box-shadow: var(--shadow);
   border-radius: var(--radius) var(--radius) 0 0;
 }
@@ -149,6 +309,11 @@ h1 {
   margin-bottom: 1.5rem;
   overflow: hidden;
   transition: var(--transition);
+  display: none; /* Hide questions by default */
+}
+
+.question-block.active {
+    display: block; /* Show active question */
 }
 
 .question-title {
@@ -158,13 +323,14 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
+  cursor: default;
 }
 
 .question-title::after {
   content: "\25BC"; /* down chevron */
   font-size: 0.85rem;
   transition: transform var(--transition);
+  display: none;
 }
 
 .question-block.active .question-title::after {
@@ -172,50 +338,96 @@ h1 {
 }
 
 .answers-container {
-  display: none;
+  display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
   padding: 1rem 1.25rem 1.5rem;
 }
 
-.question-block.active .answers-container {
-  display: flex;
-}
 
 .answer-card {
   flex: 1 1 300px;
-  background: #fafafa;
+  background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1rem 1.25rem;
+  padding: 1.5rem; /* Increased padding */
   box-shadow: var(--shadow);
-  transition: transform var(--transition);
+  transition: all var(--transition); /* Use 'all' for transition */
+  cursor: pointer; /* Add cursor pointer */
+  position: relative;
 }
 
 .answer-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-.answer-card h4 {
-  margin-bottom: 0.75rem;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
-  border-bottom: 2px solid var(--primary);
-  padding-bottom: 0.5rem;
+/* Style for the selected answer card */
+.answer-card.selected-vote {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--primary);
+  transform: translateY(-1px);
+}
+
+.correct, .incorrect {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .correct { color: #16a34a; }  /* green‑600 */
 .incorrect { color: #dc2626; } /* red‑600 */
 
+.model-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
 .markdown-content {
-  font-size: 0.95rem;
-  line-height: 1.65;
+  font-size: 1rem; /* Slightly increased font size from 0.95rem */
+  line-height: 1.6; /* Increased line-height for better text flow */
   color: var(--text);
 }
 
 .markdown-content * {
   max-width: 100%;
+}
+
+/* Add vertical spacing for better rhythm */
+.markdown-content p,
+.markdown-content ul,
+.markdown-content ol,
+.markdown-content blockquote {
+    margin-bottom: 1.2em;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5 {
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+    line-height: 1.3;
+}
+
+/* Remove margin from the last element to prevent extra space at the end */
+.markdown-content > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Fix for list overflow */
+.markdown-content ul,
+.markdown-content ol {
+  padding-left: 1.5em; /* Adjust left padding for lists */
+}
+
+.markdown-content li {
+  word-wrap: break-word; /* Ensure long words in list items do not overflow */
+  margin-bottom: 0.5em; /* Space out list items */
 }
 
 /* =============================
@@ -224,4 +436,175 @@ h1 {
 @media (max-width: 900px) {
   .answers-container { flex-direction: column; }
   .answer-card { width: 100%; }
+}
+
+/* =============================
+   Voting Section
+   ============================= */
+.vote-count {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 0.5rem;
+}
+
+/* =============================
+   Custom Dialog
+   ============================= */
+#custom-dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+#custom-dialog-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#custom-dialog-box {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+#custom-dialog-overlay.hidden #custom-dialog-box {
+    transform: scale(0.9);
+}
+
+#custom-dialog-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+#custom-dialog-message {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+}
+
+#custom-dialog-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#custom-dialog-buttons button {
+    border: none;
+    border-radius: var(--radius);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    min-width: 100px;
+}
+
+#dialog-cancel-btn {
+    background-color: var(--border);
+    color: var(--muted);
+}
+
+#dialog-cancel-btn:hover {
+    background-color: #e0e0e0; /* Slightly darker gray */
+}
+
+#dialog-confirm-btn {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+#dialog-confirm-btn:hover {
+    background-color: var(--primary-dark);
+}
+
+/* =============================
+   Submitted Page
+   ============================= */
+.submitted-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+
+.submitted-container h1 {
+    font-size: 2.5rem;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+.submitted-container p {
+    font-size: 1.2rem;
+    color: var(--muted);
+}
+
+/* =============================
+   Question Transitions
+   ============================= */
+@keyframes fade-out {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.question-block.fade-out {
+    animation: fade-out 0.25s ease-out forwards;
+}
+
+.question-block.fade-in {
+    /* Needs to be active (display:block) to be visible */
+    animation: fade-in 0.25s ease-in forwards;
+}
+
+/* = a태그 스타일 */
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .header-logo {
+        display: none;
+    }
 }
