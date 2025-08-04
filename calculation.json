@@ -1,0 +1,502 @@
+[
+  {
+    "id": "ko_101",
+    "language": "ko",
+    "question": "벤치프레스 1RM이 110kg일 때, 85% 중량으로 운동하려면 몇 kg을 들어야 할까요?"
+  },
+  {
+    "id": "ko_102",
+    "language": "ko",
+    "question": "스쿼트를 90kg로 6회씩 4세트 했다면 총 들어올린 무게는 얼마인가요?"
+  },
+  {
+    "id": "ko_103",
+    "language": "ko",
+    "question": "데드리프트 1RM이 150kg인 사람이 70% 중량으로 8회 수행하려면 몇 kg을 사용해야 할까요?"
+  },
+  {
+    "id": "ko_104",
+    "language": "ko",
+    "question": "턱걸이를 12회씩 5세트 했다면 총 몇 회를 수행한 건가요?"
+  },
+  {
+    "id": "ko_105",
+    "language": "ko",
+    "question": "덤벨 한쪽이 8kg인데 양손으로 들고 런지를 10회씩 3세트 했다면 총 들려진 무게는 얼마인가요?"
+  },
+  {
+    "id": "ko_106",
+    "language": "ko",
+    "question": "밀리터리 프레스 1RM이 70kg인 사람이 60% 중량으로 12회 수행한다면 몇 kg을 사용해야 하나요?"
+  },
+  {
+    "id": "ko_107",
+    "language": "ko",
+    "question": "데드리프트를 120kg, 125kg, 130kg로 각각 5회씩 3세트 수행했다면 평균 중량은 몇 kg인가요?"
+  },
+  {
+    "id": "ko_108",
+    "language": "ko",
+    "question": "케틀벨 스윙 16kg를 20회씩 4세트 했다면 총 들려진 무게는 얼마인가요?"
+  },
+  {
+    "id": "ko_109",
+    "language": "ko",
+    "question": "1RM의 95%로 싱글(1회) 3세트를 하려면, 1RM이 180kg일 때 사용할 중량은 몇 kg인가요?"
+  },
+  {
+    "id": "ko_110",
+    "language": "ko",
+    "question": "벤치프레스 75kg를 8회씩 5세트 했다면 총 몇 회를 들어올렸고, 총 볼륨은 얼마인가요?"
+  },
+  {
+    "id": "ko_111",
+    "language": "ko",
+    "question": "스쿼트 프로그램에서 80kg → 85kg → 90kg로 3세트를 수행했다면 세트당 평균 중량은 몇 kg인가요?"
+  },
+  {
+    "id": "ko_112",
+    "language": "ko",
+    "question": "60kg 바벨로 15회씩 2세트, 12회씩 2세트, 10회 1세트를 했다면 총 볼륨은 얼마인가요?"
+  },
+  {
+    "id": "ko_113",
+    "language": "ko",
+    "question": "팔굽혀펴기를 25회씩 4세트 했다면 총 반복수는 몇 회인가요?"
+  },
+  {
+    "id": "ko_114",
+    "language": "ko",
+    "question": "트라이셉스 익스텐션 12kg 덤벨을 양손으로 10회씩 3세트 했다면 총 볼륨은 얼마인가요?"
+  },
+  {
+    "id": "ko_115",
+    "language": "ko",
+    "question": "당신의 1RM이 95kg인데, 80%로 6회가 목표라면 중량은 몇 kg인가요?"
+  },
+  {
+    "id": "ko_116",
+    "language": "ko",
+    "question": "스텝업을 20kg 바벨로 12회씩 3세트, 15회 1세트 했다면 총 볼륨은 얼마인가요?"
+  },
+  {
+    "id": "ko_117",
+    "language": "ko",
+    "question": "러닝머신에서 시속 8km로 30분 달렸다가, 시속 6km로 15분 걸었다면 총 이동 거리는 몇 km인가요?"
+  },
+  {
+    "id": "ko_118",
+    "language": "ko",
+    "question": "웜업으로 40kg를 10회, 본 세트로 70kg를 8회 × 3세트 했다면 전체 볼륨은 얼마인가요?"
+  },
+  {
+    "id": "ko_119",
+    "language": "ko",
+    "question": "1RM의 60%로 20회를 수행하면 근지구력 훈련이 돼요. 1RM이 120kg라면 사용할 중량은 몇 kg인가요?"
+  },
+  {
+    "id": "ko_120",
+    "language": "ko",
+    "question": "덤벨 컬 10kg로 15회 × 4세트를 완료했다면 총 볼륨은 얼마인가요?"
+  },
+  {
+    "id": "ko_121",
+    "language": "ko",
+    "question": "클린 앤 저크 1RM이 95kg인 선수가 대회에서 90%로 시도한다면 몇 kg을 들어야 할까요?"
+  },
+  {
+    "id": "ko_122",
+    "language": "ko",
+    "question": "60kg로 5회 × 5세트를 끝낸 뒤, 70kg로 3회 × 2세트를 추가했다면 총 볼륨은 얼마인가요?"
+  },
+  {
+    "id": "ko_123",
+    "language": "ko",
+    "question": "프로틴 35g을 하루 3번, 6일 동안 섭취했다면 일주일 섭취량은 몇 g인가요?"
+  },
+  {
+    "id": "ko_124",
+    "language": "ko",
+    "question": "카페인 200mg이 든 프리워크아웃을 운동 30분 전마다 4일 연속 복용했다면 총 카페인 섭취량은 몇 mg인가요?"
+  },
+  {
+    "id": "ko_125",
+    "language": "ko",
+    "question": "하루 목표 걸음 수가 10,000보인데, 월~금 12,000보씩 걷고 주말엔 8,000보씩 걸었다면 1주일 총 걸음 수는 몇 보인가요?"
+  },
+  {
+    "id": "en_101",
+    "language": "en",
+    "question": "If your bench press 1RM is 110kg, how many kg should you lift to train at 85% of that weight?"
+  },
+  {
+    "id": "en_102",
+    "language": "en",
+    "question": "If you squatted 90kg for 4 sets of 6 reps, what is the total weight lifted?"
+  },
+  {
+    "id": "en_103",
+    "language": "en",
+    "question": "If a person with a 1RM deadlift of 150kg wants to perform 8 reps at 70% of their 1RM, how many kg should they use?"
+  },
+  {
+    "id": "en_104",
+    "language": "en",
+    "question": "If you did 5 sets of 12 pull-ups, how many total reps did you perform?"
+  },
+  {
+    "id": "en_105",
+    "language": "en",
+    "question": "If you performed 3 sets of 10 lunges holding an 8kg dumbbell in each hand, what is the total weight lifted?"
+  },
+  {
+    "id": "en_106",
+    "language": "en",
+    "question": "If a person with a 1RM military press of 70kg performs 12 reps at 60% of their 1RM, how many kg should they use?"
+  },
+  {
+    "id": "en_107",
+    "language": "en",
+    "question": "If you performed 3 sets of 5 deadlifts with 120kg, 125kg, and 130kg respectively, what is the average weight per set?"
+  },
+  {
+    "id": "en_108",
+    "language": "en",
+    "question": "If you did 4 sets of 20 kettlebell swings with a 16kg kettlebell, what is the total weight lifted?"
+  },
+  {
+    "id": "en_109",
+    "language": "en",
+    "question": "To perform 3 sets of singles (1 rep) at 95% of your 1RM, what weight in kg should you use if your 1RM is 180kg?"
+  },
+  {
+    "id": "en_110",
+    "language": "en",
+    "question": "If you bench pressed 75kg for 5 sets of 8 reps, how many total reps did you lift and what is the total volume?"
+  },
+  {
+    "id": "en_111",
+    "language": "en",
+    "question": "In a squat program, if you performed 3 sets with 80kg, 85kg, and 90kg, what is the average weight per set?"
+  },
+  {
+    "id": "en_112",
+    "language": "en",
+    "question": "If you performed 2 sets of 15 reps, 2 sets of 12 reps, and 1 set of 10 reps with a 60kg barbell, what is the total volume?"
+  },
+  {
+    "id": "en_113",
+    "language": "en",
+    "question": "If you did 4 sets of 25 push-ups, what is the total number of repetitions?"
+  },
+  {
+    "id": "en_114",
+    "language": "en",
+    "question": "If you performed 3 sets of 10 triceps extensions with a 12kg dumbbell held in both hands, what is the total volume?"
+  },
+  {
+    "id": "en_115",
+    "language": "en",
+    "question": "If your 1RM is 95kg and your goal is 6 reps at 80%, what weight in kg should you use?"
+  },
+  {
+    "id": "en_116",
+    "language": "en",
+    "question": "If you performed 3 sets of 12 reps and 1 set of 15 reps of step-ups with a 20kg barbell, what is the total volume?"
+  },
+  {
+    "id": "en_117",
+    "language": "en",
+    "question": "If you ran on a treadmill at 8 km/h for 30 minutes and then walked at 6 km/h for 15 minutes, what is the total distance traveled in km?"
+  },
+  {
+    "id": "en_118",
+    "language": "en",
+    "question": "If you warmed up with 10 reps of 40kg and then did 3 sets of 8 reps of 70kg for your main set, what is the total volume?"
+  },
+  {
+    "id": "en_119",
+    "language": "en",
+    "question": "Performing 20 reps at 60% of your 1RM is good for muscular endurance. If your 1RM is 120kg, what weight in kg should you use?"
+  },
+  {
+    "id": "en_120",
+    "language": "en",
+    "question": "If you completed 4 sets of 15 reps of dumbbell curls with 10kg dumbbells, what is the total volume?"
+  },
+  {
+    "id": "en_121",
+    "language": "en",
+    "question": "If an athlete with a 1RM of 95kg in the clean and jerk attempts 90% in a competition, how many kg should they lift?"
+  },
+  {
+    "id": "en_122",
+    "language": "en",
+    "question": "If you finished 5 sets of 5 reps with 60kg and then added 2 sets of 3 reps with 70kg, what is the total volume?"
+  },
+  {
+    "id": "en_123",
+    "language": "en",
+    "question": "If you consumed 35g of protein 3 times a day for 6 days, what is your total weekly intake in grams?"
+  },
+  {
+    "id": "en_124",
+    "language": "en",
+    "question": "If you took a pre-workout containing 200mg of caffeine 30 minutes before your workout for 4 consecutive days, what is your total caffeine intake in mg?"
+  },
+  {
+    "id": "en_125",
+    "language": "en",
+    "question": "If your daily step goal is 10,000 steps, and you walk 12,000 steps from Monday to Friday and 8,000 steps on weekends, what is your total number of steps for the week?"
+  },
+  {
+    "id": "ja_101",
+    "language": "ja",
+    "question": "ベンチプレス1RMが110kgの場合、85%の重量でトレーニングするには何kgを持ち上げる必要がありますか？"
+  },
+  {
+    "id": "ja_102",
+    "language": "ja",
+    "question": "スクワットを90kgで6回4セット行った場合、合計で持ち上げた重量はいくらですか？"
+  },
+  {
+    "id": "ja_103",
+    "language": "ja",
+    "question": "デッドリフト1RMが150kgの人が70%の重量で8回行う場合、何kgを使用する必要がありますか？"
+  },
+  {
+    "id": "ja_104",
+    "language": "ja",
+    "question": "懸垂を12回5セット行った場合, 合計で何回行いましたか？"
+  },
+  {
+    "id": "ja_105",
+    "language": "ja",
+    "question": "片側8kgのダンベルを両手で持ってランジを10回3セット行った場合、合計で持ち上げられた重量はいくらですか？"
+  },
+  {
+    "id": "ja_106",
+    "language": "ja",
+    "question": "ミリタリープレス1RMが70kgの人が60%の重量で12回行う場合、何kgを使用する必要がありますか？"
+  },
+  {
+    "id": "ja_107",
+    "language": "ja",
+    "question": "デッドリフトを120kg、125kg、130kgでそれぞれ5回3セット行った場合、セットあたりの平均重量は何kgですか？"
+  },
+  {
+    "id": "ja_108",
+    "language": "ja",
+    "question": "16kgのケトルベルスイングを20回4セット行った場合、合計で持ち上げられた重量はいくらですか？"
+  },
+  {
+    "id": "ja_109",
+    "language": "ja",
+    "question": "1RMの95%でシングル（1回）3セットを行うには、1RMが180kgの場合、使用する重量は何kgですか？"
+  },
+  {
+    "id": "ja_110",
+    "language": "ja",
+    "question": "ベンチプレス75kgを8回5セット行った場合、合計で何回持ち上げ、合計ボリュームはいくらですか？"
+  },
+  {
+    "id": "ja_111",
+    "language": "ja",
+    "question": "スクワットプログラムで80kg→85kg→90kgと3セット行った場合、セットあたりの平均重量は何kgですか？"
+  },
+  {
+    "id": "ja_112",
+    "language": "ja",
+    "question": "60kgのバーベルで15回2セット、12回2セット、10回1セットを行った場合、合計ボリュームはいくらですか？"
+  },
+  {
+    "id": "ja_113",
+    "language": "ja",
+    "question": "腕立て伏せを25回4セット行った場合、合計反復回数は何回ですか？"
+  },
+  {
+    "id": "ja_114",
+    "language": "ja",
+    "question": "12kgのダンベルを両手で持ってトライセプスエクステンションを10回3セット行った場合、合計ボリュームはいくらですか？"
+  },
+  {
+    "id": "ja_115",
+    "language": "ja",
+    "question": "あなたの1RMが95kgで、80%で6回が目標の場合、重量は何kgですか？"
+  },
+  {
+    "id": "ja_116",
+    "language": "ja",
+    "question": "20kgのバーベルでステップアップを12回3セット、15回1セット行った場合、合計ボリュームはいくらですか？"
+  },
+  {
+    "id": "ja_117",
+    "language": "ja",
+    "question": "ランニングマシンで時速8kmで30分走り、その後時速6kmで15分歩いた場合、合計移動距離は何kmですか？"
+  },
+  {
+    "id": "ja_118",
+    "language": "ja",
+    "question": "ウォームアップで40kgを10回、メインセットで70kgを8回×3セット行った場合、全体のボリュームはいくらですか？"
+  },
+  {
+    "id": "ja_119",
+    "language": "ja",
+    "question": "1RMの60%で20回行うと筋持久力トレーニングになります。1RMが120kgの場合、使用する重量は何kgですか？"
+  },
+  {
+    "id": "ja_120",
+    "language": "ja",
+    "question": "10kgのダンベルカールを15回×4セット完了した場合、合計ボリュームはいくらですか？"
+  },
+  {
+    "id": "ja_121",
+    "language": "ja",
+    "question": "クリーン＆ジャーク1RMが95kgの選手が大会で90%で試技する場合、何kgを持ち上げる必要がありますか？"
+  },
+  {
+    "id": "ja_122",
+    "language": "ja",
+    "question": "60kgで5回×5セットを終えた後、70kgで3回×2セットを追加した場合、合計ボリュームはいくらですか？"
+  },
+  {
+    "id": "ja_123",
+    "language": "ja",
+    "question": "プロテイン35gを1日3回、6日間摂取した場合、1週間の摂取量は何gですか？"
+  },
+  {
+    "id": "ja_124",
+    "language": "ja",
+    "question": "カフェイン200mgが含まれたプレワークアウトを運動30分前に4日連続で服用した場合、総カフェイン摂取量は何mgですか？"
+  },
+  {
+    "id": "ja_125",
+    "language": "ja",
+    "question": "1日の目標歩数が10,000歩で、月〜金は12,000歩ずつ歩き、週末は8,000歩ずつ歩いた場合、1週間の合計歩数は何歩ですか？"
+  },
+  {
+    "id": "zh-Hant_101",
+    "language": "zh-Hant",
+    "question": "如果您的臥推1RM為110公斤，那麼以85%的重量進行訓練需要舉起多少公斤？"
+  },
+  {
+    "id": "zh-Hant_102",
+    "language": "zh-Hant",
+    "question": "如果您用90公斤的重量進行4組6次的深蹲，總共舉起了多少重量？"
+  },
+  {
+    "id": "zh-Hant_103",
+    "language": "zh-Hant",
+    "question": "如果一個1RM硬拉為150公斤的人想要以70%的重量進行8次，他們應該使用多少公斤？"
+  },
+  {
+    "id": "zh-Hant_104",
+    "language": "zh-Hant",
+    "question": "如果您做了5組12次的引體向上，總共做了多少次？"
+  },
+  {
+    "id": "zh-Hant_105",
+    "language": "zh-Hant",
+    "question": "如果您用每隻手8公斤的啞鈴進行3組10次的弓步，總共舉起了多少重量？"
+  },
+  {
+    "id": "zh-Hant_106",
+    "language": "zh-Hant",
+    "question": "如果一個1RM軍事推舉為70公斤的人以60%的重量進行12次，他們應該使用多少公斤？"
+  },
+  {
+    "id": "zh-Hant_107",
+    "language": "zh-Hant",
+    "question": "如果您用120公斤、125公斤和130公斤的重量分別進行3組5次的硬拉，每組的平均重量是多少公斤？"
+  },
+  {
+    "id": "zh-Hant_108",
+    "language": "zh-Hant",
+    "question": "如果您用16公斤的壺鈴進行4組20次的壺鈴擺盪，總共舉起了多少重量？"
+  },
+  {
+    "id": "zh-Hant_109",
+    "language": "zh-Hant",
+    "question": "要以95%的1RM進行3組單次（1次）的訓練，如果您的1RM是180公斤，您應該使用多少公斤的重量？"
+  },
+  {
+    "id": "zh-Hant_110",
+    "language": "zh-Hant",
+    "question": "如果您用75公斤的重量進行5組8次的臥推，總共舉起了多少次，總訓練量是多少？"
+  },
+  {
+    "id": "zh-Hant_111",
+    "language": "zh-Hant",
+    "question": "在一個深蹲計畫中，如果您用80公斤、85公斤和90公斤的重量進行3組，每組的平均重量是多少公斤？"
+  },
+  {
+    "id": "zh-Hant_112",
+    "language": "zh-Hant",
+    "question": "如果您用60公斤的槓鈴進行2組15次、2組12次和1組10次的訓練，總訓練量是多少？"
+  },
+  {
+    "id": "zh-Hant_113",
+    "language": "zh-Hant",
+    "question": "如果您做了4組25次的伏地挺身，總共做了多少次？"
+  },
+  {
+    "id": "zh-Hant_114",
+    "language": "zh-Hant",
+    "question": "如果您用12公斤的啞鈴進行3組10次的三頭肌伸展，總訓練量是多少？"
+  },
+  {
+    "id": "zh-Hant_115",
+    "language": "zh-Hant",
+    "question": "如果您的1RM是95公斤，目標是80%的重量做6次，您應該使用多少公斤的重量？"
+  },
+  {
+    "id": "zh-Hant_116",
+    "language": "zh-Hant",
+    "question": "如果您用20公斤的槓鈴進行3組12次和1組15次的登階，總訓練量是多少？"
+  },
+  {
+    "id": "zh-Hant_117",
+    "language": "zh-Hant",
+    "question": "如果您在跑步機上以每小時8公里的速度跑了30分鐘，然後以每小時6公里的速度走了15分鐘，總共移動了多少公里？"
+  },
+  {
+    "id": "zh-Hant_118",
+    "language": "zh-Hant",
+    "question": "如果您用40公斤的重量進行10次的熱身，然後用70公斤的重量進行3組8次的主訓練，總訓練量是多少？"
+  },
+  {
+    "id": "zh-Hant_119",
+    "language": "zh-Hant",
+    "question": "以60%的1RM進行20次訓練有助於增強肌肉耐力。如果您的1RM是120公斤，您應該使用多少公斤的重量？"
+  },
+  {
+    "id": "zh-Hant_120",
+    "language": "zh-Hant",
+    "question": "如果您用10公斤的啞鈴完成了4組15次的啞鈴彎舉，總訓練量是多少？"
+  },
+  {
+    "id": "zh-Hant_121",
+    "language": "zh-Hant",
+    "question": "如果一個1RM為95公斤的舉重運動員在比賽中嘗試90%，他們應該舉起多少公斤？"
+  },
+  {
+    "id": "zh-Hant_122",
+    "language": "zh-Hant",
+    "question": "如果您用60公斤的重量完成了5組5次的訓練，然後又用70公斤的重量增加了2組3次的訓練，總訓練量是多少？"
+  },
+  {
+    "id": "zh-Hant_123",
+    "language": "zh-Hant",
+    "question": "如果您每天3次，連續6天攝取35克的蛋白質，您一週的總攝取量是多少克？"
+  },
+  {
+    "id": "zh-Hant_124",
+    "language": "zh-Hant",
+    "question": "如果您在運動前30分鐘連續4天服用含有200毫克咖啡因的運動前補充劑，您的總咖啡因攝取量是多少毫克？"
+  },
+  {
+    "id": "zh-Hant_125",
+    "language": "zh-Hant",
+    "question": "如果您的每日步數目標是10,000步，而您從週一到週五每天走12,000步，週末每天走8,000步，您一週的總步數是多少？"
+  }
+]
