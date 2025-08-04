@@ -388,7 +388,7 @@ h1 {
 
 .markdown-content {
   font-size: 1rem; /* Slightly increased font size from 0.95rem */
-  line-height: 1.75; /* Increased line-height for better text flow */
+  line-height: 1.6; /* Increased line-height for better text flow */
   color: var(--text);
 }
 
@@ -401,7 +401,7 @@ h1 {
 .markdown-content ul,
 .markdown-content ol,
 .markdown-content blockquote {
-    margin-bottom: 1.25em;
+    margin-bottom: 1.2em;
 }
 
 .markdown-content h1,
