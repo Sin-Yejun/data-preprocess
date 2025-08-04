@@ -11,7 +11,7 @@ def calculate_scores(file_path):
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
 
-        for lang in ['ko', 'en', 'ja', 'zh-Hant']:
+        for lang in ['ko', 'en', 'ja', 'zh-Hant', 'id']:
             lang_scores = 0
             for item in data:
                 if item['id'].startswith(lang + '_'):
@@ -36,10 +36,7 @@ def main():
     Main function to calculate and print scores for the specified JSON files.
     """
     files_to_process = [
-        "final_data/QA_gemma.json",
-        "final_data/QA_qwen2.5.json",
-        "final_data/QA_qwen3.json",
-        "final_data/QA_qwen3_no_thiking.json"
+        "calculation_gemma_scored.json"
     ]
 
     for file_path in files_to_process:

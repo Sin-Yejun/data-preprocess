@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field, ValidationError, field_validator
 # ────────────────────────────────────────────────────────────────────
 class QAItem(BaseModel):
     id: str = Field(..., description="e.g. ko_120")
-    language: str = Field(..., pattern="^(ko|en|ja|zh|zh-Hant|zh-Hans)$")
+    language: str = Field(..., pattern="^(ko|en|ja|zh-Hant|id)$")
     question: str
     model_answer: str
     is_correct: Optional[bool] = Field(
@@ -69,7 +69,7 @@ async def grade_item(item: QAItem) -> QAItem:
 # ────────────────────────────────────────────────────────────────────
 # 4) 메인 파이프라인
 # ────────────────────────────────────────────────────────────────────
-async def main(src="final_data/QA_qwen3_no_thiking.json", dst="questions_graded_qwen3_no_thiking.json"):
+async def main(src="calculation_gemma.json", dst="calculation_gemma_scored.json"):
     # 4‑1. 입력 로드 및 검증
     raw = json.loads(Path(src).read_text(encoding="utf-8"))
     try:

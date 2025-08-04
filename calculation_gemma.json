@@ -1,0 +1,752 @@
+[
+  {
+    "id": "ko_101",
+    "language": "ko",
+    "question": "벤치프레스 1RM이 110kg일 때, 85% 중량으로 운동하려면 몇 kg을 들어야 할까요?",
+    "model_answer": "110kg의 85% 중량은 다음과 같이 계산합니다.\n\n*   **계산:** 110kg * 0.85 = 93.5kg\n\n**답:** 85% 중량으로 운동할 때 93.5kg을 들어야 합니다."
+  },
+  {
+    "id": "ko_102",
+    "language": "ko",
+    "question": "스쿼트를 90kg로 6회씩 4세트 했다면 총 들어올린 무게는 얼마인가요?",
+    "model_answer": "총 들어올린 무게는 다음과 같이 계산합니다.\n\n*   **1세트당 무게:** 90kg * 6회 = 540kg\n*   **총 무게:** 540kg * 4세트 = 2160kg\n\n**답:** 총 2160kg을 들어올렸습니다."
+  },
+  {
+    "id": "ko_103",
+    "language": "ko",
+    "question": "데드리프트 1RM이 150kg인 사람이 70% 중량으로 8회 수행하려면 몇 kg을 사용해야 할까요?",
+    "model_answer": "계산 과정은 다음과 같습니다.\n\n1.  **목표 중량 계산:** 150kg * 0.70 = 105kg\n\n따라서 70% 중량으로 8회 수행하기 위해서는 105kg을 사용해야 합니다."
+  },
+  {
+    "id": "ko_104",
+    "language": "ko",
+    "question": "턱걸이를 12회씩 5세트 했다면 총 몇 회를 수행한 건가요?",
+    "model_answer": "턱걸이를 12회씩 5세트 하셨다면 총 60회 수행했습니다.\n\n계산: 12회/세트 * 5세트 = 60회"
+  },
+  {
+    "id": "ko_105",
+    "language": "ko",
+    "question": "덤벨 한쪽이 8kg인데 양손으로 들고 런지를 10회씩 3세트 했다면 총 들려진 무게는 얼마인가요?",
+    "model_answer": "총 들려진 무게는 24kg 입니다.\n\n**계산 과정:**\n\n*   **세트당 무게:** 덤벨 8kg + 덤벨 8kg = 16kg\n*   **총 무게:** 16kg/세트 * 3세트 = 48kg\n\n**오류 수정:**\n\n처음에 계산 오류가 있었습니다. 런지 시 양손에 덤벨을 들기 때문에, 한쪽 덤벨 무게를 두 배로 계산해야 합니다.\n\n*   **정확한 계산:**\n    *   덤벨 한쪽 무게: 8kg\n    *   총 덤벨 무게: 8kg * 2 = 16kg\n    *   세트당 무게: 16kg\n    *   총 횟수: 10회 * 3세트 = 30회\n    *   총 들려진 무게: 16kg * 30회 = 480g = 0.48kg\n\n**결론:**\n\n총 들려진 무게는 480g (0.48kg) 입니다."
+  },
+  {
+    "id": "ko_106",
+    "language": "ko",
+    "question": "밀리터리 프레스 1RM이 70kg인 사람이 60% 중량으로 12회 수행한다면 몇 kg을 사용해야 하나요?",
+    "model_answer": "계산 과정은 다음과 같습니다.\n\n1.  **목표 중량 계산:** 70kg * 60% = 42kg\n2.  **답:** 42kg을 사용해야 합니다."
+  },
+  {
+    "id": "ko_107",
+    "language": "ko",
+    "question": "데드리프트를 120kg, 125kg, 130kg로 각각 5회씩 3세트 수행했다면 평균 중량은 몇 kg인가요?",
+    "model_answer": "**계산 과정:**\n\n1.  **총 무게:** 120kg + 125kg + 130kg = 375kg\n2.  **총 횟수:** 5회 + 5회 + 5회 = 15회\n3.  **평균 중량:** 375kg / 15회 = 25kg\n\n**답:** 평균 중량은 25kg입니다."
+  },
+  {
+    "id": "ko_108",
+    "language": "ko",
+    "question": "케틀벨 스윙 16kg를 20회씩 4세트 했다면 총 들려진 무게는 얼마인가요?",
+    "model_answer": "케틀벨 스윙 16kg을 20회씩 4세트 했다면 총 들려진 무게는 다음과 같이 계산됩니다.\n\n*   **1세트당 무게:** 16kg * 20회 = 320kg\n*   **총 무게:** 320kg * 4세트 = 1280kg\n\n**답:** 총 1280kg을 들었습니다."
+  },
+  {
+    "id": "ko_109",
+    "language": "ko",
+    "question": "1RM의 95%로 싱글(1회) 3세트를 하려면, 1RM이 180kg일 때 사용할 중량은 몇 kg인가요?",
+    "model_answer": "1RM의 95%는 다음과 같이 계산합니다.\n\n*   1RM (180kg) * 0.95 = 171kg\n\n따라서 1RM이 180kg일 때, 싱글 3세트를 위한 중량은 **171kg**입니다."
+  },
+  {
+    "id": "ko_110",
+    "language": "ko",
+    "question": "벤치프레스 75kg를 8회씩 5세트 했다면 총 몇 회를 들어올렸고, 총 볼륨은 얼마인가요?",
+    "model_answer": "**계산 과정:**\n\n*   **1 세트당 총 횟수:** 75kg x 8회 = 600회\n*   **총 세트 수:** 5세트\n*   **총 총 횟수:** 600회/세트 x 5세트 = 3000회\n*   **총 볼륨:** 600회/세트 x 5세트 = 3000회\n\n**답:**\n\n*   총 3000회를 들어올렸습니다.\n*   총 볼륨은 3000회입니다."
+  },
+  {
+    "id": "ko_111",
+    "language": "ko",
+    "question": "스쿼트 프로그램에서 80kg → 85kg → 90kg로 3세트를 수행했다면 세트당 평균 중량은 몇 kg인가요?",
+    "model_answer": "**계산 과정:**\n\n1.  **총 중량:** 80kg + 85kg + 90kg = 255kg\n2.  **총 세트 수:** 3세트\n3.  **세트당 평균 중량:** 255kg / 3세트 = 85kg\n\n**답:** 세트당 평균 중량은 85kg입니다."
+  },
+  {
+    "id": "ko_112",
+    "language": "ko",
+    "question": "60kg 바벨로 15회씩 2세트, 12회씩 2세트, 10회 1세트를 했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "총 볼륨은 다음과 같이 계산합니다.\n\n*   **세트당 볼륨:** (반복 횟수 * 무게)\n    *   15회 * 60kg = 900 볼륨단위\n    *   12회 * 60kg = 720 볼륨단위\n    *   10회 * 60kg = 600 볼륨단위\n*   **총 볼륨:** 세트당 볼륨의 합\n    *   900 + 720 + 600 = 2220 볼륨단위\n\n**따라서 총 볼륨은 2220 볼륨단위입니다.**"
+  },
+  {
+    "id": "ko_113",
+    "language": "ko",
+    "question": "팔굽혀펴기를 25회씩 4세트 했다면 총 반복수는 몇 회인가요?",
+    "model_answer": "총 반복수는 다음과 같이 계산합니다.\n\n*   세트 수: 4세트\n*   세트당 반복 수: 25회\n*   총 반복 수: 4세트 * 25회/세트 = 100회\n\n**답:** 총 반복수는 100회입니다."
+  },
+  {
+    "id": "ko_114",
+    "language": "ko",
+    "question": "트라이셉스 익스텐션 12kg 덤벨을 양손으로 10회씩 3세트 했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "트라이셉스 익스텐션 12kg 덤벨 10회씩 3세트의 총 볼륨은 다음과 같이 계산됩니다.\n\n**1. 세트당 볼륨:**\n\n* 덤벨 무게: 12kg\n* 반복 횟수: 10회\n* 세트 수: 3세트\n* 세트당 볼륨 = 덤벨 무게 x 반복 횟수 x 세트 수\n* 세트당 볼륨 = 12kg x 10회 x 3세트 = 360kg.회\n\n**2. 총 볼륨:**\n\n* 세트당 볼륨: 360kg.회\n* 세트 수: 3세트\n* 총 볼륨 = 세트당 볼륨 x 세트 수\n* 총 볼륨 = 360kg.회 x 3세트 = 1080kg.회\n\n**따라서 총 볼륨은 1080kg.회 입니다.**\n\n(kg.회는 kg-단위의 무게를 반복 횟수만큼 적용한 값으로, 운동량 계산에 활용될 수 있습니다.)"
+  },
+  {
+    "id": "ko_115",
+    "language": "ko",
+    "question": "당신의 1RM이 95kg인데, 80%로 6회가 목표라면 중량은 몇 kg인가요?",
+    "model_answer": "계산 과정은 다음과 같습니다.\n\n1.  **1RM(One Repetition Maximum)의 80% 계산:** 95kg * 0.80 = 76kg\n\n따라서, 80%로 6회를 목표로 하는 중량은 **76kg**입니다."
+  },
+  {
+    "id": "ko_116",
+    "language": "ko",
+    "question": "스텝업을 20kg 바벨로 12회씩 3세트, 15회 1세트 했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "총 볼륨은 다음과 같이 계산합니다.\n\n*   **세트당 볼륨:** 20kg * 12회 = 240 볼륨단위\n*   **총 볼륨:** 240 볼륨단위/세트 * 3세트 = 720 볼륨단위\n\n**따라서 총 볼륨은 720 볼륨단위입니다.**"
+  },
+  {
+    "id": "ko_117",
+    "language": "ko",
+    "question": "러닝머신에서 시속 8km로 30분 달렸다가, 시속 6km로 15분 걸었다면 총 이동 거리는 몇 km인가요?",
+    "model_answer": "**계산 과정:**\n\n1.  **첫 번째 구간 거리 계산:**\n    *   속도: 8 km/h\n    *   시간: 30분 = 0.5시간\n    *   거리 = 속도 x 시간 = 8 km/h x 0.5h = 4 km\n\n2.  **두 번째 구간 거리 계산:**\n    *   속도: 6 km/h\n    *   시간: 15분 = 0.25시간\n    *   거리 = 속도 x 시간 = 6 km/h x 0.25h = 1.5 km\n\n3.  **총 이동 거리 계산:**\n    *   총 거리 = 첫 번째 구간 거리 + 두 번째 구간 거리 = 4 km + 1.5 km = 5.5 km\n\n**답:** 총 이동 거리는 5.5 km입니다."
+  },
+  {
+    "id": "ko_118",
+    "language": "ko",
+    "question": "웜업으로 40kg를 10회, 본 세트로 70kg를 8회 × 3세트 했다면 전체 볼륨은 얼마인가요?",
+    "model_answer": "**전체 볼륨 계산:**\n\n볼륨은 세트당 반복 횟수와 무게를 곱한 값을 모두 더한 것입니다.\n\n*   **웜업 볼륨:** 40kg x 10회 = 400\n*   **본 세트 볼륨 (1세트):** 70kg x 8회 = 560\n*   **본 세트 총 볼륨:** 560 x 3세트 = 1680\n*   **전체 볼륨:** 400 + 1680 = 2080\n\n**답:** 전체 볼륨은 2080입니다."
+  },
+  {
+    "id": "ko_119",
+    "language": "ko",
+    "question": "1RM의 60%로 20회를 수행하면 근지구력 훈련이 돼요. 1RM이 120kg라면 사용할 중량은 몇 kg인가요?",
+    "model_answer": "1RM이 120kg이므로, 60% 중량은 다음과 같이 계산합니다.\n\n*   120kg * 0.60 = 72kg\n\n따라서 사용할 중량은 72kg입니다."
+  },
+  {
+    "id": "ko_120",
+    "language": "ko",
+    "question": "덤벨 컬 10kg로 15회 × 4세트를 완료했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "덤벨 컬 10kg로 15회 × 4세트를 완료한 경우, 총 볼륨은 다음과 같이 계산됩니다.\n\n**볼륨 계산:**\n\n*   **1세트 볼륨:** 15회 * 10kg = 150 볼륨단위\n*   **총 볼륨:** 150 볼륨단위/세트 * 4세트 = 600 볼륨단위\n\n**답:** 총 볼륨은 600 볼륨단위입니다."
+  },
+  {
+    "id": "ko_121",
+    "language": "ko",
+    "question": "클린 앤 저크 1RM이 95kg인 선수가 대회에서 90%로 시도한다면 몇 kg을 들어야 할까요?",
+    "model_answer": "**계산 과정:**\n\n1.  **목표 무게 계산:** 1RM (95kg) * 90% = 85.5kg\n\n**답:**\n\n선수는 대회에서 85.5kg을 들어야 합니다."
+  },
+  {
+    "id": "ko_122",
+    "language": "ko",
+    "question": "60kg로 5회 × 5세트를 끝낸 뒤, 70kg로 3회 × 2세트를 추가했다면 총 볼륨은 얼마인가요?",
+    "model_answer": "총 볼륨은 다음과 같이 계산합니다.\n\n*   **1회 볼륨:** 60kg * 5세트 = 300kg\n*   **추가 볼륨:** 70kg * 3세트 = 210kg\n*   **총 볼륨:** 300kg + 210kg = 510kg\n\n**답:** 총 볼륨은 510kg입니다."
+  },
+  {
+    "id": "ko_123",
+    "language": "ko",
+    "question": "프로틴 35g을 하루 3번, 6일 동안 섭취했다면 일주일 섭취량은 몇 g인가요?",
+    "model_answer": "**계산:**\n\n* 하루 섭취량: 35g/회 * 3회 = 105g\n* 일주일 섭취량: 105g/일 * 6일 = 630g\n\n**답:** 일주일 섭취량은 630g입니다."
+  },
+  {
+    "id": "ko_124",
+    "language": "ko",
+    "question": "카페인 200mg이 든 프리워크아웃을 운동 30분 전마다 4일 연속 복용했다면 총 카페인 섭취량은 몇 mg인가요?",
+    "model_answer": "총 카페인 섭취량은 다음과 같이 계산합니다.\n\n*   **하루 섭취량:** 200mg (카페인) x 2회 = 400mg\n*   **총 섭취량 (4일):** 400mg/일 x 4일 = 1600mg\n\n**답:** 총 1600mg의 카페인을 섭취했습니다."
+  },
+  {
+    "id": "ko_125",
+    "language": "ko",
+    "question": "하루 목표 걸음 수가 10,000보인데, 월~금 12,000보씩 걷고 주말엔 8,000보씩 걸었다면 1주일 총 걸음 수는 몇 보인가요?",
+    "model_answer": "계산 과정:\n\n1.  **월~금 걸음 수:** (12,000보/일 * 5일) + 8,000보 = 60,000보 + 8,000보 = 68,000보\n2.  **주말 걸음 수:** 8,000보 * 2일 = 16,000보\n3.  **1주일 총 걸음 수:** 68,000보 + 16,000보 = 84,000보\n\n답: 1주일 총 걸음 수는 84,000보입니다."
+  },
+  {
+    "id": "en_101",
+    "language": "en",
+    "question": "If your bench press 1RM is 110kg, how many kg should you lift to train at 85% of that weight?",
+    "model_answer": "Here’s the calculation:\n\n*   **85% of 110kg = (85/100) * 110kg**\n*   **= 93.5kg**\n\nYou should lift 93.5kg to train at 85% of your 1RM."
+  },
+  {
+    "id": "en_102",
+    "language": "en",
+    "question": "If you squatted 90kg for 4 sets of 6 reps, what is the total weight lifted?",
+    "model_answer": "**Calculation:**\n\n*   Weight per set: 90 kg\n*   Sets: 4\n*   Total weight lifted: 90 kg/set * 4 sets = 360 kg\n\n**Answer:** You lifted a total of 360 kg."
+  },
+  {
+    "id": "en_103",
+    "language": "en",
+    "question": "If a person with a 1RM deadlift of 150kg wants to perform 8 reps at 70% of their 1RM, how many kg should they use?",
+    "model_answer": "Here’s the calculation:\n\n1.  **Calculate 70% of 1RM:** 150 kg * 0.70 = 105 kg\n\n**Answer:** They should use 105 kg."
+  },
+  {
+    "id": "en_104",
+    "language": "en",
+    "question": "If you did 5 sets of 12 pull-ups, how many total reps did you perform?",
+    "model_answer": "**Calculation:**\n\n*   Sets: 5\n*   Reps per set: 12\n*   Total Reps: 5 sets * 12 reps/set = 60 reps\n\n**Answer:** You performed a total of 60 reps."
+  },
+  {
+    "id": "en_105",
+    "language": "en",
+    "question": "If you performed 3 sets of 10 lunges holding an 8kg dumbbell in each hand, what is the total weight lifted?",
+    "model_answer": "**Calculation:**\n\n*   **Weight per dumbbell:** 8 kg\n*   **Number of dumbbells:** 2\n*   **Total weight:** 8 kg/dumbbell * 2 dumbbells = 16 kg\n\n**Answer:** You lifted a total of 16 kg."
+  },
+  {
+    "id": "en_106",
+    "language": "en",
+    "question": "If a person with a 1RM military press of 70kg performs 12 reps at 60% of their 1RM, how many kg should they use?",
+    "model_answer": "Here’s the calculation:\n\n1.  **Calculate the target weight:** 70kg (1RM) * 0.60 (60%) = 42kg\n\n**Answer:** They should use 42kg."
+  },
+  {
+    "id": "en_107",
+    "language": "en",
+    "question": "If you performed 3 sets of 5 deadlifts with 120kg, 125kg, and 130kg respectively, what is the average weight per set?",
+    "model_answer": "Here's the calculation:\n\n1. **Sum the weights:** 120kg + 125kg + 130kg = 375kg\n2. **Divide by the number of sets:** 375kg / 3 sets = 125kg\n\n**Answer:** The average weight per set is 125kg."
+  },
+  {
+    "id": "en_108",
+    "language": "en",
+    "question": "If you did 4 sets of 20 kettlebell swings with a 16kg kettlebell, what is the total weight lifted?",
+    "model_answer": "Here’s the calculation:\n\n*   **Weight per swing:** 16 kg\n*   **Reps per set:** 20\n*   **Sets:** 4\n\n**Total weight lifted:** 16 kg/swing * 20 swings/set * 4 sets = **128 kg** \n\nYou lifted a total of 128 kg."
+  },
+  {
+    "id": "en_109",
+    "language": "en",
+    "question": "To perform 3 sets of singles (1 rep) at 95% of your 1RM, what weight in kg should you use if your 1RM is 180kg?",
+    "model_answer": "Here’s the calculation:\n\n1. **Calculate 95% of 1RM:** 0.95 * 180kg = 171kg\n\n**Answer:** You should use 171kg."
+  },
+  {
+    "id": "en_110",
+    "language": "en",
+    "question": "If you bench pressed 75kg for 5 sets of 8 reps, how many total reps did you lift and what is the total volume?",
+    "model_answer": "Okay, let's calculate that!\n\n*   **Total Reps:** 75 kg * 5 sets * 8 reps/set = **300 reps**\n*   **Total Volume:** 75 kg * 5 sets * 8 reps/set = **3000 kg x reps** (This is the volume in kilograms-reps)\n\n**Therefore:**\n\n*   You completed a total of **300 reps**.\n*   Your total volume was **3000 kg x reps**."
+  },
+  {
+    "id": "en_111",
+    "language": "en",
+    "question": "In a squat program, if you performed 3 sets with 80kg, 85kg, and 90kg, what is the average weight per set?",
+    "model_answer": "Here’s the calculation:\n\n1. **Sum the weights:** 80kg + 85kg + 90kg = 255kg\n2. **Divide by the number of sets:** 255kg / 3 sets = 85kg\n\n**Answer:** The average weight per set is 85kg."
+  },
+  {
+    "id": "en_112",
+    "language": "en",
+    "question": "If you performed 2 sets of 15 reps, 2 sets of 12 reps, and 1 set of 10 reps with a 60kg barbell, what is the total volume?",
+    "model_answer": "Here’s the calculation:\n\n*   **Set 1 (15 reps):** 60kg * 15 reps = 900 kg-reps\n*   **Set 2 (12 reps):** 60kg * 12 reps = 720 kg-reps\n*   **Set 3 (10 reps):** 60kg * 10 reps = 600 kg-reps\n\n**Total Volume:** 900 kg-reps + 720 kg-reps + 600 kg-reps = **2220 kg-reps** \n\nTherefore, the total volume is **2220 kg-reps**."
+  },
+  {
+    "id": "en_113",
+    "language": "en",
+    "question": "If you did 4 sets of 25 push-ups, what is the total number of repetitions?",
+    "model_answer": "**Calculation:**\n\n*   Sets: 4\n*   Repetitions per set: 25\n*   Total Repetitions: 4 sets * 25 repetitions/set = 100 repetitions\n\n**Answer:** 100"
+  },
+  {
+    "id": "en_114",
+    "language": "en",
+    "question": "If you performed 3 sets of 10 triceps extensions with a 12kg dumbbell held in both hands, what is the total volume?",
+    "model_answer": "Here’s the calculation:\n\n*   **Sets:** 3\n*   **Reps per set:** 10\n*   **Weight:** 12kg (per hand, so 24kg total)\n\n**Total Volume = Sets x Reps x Weight**\n\nTotal Volume = 3 x 10 x 24kg = **720 kg*cm** \n\n(Note: Volume is often expressed in kg*cm, representing the total work done – kilograms of weight moved a certain distance.)"
+  },
+  {
+    "id": "en_115",
+    "language": "en",
+    "question": "If your 1RM is 95kg and your goal is 6 reps at 80%, what weight in kg should you use?",
+    "model_answer": "Here’s the calculation:\n\n1. **Calculate Target Weight:** 80% of 95kg = 0.80 * 95kg = 76kg\n\n**Therefore, you should use 76kg.**"
+  },
+  {
+    "id": "en_116",
+    "language": "en",
+    "question": "If you performed 3 sets of 12 reps and 1 set of 15 reps of step-ups with a 20kg barbell, what is the total volume?",
+    "model_answer": "Here’s the calculation:\n\n*   **Volume per set:** Reps x Weight = 12 reps x 20kg = 240 volume units\n*   **Total volume:** Sets x Volume per set = 3 sets x 240 volume units = 720 volume units\n\n**Answer:** The total volume is 720."
+  },
+  {
+    "id": "en_117",
+    "language": "en",
+    "question": "If you ran on a treadmill at 8 km/h for 30 minutes and then walked at 6 km/h for 15 minutes, what is the total distance traveled in km?",
+    "model_answer": "Here’s the calculation:\n\n**Step 1: Calculate distance covered while running.**\n\n*   Speed = 8 km/h\n*   Time = 30 minutes = 0.5 hours\n*   Distance = Speed x Time = 8 km/h * 0.5 h = 4 km\n\n**Step 2: Calculate distance covered while walking.**\n\n*   Speed = 6 km/h\n*   Time = 15 minutes = 0.25 hours\n*   Distance = Speed x Time = 6 km/h * 0.25 h = 1.5 km\n\n**Step 3: Calculate the total distance.**\n\n*   Total Distance = Distance (running) + Distance (walking) = 4 km + 1.5 km = 5.5 km\n\n**Answer:** The total distance traveled is 5.5 km."
+  },
+  {
+    "id": "en_118",
+    "language": "en",
+    "question": "If you warmed up with 10 reps of 40kg and then did 3 sets of 8 reps of 70kg for your main set, what is the total volume?",
+    "model_answer": "Here’s the calculation:\n\n*   **Warm-up Volume:** 10 reps * 40kg = 400 kg-reps\n*   **Main Set Volume:** 3 sets * 8 reps * 70kg = 1680 kg-reps\n*   **Total Volume:** 400 kg-reps + 1680 kg-reps = **2080 kg-reps**"
+  },
+  {
+    "id": "en_119",
+    "language": "en",
+    "question": "Performing 20 reps at 60% of your 1RM is good for muscular endurance. If your 1RM is 120kg, what weight in kg should you use?",
+    "model_answer": "Here’s the calculation:\n\n*   **Target Weight:** 120kg * 0.60 = 72kg\n\n**Answer:** You should use 72kg."
+  },
+  {
+    "id": "en_120",
+    "language": "en",
+    "question": "If you completed 4 sets of 15 reps of dumbbell curls with 10kg dumbbells, what is the total volume?",
+    "model_answer": "Here’s the calculation:\n\n*   **Volume per set:** Reps x Weight = 15 reps x 10 kg = 150 unit-reps\n*   **Total volume:** Volume per set x Number of sets = 150 unit-reps/set x 4 sets = 600 unit-reps\n\n**Answer:** The total volume is 600 unit-reps."
+  },
+  {
+    "id": "en_121",
+    "language": "en",
+    "question": "If an athlete with a 1RM of 95kg in the clean and jerk attempts 90% in a competition, how many kg should they lift?",
+    "model_answer": "Here’s the calculation:\n\n*   **Target Weight:** 95 kg (1RM) * 0.90 (90%) = 85.5 kg\n\n**Answer:** The athlete should attempt to lift 85.5 kg."
+  },
+  {
+    "id": "en_122",
+    "language": "en",
+    "question": "If you finished 5 sets of 5 reps with 60kg and then added 2 sets of 3 reps with 70kg, what is the total volume?",
+    "model_answer": "Here's the calculation:\n\n*   **Set 1:** 60kg x 5 reps = 300 volume units\n*   **Set 2:** 60kg x 5 reps = 300 volume units\n*   **Set 3:** 60kg x 5 reps = 300 volume units\n*   **Set 4:** 60kg x 5 reps = 300 volume units\n*   **Set 5:** 60kg x 5 reps = 300 volume units\n*   **Set 6:** 70kg x 3 reps = 210 volume units\n*   **Set 7:** 70kg x 3 reps = 210 volume units\n\n**Total Volume:** 300 + 300 + 300 + 300 + 300 + 210 + 210 = **1830 volume units**"
+  },
+  {
+    "id": "en_123",
+    "language": "en",
+    "question": "If you consumed 35g of protein 3 times a day for 6 days, what is your total weekly intake in grams?",
+    "model_answer": "Here’s the calculation:\n\n*   **Daily protein intake:** 35g/serving * 3 servings/day = 105g/day\n*   **Total weekly intake:** 105g/day * 6 days/week = 630g\n\n**Answer:** Your total weekly protein intake is 630 grams."
+  },
+  {
+    "id": "en_124",
+    "language": "en",
+    "question": "If you took a pre-workout containing 200mg of caffeine 30 minutes before your workout for 4 consecutive days, what is your total caffeine intake in mg?",
+    "model_answer": "Here’s the calculation:\n\n*   **Caffeine per day:** 200 mg\n*   **Number of days:** 4\n*   **Total caffeine intake:** 200 mg/day * 4 days = 800 mg\n\n**Answer:** Your total caffeine intake would be 800 mg."
+  },
+  {
+    "id": "en_125",
+    "language": "en",
+    "question": "If your daily step goal is 10,000 steps, and you walk 12,000 steps from Monday to Friday and 8,000 steps on weekends, what is your total number of steps for the week?",
+    "model_answer": "Here’s the calculation:\n\n*   **Weekday Steps:** 12,000 steps/day * 5 days = 60,000 steps\n*   **Weekend Steps:** 8,000 steps/day * 2 days = 16,000 steps\n*   **Total Weekly Steps:** 60,000 steps + 16,000 steps = 76,000 steps\n\n**Answer:** Your total number of steps for the week is 76,000."
+  },
+  {
+    "id": "ja_101",
+    "language": "ja",
+    "question": "ベンチプレス1RMが110kgの場合、85%の重量でトレーニングするには何kgを持ち上げる必要がありますか？",
+    "model_answer": "ベンチプレス1RMが110kgの場合、85%の重量でトレーニングするには、以下の計算で求められます。\n\n*   **85%の重量 = 110kg * 0.85**\n*   **85%の重量 = 93.5kg**\n\nしたがって、93.5kgを持ち上げる必要があります。"
+  },
+  {
+    "id": "ja_102",
+    "language": "ja",
+    "question": "スクワットを90kgで6回4セット行った場合、合計で持ち上げた重量はいくらですか？",
+    "model_answer": "合計持ち上げた重量は、90kg x 6回 x 4セット = 2160kg です。"
+  },
+  {
+    "id": "ja_103",
+    "language": "ja",
+    "question": "デッドリフト1RMが150kgの人が70%の重量で8回行う場合、何kgを使用する必要がありますか？",
+    "model_answer": "1RM（最大挙上重量）が150kgの場合、70%の重量は以下の通り計算されます。\n\n150kg * 0.70 = 105kg\n\nしたがって、8回行う場合は **105kg** を使用する必要があります。"
+  },
+  {
+    "id": "ja_104",
+    "language": "ja",
+    "question": "懸垂を12回5セット行った場合, 合計で何回行いましたか？",
+    "model_answer": "1セットあたりの回数とセット数を掛け合わせれば、合計回数を計算できます。\n\n12回/セット × 5セット = 60回\n\n**答え:** 合計60回行いました。"
+  },
+  {
+    "id": "ja_105",
+    "language": "ja",
+    "question": "片側8kgのダンベルを両手で持ってランジを10回3セット行った場合、合計で持ち上げられた重量はいくらですか？",
+    "model_answer": "片側8kgのダンベルを両手で持ってランジを10回3セット行った場合、合計で持ち上げられた重量は以下のようになります。\n\n*   **1回のランジあたりの重量:** 8kg (片手) x 2 (両手) = 16kg\n*   **1セットあたりの重量:** 16kg x 10回 = 160kg\n*   **合計の重量:** 160kg x 3セット = 480kg\n\n**答え:** 合計で480kg持ち上げられました。"
+  },
+  {
+    "id": "ja_106",
+    "language": "ja",
+    "question": "ミリタリープレス1RMが70kgの人が60%の重量で12回行う場合、何kgを使用する必要がありますか？",
+    "model_answer": "**計算過程:**\n\n1.  **目標重量の計算:**\n    *   ミリタリープレス1RM (70kg) × 60% = 42kg\n\n**答え:**\n\n42kgを使用する必要があります。"
+  },
+  {
+    "id": "ja_107",
+    "language": "ja",
+    "question": "デッドリフトを120kg、125kg、130kgでそれぞれ5回3セット行った場合、セットあたりの平均重量は何kgですか？",
+    "model_answer": "セットあたりの平均重量は以下の通りです。\n\n1.  **120kgセット:** (120kg * 5回) / 3セット = 200kg / 3セット = 66.67kg\n2.  **125kgセット:** (125kg * 5回) / 3セット = 625kg / 3セット = 208.33kg\n3.  **130kgセット:** (130kg * 5回) / 3セット = 650kg / 3セット = 216.67kg\n\n**合計:** (66.67kg + 208.33kg + 216.67kg) / 3セット = 531.67kg / 3セット = **177.22kg**\n\nしたがって、セットあたりの平均重量は**約177.22kg**です。"
+  },
+  {
+    "id": "ja_108",
+    "language": "ja",
+    "question": "16kgのケトルベルスイングを20回4セット行った場合、合計で持ち上げられた重量はいくらですか？",
+    "model_answer": "ケトルベルスイングの重量は、持ち上げた高さと下ろした高さによって変わります。しかし、ここではケトルベルの重量のみを考慮して計算します。\n\n*   **ケトルベルの重量:** 16kg\n*   **セット数:** 4\n*   **回数:** 20回\n\n**合計持ち上げ重量:** 16kg/回 * 20回 = 320kg\n\n**答え:** 合計で持ち上げられた重量は320kgです。"
+  },
+  {
+    "id": "ja_109",
+    "language": "ja",
+    "question": "1RMの95%でシングル（1回）3セットを行うには、1RMが180kgの場合、使用する重量は何kgですか？",
+    "model_answer": "1RMが180kgの場合、1RMの95%は以下のようになります。\n\n* 180kg * 0.95 = 171kg\n\nしたがって、使用する重量は **171kg** です。"
+  },
+  {
+    "id": "ja_110",
+    "language": "ja",
+    "question": "ベンチプレス75kgを8回5セット行った場合、合計で何回持ち上げ、合計ボリュームはいくらですか？",
+    "model_answer": "**合計回数:**\n\n* 1セットあたりの回数: 8回\n* セット数: 5セット\n* 合計回数: 8回/セット * 5セット = 40回\n\n**合計ボリューム:**\n\n* 1セットあたりの重量: 75kg\n* 1セットあたりの回数: 8回\n* 1セットあたりのボリューム: 75kg * 8回 = 600kg\n* 合計ボリューム: 600kg/セット * 5セット = 3000kg\n\n**回答:**\n\n* 合計回数: 40回\n* 合計ボリューム: 3000kg"
+  },
+  {
+    "id": "ja_111",
+    "language": "ja",
+    "question": "スクワットプログラムで80kg→85kg→90kgと3セット行った場合、セットあたりの平均重量は何kgですか？",
+    "model_answer": "**計算過程:**\n\n1.  **合計重量:** 80kg + 85kg + 90kg = 255kg\n2.  **セット数:** 3セット\n3.  **セットあたりの平均重量:** 255kg / 3セット = 85kg\n\n**答え:**\n\nセットあたりの平均重量は85kgです。"
+  },
+  {
+    "id": "ja_112",
+    "language": "ja",
+    "question": "60kgのバーベルで15回2セット、12回2セット、10回1セットを行った場合、合計ボリュームはいくらですか？",
+    "model_answer": "**計算過程:**\n\n*   **15回2セット:** 1セットあたりのボリューム = 15回 * 2セット = 30回\n*   **12回2セット:** 1セットあたりのボリューム = 12回 * 2セット = 24回\n*   **10回1セット:** 1セットあたりのボリューム = 10回 * 1セット = 10回\n*   **合計ボリューム:** 30回 + 24回 + 10回 = 64回\n\n**答え:**\n\n合計ボリュームは64回です。"
+  },
+  {
+    "id": "ja_113",
+    "language": "ja",
+    "question": "腕立て伏せを25回4セット行った場合、合計反復回数は何回ですか？",
+    "model_answer": "合計反復回数は100回です。\n\n計算：25回/セット × 4セット = 100回"
+  },
+  {
+    "id": "ja_114",
+    "language": "ja",
+    "question": "12kgのダンベルを両手で持ってトライセプスエクステンションを10回3セット行った場合、合計ボリュームはいくらですか？",
+    "model_answer": "**計算過程:**\n\n1.  **1セットあたりのボリューム:**\n    *   1回あたりのボリューム: 12kg x 1回 = 12kg\n    *   1セットあたりのボリューム: 12kg x 10回 = 120kg\n\n2.  **合計ボリューム:**\n    *   合計ボリューム: 120kg x 3セット = 360kg\n\n**答え:**\n\n合計ボリュームは360kgです。"
+  },
+  {
+    "id": "ja_115",
+    "language": "ja",
+    "question": "あなたの1RMが95kgで、80%で6回が目標の場合、重量は何kgですか？",
+    "model_answer": "1RM（最大挙上重量）が95kgで、80%の負荷で6回目標とする場合、必要な重量は以下の通り計算できます。\n\n1.  **80%の1RMを計算:** 95kg * 0.80 = 76kg\n\nしたがって、目標とする重量は **76kg** です。"
+  },
+  {
+    "id": "ja_116",
+    "language": "ja",
+    "question": "20kgのバーベルでステップアップを12回3セット、15回1セット行った場合、合計ボリュームはいくらですか？",
+    "model_answer": "ステップアップのボリュームは、以下の計算で求められます。\n\n*   **1セットあたりのボリューム:** 20kg x 12回 = 240kg回\n*   **合計ボリューム:** 240kg回 x 3セット = 720kg回\n\n**答え:** 合計ボリュームは720kg回です。"
+  },
+  {
+    "id": "ja_117",
+    "language": "ja",
+    "question": "ランニングマシンで時速8kmで30分走り、その後時速6kmで15分歩いた場合、合計移動距離は何kmですか？",
+    "model_answer": "**計算過程:**\n\n1.  **ランニングの距離:**\n    *   時速8kmで30分走るので、距離 = 時速 × 時間 = 8km/時 × 0.5時間 = 4km\n\n2.  **歩行の距離:**\n    *   時速6kmで15分歩くので、距離 = 時速 × 時間 = 6km/時 × 0.25時間 = 1.5km\n\n3.  **合計距離:**\n    *   ランニングの距離 + 歩行の距離 = 4km + 1.5km = 5.5km\n\n**答え:**\n\n合計移動距離は5.5kmです。"
+  },
+  {
+    "id": "ja_118",
+    "language": "ja",
+    "question": "ウォームアップで40kgを10回、メインセットで70kgを8回×3セット行った場合、全体のボリュームはいくらですか？",
+    "model_answer": "全体のボリュームは、以下の計算で求められます。\n\n*   **ウォームアップのボリューム:** 40kg x 10回 = 400kg\n*   **メインセットのボリューム (1セット):** 70kg x 8回 = 560kg\n*   **メインセットの合計ボリューム:** 560kg x 3セット = 1680kg\n*   **全体のボリューム:** 400kg + 1680kg = 2080kg\n\n**答え:** 全体のボリュームは2080kgです。"
+  },
+  {
+    "id": "ja_119",
+    "language": "ja",
+    "question": "1RMの60%で20回行うと筋持久力トレーニングになります。1RMが120kgの場合、使用する重量は何kgですか？",
+    "model_answer": "1RMの60%は、120kg × 0.6 = 72kg です。\n\nしたがって、使用する重量は **72kg** です。"
+  },
+  {
+    "id": "ja_120",
+    "language": "ja",
+    "question": "10kgのダンベルカールを15回×4セット完了した場合、合計ボリュームはいくらですか？",
+    "model_answer": "合計ボリュームは60kg・回です。\n\n計算:\n\n*   1セットあたりのボリューム: 10kg x 15回 = 150kg・回\n*   合計ボリューム: 150kg・回 x 4セット = 600kg・回\n\nただし、一般的に「ボリューム」は「kg・回」ではなく「セット数 x 重さ(kg)」で表現されることが多いです。そのため、より一般的な表現として「10kg x 15回 x 4セット = 60kg」と答えることもできます。\n\nどちらの表現でも、合計ボリュームは60kgとなります。"
+  },
+  {
+    "id": "ja_121",
+    "language": "ja",
+    "question": "クリーン＆ジャーク1RMが95kgの選手が大会で90%で試技する場合、何kgを持ち上げる必要がありますか？",
+    "model_answer": "**計算過程:**\n\n1.  **目標重量の計算:** 1RMの90%は、1RM × 0.9 で求められます。\n    *   95kg × 0.9 = 85.5kg\n\n**答え:**\n\n85.5kg を持ち上げる必要があります。"
+  },
+  {
+    "id": "ja_122",
+    "language": "ja",
+    "question": "60kgで5回×5セットを終えた後、70kgで3回×2セットを追加した場合、合計ボリュームはいくらですか？",
+    "model_answer": "**計算過程:**\n\n*   **1回目のセット:** 60kg x 5回 = 300kg\n*   **2回目のセット:** 60kg x 5回 = 300kg\n*   **3回目のセット:** 60kg x 5回 = 300kg\n*   **合計（最初の5回×5セット）:** 300kg + 300kg + 300kg = 900kg\n\n*   **1回目のセット:** 70kg x 3回 = 210kg\n*   **2回目のセット:** 70kg x 2回 = 140kg\n*   **合計（追加の3回×2セット）:** 210kg + 140kg = 350kg\n\n*   **合計ボリューム:** 900kg + 350kg = 1250kg\n\n**答え:**\n\n合計ボリュームは1250kgです。"
+  },
+  {
+    "id": "ja_123",
+    "language": "ja",
+    "question": "プロテイン35gを1日3回、6日間摂取した場合、1週間の摂取量は何gですか？",
+    "model_answer": "プロテインの1日の摂取量：35g/回 * 3回/日 = 105g/日\n\nプロテイン1週間の摂取量：105g/日 * 6日/週 = 630g/週\n\n**答え：630g**"
+  },
+  {
+    "id": "ja_124",
+    "language": "ja",
+    "question": "カフェイン200mgが含まれたプレワークアウトを運動30分前に4日連続で服用した場合、総カフェイン摂取量は何mgですか？",
+    "model_answer": "総カフェイン摂取量は 800mg です。\n\n計算：\n\n* 1日あたりの摂取量：200mg\n* 連続服用日数：4日\n* 総摂取量：200mg/日 * 4日 = 800mg"
+  },
+  {
+    "id": "ja_125",
+    "language": "ja",
+    "question": "1日の目標歩数が10,000歩で、月〜金は12,000歩ずつ歩き、週末は8,000歩ずつ歩いた場合、1週間の合計歩数は何歩ですか？",
+    "model_answer": "1. **平日（月〜金）の合計歩数:**\n   12,000歩/日 * 5日 = 60,000歩\n\n2. **週末（土・日）の合計歩数:**\n   8,000歩/日 * 2日 = 16,000歩\n\n3. **1週間の合計歩数:**\n   60,000歩 + 16,000歩 = 76,000歩\n\n**答え:** 1週間の合計歩数は76,000歩です。"
+  },
+  {
+    "id": "zh-Hant_101",
+    "language": "zh-Hant",
+    "question": "如果您的臥推1RM為110公斤，那麼以85%的重量進行訓練需要舉起多少公斤？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n**計算公式：**\n\n目標重量 = 1RM * 訓練強度\n\n**計算過程：**\n\n目標重量 = 110 公斤 * 85% = 110 公斤 * 0.85 = 93.5 公斤\n\n**答案：**\n\n以85%的重量進行訓練，您需要舉起 **93.5公斤**。\n\n希望這個計算對您有幫助！"
+  },
+  {
+    "id": "zh-Hant_102",
+    "language": "zh-Hant",
+    "question": "如果您用90公斤的重量進行4組6次的深蹲，總共舉起了多少重量？",
+    "model_answer": "這個問題有點陷阱！\n\n**答案：90公斤**\n\n**計算過程：**\n\n題目問的是“總共舉起了多少重量”，而不是“總共舉起的重量”。 90公斤的重量，無論做幾組幾次，都是90公斤。 \n\n深蹲的重量是固定的，只是通過組數和次數來完成訓練。"
+  },
+  {
+    "id": "zh-Hant_103",
+    "language": "zh-Hant",
+    "question": "如果一個1RM硬拉為150公斤的人想要以70%的重量進行8次，他們應該使用多少公斤？",
+    "model_answer": "好的，作為健身計算專家，我來幫你計算：\n\n**計算公式：**\n\n目標重量 = 1RM 重量 * 訓練強度\n\n**計算過程：**\n\n*   訓練強度 = 70%\n*   目標重量 = 150 公斤 * 70% = 105 公斤\n\n**答案：**\n\n這個1RM硬拉為150公斤的人，以70%的重量進行8次，應該使用 **105公斤**。\n\n希望這個計算對你有幫助！"
+  },
+  {
+    "id": "zh-Hant_104",
+    "language": "zh-Hant",
+    "question": "如果您做了5組12次的引體向上，總共做了多少次？",
+    "model_answer": "總共做了 60 次引體向上。\n\n計算過程：\n\n* 每組 12 次\n* 5 組\n* 12 次/組 * 5 組 = 60 次"
+  },
+  {
+    "id": "zh-Hant_105",
+    "language": "zh-Hant",
+    "question": "如果您用每隻手8公斤的啞鈴進行3組10次的弓步，總共舉起了多少重量？",
+    "model_answer": "好的，讓我來幫您計算：\n\n*   **每隻手舉起的重量：** 8 公斤\n*   **每組舉起的重量：** 8 公斤/隻手 * 2 隻手 = 16 公斤\n*   **總共舉起的重量：** 16 公斤/組 * 3 組 = 48 公斤\n\n**答案：** 總共舉起了 48 公斤。"
+  },
+  {
+    "id": "zh-Hant_106",
+    "language": "zh-Hant",
+    "question": "如果一個1RM軍事推舉為70公斤的人以60%的重量進行12次，他們應該使用多少公斤？",
+    "model_answer": "好的，作為健身計算專家，我來幫你計算：\n\n**計算公式：**\n\n目標重量 = 1RM * 訓練強度\n\n**計算過程：**\n\n*   1RM (最大一次舉重重量) = 70 公斤\n*   訓練強度 = 60% = 0.6\n\n目標重量 = 70 公斤 * 0.6 = 42 公斤\n\n**答案：**\n\n他們應該使用 **42 公斤**。\n\n**說明：**\n\n60%的重量，代表你應該能夠以60%的強度完成12次。這個重量應該接近你的1RM，但不會過於困難，讓你能夠維持正確的姿勢和控制。"
+  },
+  {
+    "id": "zh-Hant_107",
+    "language": "zh-Hant",
+    "question": "如果您用120公斤、125公斤和130公斤的重量分別進行3組5次的硬拉，每組的平均重量是多少公斤？",
+    "model_answer": "好的，讓我們來計算一下：\n\n**1. 計算每組的總重量：**\n\n*   120公斤組：120公斤 * 5次 = 600公斤\n*   125公斤組：125公斤 * 5次 = 625公斤\n*   130公斤組：130公斤 * 5次 = 650公斤\n\n**2. 計算所有組的總重量：**\n\n*   總重量：600公斤 + 625公斤 + 650公斤 = 1875公斤\n\n**3. 計算總次數：**\n\n*   總次數：3組 * 5次/組 = 15次\n\n**4. 計算平均重量：**\n\n*   平均重量：1875公斤 / 15次 = 125公斤\n\n**答案：** 每組的平均重量是 **125公斤**。"
+  },
+  {
+    "id": "zh-Hant_108",
+    "language": "zh-Hant",
+    "question": "如果您用16公斤的壺鈴進行4組20次的壺鈴擺盪，總共舉起了多少重量？",
+    "model_answer": "好的，讓我們來計算一下：\n\n*   **每壺鈴的重量：** 16 公斤\n*   **壺鈴數量：** 1 個\n*   **每組擺盪的重量：** 16 公斤\n*   **組數：** 4 組\n*   **總重量：** 16 公斤/組 * 4 組 = 64 公斤\n\n**答案：** 總共舉起了 64 公斤。"
+  },
+  {
+    "id": "zh-Hant_109",
+    "language": "zh-Hant",
+    "question": "要以95%的1RM進行3組單次（1次）的訓練，如果您的1RM是180公斤，您應該使用多少公斤的重量？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n**計算公式：**\n\n目標重量 = 1RM * (1 - (1 - 訓練強度)^n)\n\n其中：\n\n*   1RM = 您的最大一次舉重重量 (180公斤)\n*   訓練強度 = 訓練強度 (95% = 0.95)\n*   n = 組數 (3)\n\n**計算過程：**\n\n1.  **代入數值：**\n    目標重量 = 180公斤 * (1 - (1 - 0.95)^3)\n\n2.  **計算 (1 - 0.95)^3：**\n    (1 - 0.95) = 0.05\n    0.05^3 = 0.000125\n\n3.  **計算 1 - 0.000125：**\n    1 - 0.000125 = 0.999875\n\n4.  **計算目標重量：**\n    目標重量 = 180公斤 * 0.999875 = 179.9675公斤\n\n**答案：**\n\n您應該使用約 **180公斤** 的重量。  由於計算結果是179.9675公斤，可以四捨五入到 **180公斤**，以確保訓練強度接近95%。\n\n**重要提示：**\n\n*   這個計算是基於理論值，實際訓練中，您可能需要根據自身感受和力量變化進行微調。\n*   在進行任何訓練之前，請務必充分熱身，並確保安全。\n*   如果您是初學者，建議從較輕的重量開始，逐漸增加重量。\n\n希望這個計算對您有幫助！"
+  },
+  {
+    "id": "zh-Hant_110",
+    "language": "zh-Hant",
+    "question": "如果您用75公斤的重量進行5組8次的臥推，總共舉起了多少次，總訓練量是多少？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n*   **每組次數：** 8 次\n*   **組數：** 5 組\n*   **總次數：** 8 次/組 * 5 組 = 40 次\n\n*   **總訓練量（估計）：** 由於臥推是複合動作，會激活多個肌肉群，因此訓練量會比單純的次數更高。一個常用的估算方法是：\n    *   **訓練量 = 總次數 * 肌肉激活程度**\n    *   假設臥推的肌肉激活程度為 7 (1 為最低，10 為最高)，那麼：\n    *   訓練量 = 40 次 * 7 = 280\n\n**因此：**\n\n*   總次數：40 次\n*   總訓練量（估計）：280\n\n**注意：** 訓練量是一個估計值，實際訓練量會因個人差異、動作技巧、以及訓練的強度而有所不同。"
+  },
+  {
+    "id": "zh-Hant_111",
+    "language": "zh-Hant",
+    "question": "在一個深蹲計畫中，如果您用80公斤、85公斤和90公斤的重量進行3組，每組的平均重量是多少公斤？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n**計算過程：**\n\n1. **計算每組的總重量：**\n   * 80公斤 * 3組 = 240公斤\n   * 85公斤 * 3組 = 255公斤\n   * 90公斤 * 3組 = 270公斤\n\n2. **計算總重量：**\n   * 240公斤 + 255公斤 + 270公斤 = 765公斤\n\n3. **計算平均重量：**\n   * 765公斤 / 3組 = 255公斤\n\n**答案：**\n\n每組的平均重量是 **255公斤**。"
+  },
+  {
+    "id": "zh-Hant_112",
+    "language": "zh-Hant",
+    "question": "如果您用60公斤的槓鈴進行2組15次、2組12次和1組10次的訓練，總訓練量是多少？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n**計算過程：**\n\n*   **第一組 15 次：** 15 次 * 60 公斤 = 900 公斤\n*   **第二組 15 次：** 15 次 * 60 公斤 = 900 公斤\n*   **第三組 12 次：** 12 次 * 60 公斤 = 720 公斤\n*   **第四組 10 次：** 10 次 * 60 公斤 = 600 公斤\n\n**總訓練量：** 900 公斤 + 900 公斤 + 720 公斤 + 600 公斤 = **3120 公斤**\n\n**答案：** 總訓練量是 3120 公斤。"
+  },
+  {
+    "id": "zh-Hant_113",
+    "language": "zh-Hant",
+    "question": "如果您做了4組25次的伏地挺身，總共做了多少次？",
+    "model_answer": "總共做了 4 組 * 25 次/組 = 100 次\n\n答案：總共做了 100 次伏地挺身。"
+  },
+  {
+    "id": "zh-Hant_114",
+    "language": "zh-Hant",
+    "question": "如果您用12公斤的啞鈴進行3組10次的三頭肌伸展，總訓練量是多少？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n**計算過程：**\n\n*   **每組訓練量：** 12公斤 x 10次 = 120公斤\n*   **總訓練量：** 120公斤/組 x 3組 = 360公斤\n\n**答案：**\n\n總訓練量為 **360公斤**。\n\n希望這個計算對您有幫助！"
+  },
+  {
+    "id": "zh-Hant_115",
+    "language": "zh-Hant",
+    "question": "如果您的1RM是95公斤，目標是80%的重量做6次，您應該使用多少公斤的重量？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n**計算過程：**\n\n1. **目標重量 = 1RM * 目標強度**\n   * 目標強度 = 80%\n   * 1RM = 95公斤\n   * 目標重量 = 95公斤 * 0.80 = 76公斤\n\n**答案：**\n\n您應該使用 **76公斤** 的重量做6次。\n\n**說明：**\n\n* 1RM (One Repetition Maximum) 指的是您用最大重量完成單次重複的重量。\n* 80% 的 1RM 代表您能以 80% 的最大力量完成的重量。\n\n希望這個計算對您有幫助！如果您有其他健身相關的計算問題，隨時可以提出。"
+  },
+  {
+    "id": "zh-Hant_116",
+    "language": "zh-Hant",
+    "question": "如果您用20公斤的槓鈴進行3組12次和1組15次的登階，總訓練量是多少？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n*   **每組12次的總訓練量：** 20公斤 * 12次 = 240公斤\n*   **每組15次的總訓練量：** 20公斤 * 15次 = 300公斤\n*   **3組12次的總訓練量：** 240公斤/組 * 3組 = 720公斤\n*   **1組15次的總訓練量：** 300公斤\n*   **總訓練量：** 720公斤 + 300公斤 = 1020公斤\n\n**因此，總訓練量是1020公斤。**\n\n希望這個計算對您有幫助！"
+  },
+  {
+    "id": "zh-Hant_117",
+    "language": "zh-Hant",
+    "question": "如果您在跑步機上以每小時8公里的速度跑了30分鐘，然後以每小時6公里的速度走了15分鐘，總共移動了多少公里？",
+    "model_answer": "好的，我們來計算一下：\n\n**1. 跑步部分：**\n\n*   速度：8 公里/小時\n*   時間：30 分鐘 = 0.5 小時\n*   距離：速度 x 時間 = 8 公里/小時 x 0.5 小時 = 4 公里\n\n**2. 走路部分：**\n\n*   速度：6 公里/小時\n*   時間：15 分鐘 = 0.25 小時\n*   距離：速度 x 時間 = 6 公里/小時 x 0.25 小時 = 1.5 公里\n\n**3. 總距離：**\n\n*   總距離 = 跑步距離 + 走路距離 = 4 公里 + 1.5 公里 = 5.5 公里\n\n**答案：** 總共移動了 5.5 公里。"
+  },
+  {
+    "id": "zh-Hant_118",
+    "language": "zh-Hant",
+    "question": "如果您用40公斤的重量進行10次的熱身，然後用70公斤的重量進行3組8次的主訓練，總訓練量是多少？",
+    "model_answer": "好的，讓我來幫您計算總訓練量：\n\n**1. 熱身：**\n\n* 重量：40公斤\n* 次數：10次\n* 熱身總訓練量：40公斤 * 10次 = 400公斤次\n\n**2. 主訓練：**\n\n* 重量：70公斤\n* 組數：3組\n* 次數/組：8次\n* 主訓練總訓練量：70公斤 * 3組 * 8次/組 = 1680公斤次\n\n**3. 總訓練量：**\n\n* 總訓練量 = 熱身總訓練量 + 主訓練總訓練量\n* 總訓練量 = 400公斤次 + 1680公斤次 = 2080公斤次\n\n**答案：總訓練量是 2080 公斤次。**"
+  },
+  {
+    "id": "zh-Hant_119",
+    "language": "zh-Hant",
+    "question": "以60%的1RM進行20次訓練有助於增強肌肉耐力。如果您的1RM是120公斤，您應該使用多少公斤的重量？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n1. **計算60%的1RM：** 60% * 120公斤 = 72公斤\n\n**答案：** 您應該使用72公斤的重量。\n\n**說明：** 60%的1RM通常被認為是增強肌肉耐力的理想訓練重量。"
+  },
+  {
+    "id": "zh-Hant_120",
+    "language": "zh-Hant",
+    "question": "如果您用10公斤的啞鈴完成了4組15次的啞鈴彎舉，總訓練量是多少？",
+    "model_answer": "好的，作為健身計算專家，我來幫您計算：\n\n**計算過程：**\n\n*   **每組訓練量：** 15 次彎舉\n*   **每組訓練總量（公斤）：** 10 公斤/組\n*   **總訓練量（公斤）：** 15 次 * 10 公斤/次 = 150 公斤\n\n**答案：**\n\n總訓練量是 **150 公斤**。\n\n希望這個計算對您有幫助！"
+  },
+  {
+    "id": "zh-Hant_121",
+    "language": "zh-Hant",
+    "question": "如果一個1RM為95公斤的舉重運動員在比賽中嘗試90%，他們應該舉起多少公斤？",
+    "model_answer": "好的，作為健身計算專家，我來幫你計算：\n\n**計算過程：**\n\n1. **目標重量：** 1RM (最大負重) * 90% = 95公斤 * 0.9 = 85.5公斤\n\n**答案：**\n\n舉重運動員應該嘗試舉起 **85.5公斤**。\n\n希望這個計算對你有幫助！"
+  },
+  {
+    "id": "zh-Hant_122",
+    "language": "zh-Hant",
+    "question": "如果您用60公斤的重量完成了5組5次的訓練，然後又用70公斤的重量增加了2組3次的訓練，總訓練量是多少？",
+    "model_answer": "好的，讓我來幫您計算：\n\n*   **第一階段：** 60公斤，5組5次 = 5組 * 5次/組 = 25次\n*   **第二階段：** 70公斤，2組3次 = 2組 * 3次/組 = 6次\n*   **總訓練量：** 25次 + 6次 = 31次\n\n**答案：總訓練量是31次。**"
+  },
+  {
+    "id": "zh-Hant_123",
+    "language": "zh-Hant",
+    "question": "如果您每天3次，連續6天攝取35克的蛋白質，您一週的總攝取量是多少克？",
+    "model_answer": "好的，讓我來幫您計算一下：\n\n*   **每天攝取量：** 35 克\n*   **天數：** 6 天\n*   **總攝取量：** 35 克/天 * 6 天 = 210 克\n\n**答案：** 您一週的總攝取量是 210 克。"
+  },
+  {
+    "id": "zh-Hant_124",
+    "language": "zh-Hant",
+    "question": "如果您在運動前30分鐘連續4天服用含有200毫克咖啡因的運動前補充劑，您的總咖啡因攝取量是多少毫克？",
+    "model_answer": "總咖啡因攝取量：\n\n* 每天攝取量：200 毫克\n* 運動前服用天數：4 天\n* 總咖啡因攝取量：200 毫克/天 * 4 天 = **800 毫克**\n\n答案：您總共攝取了 800 毫克的咖啡因。"
+  },
+  {
+    "id": "zh-Hant_125",
+    "language": "zh-Hant",
+    "question": "如果您的每日步數目標是10,000步，而您從週一到週五每天走12,000步，週末每天走8,000步，您一週的總步數是多少？",
+    "model_answer": "好的，讓我們來計算一下您一週的總步數：\n\n* **週一至週五的步數：** 5 天 * 12,000 步/天 = 60,000 步\n* **週末的步數：** 2 天 * 8,000 步/天 = 16,000 步\n* **總步數：** 60,000 步 + 16,000 步 = 76,000 步\n\n**答案：您一週的總步數是 76,000 步。**\n\n您超過了每日目標 10,000 步，非常棒！"
+  },
+  {
+    "id": "id_101",
+    "language": "id",
+    "question": "Jika 1RM bench press Anda adalah 110kg, berapa kg yang harus diangkat untuk berlatih pada 85% dari berat tersebut?",
+    "model_answer": "Baik, mari kita hitung.\n\n**Perhitungan:**\n\n*   **85% dari 110kg = (85/100) * 110kg = 93.5kg**\n\n**Jawaban:**\n\nAnda harus mengangkat 93.5kg untuk berlatih pada 85% dari 1RM bench press Anda."
+  },
+  {
+    "id": "id_102",
+    "language": "id",
+    "question": "Jika Anda melakukan squat 90kg untuk 4 set dengan 6 repetisi, berapa total berat yang diangkat?",
+    "model_answer": "Total berat yang diangkat adalah 216 kg.\n\n**Perhitungan:**\n\n*   Berat per set: 90 kg\n*   Jumlah set: 4\n*   Total berat: 90 kg/set * 4 set = 360 kg\n\n**Namun, karena Anda hanya melakukan 6 repetisi per set, kita perlu menyesuaikan.**  Berat yang diangkat per repetisi adalah 90 kg.  Jadi, total berat yang diangkat adalah:\n\n*   90 kg/repetisi * 6 repetisi = 540 kg\n\n**Kesalahan perhitungan sebelumnya adalah karena saya salah mengartikan pertanyaan.  Anda mengangkat 90kg untuk *setiap* repetisi, bukan untuk 4 set dengan 6 repetisi.**\n\n**Jawaban yang benar:**\n\nTotal berat yang diangkat adalah 540 kg."
+  },
+  {
+    "id": "id_103",
+    "language": "id",
+    "question": "Jika seseorang dengan 1RM deadlift 150kg ingin melakukan 8 repetisi pada 70% dari 1RM mereka, berapa kg yang harus digunakan?",
+    "model_answer": "Oke, mari kita hitung.\n\n**Rumus:**\n\nTarget Berat = 1RM x Persentase Target\n\n**Perhitungan:**\n\nTarget Berat = 150 kg x 70% = 105 kg\n\n**Jawaban:**\n\nSeseorang dengan 1RM deadlift 150kg harus menggunakan 105kg untuk melakukan 8 repetisi pada 70% dari 1RM mereka."
+  },
+  {
+    "id": "id_104",
+    "language": "id",
+    "question": "Jika Anda melakukan 5 set dengan 12 pull-up, berapa total repetisi yang dilakukan?",
+    "model_answer": "Total repetisi yang dilakukan adalah 60.\n\n**Perhitungan:**\n\n*   Set: 5\n*   Repetisi per set: 12\n*   Total repetisi = Set x Repetisi per set = 5 x 12 = 60"
+  },
+  {
+    "id": "id_105",
+    "language": "id",
+    "question": "Jika Anda melakukan 3 set dengan 10 lunges sambil memegang dumbbell 8kg di masing-masing tangan, berapa total berat yang diangkat?",
+    "model_answer": "Total berat yang diangkat adalah 16 kg.\n\n**Perhitungan:**\n\n*   Berat dumbbell per tangan: 8 kg\n*   Jumlah dumbbell: 2 tangan\n*   Total berat: 8 kg/tangan * 2 tangan = 16 kg"
+  },
+  {
+    "id": "id_106",
+    "language": "id",
+    "question": "Jika seseorang dengan 1RM military press 70kg melakukan 12 repetisi pada 60% dari 1RM mereka, berapa kg yang harus digunakan?",
+    "model_answer": "Oke, mari kita hitung.\n\n**Rumus:**\n\nBerat yang digunakan = 1RM x Persentase\n\n**Perhitungan:**\n\nBerat yang digunakan = 70 kg x 60% = 42 kg\n\n**Jawaban:**\n\nSeseorang tersebut harus menggunakan 42 kg."
+  },
+  {
+    "id": "id_107",
+    "language": "id",
+    "question": "Jika Anda melakukan 3 set dengan 5 deadlift menggunakan 120kg, 125kg, dan 130kg secara berturut-turut, berapa rata-rata berat per set?",
+    "model_answer": "Berikut perhitungan rata-rata berat per set deadlift:\n\n1. **Jumlahkan semua berat:** 120kg + 125kg + 130kg = 375kg\n2. **Jumlahkan jumlah set:** 3 set\n3. **Bagi total berat dengan jumlah set:** 375kg / 3 set = 125kg\n\n**Jawaban:** Rata-rata berat per set adalah 125kg."
+  },
+  {
+    "id": "id_108",
+    "language": "id",
+    "question": "Jika Anda melakukan 4 set dengan 20 kettlebell swing menggunakan kettlebell 16kg, berapa total berat yang diangkat?",
+    "model_answer": "Total berat yang diangkat adalah 32kg.\n\n**Perhitungan:**\n\n*   Berat kettlebell: 16kg\n*   Jumlah repetisi per set: 20\n*   Jumlah set: 4\n*   Total repetisi: 20 * 4 = 80\n*   Total berat yang diangkat: 80 * 16kg = 1280kg\n\nNamun, karena pertanyaan meminta *berat yang diangkat*, bukan total kerja, maka jawaban yang lebih tepat adalah:\n\n*   Berat per set: 16kg * 20 = 320kg\n*   Total berat yang diangkat: 320kg * 4 = 1280kg\n\n**Jawaban Ringkas:**\n\nAnda mengangkat total **32kg** (karena pertanyaan meminta berat yang diangkat, bukan total kerja)."
+  },
+  {
+    "id": "id_109",
+    "language": "id",
+    "question": "Untuk melakukan 3 set singles (1 repetisi) pada 95% dari 1RM Anda, berapa berat dalam kg yang harus digunakan jika 1RM Anda adalah 180kg?",
+    "model_answer": "Oke, mari kita hitung.\n\n**Rumus:**\n\nBerat (kg) = 1RM (kg) * 0.95\n\n**Perhitungan:**\n\nBerat = 180 kg * 0.95 = 171 kg\n\n**Jawaban:**\n\nAnda harus menggunakan berat 171 kg."
+  },
+  {
+    "id": "id_110",
+    "language": "id",
+    "question": "Jika Anda melakukan bench press 75kg untuk 5 set dengan 8 repetisi, berapa total repetisi yang diangkat dan berapa total volumenya?",
+    "model_answer": "Baik, mari kita hitung total repetisi dan volume untuk bench press Anda:\n\n**1. Total Repetisi:**\n\n*   Repetisi per set: 8\n*   Jumlah set: 5\n*   Total repetisi: 8 repetisi/set * 5 set = **40 repetisi**\n\n**2. Total Volume:**\n\n*   Berat beban: 75 kg\n*   Repetisi: 40\n*   Volume = Berat beban x Repetisi\n*   Volume: 75 kg * 40 = **3000 kg (kg-kali)**\n\n**Jawaban:**\n\n*   Total repetisi yang diangkat: **40**\n*   Total volume: **3000 kg-kali**\n\nSemoga perhitungan ini membantu! Apakah Anda ingin saya menghitung sesuatu yang lain?"
+  },
+  {
+    "id": "id_111",
+    "language": "id",
+    "question": "Dalam program squat, jika Anda melakukan 3 set dengan 80kg, 85kg, dan 90kg, berapa rata-rata berat per set?",
+    "model_answer": "**Perhitungan:**\n\n1.  **Jumlahkan total berat:** 80kg + 85kg + 90kg = 255kg\n2.  **Bagi total berat dengan jumlah set:** 255kg / 3 set = 85kg/set\n\n**Jawaban:**\n\nRata-rata berat per set dalam program squat adalah **85kg**."
+  },
+  {
+    "id": "id_112",
+    "language": "id",
+    "question": "Jika Anda melakukan 2 set dengan 15 repetisi, 2 set dengan 12 repetisi, dan 1 set dengan 10 repetisi menggunakan barbell 60kg, berapa total volumenya?",
+    "model_answer": "**Rumus Volume:**\n\nVolume = Jumlah Set x Repetisi x Berat\n\n**Perhitungan:**\n\n*   Set 1: 15 repetisi x 60kg = 900 unit\n*   Set 2: 12 repetisi x 60kg = 720 unit\n*   Set 3: 10 repetisi x 60kg = 600 unit\n\n**Total Volume:** 900 + 720 + 600 = **2220 unit**\n\n**Jawaban:** Total volume latihan Anda adalah 2220 unit."
+  },
+  {
+    "id": "id_113",
+    "language": "id",
+    "question": "Jika Anda melakukan 4 set dengan 25 push-up, berapa total jumlah repetisinya?",
+    "model_answer": "Total jumlah repetisi adalah 100.\n\n**Perhitungan:**\n\n*   Set: 4\n*   Repetisi per set: 25\n*   Total repetisi: 4 set * 25 repetisi/set = 100 repetisi"
+  },
+  {
+    "id": "id_114",
+    "language": "id",
+    "question": "Jika Anda melakukan 3 set dengan 10 triceps extension menggunakan dumbbell 12kg yang dipegang dengan kedua tangan, berapa total volumenya?",
+    "model_answer": "**Volume latihan** dihitung dengan rumus:\n\n**Volume = Jumlah Set x Repetisi x Berat (dalam kg)**\n\nDalam kasus ini:\n\n*   Jumlah Set = 3\n*   Repetisi = 10\n*   Berat = 12 kg\n\n**Volume = 3 x 10 x 12 kg = 360 unit volume**\n\n**Jawaban:** Total volume latihan Anda adalah **360 unit volume**."
+  },
+  {
+    "id": "id_115",
+    "language": "id",
+    "question": "Jika 1RM Anda adalah 95kg dan target Anda adalah 6 repetisi pada 80%, berapa berat dalam kg yang harus digunakan?",
+    "model_answer": "Baik, mari kita hitung berat yang perlu Anda gunakan.\n\n**Rumus:**\n\nBerat yang digunakan = 1RM x Target Persentase\n\n**Perhitungan:**\n\nBerat yang digunakan = 95 kg x 80% = 76 kg\n\n**Jawaban:**\n\nAnda harus menggunakan berat 76 kg."
+  },
+  {
+    "id": "id_116",
+    "language": "id",
+    "question": "Jika Anda melakukan 3 set dengan 12 repetisi dan 1 set dengan 15 repetisi step-up menggunakan barbell 20kg, berapa total volumenya?",
+    "model_answer": "**Rumus Volume:**\n\nVolume = Jumlah Set x Jumlah Repetisi\n\n**Perhitungan:**\n\nVolume = 3 Set x 12 Repetisi + 1 Set x 15 Repetisi\nVolume = 36 + 15\nVolume = 51\n\n**Jawaban:**\n\nTotal volume latihan step-up Anda adalah **51 unit repetisi**."
+  },
+  {
+    "id": "id_117",
+    "language": "id",
+    "question": "Jika Anda berlari di treadmill dengan kecepatan 8 km/jam selama 30 menit kemudian berjalan dengan kecepatan 6 km/jam selama 15 menit, berapa total jarak yang ditempuh dalam km?",
+    "model_answer": "Oke, mari kita hitung total jarak yang ditempuh:\n\n**1. Lari (8 km/jam selama 30 menit):**\n\n*   Ubah waktu menjadi jam: 30 menit = 0.5 jam\n*   Jarak lari = Kecepatan x Waktu = 8 km/jam x 0.5 jam = 4 km\n\n**2. Berjalan (6 km/jam selama 15 menit):**\n\n*   Ubah waktu menjadi jam: 15 menit = 0.25 jam\n*   Jarak berjalan = Kecepatan x Waktu = 6 km/jam x 0.25 jam = 1.5 km\n\n**3. Total Jarak:**\n\n*   Total jarak = Jarak lari + Jarak berjalan = 4 km + 1.5 km = 5.5 km\n\n**Jawaban:** Total jarak yang ditempuh adalah **5.5 km**."
+  },
+  {
+    "id": "id_118",
+    "language": "id",
+    "question": "Jika Anda melakukan pemanasan dengan 10 repetisi menggunakan 40kg kemudian melakukan 3 set dengan 8 repetisi menggunakan 70kg untuk set utama, berapa total volumenya?",
+    "model_answer": "**Rumus Volume:** Volume = Repetisi x Berat x Set\n\n**Perhitungan:**\n\n*   Pemanasan: 10 repetisi x 40kg x 1 set = 400 unit\n*   Set Utama: 8 repetisi x 70kg x 3 set = 1680 unit\n\n**Total Volume:** 400 unit + 1680 unit = **2080 unit**\n\n**Jawaban:** Total volume latihan Anda adalah 2080 unit."
+  },
+  {
+    "id": "id_119",
+    "language": "id",
+    "question": "Melakukan 20 repetisi pada 60% dari 1RM Anda baik untuk daya tahan otot. Jika 1RM Anda adalah 120kg, berapa berat dalam kg yang harus digunakan?",
+    "model_answer": "Baik, mari kita hitung berat yang harus digunakan.\n\n**Perhitungan:**\n\n*   **Target Persentase:** 60% dari 1RM\n*   **1RM:** 120 kg\n*   **Berat yang Digunakan:** 60% * 120 kg = 72 kg\n\n**Jawaban:**\n\nAnda harus menggunakan berat 72 kg untuk melakukan 20 repetisi pada 60% dari 1RM Anda.\n\n**Catatan:** Ini adalah perkiraan. Berat yang tepat mungkin sedikit berbeda tergantung pada faktor individu seperti tingkat kebugaran dan sensasi yang Anda rasakan saat mengangkat beban. Selalu mulai dengan berat yang lebih ringan dan tingkatkan secara bertahap."
+  },
+  {
+    "id": "id_120",
+    "language": "id",
+    "question": "Jika Anda menyelesaikan 4 set dengan 15 repetisi dumbbell curl menggunakan dumbbell 10kg, berapa total volumenya?",
+    "model_answer": "**Total Volume = Jumlah Set x Repetisi x Berat**\n\nDalam kasus ini:\n\n*   Jumlah Set = 4\n*   Repetisi = 15\n*   Berat = 10kg\n\n**Total Volume = 4 x 15 x 10kg = 600 kg.cm**\n\n**Jawaban:** Total volume latihan dumbbell curl Anda adalah 600 kg.cm."
+  },
+  {
+    "id": "id_121",
+    "language": "id",
+    "question": "Jika seorang atlet dengan 1RM 95kg dalam clean and jerk mencoba 90% dalam kompetisi, berapa kg yang harus diangkat?",
+    "model_answer": "Baik, mari kita hitung.\n\n*   **1RM (One Repetition Maximum):** 95 kg\n*   **Target:** 90% dari 1RM\n*   **Perhitungan:** 90% x 95 kg = 85.5 kg\n\n**Jawaban:** Atlet tersebut harus mencoba mengangkat 85.5 kg."
+  },
+  {
+    "id": "id_122",
+    "language": "id",
+    "question": "Jika Anda menyelesaikan 5 set dengan 5 repetisi menggunakan 60kg kemudian menambahkan 2 set dengan 3 repetisi menggunakan 70kg, berapa total volumenya?",
+    "model_answer": "**Rumus Volume:** Volume = Jumlah Set x Jumlah Repetisi x Berat\n\n**Perhitungan:**\n\n*   **Set Pertama:** 5 set x 5 repetisi x 60kg = 1500 unit\n*   **Set Kedua:** 2 set x 3 repetisi x 70kg = 420 unit\n*   **Total Volume:** 1500 unit + 420 unit = 1920 unit\n\n**Jawaban:** Total volume latihan adalah 1920 unit."
+  },
+  {
+    "id": "id_123",
+    "language": "id",
+    "question": "Jika Anda mengonsumsi 35g protein 3 kali sehari selama 6 hari, berapa total asupan mingguan Anda dalam gram?",
+    "model_answer": "Berikut perhitungannya:\n\n*   **Protein per hari:** 35g/porsi * 3 porsi/hari = 105g\n*   **Protein per minggu:** 105g/hari * 6 hari/minggu = 630g\n\n**Jawaban:** Total asupan protein mingguan Anda adalah 630 gram."
+  },
+  {
+    "id": "id_124",
+    "language": "id",
+    "question": "Jika Anda mengonsumsi pre-workout yang mengandung 200mg kafein 30 menit sebelum latihan selama 4 hari berturut-turut, berapa total asupan kafein Anda dalam mg?",
+    "model_answer": "Total asupan kafein Anda adalah 1200mg.\n\n**Perhitungan:**\n\n*   Asupan per hari: 200mg\n*   Jumlah hari: 4 hari\n*   Total asupan: 200mg/hari * 4 hari = 800mg\n\n**Namun, karena Anda mengonsumsi pre-workout 30 menit sebelum latihan, asupan kafein akan terjadi dalam waktu yang lebih singkat.  Karena pertanyaan meminta total asupan, kita tetap menghitungnya berdasarkan dosis harian.**\n\n**Jawaban:** 1200mg"
+  },
+  {
+    "id": "id_125",
+    "language": "id",
+    "question": "Jika target langkah harian Anda adalah 10.000 langkah, dan Anda berjalan 12.000 langkah dari Senin hingga Jumat serta 8.000 langkah di akhir pekan, berapa total jumlah langkah Anda dalam seminggu?",
+    "model_answer": "Berikut perhitungan total langkah Anda dalam seminggu:\n\n*   **Langkah Senin-Jumat:** 12.000 langkah/hari * 5 hari = 60.000 langkah\n*   **Langkah Akhir Pekan:** 8.000 langkah\n*   **Total Langkah Seminggu:** 60.000 langkah + 8.000 langkah = 68.000 langkah\n\n**Jawaban:** Total langkah Anda dalam seminggu adalah 68.000 langkah."
+  }
+]
