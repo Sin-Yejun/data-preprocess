@@ -498,5 +498,130 @@
     "id": "zh-Hant_125",
     "language": "zh-Hant",
     "question": "如果您的每日步數目標是10,000步，而您從週一到週五每天走12,000步，週末每天走8,000步，您一週的總步數是多少？"
+  },
+  {
+    "id": "id_101",
+    "language": "id",
+    "question": "Jika 1RM bench press Anda adalah 110kg, berapa kg yang harus diangkat untuk berlatih pada 85% dari berat tersebut?"
+  },
+  {
+    "id": "id_102",
+    "language": "id",
+    "question": "Jika Anda melakukan squat 90kg untuk 4 set dengan 6 repetisi, berapa total berat yang diangkat?"
+  },
+  {
+    "id": "id_103",
+    "language": "id",
+    "question": "Jika seseorang dengan 1RM deadlift 150kg ingin melakukan 8 repetisi pada 70% dari 1RM mereka, berapa kg yang harus digunakan?"
+  },
+  {
+    "id": "id_104",
+    "language": "id",
+    "question": "Jika Anda melakukan 5 set dengan 12 pull-up, berapa total repetisi yang dilakukan?"
+  },
+  {
+    "id": "id_105",
+    "language": "id",
+    "question": "Jika Anda melakukan 3 set dengan 10 lunges sambil memegang dumbbell 8kg di masing-masing tangan, berapa total berat yang diangkat?"
+  },
+  {
+    "id": "id_106",
+    "language": "id",
+    "question": "Jika seseorang dengan 1RM military press 70kg melakukan 12 repetisi pada 60% dari 1RM mereka, berapa kg yang harus digunakan?"
+  },
+  {
+    "id": "id_107",
+    "language": "id",
+    "question": "Jika Anda melakukan 3 set dengan 5 deadlift menggunakan 120kg, 125kg, dan 130kg secara berturut-turut, berapa rata-rata berat per set?"
+  },
+  {
+    "id": "id_108",
+    "language": "id",
+    "question": "Jika Anda melakukan 4 set dengan 20 kettlebell swing menggunakan kettlebell 16kg, berapa total berat yang diangkat?"
+  },
+  {
+    "id": "id_109",
+    "language": "id",
+    "question": "Untuk melakukan 3 set singles (1 repetisi) pada 95% dari 1RM Anda, berapa berat dalam kg yang harus digunakan jika 1RM Anda adalah 180kg?"
+  },
+  {
+    "id": "id_110",
+    "language": "id",
+    "question": "Jika Anda melakukan bench press 75kg untuk 5 set dengan 8 repetisi, berapa total repetisi yang diangkat dan berapa total volumenya?"
+  },
+  {
+    "id": "id_111",
+    "language": "id",
+    "question": "Dalam program squat, jika Anda melakukan 3 set dengan 80kg, 85kg, dan 90kg, berapa rata-rata berat per set?"
+  },
+  {
+    "id": "id_112",
+    "language": "id",
+    "question": "Jika Anda melakukan 2 set dengan 15 repetisi, 2 set dengan 12 repetisi, dan 1 set dengan 10 repetisi menggunakan barbell 60kg, berapa total volumenya?"
+  },
+  {
+    "id": "id_113",
+    "language": "id",
+    "question": "Jika Anda melakukan 4 set dengan 25 push-up, berapa total jumlah repetisinya?"
+  },
+  {
+    "id": "id_114",
+    "language": "id",
+    "question": "Jika Anda melakukan 3 set dengan 10 triceps extension menggunakan dumbbell 12kg yang dipegang dengan kedua tangan, berapa total volumenya?"
+  },
+  {
+    "id": "id_115",
+    "language": "id",
+    "question": "Jika 1RM Anda adalah 95kg dan target Anda adalah 6 repetisi pada 80%, berapa berat dalam kg yang harus digunakan?"
+  },
+  {
+    "id": "id_116",
+    "language": "id",
+    "question": "Jika Anda melakukan 3 set dengan 12 repetisi dan 1 set dengan 15 repetisi step-up menggunakan barbell 20kg, berapa total volumenya?"
+  },
+  {
+    "id": "id_117",
+    "language": "id",
+    "question": "Jika Anda berlari di treadmill dengan kecepatan 8 km/jam selama 30 menit kemudian berjalan dengan kecepatan 6 km/jam selama 15 menit, berapa total jarak yang ditempuh dalam km?"
+  },
+  {
+    "id": "id_118",
+    "language": "id",
+    "question": "Jika Anda melakukan pemanasan dengan 10 repetisi menggunakan 40kg kemudian melakukan 3 set dengan 8 repetisi menggunakan 70kg untuk set utama, berapa total volumenya?"
+  },
+  {
+    "id": "id_119",
+    "language": "id",
+    "question": "Melakukan 20 repetisi pada 60% dari 1RM Anda baik untuk daya tahan otot. Jika 1RM Anda adalah 120kg, berapa berat dalam kg yang harus digunakan?"
+  },
+  {
+    "id": "id_120",
+    "language": "id",
+    "question": "Jika Anda menyelesaikan 4 set dengan 15 repetisi dumbbell curl menggunakan dumbbell 10kg, berapa total volumenya?"
+  },
+  {
+    "id": "id_121",
+    "language": "id",
+    "question": "Jika seorang atlet dengan 1RM 95kg dalam clean and jerk mencoba 90% dalam kompetisi, berapa kg yang harus diangkat?"
+  },
+  {
+    "id": "id_122",
+    "language": "id",
+    "question": "Jika Anda menyelesaikan 5 set dengan 5 repetisi menggunakan 60kg kemudian menambahkan 2 set dengan 3 repetisi menggunakan 70kg, berapa total volumenya?"
+  },
+  {
+    "id": "id_123",
+    "language": "id",
+    "question": "Jika Anda mengonsumsi 35g protein 3 kali sehari selama 6 hari, berapa total asupan mingguan Anda dalam gram?"
+  },
+  {
+    "id": "id_124",
+    "language": "id",
+    "question": "Jika Anda mengonsumsi pre-workout yang mengandung 200mg kafein 30 menit sebelum latihan selama 4 hari berturut-turut, berapa total asupan kafein Anda dalam mg?"
+  },
+  {
+    "id": "id_125",
+    "language": "id",
+    "question": "Jika target langkah harian Anda adalah 10.000 langkah, dan Anda berjalan 12.000 langkah dari Senin hingga Jumat serta 8.000 langkah di akhir pekan, berapa total jumlah langkah Anda dalam seminggu?"
   }
 ]
