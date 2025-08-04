@@ -31,7 +31,7 @@ const translations = {
     },
     ja: {
         title: "BurnFit New AI Agent",
-        h1: "BurnFitにNew Aiが登場！",
+        h1: "BurnFitにNew AIが登場！",
         description: "BurnFitに新たに導入されるAIサポートは、トレーニング記録の管理や習慣化を助け、<br>記録を分析し、みなさんがさらに成長するためのアドバイスを行います。<br><br>以下に表示された2つの回答の中から、<strong>より参考になると感じた回答を選択してください。</strong><br>より良いBurnFitをつくるために、ぜひご協力をお願いいたします。<br><br><em>*所要時間：約1〜2分 / お気軽にご参加ください！</em>",
         prev: "前へ",
         next: "次へ",
@@ -46,7 +46,7 @@ const translations = {
     },
     'zh-Hant': {
         title: "BurnFit New AI Agent",
-        h1: "為全新的 BurnFit， New AI 登場",
+        h1: "為全新的 BurnFit，New AI 登場",
         description: "即將引入 BurnFit 的全新 AI 代理，將幫助您記錄和養成習慣，<br>分析您的記錄，並推薦更清晰的成長方法。<br><br>請從下面提出的兩個答案中，<strong>選擇您認為更有用、更喜歡的答案</strong>。<br>僅需簡單的選擇，就能與我們共同打造一個更好的 BurnFit。<br><br><em>*預計時間：約 1-2 分鐘 / 歡迎輕鬆參與！</em>",
         prev: "上一頁",
         next: "下一頁",
