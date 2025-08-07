@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-INPUT_PATH = "final_data/QA_qwen3_no_thinking_scored.jsonl"  # 실제 경로로 수정
+INPUT_PATH = "final_data/questions_qwen3_instruct_scored.jsonl"  # 실제 경로로 수정
 
 with open(INPUT_PATH, encoding="utf-8") as f:
     data = [json.loads(line) for line in f]
