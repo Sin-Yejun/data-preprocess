@@ -21,7 +21,7 @@ if (typeof marked !== "undefined") {
 async function loadQAData() {
     const models = [
         { name: 'gemma', file: 'vote/questions_gemma_vote.json' },
-        { name: 'qwen3', file: 'vote/questions_qwen3_no_thinking_vote.json' }
+        { name: 'qwen3', file: 'vote/questions_qwen3_instruct.json' }
     ];
     const qaData = {};
 
@@ -70,7 +70,8 @@ function createHTML(qaData) {
         'ko': 'Korean',
         'en': 'English',
         'ja': 'Japanese',
-        'zh-Hant': 'Traditional Chinese'
+        'zh-Hant': 'Traditional Chinese',
+        'id': 'Indonesian',
     };
 
     Object.keys(qaData).forEach((lang, index) => {
